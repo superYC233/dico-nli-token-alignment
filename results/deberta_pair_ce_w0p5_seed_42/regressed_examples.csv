@@ -1,0 +1,20 @@
+﻿instance_id,gold_label,old_pred,new_pred,pair_id,text1,text2,old_correct,new_correct
+dico_phrasis_0000249__en-en__flipped,FORWARD_ENTAILMENT,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000249,its first memorial,remembered,True,False
+dico_phrasis_0000249__en-en__original,BACKWARD_ENTAILMENT,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000249,remembered,its first memorial,True,False
+dico_phrasis_0000375__en-en__flipped,FORWARD_ENTAILMENT,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000375,to deliver statement,to speak,True,False
+dico_phrasis_0000375__en-en__original,BACKWARD_ENTAILMENT,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000375,to speak,to deliver statement,True,False
+dico_phrasis_0000936__en-en__flipped,EQUIVALENCE,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0000936,fresh presidential election,fresh election for president,True,False
+dico_phrasis_0000936__en-en__original,EQUIVALENCE,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0000936,fresh election for president,fresh presidential election,True,False
+dico_phrasis_0000979__en-en__flipped,EQUIVALENCE,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0000979,after pro-Morsi protest,to pro-Morsi protests,True,False
+dico_phrasis_0000979__en-en__original,EQUIVALENCE,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0000979,to pro-Morsi protests,after pro-Morsi protest,True,False
+dico_phrasis_0001080__en-en__flipped,EQUIVALENCE,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0001080,'s chemical weapons,weapons that use toxic chemicals,True,False
+dico_phrasis_0001080__en-en__original,EQUIVALENCE,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0001080,weapons that use toxic chemicals,'s chemical weapons,True,False
+dico_phrasis_0001174__en-en__flipped,EQUIVALENCE,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0001174,of wooden debris,of used wooden building materials,True,False
+dico_phrasis_0001174__en-en__original,EQUIVALENCE,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0001174,of used wooden building materials,of wooden debris,True,False
+dico_phrasis_0002152__en-en__original,NEGATIVE_OTHER,NEGATIVE_OTHER,BACKWARD_ENTAILMENT,dico_phrasis_0002152,Afghans,Afghan District Governor,True,False
+dico_phrasis_0002493__en-en__original,NEGATIVE_OTHER,NEGATIVE_OTHER,EQUIVALENCE,dico_phrasis_0002493,Russia Pulled Back,of Russian Withdrawal,True,False
+dico_phrasis_0002548__en-en__original,NEGATIVE_OTHER,NEGATIVE_OTHER,BACKWARD_ENTAILMENT,dico_phrasis_0002548,while their dog,while a black dog,True,False
+dico_phrasis_0002597__en-en__original,NEGATIVE_OTHER,NEGATIVE_OTHER,BACKWARD_ENTAILMENT,dico_phrasis_0002597,on a red play structure,on a red jungle gym,True,False
+dico_phrasis_0002599__en-en__original,NEGATIVE_OTHER,NEGATIVE_OTHER,BACKWARD_ENTAILMENT,dico_phrasis_0002599,in the waves,on a medium wave,True,False
+dico_phrasis_0002925__en-en__original,NEGATIVE_OTHER,NEGATIVE_OTHER,BACKWARD_ENTAILMENT,dico_phrasis_0002925,with network-sharing deal,"network-sharing , spectrum deal",True,False
+dico_phrasis_0003057__en-en__original,NEGATIVE_OTHER,NEGATIVE_OTHER,BACKWARD_ENTAILMENT,dico_phrasis_0003057,on the tracks,down the tracks,True,False

@@ -1,0 +1,19 @@
+﻿instance_id,gold_label,old_pred,new_pred,pair_id,text1,text2,old_correct,new_correct
+dico_phrasis_0000024__en-en__flipped,FORWARD_ENTAILMENT,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0000024,in destroying,destroy,False,True
+dico_phrasis_0000024__en-en__original,BACKWARD_ENTAILMENT,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0000024,destroy,in destroying,False,True
+dico_phrasis_0000034__en-en__flipped,FORWARD_ENTAILMENT,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0000034,"Venezuela Government , Opposition Head",Venezuelan opposition leader,False,True
+dico_phrasis_0000034__en-en__original,BACKWARD_ENTAILMENT,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0000034,Venezuelan opposition leader,"Venezuela Government , Opposition Head",False,True
+dico_phrasis_0000616__en-en__flipped,FORWARD_ENTAILMENT,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0000616,The wall-mounted flat-screen TV,of a television screen,False,True
+dico_phrasis_0000616__en-en__original,BACKWARD_ENTAILMENT,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0000616,of a television screen,The wall-mounted flat-screen TV,False,True
+dico_phrasis_0000817__en-en__flipped,EQUIVALENCE,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000817,on rocks next to water,on a rocky seashore,False,True
+dico_phrasis_0000817__en-en__original,EQUIVALENCE,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000817,on a rocky seashore,on rocks next to water,False,True
+dico_phrasis_0000948__en-en__flipped,EQUIVALENCE,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000948,over police crackdown,over police violence,False,True
+dico_phrasis_0000948__en-en__original,EQUIVALENCE,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000948,over police violence,over police crackdown,False,True
+dico_phrasis_0000950__en-en__flipped,EQUIVALENCE,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000950,to set out,to announce,False,True
+dico_phrasis_0000950__en-en__original,EQUIVALENCE,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000950,to announce,to set out,False,True
+dico_phrasis_0001156__en-en__flipped,EQUIVALENCE,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0001156,on green grass,on a lawn,False,True
+dico_phrasis_0001156__en-en__original,EQUIVALENCE,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0001156,on a lawn,on green grass,False,True
+dico_phrasis_0002406__en-en__original,NEGATIVE_OTHER,FORWARD_ENTAILMENT,NEGATIVE_OTHER,dico_phrasis_0002406,in Canada Oil Train Explosion,in Canada train crash,False,True
+dico_phrasis_0002738__en-en__original,NEGATIVE_OTHER,EQUIVALENCE,NEGATIVE_OTHER,dico_phrasis_0002738,convicted,get jail time,False,True
+dico_phrasis_0002900__en-en__original,NEGATIVE_OTHER,FORWARD_ENTAILMENT,NEGATIVE_OTHER,dico_phrasis_0002900,Australian senator,Australian lawmaker,False,True
+dico_phrasis_0003051__en-en__original,NEGATIVE_OTHER,EQUIVALENCE,NEGATIVE_OTHER,dico_phrasis_0003051,in a fenced area,in a gated yard,False,True

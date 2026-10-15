@@ -1,0 +1,16 @@
+﻿instance_id,gold_label,old_pred,new_pred,pair_id,text1,text2,old_correct,new_correct
+dico_phrasis_0000087__en-en__flipped,FORWARD_ENTAILMENT,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000087,as national security adviser,as his security adviser,True,False
+dico_phrasis_0000087__en-en__original,BACKWARD_ENTAILMENT,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000087,as his security adviser,as national security adviser,True,False
+dico_phrasis_0000198__en-en__flipped,FORWARD_ENTAILMENT,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000198,a chocolate bar,a candy bar,True,False
+dico_phrasis_0000198__en-en__original,BACKWARD_ENTAILMENT,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000198,a candy bar,a chocolate bar,True,False
+dico_phrasis_0000568__en-en__flipped,FORWARD_ENTAILMENT,FORWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000568,A red and white double decker bus is parked,Parked white double decker bus,True,False
+dico_phrasis_0000568__en-en__original,BACKWARD_ENTAILMENT,BACKWARD_ENTAILMENT,EQUIVALENCE,dico_phrasis_0000568,Parked white double decker bus,A red and white double decker bus is parked,True,False
+dico_phrasis_0000729__en-en__flipped,EQUIVALENCE,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0000729,A woman,An adult female,True,False
+dico_phrasis_0000729__en-en__original,EQUIVALENCE,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0000729,An adult female,A woman,True,False
+dico_phrasis_0000936__en-en__flipped,EQUIVALENCE,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0000936,fresh presidential election,fresh election for president,True,False
+dico_phrasis_0000936__en-en__original,EQUIVALENCE,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0000936,fresh election for president,fresh presidential election,True,False
+dico_phrasis_0000939__en-en__flipped,EQUIVALENCE,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0000939,by judge,issued by a judge,True,False
+dico_phrasis_0000939__en-en__original,EQUIVALENCE,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0000939,issued by a judge,by judge,True,False
+dico_phrasis_0001243__en-en__flipped,EQUIVALENCE,EQUIVALENCE,BACKWARD_ENTAILMENT,dico_phrasis_0001243,of grassy field,in a field of green grass,True,False
+dico_phrasis_0001243__en-en__original,EQUIVALENCE,EQUIVALENCE,FORWARD_ENTAILMENT,dico_phrasis_0001243,in a field of green grass,of grassy field,True,False
+dico_phrasis_0002492__en-en__original,NEGATIVE_OTHER,NEGATIVE_OTHER,EQUIVALENCE,dico_phrasis_0002492,Super typhoon,Most powerful typhoon,True,False
