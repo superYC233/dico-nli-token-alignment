@@ -1,0 +1,475 @@
+[
+  {
+    "run_dir": "model/deberta_consistency_seed_42",
+    "files": [
+      "dev_predictions_penalty_0.0.csv"
+    ],
+    "size_bytes": 36551
+  },
+  {
+    "run_dir": "model/deberta_consistency_w0p1_seed_42",
+    "files": [
+      "dev_predictions_penalty_0.0.csv"
+    ],
+    "size_bytes": 36620
+  },
+  {
+    "run_dir": "model/deberta_diagnostic_seed_42",
+    "files": [],
+    "size_bytes": 0
+  },
+  {
+    "run_dir": "model/deberta_nli_base_hierarchical_manual_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_7.pth",
+      "training_log.csv",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735468189
+  },
+  {
+    "run_dir": "model/deberta_nli_base_null_alignment_branchlr2e4_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735800729
+  },
+  {
+    "run_dir": "model/deberta_nli_base_null_alignment_M_clean_run2_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736130367
+  },
+  {
+    "run_dir": "model/deberta_nli_base_null_alignment_M_clean_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_4.pth"
+    ],
+    "size_bytes": 736130122
+  },
+  {
+    "run_dir": "model/deberta_nli_base_null_alignment_M_internal_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_2.pth"
+    ],
+    "size_bytes": 736130391
+  },
+  {
+    "run_dir": "model/deberta_nli_base_null_alignment_M_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736133136
+  },
+  {
+    "run_dir": "model/deberta_nli_base_null_alignment_M_seed_7",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_6.pth"
+    ],
+    "size_bytes": 736133214
+  },
+  {
+    "run_dir": "model/deberta_nli_base_null_alignment_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_10.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735801724
+  },
+  {
+    "run_dir": "model/deberta_nli_base_pair_smoothing_0p05_ee1p0_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_5.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735467244
+  },
+  {
+    "run_dir": "model/deberta_nli_base_pair_smoothing_0p05_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_8.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735468563
+  },
+  {
+    "run_dir": "model/deberta_nli_base_pair_smoothing_clean_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_2.pth"
+    ],
+    "size_bytes": 735458741
+  },
+  {
+    "run_dir": "model/deberta_nli_base_prototype_k1_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_7.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735852676
+  },
+  {
+    "run_dir": "model/deberta_nli_base_prototype_k3_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_6.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735855322
+  },
+  {
+    "run_dir": "model/deberta_nli_base_stage_probe_seed_42",
+    "files": [
+      "epoch_1.pth",
+      "epoch_2.pth",
+      "epoch_3.pth",
+      "stage_probe.csv"
+    ],
+    "size_bytes": 2206274529
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_attn_pool_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736133996
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_clean_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_4.pth"
+    ],
+    "size_bytes": 736130122
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_compose_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736330536
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_contrast_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736132822
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_GELU_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736132800
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_group_lr_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736132935
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_hard_e_clean_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_4.pth",
+      "equivalence_boundary_errors.csv"
+    ],
+    "size_bytes": 736133453
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_internal_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_2.pth"
+    ],
+    "size_bytes": 736130073
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_manual_boundary_clean_18_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_10.pth"
+    ],
+    "size_bytes": 736131062
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_manual_boundary_clean_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736130089
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_manual_boundary_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736132804
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_null_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736133118
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_official_dev_aug24_seed_42",
+    "files": [
+      "epoch_1.pth",
+      "epoch_2.pth",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 2208288669
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_official_full_aug24_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth"
+    ],
+    "size_bytes": 736132650
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_official_full_control_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_7.pth"
+    ],
+    "size_bytes": 736132754
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_official_full_FALSE_control_seed_42",
+    "files": [],
+    "size_bytes": 0
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_rdrop_internal_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_2.pth"
+    ],
+    "size_bytes": 736130051
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_7.pth",
+      "equivalence_boundary_errors.csv",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 736142924
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_seed_7",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_6.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 736142988
+  },
+  {
+    "run_dir": "model/deberta_nli_base_token_alignment_strictclean_aug24_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_4.pth"
+    ],
+    "size_bytes": 736130162
+  },
+  {
+    "run_dir": "model/deberta_nli_base_uniform_alignment_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_3.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 736138502
+  },
+  {
+    "run_dir": "model/deberta_nli_base_uniform_alignment_seed_7",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_1.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 736143107
+  },
+  {
+    "run_dir": "model/deberta_pair_ce_w0p5_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv"
+    ],
+    "size_bytes": 36614
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_direction_aux_w0p1_seed_42",
+    "files": [
+      "dev_predictions_ee_calibrated.csv",
+      "dev_predictions_pair_aware.csv",
+      "ee_calibration_scores.csv",
+      "epoch_6.pth"
+    ],
+    "size_bytes": 735501800
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_direction_interleaved_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_10.pth"
+    ],
+    "size_bytes": 735466116
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_w0p5_nweight1p5_eeweight1p25_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_10.pth"
+    ],
+    "size_bytes": 735462136
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_w0p5_nweight1p5_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_1.pth",
+      "epoch_2.pth",
+      "epoch_3.pth",
+      "epoch_4.pth",
+      "epoch_5.pth",
+      "epoch_6.pth",
+      "epoch_7.pth",
+      "epoch_8.pth"
+    ],
+    "size_bytes": 5883434616
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_w0p5_nweight1p75_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv"
+    ],
+    "size_bytes": 36669
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_w0p5_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_1.pth",
+      "epoch_10.pth",
+      "epoch_2.pth",
+      "epoch_3.pth",
+      "epoch_4.pth",
+      "epoch_5.pth",
+      "epoch_6.pth",
+      "epoch_7.pth",
+      "epoch_8.pth",
+      "epoch_9.pth"
+    ],
+    "size_bytes": 7354284800
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_weights_augmented_v1_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_1.pth"
+    ],
+    "size_bytes": 735461084
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_weights_nli_base_lr5e6_ep15_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_13.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735466663
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_weights_nli_base_n1p75_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_2.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv"
+    ],
+    "size_bytes": 735465912
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_weights_nli_base_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_5.pth",
+      "comparison_vs_best/improved_examples.csv",
+      "comparison_vs_best/regressed_examples.csv",
+      "deep_analysis/all_dev_analysis.csv",
+      "deep_analysis/e_to_fb_errors.csv",
+      "deep_analysis/fb_to_e_errors.csv",
+      "deep_analysis/negative_errors.csv",
+      "deep_analysis/pair_analysis.csv",
+      "deep_analysis/pair_broken_examples.csv",
+      "deep_analysis/pair_fixed_examples.csv",
+      "deep_analysis/wrong_pairs_sorted_by_margin.csv"
+    ],
+    "size_bytes": 735660179
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_weights_scheduler_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_8.pth"
+    ],
+    "size_bytes": 735461388
+  },
+  {
+    "run_dir": "model/deberta_real_pair_ce_weights_type_aux_w0p3_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv",
+      "epoch_8.pth"
+    ],
+    "size_bytes": 735461499
+  },
+  {
+    "run_dir": "model/deberta_seed_42",
+    "files": [
+      "dev_predictions_pair_aware.csv"
+    ],
+    "size_bytes": 36526
+  }
+]

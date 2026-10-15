@@ -1,0 +1,96 @@
+{
+  "moves": {
+    "deberta_nli_base_token_alignment_trainonly_aug_dev.py": "train.py",
+    "predict_unlabeled.py": "tools/predict/predict_trial_null.py",
+    "download.py": "tools/downloads/download_deberta_base.py",
+    "download_DeBERTa-v3-base-mnli-fever-anli.py": "tools/downloads/download_deberta_nli_base.py",
+    "download_DeBERTa-v3-large-mnli.py": "tools/downloads/download_deberta_nli_large.py",
+    "download_ModernBERT.py": "tools/downloads/download_modernbert.py",
+    "deberta_real_pair_ce_direction_aux.py": "tools/downloads/download_deberta_nli_classifier.py",
+    "DICO_NLI_TLDR.md": "docs/DICO_NLI_TLDR.md",
+    "DICO_NLI_SIMPLE_REVIEW.md": "docs/DICO_NLI_SIMPLE_REVIEW.md",
+    "bert_baseline.py": "experiments/baselines/bert_baseline.py",
+    "deberta_baseline.py": "experiments/baselines/deberta_baseline.py",
+    "deberta_large.py": "experiments/baselines/deberta_large.py",
+    "deberta_large_baseline.py": "experiments/baselines/deberta_large_baseline.py",
+    "modernbert_large_baseline.py": "experiments/baselines/modernbert_large_baseline.py",
+    "deberta_pair_ce.py": "experiments/pair_training/deberta_pair_ce.py",
+    "deberta_pair_consistency.py": "experiments/pair_training/deberta_pair_consistency.py",
+    "deberta_real_pair_ce.py": "experiments/pair_training/deberta_real_pair_ce.py",
+    "deberta_real_pair_ce_weights.py": "experiments/pair_training/deberta_real_pair_ce_weights.py",
+    "deberta_real_pair_ce_weights_nli_base.py": "experiments/pair_training/deberta_real_pair_ce_weights_nli_base.py",
+    "deberta_real_pair_ce_weights_scheduler.py": "experiments/pair_training/deberta_real_pair_ce_weights_scheduler.py",
+    "deberta_nli_base_pair_smoothing.py": "experiments/pair_training/deberta_nli_base_pair_smoothing.py",
+    "deberta_nli_base_pair_smoothing_clean.py": "experiments/pair_training/deberta_nli_base_pair_smoothing_clean.py",
+    "deberta_nli_base_stage_probe.py": "experiments/pair_training/deberta_nli_base_stage_probe.py",
+    "deberta_large_interleaved.py": "experiments/pair_training/deberta_large_interleaved.py",
+    "deberta_large_pair_head.py": "experiments/pair_training/deberta_large_pair_head.py",
+    "deberta_nli_base_token_alignment.py": "experiments/alignment/deberta_nli_base_token_alignment.py",
+    "deberta_nli_base_token_alignment_clean.py": "experiments/alignment/deberta_nli_base_token_alignment_clean.py",
+    "deberta_nli_base_token_alignment_internal.py": "experiments/alignment/deberta_nli_base_token_alignment_internal.py",
+    "deberta_nli_base_uniform_alignment.py": "experiments/alignment/deberta_nli_base_uniform_alignment.py",
+    "deberta_nli_base_null_alignment.py": "experiments/alignment/deberta_nli_base_null_alignment.py",
+    "deberta_nli_base_null_alignment_M.py": "experiments/alignment/deberta_nli_base_null_alignment_M.py",
+    "deberta_nli_base_null_alignment_M_clean.py": "experiments/alignment/deberta_nli_base_null_alignment_M_clean.py",
+    "deberta_nli_base_null_alignment_M_internal.py": "experiments/alignment/deberta_nli_base_null_alignment_M_internal.py",
+    "deberta_nli_base_token_alignment_null_v2.py": "experiments/alignment/deberta_nli_base_token_alignment_null_v2.py",
+    "deberta_nli_large_token_alignment.py": "experiments/alignment/deberta_nli_large_token_alignment.py",
+    "deberta_nli_large_token_alignment_null.py": "experiments/alignment/deberta_nli_large_token_alignment_null.py",
+    "deberta_nli_base_token_alignment_boundary.py": "experiments/alignment/deberta_nli_base_token_alignment_boundary.py",
+    "deberta_nli_base_token_alignment_hard_e_clean.py": "experiments/alignment/deberta_nli_base_token_alignment_hard_e_clean.py",
+    "deberta_nli_base_direction_aux.py": "experiments/auxiliary/deberta_nli_base_direction_aux.py",
+    "deberta_nli_base_entailment_classifier.py": "experiments/auxiliary/deberta_nli_base_entailment_classifier.py",
+    "deberta_nli_base_hierarchical.py": "experiments/auxiliary/deberta_nli_base_hierarchical.py",
+    "deberta_nli_base_multi_prototype.py": "experiments/auxiliary/deberta_nli_base_multi_prototype.py",
+    "deberta_real_pair_ce_weights_type_aux.py": "experiments/auxiliary/deberta_real_pair_ce_weights_type_aux.py",
+    "deberta_large_type_aux.py": "experiments/auxiliary/deberta_large_type_aux.py",
+    "deberta_nli_base_token_alignment_manual_boundary.py": "experiments/augmentation/deberta_nli_base_token_alignment_manual_boundary.py",
+    "deberta_nli_base_token_alignment_manual_boundary_clean.py": "experiments/augmentation/deberta_nli_base_token_alignment_manual_boundary_clean.py",
+    "deberta_nli_base_token_alignment_trainonly_aug_clean.py": "experiments/augmentation/deberta_nli_base_token_alignment_trainonly_aug_clean.py",
+    "make_pair_split.py": "tools/data/make_pair_split.py",
+    "make_train_only_boundary_augmentation.py": "tools/data/make_train_only_boundary_augmentation.py",
+    "mine_boundary_pairs.py": "tools/data/mine_boundary_pairs.py",
+    "probe_bidirectional_nli.py": "tools/analysis/probe_bidirectional_nli.py",
+    "dev_deberta_predictions_penalty_0.0.csv": "predictions/legacy_calibration/dev_deberta_predictions_penalty_0.0.csv",
+    "dev_predictions_penalty_0.0.csv": "predictions/legacy_calibration/dev_predictions_penalty_0.0.csv",
+    "dev_predictions_penalty_0.25.csv": "predictions/legacy_calibration/dev_predictions_penalty_0.25.csv",
+    "dev_predictions_penalty_0.5.csv": "predictions/legacy_calibration/dev_predictions_penalty_0.5.csv",
+    "dev_predictions_penalty_1.0.csv": "predictions/legacy_calibration/dev_predictions_penalty_1.0.csv",
+    "dev_predictions_penalty_1.5.csv": "predictions/legacy_calibration/dev_predictions_penalty_1.5.csv",
+    "dev_predictions_penalty_1.csv": "predictions/legacy_calibration/dev_predictions_penalty_1.csv"
+  },
+  "external_csv_copies": [
+    {
+      "source": "D:\\SemEval_experiments\\boundary_pair_candidates.csv",
+      "copy": "data/legacy_augmentation/boundary_pair_candidates.csv"
+    },
+    {
+      "source": "D:\\SemEval_experiments\\boundary_pair_candidates_full.csv",
+      "copy": "data/legacy_augmentation/boundary_pair_candidates_full.csv"
+    },
+    {
+      "source": "D:\\SemEval_experiments\\boundary_pair_candidates_full_raw.csv",
+      "copy": "data/legacy_augmentation/boundary_pair_candidates_full_raw.csv"
+    },
+    {
+      "source": "D:\\SemEval_experiments\\boundary_pair_candidates_unreviewed.csv",
+      "copy": "data/legacy_augmentation/boundary_pair_candidates_unreviewed.csv"
+    },
+    {
+      "source": "D:\\SemEval_experiments\\manual_boundary_triplets.csv",
+      "copy": "data/legacy_augmentation/manual_boundary_triplets.csv"
+    },
+    {
+      "source": "D:\\SemEval_experiments\\manual_boundary_triplets_internal_clean.csv",
+      "copy": "data/legacy_augmentation/manual_boundary_triplets_internal_clean.csv"
+    }
+  ],
+  "backup": ".project_backups/before_organization_20261015.zip",
+  "protected_record": "DICO_NLI_FINAL_EXPERIMENT_RECORD.md",
+  "model_directory_moved": false,
+  "official_data_modified": false,
+  "obsolete_submission_files": [
+    "submissions/dico_track1_token_alignment_dev_20261015/obsolete/submission.zip",
+    "submissions/dico_track1_token_alignment_dev_20261015/obsolete/predictions.csv"
+  ]
+}
