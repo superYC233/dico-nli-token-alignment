@@ -1,0 +1,89 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
+aug_closure_000_E__0,aug_closure_000_E,en,en,play,plays,EQUIVALENCE
+aug_closure_000_E__1,aug_closure_000_E,en,en,plays,play,EQUIVALENCE
+aug_closure_001_E__0,aug_closure_001_E,en,en,run,runs,EQUIVALENCE
+aug_closure_001_E__1,aug_closure_001_E,en,en,runs,run,EQUIVALENCE
+aug_closure_002_E__0,aug_closure_002_E,en,en,seated,sit,EQUIVALENCE
+aug_closure_002_E__1,aug_closure_002_E,en,en,sit,seated,EQUIVALENCE
+aug_closure_003_E__0,aug_closure_003_E,en,en,eats,consuming food,EQUIVALENCE
+aug_closure_003_E__1,aug_closure_003_E,en,en,consuming food,eats,EQUIVALENCE
+aug_closure_004_E__0,aug_closure_004_E,en,en,perches,is sitting,EQUIVALENCE
+aug_closure_004_E__1,aug_closure_004_E,en,en,is sitting,perches,EQUIVALENCE
+aug_closure_005_E__0,aug_closure_005_E,en,en,holds,keeping hold of,EQUIVALENCE
+aug_closure_005_E__1,aug_closure_005_E,en,en,keeping hold of,holds,EQUIVALENCE
+aug_closure_006_E__0,aug_closure_006_E,en,en,play,engaging in play,EQUIVALENCE
+aug_closure_006_E__1,aug_closure_006_E,en,en,engaging in play,play,EQUIVALENCE
+aug_closure_007_E__0,aug_closure_007_E,en,en,plays,engaging in play,EQUIVALENCE
+aug_closure_007_E__1,aug_closure_007_E,en,en,engaging in play,plays,EQUIVALENCE
+aug_closure_008_E__0,aug_closure_008_E,en,en,rides,traveling while mounted,EQUIVALENCE
+aug_closure_008_E__1,aug_closure_008_E,en,en,traveling while mounted,rides,EQUIVALENCE
+aug_closure_009_E__0,aug_closure_009_E,en,en,a collection,crowd,EQUIVALENCE
+aug_closure_009_E__1,aug_closure_009_E,en,en,crowd,a collection,EQUIVALENCE
+aug_closure_010_E__0,aug_closure_010_E,en,en,is holding,holding,EQUIVALENCE
+aug_closure_010_E__1,aug_closure_010_E,en,en,holding,is holding,EQUIVALENCE
+aug_closure_011_E__0,aug_closure_011_E,en,en,is walking,walking,EQUIVALENCE
+aug_closure_011_E__1,aug_closure_011_E,en,en,walking,is walking,EQUIVALENCE
+aug_closure_012_E__0,aug_closure_012_E,en,en,the man,man,EQUIVALENCE
+aug_closure_012_E__1,aug_closure_012_E,en,en,man,the man,EQUIVALENCE
+aug_closure_013_E__0,aug_closure_013_E,en,en,the philippines,philippines,EQUIVALENCE
+aug_closure_013_E__1,aug_closure_013_E,en,en,philippines,the philippines,EQUIVALENCE
+aug_closure_014_E__0,aug_closure_014_E,en,en,announces retirement,to retire,EQUIVALENCE
+aug_closure_014_E__1,aug_closure_014_E,en,en,to retire,announces retirement,EQUIVALENCE
+aug_closure_015_E__0,aug_closure_015_E,en,en,are playing,is playing,EQUIVALENCE
+aug_closure_015_E__1,aug_closure_015_E,en,en,is playing,are playing,EQUIVALENCE
+aug_closure_016_E__0,aug_closure_016_E,en,en,is leaping,is jumping,EQUIVALENCE
+aug_closure_016_E__1,aug_closure_016_E,en,en,is jumping,is leaping,EQUIVALENCE
+aug_closure_017_E__0,aug_closure_017_E,en,en,to hold,is holding,EQUIVALENCE
+aug_closure_017_E__1,aug_closure_017_E,en,en,is holding,to hold,EQUIVALENCE
+aug_closure_018_E__0,aug_closure_018_E,en,en,amid snow,within the snow,EQUIVALENCE
+aug_closure_018_E__1,aug_closure_018_E,en,en,within the snow,amid snow,EQUIVALENCE
+aug_closure_019_E__0,aug_closure_019_E,en,en,remain upright,maintaining an upright stance,EQUIVALENCE
+aug_closure_019_E__1,aug_closure_019_E,en,en,maintaining an upright stance,remain upright,EQUIVALENCE
+aug_closure_020_E__0,aug_closure_020_E,en,en,in the snow,in snow,EQUIVALENCE
+aug_closure_020_E__1,aug_closure_020_E,en,en,in snow,in the snow,EQUIVALENCE
+aug_closure_021_E__0,aug_closure_021_E,en,en,a brown dog,the brown dog,EQUIVALENCE
+aug_closure_021_E__1,aug_closure_021_E,en,en,the brown dog,a brown dog,EQUIVALENCE
+aug_closure_022_E__0,aug_closure_022_E,en,en,directing its gaze,casting its gaze,EQUIVALENCE
+aug_closure_022_E__1,aug_closure_022_E,en,en,casting its gaze,directing its gaze,EQUIVALENCE
+aug_closure_023_E__0,aug_closure_023_E,en,en,holding a pose,assuming a pose,EQUIVALENCE
+aug_closure_023_E__1,aug_closure_023_E,en,en,assuming a pose,holding a pose,EQUIVALENCE
+aug_closure_024_E__0,aug_closure_024_E,en,en,the adult male,the male adult,EQUIVALENCE
+aug_closure_024_E__1,aug_closure_024_E,en,en,the male adult,the adult male,EQUIVALENCE
+aug_closure_025_E__0,aug_closure_025_E,en,en,atop grassy ground,atop the grassy ground,EQUIVALENCE
+aug_closure_025_E__1,aug_closure_025_E,en,en,atop the grassy ground,atop grassy ground,EQUIVALENCE
+aug_closure_026_E__0,aug_closure_026_E,en,en,immersed in water,located within the water,EQUIVALENCE
+aug_closure_026_E__1,aug_closure_026_E,en,en,located within the water,immersed in water,EQUIVALENCE
+aug_closure_027_E__0,aug_closure_027_E,en,en,upon railway lines,on the railroad tracks,EQUIVALENCE
+aug_closure_027_E__1,aug_closure_027_E,en,en,on the railroad tracks,upon railway lines,EQUIVALENCE
+aug_closure_028_E__0,aug_closure_028_E,en,en,a brown-colored equine,an equine whose coat is brown,EQUIVALENCE
+aug_closure_028_E__1,aug_closure_028_E,en,en,an equine whose coat is brown,a brown-colored equine,EQUIVALENCE
+aug_closure_029_E__0,aug_closure_029_E,en,en,an enlarged detail view,a close-up view,EQUIVALENCE
+aug_closure_029_E__1,aug_closure_029_E,en,en,a close-up view,an enlarged detail view,EQUIVALENCE
+aug_closure_030_E__0,aug_closure_030_E,en,en,immersed in the water,immersed in water,EQUIVALENCE
+aug_closure_030_E__1,aug_closure_030_E,en,en,immersed in water,immersed in the water,EQUIVALENCE
+aug_closure_031_E__0,aug_closure_031_E,en,en,the rail passenger vehicle,the rail conveyance,EQUIVALENCE
+aug_closure_031_E__1,aug_closure_031_E,en,en,the rail conveyance,the rail passenger vehicle,EQUIVALENCE
+aug_closure_032_E__0,aug_closure_032_E,en,en,within an open field,in a plain,EQUIVALENCE
+aug_closure_032_E__1,aug_closure_032_E,en,en,in a plain,within an open field,EQUIVALENCE
+aug_closure_033_E__0,aug_closure_033_E,en,en,a pair of dogs,the pair of canines,EQUIVALENCE
+aug_closure_033_E__1,aug_closure_033_E,en,en,the pair of canines,a pair of dogs,EQUIVALENCE
+aug_closure_034_E__0,aug_closure_034_E,en,en,across the water's surface,afloat on the water,EQUIVALENCE
+aug_closure_034_E__1,aug_closure_034_E,en,en,afloat on the water,across the water's surface,EQUIVALENCE
+aug_closure_035_E__0,aug_closure_035_E,en,en,at the railway terminal,at the rail-transport terminal,EQUIVALENCE
+aug_closure_035_E__1,aug_closure_035_E,en,en,at the rail-transport terminal,at the railway terminal,EQUIVALENCE
+aug_closure_036_E__0,aug_closure_036_E,en,en,immersed in the water,located within the water,EQUIVALENCE
+aug_closure_036_E__1,aug_closure_036_E,en,en,located within the water,immersed in the water,EQUIVALENCE
+aug_closure_037_E__0,aug_closure_037_E,en,en,across the water's surface,in a body of water,EQUIVALENCE
+aug_closure_037_E__1,aug_closure_037_E,en,en,in a body of water,across the water's surface,EQUIVALENCE
+aug_closure_038_E__0,aug_closure_038_E,en,en,afloat on the water,in a body of water,EQUIVALENCE
+aug_closure_038_E__1,aug_closure_038_E,en,en,in a body of water,afloat on the water,EQUIVALENCE
+aug_closure_039_E__0,aug_closure_039_E,en,en,entering a transport terminal,moving into a transport terminal,EQUIVALENCE
+aug_closure_039_E__1,aug_closure_039_E,en,en,moving into a transport terminal,entering a transport terminal,EQUIVALENCE
+aug_closure_040_E__0,aug_closure_040_E,en,en,nobel author doris lessing,nobel prize winning author doris lessing,EQUIVALENCE
+aug_closure_040_E__1,aug_closure_040_E,en,en,nobel prize winning author doris lessing,nobel author doris lessing,EQUIVALENCE
+aug_closure_041_E__0,aug_closure_041_E,en,en,the canine with black-and-white fur,a canine with black-and-white fur,EQUIVALENCE
+aug_closure_041_E__1,aug_closure_041_E,en,en,a canine with black-and-white fur,the canine with black-and-white fur,EQUIVALENCE
+aug_closure_042_E__0,aug_closure_042_E,en,en,the white and brown dog,a white and brown dog,EQUIVALENCE
+aug_closure_042_E__1,aug_closure_042_E,en,en,a white and brown dog,the white and brown dog,EQUIVALENCE
+aug_closure_043_E__0,aug_closure_043_E,en,en,a photograph rendered in monochrome,this is a black and white picture,EQUIVALENCE
+aug_closure_043_E__1,aug_closure_043_E,en,en,this is a black and white picture,a photograph rendered in monochrome,EQUIVALENCE

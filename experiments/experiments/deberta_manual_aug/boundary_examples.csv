@@ -1,0 +1,73 @@
+example_id,text1,text2,label,family,contrast_type,label_reason
+b_f01,frying dumplings,cooking dumplings,F,cooking_methods,predicate_inclusion,通常烹饪义下油炸饺子是烹饪饺子的一种；烹饪也可采用其他方法。两侧词数相同。
+b_f02,cooking chestnuts,roasting chestnuts,B,cooking_methods,predicate_inclusion,烘烤栗子属于烹饪栗子；一般烹饪不保证采用烘烤。
+b_f03,grilling lamb,cooking lamb,F,cooking_methods,predicate_inclusion,按食物处理的通常义烧烤羊肉属于烹饪羊肉；其他烹饪方法不保证烧烤。
+b_f04,cooking lamb,braising lamb,B,cooking_methods,predicate_inclusion,焖炖羊肉是烹饪羊肉的一种具体方法；烹饪不必采用焖炖。
+b_f05,darning socks,repairing socks,F,repair_methods,predicate_inclusion,按修补织物破损的通常义织补袜子属于修补袜子；修补也可使用其他方法。
+b_f06,decorating quilts,embroidering quilts,B,craft_methods,predicate_inclusion,按装饰性刺绣的通常义在被子上刺绣是在装饰被子；装饰不限于刺绣。
+b_f07,interrogating witnesses,questioning witnesses,F,questioning,predicate_inclusion,询问义的interrogating是questioning的一种；一般提问不必达到盘问程度。
+b_f08,teaching apprentices,tutoring apprentices,B,instruction,predicate_inclusion,按教学活动义辅导学徒属于教导学徒；一般教导不保证采用辅导方式。
+b_f09,surgeons,medical professionals,F,medical_roles,taxonomic_inclusion,按医疗职业义外科医生属于医疗专业人员；医疗专业人员也包括其他职业。
+b_f10,medical professionals,pediatricians,B,medical_roles,taxonomic_inclusion,儿科医生属于医疗专业人员；一般医疗专业人员不保证从事儿科。
+b_f11,geologists,scientists,F,scientific_roles,taxonomic_inclusion,地质学家属于科学家；科学家还包括其他研究领域。
+b_f12,biologists,entomologists,B,scientific_roles,taxonomic_inclusion,昆虫学家研究生物中的昆虫领域；生物学家不都研究昆虫。
+b_f13,violinists,musicians,F,music_roles,taxonomic_inclusion,按职业或演奏者义小提琴演奏者属于音乐演奏者；音乐演奏者也可演奏其他乐器。
+b_f14,musicians,cellists,B,music_roles,taxonomic_inclusion,大提琴演奏者属于音乐演奏者；音乐演奏者不都演奏大提琴。
+b_f15,pentagons,polygons,F,geometry,taxonomic_inclusion,按通常平面几何义五边形属于多边形；多边形不都具有五条边。
+b_f16,quadrilaterals,rectangles,B,geometry,taxonomic_inclusion,按通常平面几何义矩形属于四边形；四边形不一定是矩形。
+b_f17,professional violinists,violinists,F,music_roles,modifier_restriction,职业小提琴演奏者仍是小提琴演奏者；后者也可以是业余演奏者。
+b_f18,biologists,experienced biologists,B,scientific_roles,modifier_restriction,有经验是对生物学家的额外限制；一般生物学家不保证具有经验。
+b_f19,beneath copper bridges,beneath bridges,F,spatial_roles,preposition_restriction,保持beneath位置关系不变；铜桥是桥的一个材质子类。
+b_f20,biologists or musicians,biologists,B,scientific_roles,disjunction_inclusion,生物学家满足生物学家或音乐人的析取；仅是音乐人不保证是生物学家。更长一侧反而更宽。
+b_f21,quilts,quilts or socks,F,repair_methods,disjunction_inclusion,被子属于被子或袜子的析取范围；袜子不必是被子。不能按词数决定方向。
+b_f22,biologists or musicians or entomologists,biologists or entomologists,B,scientific_roles,disjunction_inclusion,增加另一个可选类别扩大析取范围；音乐人不必属于只列出生物研究职业的一侧。
+b_f23,slowest ferries,ferries,F,degree,superlative_category,无论比较集合如何选择其中最慢的渡轮仍是渡轮；一般渡轮不保证位于最慢的一组。
+b_f24,corridors,widest corridors,B,degree,superlative_category,比较宽度得到的最宽走廊仍是走廊；一般走廊不保证属于最宽的一组。
+b_e01,biologists,biological scientists,E,scientific_roles,definition_equivalence,按研究生物的科学职业义两侧表达同一职业类别；增加scientists没有添加额外职业限制。
+b_e02,geologists,geological scientists,E,scientific_roles,definition_equivalence,按地质研究职业义geological scientists是geologists的展开表达；不是加入另一种研究对象。
+b_e03,botanists,botanical scientists,E,scientific_roles,definition_equivalence,按植物学研究职业义两侧均指植物学家；长表达没有额外缩小类别。
+b_e04,entomologists,insect scientists,E,scientific_roles,definition_equivalence,按昆虫研究职业义两侧均指研究昆虫的科学人员；不把insect作为额外范围限制。
+b_e05,experienced biologists,experienced biological scientists,E,scientific_roles,modified_definition_equivalence,两侧保留相同经验限制；biologists与biological scientists按相同职业义等价。
+b_e06,pentagons,pentagonal polygons,E,geometry,definition_equivalence,按通常平面几何义五边形与五边形多边形是同一类别；polygons已由pentagons的含义包含。
+b_e07,rectangles,rectangular quadrilaterals,E,geometry,definition_equivalence,按通常平面几何义矩形与矩形四边形表达同一类别；展开中心名词不增加属性。
+b_e08,triangular polygons,triangles,E,geometry,definition_equivalence,按通常平面几何义三角形多边形就是三角形；不能因左侧更长就判断为严格单向包含。
+b_e09,purchasing groceries,buying groceries,E,acquisition,predicate_equivalence,以实际购买食杂用品的通常交易义理解purchasing与buying；对象与动作信息相同。
+b_e10,selecting nominees,choosing nominees,E,selection,predicate_equivalence,两侧均表示选择被提名者；不涉及选择结果是否被任命。
+b_e11,repairing quilts,mending quilts,E,repair_methods,predicate_equivalence,在修补破损被子的通常义下repairing与mending表达相同活动；不特指某一种针法。
+b_e12,fixing damaged laptops,repairing damaged laptops,E,repair_methods,predicate_equivalence,damaged laptops限定维修语境；fixing按修复义而不是固定位置义理解。
+b_e13,beneath copper bridges,under copper bridges,E,spatial_roles,preposition_equivalence,在两侧相同桥梁下方的空间义下beneath与under保持相同位置关系；不涉及其他抽象义。
+b_e14,anticlockwise rotations,counterclockwise rotations,E,rotation,lexical_equivalence,按同一观察参照两侧均为逆时针旋转；不是把不同观察方向混在一起。
+b_e15,twelve flasks,1 dozen flasks,E,quantity,quantity_equivalence,1 dozen与twelve都表示十二；两侧保留相同对象flasks。更长表达没有增加数量。
+b_e16,annual inspections,yearly inspections,E,inspection,frequency_equivalence,在检查频率的通常义下annual与yearly表达相同年度周期。
+b_e17,biologists,biologists or entomologists,E,scientific_roles,redundant_disjunction,entomologists属于biologists；析取一个已有子类不扩大生物学家的类别范围。
+b_e18,cooking dumplings,frying dumplings or cooking dumplings,E,cooking_methods,redundant_disjunction,油炸饺子已经属于烹饪饺子；把这个子类与一般烹饪析取不会增加新的活动类别。
+b_e19,patiently tutoring apprentices,tutoring apprentices patiently,E,instruction,manner_reordering,在不含其他范围算子的简单动宾短语中patiently仍修饰同一辅导动作；只保留一个此类换位对照。
+b_e20,ex-prisoners,former prisoners,E,former_roles,former_role_equivalence,按曾经是囚犯而现已不再处于该身份的通常义ex-prisoners与former prisoners等价。
+b_e21,motorbikes,motorcycles,E,transport_names,lexical_equivalence,按通常机动车名称义两侧均指摩托车；不使用motorized bicycles等边界不清的改写。
+b_e22,railway locomotives,railroad locomotives,E,transport_names,lexical_equivalence,在铁路机车这一对象义下railway与railroad使用地区不同但保持相同轨道交通含义。
+b_e23,lexicographers,dictionary compilers,E,language_roles,definition_equivalence,按编纂词典的人员义两侧为职业名称与定义性展开；不是任意编译程序或材料收集者。
+b_e24,cartographers,map makers,E,geography_roles,definition_equivalence,按绘制地图的人员义两侧表达同一角色；不把maker理解为机器产品名。
+b_n01,completed repairs,scheduled repairs,N,repair_status,event_nonimplication,安排维修不保证完成；已经完成的维修也不必事前列入时间表。N不要求两种状态永不共存。
+b_n02,submitted manuscripts,published manuscripts,N,publication_status,event_nonimplication,提交稿件不保证发表；稿件也可不经向外部机构提交而自行发表。不能把常见流程当作必然。
+b_n03,authorized repairs,completed repairs,N,repair_status,event_nonimplication,获准维修不保证已经完成；实际完成的维修也可能事先没有获得授权。
+b_n04,rehearsing concerts,broadcasting concerts,N,concert_events,event_nonimplication,排练音乐会不保证广播；广播也不保证参与排练。活动相关不等于存在任一必然方向。
+b_n05,inspecting warehouses,repairing warehouses,N,facility_events,event_nonimplication,检查仓库可能不需维修；维修也不保证进行了作为独立活动的正式检查。
+b_n06,selecting nominees,interviewing nominees,N,selection,event_nonimplication,可以不经面试选择被提名者；面试也不保证选择。保持相同对象但更换事件。
+b_n07,experienced musicians,certified musicians,N,music_roles,independent_attributes,经验不保证取得认证；认证也不保证丰富经验。两属性可以共存但不能互推。
+b_n08,professional violinists,experienced violinists,N,music_roles,independent_attributes,职业身份不保证丰富经验；有经验的演奏者也可以是业余者。
+b_n09,blue coats,heavy coats,N,clothing,independent_attributes,颜色不能推出重量；重量也不能推出颜色。两侧中心对象相同。
+b_n10,blue shirts,blue coats,N,clothing,head_replacement,相同颜色下衬衫与外套两个衣物类别没有普遍的单向或双向包含。
+b_n11,1 dozen flasks,twelve goblets,N,quantity,quantity_head_change,数量等价不代表对象等价；十二个烧瓶不保证十二个高脚杯，反向也不保证。
+b_n12,certified musicians,highest-rated musicians,N,degree,credential_vs_ranking,取得认证不保证评价最高；比较集合中评价最高也不保证获得认证。不是看到最高级就一律判N。
+b_n13,optional inspections,mandatory inspections,N,inspection,modality_difference,对同一检查要求可选与强制不是同一义务状态；N也包含不兼容关系。
+b_n14,clockwise rotations,counterclockwise rotations,N,rotation,incompatible_direction,在同一旋转动作和同一观察参照下顺时针与逆时针不能互推。
+b_n15,doctors interviewing actors,actors interviewing doctors,N,participant_roles,role_exchange,交换提问者与受访者不保证互推；两侧均为三个词且词集合完全相同。
+b_n16,teachers instructing apprentices,apprentices instructing teachers,N,participant_roles,role_exchange,教师指导学徒不能保证学徒指导教师，反向也不保证；不能仅凭共享所有词判E。
+b_n17,musicians tutoring novices,novices tutoring musicians,N,participant_roles,role_exchange,辅导者与被辅导者交换后是不同关系；与副词移位的E保持相同词数。
+b_n18,dental surgeons,dental clinics,N,entity_types,person_vs_institution,牙科从业者是人员，牙科诊所是机构或地点；共同的dental不保证指称相同对象。
+b_n19,medical researchers,medical institutions,N,entity_types,person_vs_institution,医疗研究人员与医疗机构是不同实体类型；相关或任职关系不是类别包含。
+b_n20,violinists,violins,N,music_roles,person_vs_object,小提琴演奏者与小提琴是人员和物件；词形相关不能推出类别相同。
+b_n21,teaching apprentices,interviewing apprentices,N,instruction,event_nonimplication,教导学徒不保证采访或面试学徒；采访或面试也不保证教导。
+b_n22,beneath shelves,above shelves,N,spatial_roles,spatial_difference,保持相同位置参照和相同一组架子时，下方与上方不能互推；不是把不同参照系混在一起。
+b_n23,certified musicians,experienced violinists,N,music_roles,attribute_with_taxonomy,小提琴演奏者虽属于音乐人，但经验不能推出认证；认证音乐人也不保证演奏小提琴或具有经验。
+b_n24,biologists or musicians,biologists or painters,N,scientific_roles,overlapping_disjunctions,两个析取共享生物学家但各有不同的另一类别；可以只属于音乐人或只属于画家，因此没有普遍包含方向。

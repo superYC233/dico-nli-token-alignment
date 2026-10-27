@@ -1,0 +1,61 @@
+﻿family_id,kind,text1,text2,proposed_label,label_reason
+dog,modifier_scope,a white dog and a white cat,a white dog and a cat,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+dog,modifier_binding,a white dog and a cat,a dog and a white cat,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+dog,conjunct_order,a white dog and a cat,a cat and a white dog,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+boy,modifier_scope,A young boy and a young bird,A young boy and a bird,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+boy,modifier_binding,A young boy and a bird,A boy and a young bird,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+boy,conjunct_order,A young boy and a bird,a bird and a young boy,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+camera,modifier_scope,a large camera and a large table,a large camera and a table,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+camera,modifier_binding,a large camera and a table,a camera and a large table,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+camera,conjunct_order,a large camera and a table,a table and a large camera,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+baby,modifier_scope,a small baby and a small camera,a small baby and a camera,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+baby,modifier_binding,a small baby and a camera,a baby and a small camera,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+baby,conjunct_order,a small baby and a camera,a camera and a small baby,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+girl,modifier_scope,A young girl and a young cat,A young girl and a cat,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+girl,modifier_binding,A young girl and a cat,A girl and a young cat,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+girl,conjunct_order,A young girl and a cat,a cat and a young girl,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+frisbee,modifier_scope,a green Frisbee and a green ball,a green Frisbee and a ball,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+frisbee,modifier_binding,a green Frisbee and a ball,a Frisbee and a green ball,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+frisbee,conjunct_order,a green Frisbee and a ball,a ball and a green Frisbee,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+woman,modifier_scope,A young woman and a young man,A young woman and a man,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+woman,modifier_binding,A young woman and a man,A woman and a young man,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+woman,conjunct_order,A young woman and a man,a man and a young woman,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+bicycle,modifier_scope,A pink bicycle and a pink bus,A pink bicycle and a bus,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+bicycle,modifier_binding,A pink bicycle and a bus,A bicycle and a pink bus,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+bicycle,conjunct_order,A pink bicycle and a bus,a bus and a pink bicycle,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+bus,modifier_scope,A green bus and a green car,A green bus and a car,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+bus,modifier_binding,A green bus and a car,A bus and a green car,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+bus,conjunct_order,A green bus and a car,a car and a green bus,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+cat,modifier_scope,A gray cat and a gray dog,A gray cat and a dog,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+cat,modifier_binding,A gray cat and a dog,A cat and a gray dog,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+cat,conjunct_order,A gray cat and a dog,a dog and a gray cat,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+train,modifier_scope,The blue train and a blue car,The blue train and a car,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+train,modifier_binding,The blue train and a car,The train and a blue car,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+train,conjunct_order,The blue train and a car,a car and the blue train,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+car,modifier_scope,A silver car and a silver train,A silver car and a train,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+car,modifier_binding,A silver car and a train,A car and a silver train,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+car,conjunct_order,A silver car and a train,a train and a silver car,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+bird,modifier_scope,A yellow bird and a yellow fish,A yellow bird and a fish,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+bird,modifier_binding,A yellow bird and a fish,A bird and a yellow fish,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+bird,conjunct_order,A yellow bird and a fish,a fish and a yellow bird,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+man,modifier_scope,A shirtless man and a shirtless woman,A shirtless man and a woman,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+man,modifier_binding,A shirtless man and a woman,A man and a shirtless woman,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+man,conjunct_order,A shirtless man and a woman,a woman and a shirtless man,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+table,modifier_scope,A wooden table and a wooden chair,A wooden table and a chair,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+table,modifier_binding,A wooden table and a chair,A table and a wooden chair,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+table,conjunct_order,A wooden table and a chair,a chair and a wooden table,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+motorcycle,modifier_scope,A BMW motorcycle and a BMW car,A BMW motorcycle and a car,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+motorcycle,modifier_binding,A BMW motorcycle and a car,A motorcycle and a BMW car,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+motorcycle,conjunct_order,A BMW motorcycle and a car,a car and a BMW motorcycle,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+stick,modifier_scope,a wooden stick and a wooden table,a wooden stick and a table,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+stick,modifier_binding,a wooden stick and a table,a stick and a wooden table,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+stick,conjunct_order,a wooden stick and a table,a table and a wooden stick,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+helmet,modifier_scope,a bike helmet and a bike glove,a bike helmet and a glove,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+helmet,modifier_binding,a bike helmet and a glove,a helmet and a bike glove,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+helmet,conjunct_order,a bike helmet and a glove,a glove and a bike helmet,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+house,modifier_scope,A gray house and a gray boat,A gray house and a boat,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+house,modifier_binding,A gray house and a boat,A house and a gray boat,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+house,conjunct_order,A gray house and a boat,a boat and a gray house,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。
+sheep,modifier_scope,The white sheep and a white dog,The white sheep and a dog,F,建议：左侧第二个对象也受修饰，右侧不要求该属性；不从第一个并列项传播修饰。
+sheep,modifier_binding,The white sheep and a dog,The sheep and a white dog,N,建议：属性从第一个对象移到第二个对象；保留词汇计数，但信息不同且无单向包含。
+sheep,conjunct_order,The white sheep and a dog,a dog and the white sheep,E,建议：两个名词短语仅交换并列顺序；无时间先后关系，原修饰词仍跟随原对象。

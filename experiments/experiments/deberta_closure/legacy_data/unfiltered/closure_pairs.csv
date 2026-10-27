@@ -1,0 +1,207 @@
+﻿text1,text2,label,kind,middle,support,len1,len2
+women,person,F,entailment_closure,a woman,1,1,1
+karzai,afghan legislator,F,entailment_closure,afghan president,1,1,2
+women,a person,F,entailment_closure,a woman,1,1,2
+a boy,someone,F,entailment_closure,a man,1,2,1
+a mother,person,F,entailment_closure,a woman,1,2,1
+older gentleman,someone,F,entailment_closure,a man,1,2,1
+older woman,person,F,entailment_closure,a woman,1,2,1
+smiling woman,person,F,entailment_closure,a woman,1,2,1
+two women,person,F,entailment_closure,a woman,1,2,1
+6 killed,four dead,F,entailment_closure,five dead,1,2,2
+8 dead,four dead,F,entailment_closure,five dead,1,2,2
+a dalmation,a dog,F,entailment_closure,a white dog,1,2,2
+a mother,a person,F,entailment_closure,a woman,1,2,2
+any blackbird,the bird,F,entailment_closure,the black bird,1,2,2
+in obama,us government,F,entailment_closure,obama,1,2,2
+older woman,a person,F,entailment_closure,a woman,1,2,2
+palestinian prisoners,palestinian prisoner,F,entailment_closure,26 palestinian prisoners,1,2,2
+saudi women,a woman,F,entailment_closure,women,1,2,2
+smiling woman,a person,F,entailment_closure,a woman,1,2,2
+three dogs,a dog,F,entailment_closure,two dogs,1,2,2
+through water,the water,F,entailment_closure,in the water,1,2,2
+two ladies,a woman,F,entailment_closure,two women,1,2,2
+two women,a person,F,entailment_closure,a woman,1,2,2
+women drivers,a woman,F,entailment_closure,women,1,2,2
+a long-haired man,someone,F,entailment_closure,a man,1,3,1
+a shirtless man,someone,F,entailment_closure,a man,1,3,1
+a smiling woman,person,F,entailment_closure,a woman,1,3,1
+a young girl,person,F,entailment_closure,a woman,1,3,1
+a young woman,person,F,entailment_closure,a woman,1,3,1
+an adult male,someone,F,entailment_closure,a man,1,3,1
+an african man,someone,F,entailment_closure,a man,1,3,1
+at pro-morsy protesters,protesters,F,entailment_closure,at protesters,1,3,1
+at pro-morsy protesters,protests,F,entailment_closure,at protesters,1,3,1
+in egypt clashes,egypt,F,entailment_closure,in egypt,1,3,1
+in northern pakistan,pakistan,F,entailment_closure,in pakistan,1,3,1
+in southwest pakistan,pakistan,F,entailment_closure,in pakistan,1,3,1
+of black people,people,F,entailment_closure,of people,1,3,1
+of elderly people,people,F,entailment_closure,of people,1,3,1
+of government shutdown,shutdown,F,entailment_closure,of shutdown,1,3,1
+two black dogs,dog,F,entailment_closure,a black dog,1,3,1
+us drone strikes,drone,F,entailment_closure,u.s. drone,1,3,1
+a little boy,a man,F,entailment_closure,a boy,1,3,2
+a smiling woman,a person,F,entailment_closure,a woman,1,3,2
+a young boy,a man,F,entailment_closure,a boy,1,3,2
+a young girl,a person,F,entailment_closure,a woman,1,3,2
+any young girl,the woman,F,entailment_closure,young woman,1,3,2
+for 40 missing,11 missing,F,entailment_closure,40 missing,1,3,2
+into two boys,two people,F,entailment_closure,two boys,1,3,2
+light brown dog,a dog,F,entailment_closure,a brown dog,1,3,2
+much more deaths,four dead,F,entailment_closure,five dead,1,3,2
+obama economic tour,us government,F,entailment_closure,obama,1,3,2
+of black people,of four,F,entailment_closure,of people,1,3,2
+of elderly people,of four,F,entailment_closure,of people,1,3,2
+several large dogs,two dogs,F,entailment_closure,three dogs,1,3,2
+two baby kittens,a cat,F,entailment_closure,two cats,1,3,2
+two bald eagles,two animals,F,entailment_closure,two eagles,1,3,2
+two black dogs,a dog,F,entailment_closure,a black dog | two dogs,2,3,2
+two blonde girls,two people,F,entailment_closure,two girls,1,3,2
+two brownish dogs,a dog,F,entailment_closure,two dogs,1,3,2
+two grey dogs,a dog,F,entailment_closure,two dogs,1,3,2
+two smiling women,a woman,F,entailment_closure,a smiling woman | two women,2,3,2
+two tan dogs,a dog,F,entailment_closure,two dogs,1,3,2
+two young women,a woman,F,entailment_closure,two women,1,3,2
+of black people,of four people,F,entailment_closure,of people,1,3,3
+of black people,of six people,F,entailment_closure,of people,1,3,3
+of elderly people,of four people,F,entailment_closure,of people,1,3,3
+of elderly people,of six people,F,entailment_closure,of people,1,3,3
+a man and women,person,F,entailment_closure,a woman,1,4,1
+a large white dog,a dog,F,entailment_closure,a white dog,1,4,2
+a man and women,a person,F,entailment_closure,a woman,1,4,2
+a young baby girl,a girl,F,entailment_closure,a young girl,1,4,2
+a young baby girl,a woman,F,entailment_closure,a young girl,1,4,2
+a young baby girl,a women,F,entailment_closure,a young girl,1,4,2
+a young blonde girl,a girl,F,entailment_closure,a young girl,1,4,2
+a young blonde girl,a woman,F,entailment_closure,a young girl,1,4,2
+a young blonde girl,a women,F,entailment_closure,a young girl,1,4,2
+in libya 's benghazi,'s benghazi,F,entailment_closure,in benghazi,1,4,2
+on an orange ball,a ball,F,entailment_closure,an orange ball,1,4,2
+on the blue sea,the water,F,entailment_closure,in the water,1,4,2
+through a watery field,on grass,F,entailment_closure,through the grass,1,4,2
+two smiling young women,a woman,F,entailment_closure,two women,1,4,2
+through a snowy field,in the snow,F,entailment_closure,through snow,1,4,3
+through a watery field,on the grass,F,entailment_closure,through the grass,1,4,3
+black and white cows,a black and white cow,F,entailment_closure,two black and white cows,1,4,5
+a black and grey dog,dog,F,entailment_closure,a black dog,1,5,1
+a black and tan dog,dog,F,entailment_closure,a black dog,1,5,1
+a black and white dog,dog,F,entailment_closure,a black dog,1,5,1
+four women and two men,person,F,entailment_closure,a woman,1,5,1
+a black and grey dog,a dog,F,entailment_closure,a black dog,1,5,2
+a black and tan dog,a dog,F,entailment_closure,a black dog,1,5,2
+elderly woman around younger woman,a woman,F,entailment_closure,two women,1,5,2
+four women and two men,a person,F,entailment_closure,a woman,1,5,2
+four women and two men,the man,F,entailment_closure,a man and woman,1,5,2
+four women and two men,the woman,F,entailment_closure,a man and woman,1,5,2
+thailand 's opposition democrat party,thai opposition,F,entailment_closure,thai opposition party,1,5,2
+around a restaurant dining table,around a table,F,entailment_closure,at a restaurant table,1,5,3
+around a restaurant dining table,at a table,F,entailment_closure,at a restaurant table,1,5,3
+in middle of grassy field,in a field,F,entailment_closure,in grassy field,1,5,3
+in face of egypt govt threat,egypt,F,entailment_closure,in egypt,1,6,1
+one asian and one occasion woman,a woman,F,entailment_closure,two women,1,6,2
+a little girl and a little boy,one,F,entailment_closure,a little girl,1,7,1
+"a black , brown and white dog",a dog,F,entailment_closure,a black and white dog,1,7,2
+a little girl and a little boy,a girl,F,entailment_closure,a little girl,1,7,2
+an old red london double decker bus,a bus,F,entailment_closure,red double decker bus,1,7,2
+the red train and the yellow train,the train,F,entailment_closure,two trains,1,7,2
+"a black , brown and white dog",a black dog,F,entailment_closure,a black and white dog,1,7,3
+an old red london double decker bus,a double decker bus,F,entailment_closure,red double decker bus,1,7,4
+"a gray , black , and white cat",the cat,F,entailment_closure,a gray cat,1,8,2
+play,plays,E,equivalence_closure,are playing,1,1,1
+plays,play,E,equivalence_closure,are playing,1,1,1
+run,runs,E,equivalence_closure,is running,1,1,1
+runs,run,E,equivalence_closure,is running,1,1,1
+seated,sit,E,equivalence_closure,are sitting,1,1,1
+sit,seated,E,equivalence_closure,are sitting,1,1,1
+crowd,a collection,E,equivalence_closure,a group,1,1,2
+eats,consuming food,E,equivalence_closure,is eating,1,1,2
+holding,is holding,E,equivalence_closure,keeping hold of,1,1,2
+man,the man,E,equivalence_closure,the adult male,1,1,2
+perches,is sitting,E,equivalence_closure,is perched,1,1,2
+philippines,the philippines,E,equivalence_closure,the philippine nation,1,1,2
+walking,is walking,E,equivalence_closure,moving on foot,1,1,2
+holds,keeping hold of,E,equivalence_closure,is holding,1,1,3
+play,engaging in play,E,equivalence_closure,are playing,1,1,3
+plays,engaging in play,E,equivalence_closure,are playing,1,1,3
+rides,traveling while mounted,E,equivalence_closure,is riding,1,1,3
+a collection,crowd,E,equivalence_closure,a group,1,2,1
+consuming food,eats,E,equivalence_closure,is eating,1,2,1
+is holding,holding,E,equivalence_closure,keeping hold of,1,2,1
+is sitting,perches,E,equivalence_closure,is perched,1,2,1
+is walking,walking,E,equivalence_closure,moving on foot,1,2,1
+the man,man,E,equivalence_closure,the adult male,1,2,1
+the philippines,philippines,E,equivalence_closure,the philippine nation,1,2,1
+'s killing,among dead,E,equivalence_closure,killed,1,2,2
+among dead,'s killing,E,equivalence_closure,killed,1,2,2
+announces retirement,to retire,E,equivalence_closure,retires,1,2,2
+are playing,is playing,E,equivalence_closure,plays,1,2,2
+is holding,to hold,E,equivalence_closure,holds,1,2,2
+is jumping,is leaping,E,equivalence_closure,leaps,1,2,2
+is leaping,is jumping,E,equivalence_closure,leaps,1,2,2
+is playing,are playing,E,equivalence_closure,plays,1,2,2
+to hold,is holding,E,equivalence_closure,holds,1,2,2
+to retire,announces retirement,E,equivalence_closure,retires,1,2,2
+amid snow,within the snow,E,equivalence_closure,in the snow,1,2,3
+has seized,has been captured,E,equivalence_closure,captures,1,2,3
+in snow,in the snow,E,equivalence_closure,amid snow,1,2,3
+amid snow,in the white snow,E,equivalence_closure,in the snow,1,2,4
+remain upright,maintaining an upright stance,E,equivalence_closure,is standing,1,2,4
+engaging in play,play,E,equivalence_closure,are playing,1,3,1
+engaging in play,plays,E,equivalence_closure,are playing,1,3,1
+keeping hold of,holds,E,equivalence_closure,is holding,1,3,1
+traveling while mounted,rides,E,equivalence_closure,is riding,1,3,1
+has been captured,has seized,E,equivalence_closure,captures,1,3,2
+in the snow,in snow,E,equivalence_closure,amid snow,1,3,2
+within the snow,amid snow,E,equivalence_closure,in the snow,1,3,2
+a brown dog,the brown dog,E,equivalence_closure,a tan dog,1,3,3
+assuming a pose,holding a pose,E,equivalence_closure,are posing,1,3,3
+casting its gaze,directing its gaze,E,equivalence_closure,is looking,1,3,3
+directing its gaze,casting its gaze,E,equivalence_closure,is looking,1,3,3
+holding a pose,assuming a pose,E,equivalence_closure,are posing,1,3,3
+the adult male,the male adult,E,equivalence_closure,the man,1,3,3
+the brown dog,a brown dog,E,equivalence_closure,a tan dog,1,3,3
+the male adult,the adult male,E,equivalence_closure,the man,1,3,3
+a close-up view,an enlarged detail view,E,equivalence_closure,a close-up,1,3,4
+atop grassy ground,atop the grassy ground,E,equivalence_closure,on the grass,1,3,4
+immersed in water,immersed in the water,E,equivalence_closure,in the water,1,3,4
+immersed in water,located within the water,E,equivalence_closure,in the water,1,3,4
+in a plain,within an open field,E,equivalence_closure,in a field,1,3,4
+the male child,the young male child,E,equivalence_closure,the boy,1,3,4
+the rail conveyance,the rail passenger vehicle,E,equivalence_closure,the train,1,3,4
+upon railway lines,on the railroad tracks,E,equivalence_closure,on the train tracks,1,3,4
+within the snow,in the white snow,E,equivalence_closure,in the snow,1,3,4
+a brown-colored equine,an equine whose coat is brown,E,equivalence_closure,brown horse,1,3,6
+in the white snow,amid snow,E,equivalence_closure,in the snow,1,4,2
+maintaining an upright stance,remain upright,E,equivalence_closure,is standing,1,4,2
+an enlarged detail view,a close-up view,E,equivalence_closure,a close-up,1,4,3
+atop the grassy ground,atop grassy ground,E,equivalence_closure,on the grass,1,4,3
+immersed in the water,immersed in water,E,equivalence_closure,in the water,1,4,3
+in the white snow,within the snow,E,equivalence_closure,in the snow,1,4,3
+located within the water,immersed in water,E,equivalence_closure,in the water,1,4,3
+on the railroad tracks,upon railway lines,E,equivalence_closure,on the train tracks,1,4,3
+the rail passenger vehicle,the rail conveyance,E,equivalence_closure,the train,1,4,3
+the young male child,the male child,E,equivalence_closure,the boy,1,4,3
+within an open field,in a plain,E,equivalence_closure,in a field,1,4,3
+a pair of dogs,the pair of canines,E,equivalence_closure,two dogs,1,4,4
+across the water's surface,afloat on the water,E,equivalence_closure,on the water,1,4,4
+afloat on the water,across the water's surface,E,equivalence_closure,on the water,1,4,4
+at the rail-transport terminal,at the railway terminal,E,equivalence_closure,at the train station,1,4,4
+at the railway terminal,at the rail-transport terminal,E,equivalence_closure,at the train station,1,4,4
+immersed in the water,located within the water,E,equivalence_closure,in the water,1,4,4
+located within the water,immersed in the water,E,equivalence_closure,in the water,1,4,4
+the pair of canines,a pair of dogs,E,equivalence_closure,two dogs,1,4,4
+across the water's surface,in a body of water,E,equivalence_closure,on the water,1,4,5
+afloat on the water,in a body of water,E,equivalence_closure,on the water,1,4,5
+entering a transport terminal,moving into a transport terminal,E,equivalence_closure,into a station,1,4,5
+nobel author doris lessing,nobel prize winning author doris lessing,E,equivalence_closure,nobel laureate doris lessing,1,4,6
+in a body of water,across the water's surface,E,equivalence_closure,on the water,1,5,4
+in a body of water,afloat on the water,E,equivalence_closure,on the water,1,5,4
+moving into a transport terminal,entering a transport terminal,E,equivalence_closure,into a station,1,5,4
+a canine with black-and-white fur,the canine with black-and-white fur,E,equivalence_closure,a black and white dog,1,5,5
+a white and brown dog,the white and brown dog,E,equivalence_closure,a brown and white dog,1,5,5
+the canine with black-and-white fur,a canine with black-and-white fur,E,equivalence_closure,a black and white dog,1,5,5
+the white and brown dog,a white and brown dog,E,equivalence_closure,a brown and white dog,1,5,5
+a photograph rendered in monochrome,this is a black and white picture,E,equivalence_closure,a black and white photo,1,5,7
+an equine whose coat is brown,a brown-colored equine,E,equivalence_closure,brown horse,1,6,3
+nobel prize winning author doris lessing,nobel author doris lessing,E,equivalence_closure,nobel laureate doris lessing,1,6,4
+this is a black and white picture,a photograph rendered in monochrome,E,equivalence_closure,a black and white photo,1,7,5

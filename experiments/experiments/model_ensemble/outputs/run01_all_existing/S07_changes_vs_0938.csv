@@ -1,0 +1,42 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label,logit_F,logit_B,logit_E,logit_N,prediction,pair_prediction,baseline_prediction
+dico_phrasis_0000018__en-en__flipped,dico_phrasis_0000018,en,en,of all Rage rallies,march of anger,FORWARD_ENTAILMENT,-0.786030014176271,-4.932541208432458,-1.1089996555025794,-1.5738154679818486,F,F,E
+dico_phrasis_0000018__en-en__original,dico_phrasis_0000018,en,en,march of anger,of all Rage rallies,BACKWARD_ENTAILMENT,-4.592122603708506,-0.33401237748883084,-2.5019678157184755,-1.650780247340665,B,B,E
+dico_phrasis_0000034__en-en__flipped,dico_phrasis_0000034,en,en,"Venezuela Government , Opposition Head",Venezuelan opposition leader,FORWARD_ENTAILMENT,-0.7149579752384218,-4.448142248074147,-1.263399444888433,-1.530646837686706,F,F,E
+dico_phrasis_0000034__en-en__original,dico_phrasis_0000034,en,en,Venezuelan opposition leader,"Venezuela Government , Opposition Head",BACKWARD_ENTAILMENT,-4.091819848950741,-0.5988844433544079,-1.6841032789756878,-1.3932940217651302,B,B,E
+dico_phrasis_0000059__en-en__flipped,dico_phrasis_0000059,en,en,for costa concordia shipwreck disaster,over Costa Concordia disaster,FORWARD_ENTAILMENT,-2.0737398139141447,-4.520871265557283,-1.2455239623160799,-0.552315149589628,N,E,F
+dico_phrasis_0000059__en-en__original,dico_phrasis_0000059,en,en,over Costa Concordia disaster,for costa concordia shipwreck disaster,BACKWARD_ENTAILMENT,-5.363958737779706,-1.4298082948246054,-2.027581096823342,-0.4711094087723696,N,E,B
+dico_phrasis_0000497__en-en__flipped,dico_phrasis_0000497,en,en,of some runway,from the airport,FORWARD_ENTAILMENT,-4.636194830554667,-4.202820412468321,-4.6852436093328995,-0.034465516065397876,N,E,B
+dico_phrasis_0000497__en-en__original,dico_phrasis_0000497,en,en,from the airport,of some runway,BACKWARD_ENTAILMENT,-3.7159682735137554,-4.478049830996803,-3.043643565557617,-0.0870277302091372,N,E,F
+dico_phrasis_0000514__en-en__flipped,dico_phrasis_0000514,en,en,from a bird feeder,from the feeder,FORWARD_ENTAILMENT,-0.2904351143321585,-4.350941602832738,-2.0021969243599456,-2.2621248754646412,F,F,E
+dico_phrasis_0000514__en-en__original,dico_phrasis_0000514,en,en,from the feeder,from a bird feeder,BACKWARD_ENTAILMENT,-4.524402553130619,-0.3229540409205331,-2.436882553768355,-1.7275533864168544,B,B,E
+dico_phrasis_0000641__en-en__flipped,dico_phrasis_0000641,en,en,In Bhutto Death,over Bhutto murder,EQUIVALENCE,-4.640522391707182,-3.86974840844816,-1.2843750411302561,-0.3672157386107971,N,E,B
+dico_phrasis_0000641__en-en__original,dico_phrasis_0000641,en,en,over Bhutto murder,In Bhutto Death,EQUIVALENCE,-2.9641014218184107,-4.834141448101049,-0.7560898198856884,-0.7530224622634445,N,E,F
+dico_phrasis_0000948__en-en__flipped,dico_phrasis_0000948,en,en,over police crackdown,over police violence,EQUIVALENCE,-1.2063378632601294,-2.797757273110719,-1.0481808578406477,-1.2406811593709,E,E,F
+dico_phrasis_0000948__en-en__original,dico_phrasis_0000948,en,en,over police violence,over police crackdown,EQUIVALENCE,-3.0754298459419265,-1.7268472017517704,-1.150934360266128,-0.777300972228897,N,E,B
+dico_phrasis_0000954__en-en__flipped,dico_phrasis_0000954,en,en,Martial Arts Schools,martial arts clubs,EQUIVALENCE,-2.841874453893357,-2.4645120559593154,-0.6654756458883496,-1.0711787280827114,E,E,B
+dico_phrasis_0000954__en-en__original,dico_phrasis_0000954,en,en,martial arts clubs,Martial Arts Schools,EQUIVALENCE,-2.275435749571004,-2.6408438008263575,-0.6095031580517012,-1.2646932029567794,E,E,F
+dico_phrasis_0000994__en-en__flipped,dico_phrasis_0000994,en,en,May Housing,Housing in May,EQUIVALENCE,-4.334731772271656,-0.8329582197182258,-0.6513793953234798,-3.4800074119234528,E,B,E
+dico_phrasis_0000994__en-en__original,dico_phrasis_0000994,en,en,Housing in May,May Housing,EQUIVALENCE,-0.29626607713568603,-4.2494676569569005,-1.8567537504537348,-2.453875331759878,F,F,E
+dico_phrasis_0001069__en-en__flipped,dico_phrasis_0001069,en,en,for granting asylum,for asylum,EQUIVALENCE,-0.6710181949574092,-3.941316186962269,-0.8443977767427432,-3.2295976866888743,F,F,E
+dico_phrasis_0001069__en-en__original,dico_phrasis_0001069,en,en,for asylum,for granting asylum,EQUIVALENCE,-4.12454746975629,-0.7855242346899425,-0.6933414484211359,-3.573921272068064,E,B,E
+dico_phrasis_0001505__en-en__flipped,dico_phrasis_0001505,en,en,Two Asian men and a woman,Two Asian men and Asian woman,BACKWARD_ENTAILMENT,-2.361463688645034,-1.0349726693963521,-0.6796826454056136,-3.130315812628345,E,E,B
+dico_phrasis_0001505__en-en__original,dico_phrasis_0001505,en,en,Two Asian men and Asian woman,Two Asian men and a woman,FORWARD_ENTAILMENT,-1.292360060959522,-2.014608254927908,-0.5624642084068651,-3.8075617795242818,E,E,F
+dico_phrasis_0002056__en-en__original,dico_phrasis_0002056,en,en,white water rafting,down the rapids,NEGATIVE_OTHER,-4.283788815000932,-3.2540965539598785,-0.6049824139245362,-0.9125229293777101,E,E,N
+dico_phrasis_0002188__en-en__original,dico_phrasis_0002188,en,en,to Cardinals,Vatican,NEGATIVE_OTHER,-0.5142033633048533,-5.10279757952066,-4.504160037625497,-0.9548220398302028,F,F,N
+dico_phrasis_0002244__en-en__original,dico_phrasis_0002244,en,en,two people,2,NEGATIVE_OTHER,-0.7876824804754676,-3.441071510463718,-0.8740729792991047,-2.345250387769974,F,F,N
+dico_phrasis_0002251__en-en__original,dico_phrasis_0002251,en,en,Muslim Brotherhood Supreme Guide,Muslim Brotherhood group,NEGATIVE_OTHER,-0.429438907215945,-3.5284538276036472,-2.694146253468461,-1.377630104178289,F,F,N
+dico_phrasis_0002314__en-en__original,dico_phrasis_0002314,en,en,with a dining room,with large sofas and a dining table,NEGATIVE_OTHER,-5.166856594484969,-0.41707698107521224,-4.912106118298065,-1.1148320189919227,B,B,N
+dico_phrasis_0002406__en-en__original,dico_phrasis_0002406,en,en,in Canada Oil Train Explosion,in Canada train crash,NEGATIVE_OTHER,-0.2513707169738326,-4.946842123543257,-4.358332348761472,-1.5977046524027916,F,F,N
+dico_phrasis_0002436__en-en__original,dico_phrasis_0002436,en,en,over child,over daughter,NEGATIVE_OTHER,-4.133607560808179,-0.15378058854540533,-4.116614222356848,-2.2053196288081147,B,B,N
+dico_phrasis_0002463__en-en__original,dico_phrasis_0002463,en,en,'s integration,to join,NEGATIVE_OTHER,-4.245056286483045,-4.51824909618182,-0.04680745587122952,-3.8880209726943566,E,E,N
+dico_phrasis_0002492__en-en__original,dico_phrasis_0002492,en,en,Super typhoon,Most powerful typhoon,NEGATIVE_OTHER,-3.658444716146089,-1.373695475186553,-0.6090763927047117,-1.7304489021094533,E,E,N
+dico_phrasis_0002597__en-en__original,dico_phrasis_0002597,en,en,on a red play structure,on a red jungle gym,NEGATIVE_OTHER,-4.558273284600361,-0.4442519695098139,-2.2453238235076336,-1.417484537170159,B,B,N
+dico_phrasis_0002599__en-en__original,dico_phrasis_0002599,en,en,in the waves,on a medium wave,NEGATIVE_OTHER,-3.0236929364777256,-0.5826513587473486,-3.729051476226925,-0.9971016714229816,B,B,N
+dico_phrasis_0002613__en-en__original,dico_phrasis_0002613,en,en,on the shore,on beside the beach,NEGATIVE_OTHER,-3.8266207683233815,-2.2222373718487147,-0.5148333728902493,-1.3010332159890041,E,E,N
+dico_phrasis_0002671__en-en__original,dico_phrasis_0002671,en,en,performs,to do,NEGATIVE_OTHER,-4.5019975724238135,-4.210357583107768,-0.0567279397741292,-3.5328669294821644,E,E,N
+dico_phrasis_0002738__en-en__original,dico_phrasis_0002738,en,en,convicted,get jail time,NEGATIVE_OTHER,-3.892758425686665,-1.9558863920104304,-0.367214782628817,-1.9275031471409914,E,E,N
+dico_phrasis_0002792__en-en__original,dico_phrasis_0002792,en,en,2 Turkish unions,Unions,NEGATIVE_OTHER,-1.4549281858707765,-0.9121120717710595,-4.5630642330205005,-1.0371093804358642,B,B,N
+dico_phrasis_0002804__en-en__original,dico_phrasis_0002804,en,en,airline pilots,2 Turkish Airlines pilots,NEGATIVE_OTHER,-2.08205282619602,-0.5776192869020961,-2.993508994772985,-1.3318751734422736,B,B,N
+dico_phrasis_0002898__en-en__original,dico_phrasis_0002898,en,en,may be trapped,trapped,NEGATIVE_OTHER,-0.3045126025958528,-2.980999923356181,-2.1263333047209416,-2.380531911593303,F,F,N
+dico_phrasis_0002959__en-en__original,dico_phrasis_0002959,en,en,at Tian ` anmen,At Tiananmen Square,NEGATIVE_OTHER,-3.5882383670797102,-3.8417809156333504,-0.48222786424970265,-1.09813852915979,E,E,N
+dico_phrasis_0003241__en-en__original,dico_phrasis_0003241,en,en,one,as one,NEGATIVE_OTHER,-4.38149626523912,-0.0953890128437621,-3.4901017276839346,-3.037047023592744,B,B,N

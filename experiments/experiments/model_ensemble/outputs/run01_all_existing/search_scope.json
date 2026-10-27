@@ -1,0 +1,47 @@
+{
+  "evaluated": {
+    "probability_1": 97,
+    "probability_2": 4656,
+    "probability_3": 147440,
+    "probability_4": 5349,
+    "probability_5": 5482,
+    "probability_6": 5614,
+    "log_probability_1": 97,
+    "log_probability_2": 4656,
+    "log_probability_3": 147440,
+    "log_probability_4": 4967,
+    "log_probability_5": 5649,
+    "log_probability_6": 5887,
+    "hier_0938_1": 97,
+    "hier_0938_2": 4656,
+    "hier_0938_3": 147440,
+    "hier_0938_4": 1486,
+    "hier_0938_5": 1555,
+    "hier_0938_6": 1518,
+    "hier_0930_1": 97,
+    "hier_0930_2": 4656,
+    "hier_0930_3": 147440,
+    "hier_0930_4": 3260,
+    "hier_0930_5": 3219,
+    "hier_0930_6": 3616
+  },
+  "member_count": 97,
+  "exhaustive_sizes": [
+    1,
+    2,
+    3
+  ],
+  "sizes_4_to_6": "Beam extension of top8 per objective and availability/data constraint; not exhaustive.",
+  "probability": "Arithmetic mean of per-model four-label softmax probabilities.",
+  "log_probability": "Mean log-probabilities (geometric pooling).",
+  "hierarchical": "Fixed N gate plus equal mean of per-model F/B/E-conditional probabilities.",
+  "label_order": [
+    "F",
+    "B",
+    "E",
+    "N"
+  ],
+  "forced_singleton_N": false,
+  "trained_or_loaded_models": false,
+  "selection_warning": "Large search on repeatedly reused Dev; exploratory optimistic scores, not held-out validation."
+}

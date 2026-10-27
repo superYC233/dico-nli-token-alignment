@@ -1,0 +1,3 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label,normalized_text1,normalized_text2
+dico_phrasis_0000065__en-en__flipped,dico_phrasis_0000065,en,en,South Africans,South Africa,FORWARD_ENTAILMENT,south africans,south africa
+dico_phrasis_0002985__en-en__original,dico_phrasis_0002985,en,en,South Africans,South Africa,NEGATIVE_OTHER,south africans,south africa

@@ -1,0 +1,413 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
+aug_closure_000_F__0,aug_closure_000_F,en,en,women,person,FORWARD_ENTAILMENT
+aug_closure_000_F__1,aug_closure_000_F,en,en,person,women,BACKWARD_ENTAILMENT
+aug_closure_001_F__0,aug_closure_001_F,en,en,karzai,afghan legislator,FORWARD_ENTAILMENT
+aug_closure_001_F__1,aug_closure_001_F,en,en,afghan legislator,karzai,BACKWARD_ENTAILMENT
+aug_closure_002_F__0,aug_closure_002_F,en,en,women,a person,FORWARD_ENTAILMENT
+aug_closure_002_F__1,aug_closure_002_F,en,en,a person,women,BACKWARD_ENTAILMENT
+aug_closure_003_F__0,aug_closure_003_F,en,en,a boy,someone,FORWARD_ENTAILMENT
+aug_closure_003_F__1,aug_closure_003_F,en,en,someone,a boy,BACKWARD_ENTAILMENT
+aug_closure_004_F__0,aug_closure_004_F,en,en,a mother,person,FORWARD_ENTAILMENT
+aug_closure_004_F__1,aug_closure_004_F,en,en,person,a mother,BACKWARD_ENTAILMENT
+aug_closure_005_F__0,aug_closure_005_F,en,en,older gentleman,someone,FORWARD_ENTAILMENT
+aug_closure_005_F__1,aug_closure_005_F,en,en,someone,older gentleman,BACKWARD_ENTAILMENT
+aug_closure_006_F__0,aug_closure_006_F,en,en,older woman,person,FORWARD_ENTAILMENT
+aug_closure_006_F__1,aug_closure_006_F,en,en,person,older woman,BACKWARD_ENTAILMENT
+aug_closure_007_F__0,aug_closure_007_F,en,en,smiling woman,person,FORWARD_ENTAILMENT
+aug_closure_007_F__1,aug_closure_007_F,en,en,person,smiling woman,BACKWARD_ENTAILMENT
+aug_closure_008_F__0,aug_closure_008_F,en,en,two women,person,FORWARD_ENTAILMENT
+aug_closure_008_F__1,aug_closure_008_F,en,en,person,two women,BACKWARD_ENTAILMENT
+aug_closure_009_F__0,aug_closure_009_F,en,en,6 killed,four dead,FORWARD_ENTAILMENT
+aug_closure_009_F__1,aug_closure_009_F,en,en,four dead,6 killed,BACKWARD_ENTAILMENT
+aug_closure_010_F__0,aug_closure_010_F,en,en,8 dead,four dead,FORWARD_ENTAILMENT
+aug_closure_010_F__1,aug_closure_010_F,en,en,four dead,8 dead,BACKWARD_ENTAILMENT
+aug_closure_011_F__0,aug_closure_011_F,en,en,a dalmation,a dog,FORWARD_ENTAILMENT
+aug_closure_011_F__1,aug_closure_011_F,en,en,a dog,a dalmation,BACKWARD_ENTAILMENT
+aug_closure_012_F__0,aug_closure_012_F,en,en,a mother,a person,FORWARD_ENTAILMENT
+aug_closure_012_F__1,aug_closure_012_F,en,en,a person,a mother,BACKWARD_ENTAILMENT
+aug_closure_013_F__0,aug_closure_013_F,en,en,any blackbird,the bird,FORWARD_ENTAILMENT
+aug_closure_013_F__1,aug_closure_013_F,en,en,the bird,any blackbird,BACKWARD_ENTAILMENT
+aug_closure_014_F__0,aug_closure_014_F,en,en,in obama,us government,FORWARD_ENTAILMENT
+aug_closure_014_F__1,aug_closure_014_F,en,en,us government,in obama,BACKWARD_ENTAILMENT
+aug_closure_015_F__0,aug_closure_015_F,en,en,older woman,a person,FORWARD_ENTAILMENT
+aug_closure_015_F__1,aug_closure_015_F,en,en,a person,older woman,BACKWARD_ENTAILMENT
+aug_closure_016_F__0,aug_closure_016_F,en,en,palestinian prisoners,palestinian prisoner,FORWARD_ENTAILMENT
+aug_closure_016_F__1,aug_closure_016_F,en,en,palestinian prisoner,palestinian prisoners,BACKWARD_ENTAILMENT
+aug_closure_017_F__0,aug_closure_017_F,en,en,saudi women,a woman,FORWARD_ENTAILMENT
+aug_closure_017_F__1,aug_closure_017_F,en,en,a woman,saudi women,BACKWARD_ENTAILMENT
+aug_closure_018_F__0,aug_closure_018_F,en,en,smiling woman,a person,FORWARD_ENTAILMENT
+aug_closure_018_F__1,aug_closure_018_F,en,en,a person,smiling woman,BACKWARD_ENTAILMENT
+aug_closure_019_F__0,aug_closure_019_F,en,en,three dogs,a dog,FORWARD_ENTAILMENT
+aug_closure_019_F__1,aug_closure_019_F,en,en,a dog,three dogs,BACKWARD_ENTAILMENT
+aug_closure_020_F__0,aug_closure_020_F,en,en,through water,the water,FORWARD_ENTAILMENT
+aug_closure_020_F__1,aug_closure_020_F,en,en,the water,through water,BACKWARD_ENTAILMENT
+aug_closure_021_F__0,aug_closure_021_F,en,en,two ladies,a woman,FORWARD_ENTAILMENT
+aug_closure_021_F__1,aug_closure_021_F,en,en,a woman,two ladies,BACKWARD_ENTAILMENT
+aug_closure_022_F__0,aug_closure_022_F,en,en,two women,a person,FORWARD_ENTAILMENT
+aug_closure_022_F__1,aug_closure_022_F,en,en,a person,two women,BACKWARD_ENTAILMENT
+aug_closure_023_F__0,aug_closure_023_F,en,en,women drivers,a woman,FORWARD_ENTAILMENT
+aug_closure_023_F__1,aug_closure_023_F,en,en,a woman,women drivers,BACKWARD_ENTAILMENT
+aug_closure_024_F__0,aug_closure_024_F,en,en,a long-haired man,someone,FORWARD_ENTAILMENT
+aug_closure_024_F__1,aug_closure_024_F,en,en,someone,a long-haired man,BACKWARD_ENTAILMENT
+aug_closure_025_F__0,aug_closure_025_F,en,en,a shirtless man,someone,FORWARD_ENTAILMENT
+aug_closure_025_F__1,aug_closure_025_F,en,en,someone,a shirtless man,BACKWARD_ENTAILMENT
+aug_closure_026_F__0,aug_closure_026_F,en,en,a smiling woman,person,FORWARD_ENTAILMENT
+aug_closure_026_F__1,aug_closure_026_F,en,en,person,a smiling woman,BACKWARD_ENTAILMENT
+aug_closure_027_F__0,aug_closure_027_F,en,en,a young girl,person,FORWARD_ENTAILMENT
+aug_closure_027_F__1,aug_closure_027_F,en,en,person,a young girl,BACKWARD_ENTAILMENT
+aug_closure_028_F__0,aug_closure_028_F,en,en,a young woman,person,FORWARD_ENTAILMENT
+aug_closure_028_F__1,aug_closure_028_F,en,en,person,a young woman,BACKWARD_ENTAILMENT
+aug_closure_029_F__0,aug_closure_029_F,en,en,an adult male,someone,FORWARD_ENTAILMENT
+aug_closure_029_F__1,aug_closure_029_F,en,en,someone,an adult male,BACKWARD_ENTAILMENT
+aug_closure_030_F__0,aug_closure_030_F,en,en,an african man,someone,FORWARD_ENTAILMENT
+aug_closure_030_F__1,aug_closure_030_F,en,en,someone,an african man,BACKWARD_ENTAILMENT
+aug_closure_031_F__0,aug_closure_031_F,en,en,at pro-morsy protesters,protesters,FORWARD_ENTAILMENT
+aug_closure_031_F__1,aug_closure_031_F,en,en,protesters,at pro-morsy protesters,BACKWARD_ENTAILMENT
+aug_closure_032_F__0,aug_closure_032_F,en,en,at pro-morsy protesters,protests,FORWARD_ENTAILMENT
+aug_closure_032_F__1,aug_closure_032_F,en,en,protests,at pro-morsy protesters,BACKWARD_ENTAILMENT
+aug_closure_033_F__0,aug_closure_033_F,en,en,in egypt clashes,egypt,FORWARD_ENTAILMENT
+aug_closure_033_F__1,aug_closure_033_F,en,en,egypt,in egypt clashes,BACKWARD_ENTAILMENT
+aug_closure_034_F__0,aug_closure_034_F,en,en,in northern pakistan,pakistan,FORWARD_ENTAILMENT
+aug_closure_034_F__1,aug_closure_034_F,en,en,pakistan,in northern pakistan,BACKWARD_ENTAILMENT
+aug_closure_035_F__0,aug_closure_035_F,en,en,in southwest pakistan,pakistan,FORWARD_ENTAILMENT
+aug_closure_035_F__1,aug_closure_035_F,en,en,pakistan,in southwest pakistan,BACKWARD_ENTAILMENT
+aug_closure_036_F__0,aug_closure_036_F,en,en,of black people,people,FORWARD_ENTAILMENT
+aug_closure_036_F__1,aug_closure_036_F,en,en,people,of black people,BACKWARD_ENTAILMENT
+aug_closure_037_F__0,aug_closure_037_F,en,en,of elderly people,people,FORWARD_ENTAILMENT
+aug_closure_037_F__1,aug_closure_037_F,en,en,people,of elderly people,BACKWARD_ENTAILMENT
+aug_closure_038_F__0,aug_closure_038_F,en,en,of government shutdown,shutdown,FORWARD_ENTAILMENT
+aug_closure_038_F__1,aug_closure_038_F,en,en,shutdown,of government shutdown,BACKWARD_ENTAILMENT
+aug_closure_039_F__0,aug_closure_039_F,en,en,two black dogs,dog,FORWARD_ENTAILMENT
+aug_closure_039_F__1,aug_closure_039_F,en,en,dog,two black dogs,BACKWARD_ENTAILMENT
+aug_closure_040_F__0,aug_closure_040_F,en,en,us drone strikes,drone,FORWARD_ENTAILMENT
+aug_closure_040_F__1,aug_closure_040_F,en,en,drone,us drone strikes,BACKWARD_ENTAILMENT
+aug_closure_041_F__0,aug_closure_041_F,en,en,a little boy,a man,FORWARD_ENTAILMENT
+aug_closure_041_F__1,aug_closure_041_F,en,en,a man,a little boy,BACKWARD_ENTAILMENT
+aug_closure_042_F__0,aug_closure_042_F,en,en,a smiling woman,a person,FORWARD_ENTAILMENT
+aug_closure_042_F__1,aug_closure_042_F,en,en,a person,a smiling woman,BACKWARD_ENTAILMENT
+aug_closure_043_F__0,aug_closure_043_F,en,en,a young boy,a man,FORWARD_ENTAILMENT
+aug_closure_043_F__1,aug_closure_043_F,en,en,a man,a young boy,BACKWARD_ENTAILMENT
+aug_closure_044_F__0,aug_closure_044_F,en,en,a young girl,a person,FORWARD_ENTAILMENT
+aug_closure_044_F__1,aug_closure_044_F,en,en,a person,a young girl,BACKWARD_ENTAILMENT
+aug_closure_045_F__0,aug_closure_045_F,en,en,any young girl,the woman,FORWARD_ENTAILMENT
+aug_closure_045_F__1,aug_closure_045_F,en,en,the woman,any young girl,BACKWARD_ENTAILMENT
+aug_closure_046_F__0,aug_closure_046_F,en,en,for 40 missing,11 missing,FORWARD_ENTAILMENT
+aug_closure_046_F__1,aug_closure_046_F,en,en,11 missing,for 40 missing,BACKWARD_ENTAILMENT
+aug_closure_047_F__0,aug_closure_047_F,en,en,into two boys,two people,FORWARD_ENTAILMENT
+aug_closure_047_F__1,aug_closure_047_F,en,en,two people,into two boys,BACKWARD_ENTAILMENT
+aug_closure_048_F__0,aug_closure_048_F,en,en,light brown dog,a dog,FORWARD_ENTAILMENT
+aug_closure_048_F__1,aug_closure_048_F,en,en,a dog,light brown dog,BACKWARD_ENTAILMENT
+aug_closure_049_F__0,aug_closure_049_F,en,en,much more deaths,four dead,FORWARD_ENTAILMENT
+aug_closure_049_F__1,aug_closure_049_F,en,en,four dead,much more deaths,BACKWARD_ENTAILMENT
+aug_closure_050_F__0,aug_closure_050_F,en,en,obama economic tour,us government,FORWARD_ENTAILMENT
+aug_closure_050_F__1,aug_closure_050_F,en,en,us government,obama economic tour,BACKWARD_ENTAILMENT
+aug_closure_051_F__0,aug_closure_051_F,en,en,of black people,of four,FORWARD_ENTAILMENT
+aug_closure_051_F__1,aug_closure_051_F,en,en,of four,of black people,BACKWARD_ENTAILMENT
+aug_closure_052_F__0,aug_closure_052_F,en,en,of elderly people,of four,FORWARD_ENTAILMENT
+aug_closure_052_F__1,aug_closure_052_F,en,en,of four,of elderly people,BACKWARD_ENTAILMENT
+aug_closure_053_F__0,aug_closure_053_F,en,en,several large dogs,two dogs,FORWARD_ENTAILMENT
+aug_closure_053_F__1,aug_closure_053_F,en,en,two dogs,several large dogs,BACKWARD_ENTAILMENT
+aug_closure_054_F__0,aug_closure_054_F,en,en,two baby kittens,a cat,FORWARD_ENTAILMENT
+aug_closure_054_F__1,aug_closure_054_F,en,en,a cat,two baby kittens,BACKWARD_ENTAILMENT
+aug_closure_055_F__0,aug_closure_055_F,en,en,two bald eagles,two animals,FORWARD_ENTAILMENT
+aug_closure_055_F__1,aug_closure_055_F,en,en,two animals,two bald eagles,BACKWARD_ENTAILMENT
+aug_closure_056_F__0,aug_closure_056_F,en,en,two black dogs,a dog,FORWARD_ENTAILMENT
+aug_closure_056_F__1,aug_closure_056_F,en,en,a dog,two black dogs,BACKWARD_ENTAILMENT
+aug_closure_057_F__0,aug_closure_057_F,en,en,two blonde girls,two people,FORWARD_ENTAILMENT
+aug_closure_057_F__1,aug_closure_057_F,en,en,two people,two blonde girls,BACKWARD_ENTAILMENT
+aug_closure_058_F__0,aug_closure_058_F,en,en,two brownish dogs,a dog,FORWARD_ENTAILMENT
+aug_closure_058_F__1,aug_closure_058_F,en,en,a dog,two brownish dogs,BACKWARD_ENTAILMENT
+aug_closure_059_F__0,aug_closure_059_F,en,en,two grey dogs,a dog,FORWARD_ENTAILMENT
+aug_closure_059_F__1,aug_closure_059_F,en,en,a dog,two grey dogs,BACKWARD_ENTAILMENT
+aug_closure_060_F__0,aug_closure_060_F,en,en,two smiling women,a woman,FORWARD_ENTAILMENT
+aug_closure_060_F__1,aug_closure_060_F,en,en,a woman,two smiling women,BACKWARD_ENTAILMENT
+aug_closure_061_F__0,aug_closure_061_F,en,en,two tan dogs,a dog,FORWARD_ENTAILMENT
+aug_closure_061_F__1,aug_closure_061_F,en,en,a dog,two tan dogs,BACKWARD_ENTAILMENT
+aug_closure_062_F__0,aug_closure_062_F,en,en,two young women,a woman,FORWARD_ENTAILMENT
+aug_closure_062_F__1,aug_closure_062_F,en,en,a woman,two young women,BACKWARD_ENTAILMENT
+aug_closure_063_F__0,aug_closure_063_F,en,en,of black people,of four people,FORWARD_ENTAILMENT
+aug_closure_063_F__1,aug_closure_063_F,en,en,of four people,of black people,BACKWARD_ENTAILMENT
+aug_closure_064_F__0,aug_closure_064_F,en,en,of black people,of six people,FORWARD_ENTAILMENT
+aug_closure_064_F__1,aug_closure_064_F,en,en,of six people,of black people,BACKWARD_ENTAILMENT
+aug_closure_065_F__0,aug_closure_065_F,en,en,of elderly people,of four people,FORWARD_ENTAILMENT
+aug_closure_065_F__1,aug_closure_065_F,en,en,of four people,of elderly people,BACKWARD_ENTAILMENT
+aug_closure_066_F__0,aug_closure_066_F,en,en,of elderly people,of six people,FORWARD_ENTAILMENT
+aug_closure_066_F__1,aug_closure_066_F,en,en,of six people,of elderly people,BACKWARD_ENTAILMENT
+aug_closure_067_F__0,aug_closure_067_F,en,en,a man and women,person,FORWARD_ENTAILMENT
+aug_closure_067_F__1,aug_closure_067_F,en,en,person,a man and women,BACKWARD_ENTAILMENT
+aug_closure_068_F__0,aug_closure_068_F,en,en,a large white dog,a dog,FORWARD_ENTAILMENT
+aug_closure_068_F__1,aug_closure_068_F,en,en,a dog,a large white dog,BACKWARD_ENTAILMENT
+aug_closure_069_F__0,aug_closure_069_F,en,en,a man and women,a person,FORWARD_ENTAILMENT
+aug_closure_069_F__1,aug_closure_069_F,en,en,a person,a man and women,BACKWARD_ENTAILMENT
+aug_closure_070_F__0,aug_closure_070_F,en,en,a young baby girl,a girl,FORWARD_ENTAILMENT
+aug_closure_070_F__1,aug_closure_070_F,en,en,a girl,a young baby girl,BACKWARD_ENTAILMENT
+aug_closure_071_F__0,aug_closure_071_F,en,en,a young baby girl,a woman,FORWARD_ENTAILMENT
+aug_closure_071_F__1,aug_closure_071_F,en,en,a woman,a young baby girl,BACKWARD_ENTAILMENT
+aug_closure_072_F__0,aug_closure_072_F,en,en,a young baby girl,a women,FORWARD_ENTAILMENT
+aug_closure_072_F__1,aug_closure_072_F,en,en,a women,a young baby girl,BACKWARD_ENTAILMENT
+aug_closure_073_F__0,aug_closure_073_F,en,en,a young blonde girl,a girl,FORWARD_ENTAILMENT
+aug_closure_073_F__1,aug_closure_073_F,en,en,a girl,a young blonde girl,BACKWARD_ENTAILMENT
+aug_closure_074_F__0,aug_closure_074_F,en,en,a young blonde girl,a woman,FORWARD_ENTAILMENT
+aug_closure_074_F__1,aug_closure_074_F,en,en,a woman,a young blonde girl,BACKWARD_ENTAILMENT
+aug_closure_075_F__0,aug_closure_075_F,en,en,a young blonde girl,a women,FORWARD_ENTAILMENT
+aug_closure_075_F__1,aug_closure_075_F,en,en,a women,a young blonde girl,BACKWARD_ENTAILMENT
+aug_closure_076_F__0,aug_closure_076_F,en,en,in libya 's benghazi,'s benghazi,FORWARD_ENTAILMENT
+aug_closure_076_F__1,aug_closure_076_F,en,en,'s benghazi,in libya 's benghazi,BACKWARD_ENTAILMENT
+aug_closure_077_F__0,aug_closure_077_F,en,en,on an orange ball,a ball,FORWARD_ENTAILMENT
+aug_closure_077_F__1,aug_closure_077_F,en,en,a ball,on an orange ball,BACKWARD_ENTAILMENT
+aug_closure_078_F__0,aug_closure_078_F,en,en,on the blue sea,the water,FORWARD_ENTAILMENT
+aug_closure_078_F__1,aug_closure_078_F,en,en,the water,on the blue sea,BACKWARD_ENTAILMENT
+aug_closure_079_F__0,aug_closure_079_F,en,en,through a watery field,on grass,FORWARD_ENTAILMENT
+aug_closure_079_F__1,aug_closure_079_F,en,en,on grass,through a watery field,BACKWARD_ENTAILMENT
+aug_closure_080_F__0,aug_closure_080_F,en,en,two smiling young women,a woman,FORWARD_ENTAILMENT
+aug_closure_080_F__1,aug_closure_080_F,en,en,a woman,two smiling young women,BACKWARD_ENTAILMENT
+aug_closure_081_F__0,aug_closure_081_F,en,en,through a snowy field,in the snow,FORWARD_ENTAILMENT
+aug_closure_081_F__1,aug_closure_081_F,en,en,in the snow,through a snowy field,BACKWARD_ENTAILMENT
+aug_closure_082_F__0,aug_closure_082_F,en,en,through a watery field,on the grass,FORWARD_ENTAILMENT
+aug_closure_082_F__1,aug_closure_082_F,en,en,on the grass,through a watery field,BACKWARD_ENTAILMENT
+aug_closure_083_F__0,aug_closure_083_F,en,en,black and white cows,a black and white cow,FORWARD_ENTAILMENT
+aug_closure_083_F__1,aug_closure_083_F,en,en,a black and white cow,black and white cows,BACKWARD_ENTAILMENT
+aug_closure_084_F__0,aug_closure_084_F,en,en,a black and grey dog,dog,FORWARD_ENTAILMENT
+aug_closure_084_F__1,aug_closure_084_F,en,en,dog,a black and grey dog,BACKWARD_ENTAILMENT
+aug_closure_085_F__0,aug_closure_085_F,en,en,a black and tan dog,dog,FORWARD_ENTAILMENT
+aug_closure_085_F__1,aug_closure_085_F,en,en,dog,a black and tan dog,BACKWARD_ENTAILMENT
+aug_closure_086_F__0,aug_closure_086_F,en,en,a black and white dog,dog,FORWARD_ENTAILMENT
+aug_closure_086_F__1,aug_closure_086_F,en,en,dog,a black and white dog,BACKWARD_ENTAILMENT
+aug_closure_087_F__0,aug_closure_087_F,en,en,four women and two men,person,FORWARD_ENTAILMENT
+aug_closure_087_F__1,aug_closure_087_F,en,en,person,four women and two men,BACKWARD_ENTAILMENT
+aug_closure_088_F__0,aug_closure_088_F,en,en,a black and grey dog,a dog,FORWARD_ENTAILMENT
+aug_closure_088_F__1,aug_closure_088_F,en,en,a dog,a black and grey dog,BACKWARD_ENTAILMENT
+aug_closure_089_F__0,aug_closure_089_F,en,en,a black and tan dog,a dog,FORWARD_ENTAILMENT
+aug_closure_089_F__1,aug_closure_089_F,en,en,a dog,a black and tan dog,BACKWARD_ENTAILMENT
+aug_closure_090_F__0,aug_closure_090_F,en,en,elderly woman around younger woman,a woman,FORWARD_ENTAILMENT
+aug_closure_090_F__1,aug_closure_090_F,en,en,a woman,elderly woman around younger woman,BACKWARD_ENTAILMENT
+aug_closure_091_F__0,aug_closure_091_F,en,en,four women and two men,a person,FORWARD_ENTAILMENT
+aug_closure_091_F__1,aug_closure_091_F,en,en,a person,four women and two men,BACKWARD_ENTAILMENT
+aug_closure_092_F__0,aug_closure_092_F,en,en,four women and two men,the man,FORWARD_ENTAILMENT
+aug_closure_092_F__1,aug_closure_092_F,en,en,the man,four women and two men,BACKWARD_ENTAILMENT
+aug_closure_093_F__0,aug_closure_093_F,en,en,four women and two men,the woman,FORWARD_ENTAILMENT
+aug_closure_093_F__1,aug_closure_093_F,en,en,the woman,four women and two men,BACKWARD_ENTAILMENT
+aug_closure_094_F__0,aug_closure_094_F,en,en,thailand 's opposition democrat party,thai opposition,FORWARD_ENTAILMENT
+aug_closure_094_F__1,aug_closure_094_F,en,en,thai opposition,thailand 's opposition democrat party,BACKWARD_ENTAILMENT
+aug_closure_095_F__0,aug_closure_095_F,en,en,around a restaurant dining table,around a table,FORWARD_ENTAILMENT
+aug_closure_095_F__1,aug_closure_095_F,en,en,around a table,around a restaurant dining table,BACKWARD_ENTAILMENT
+aug_closure_096_F__0,aug_closure_096_F,en,en,around a restaurant dining table,at a table,FORWARD_ENTAILMENT
+aug_closure_096_F__1,aug_closure_096_F,en,en,at a table,around a restaurant dining table,BACKWARD_ENTAILMENT
+aug_closure_097_F__0,aug_closure_097_F,en,en,in middle of grassy field,in a field,FORWARD_ENTAILMENT
+aug_closure_097_F__1,aug_closure_097_F,en,en,in a field,in middle of grassy field,BACKWARD_ENTAILMENT
+aug_closure_098_F__0,aug_closure_098_F,en,en,in face of egypt govt threat,egypt,FORWARD_ENTAILMENT
+aug_closure_098_F__1,aug_closure_098_F,en,en,egypt,in face of egypt govt threat,BACKWARD_ENTAILMENT
+aug_closure_099_F__0,aug_closure_099_F,en,en,one asian and one occasion woman,a woman,FORWARD_ENTAILMENT
+aug_closure_099_F__1,aug_closure_099_F,en,en,a woman,one asian and one occasion woman,BACKWARD_ENTAILMENT
+aug_closure_100_F__0,aug_closure_100_F,en,en,a little girl and a little boy,one,FORWARD_ENTAILMENT
+aug_closure_100_F__1,aug_closure_100_F,en,en,one,a little girl and a little boy,BACKWARD_ENTAILMENT
+aug_closure_101_F__0,aug_closure_101_F,en,en,"a black , brown and white dog",a dog,FORWARD_ENTAILMENT
+aug_closure_101_F__1,aug_closure_101_F,en,en,a dog,"a black , brown and white dog",BACKWARD_ENTAILMENT
+aug_closure_102_F__0,aug_closure_102_F,en,en,a little girl and a little boy,a girl,FORWARD_ENTAILMENT
+aug_closure_102_F__1,aug_closure_102_F,en,en,a girl,a little girl and a little boy,BACKWARD_ENTAILMENT
+aug_closure_103_F__0,aug_closure_103_F,en,en,an old red london double decker bus,a bus,FORWARD_ENTAILMENT
+aug_closure_103_F__1,aug_closure_103_F,en,en,a bus,an old red london double decker bus,BACKWARD_ENTAILMENT
+aug_closure_104_F__0,aug_closure_104_F,en,en,the red train and the yellow train,the train,FORWARD_ENTAILMENT
+aug_closure_104_F__1,aug_closure_104_F,en,en,the train,the red train and the yellow train,BACKWARD_ENTAILMENT
+aug_closure_105_F__0,aug_closure_105_F,en,en,"a black , brown and white dog",a black dog,FORWARD_ENTAILMENT
+aug_closure_105_F__1,aug_closure_105_F,en,en,a black dog,"a black , brown and white dog",BACKWARD_ENTAILMENT
+aug_closure_106_F__0,aug_closure_106_F,en,en,an old red london double decker bus,a double decker bus,FORWARD_ENTAILMENT
+aug_closure_106_F__1,aug_closure_106_F,en,en,a double decker bus,an old red london double decker bus,BACKWARD_ENTAILMENT
+aug_closure_107_F__0,aug_closure_107_F,en,en,"a gray , black , and white cat",the cat,FORWARD_ENTAILMENT
+aug_closure_107_F__1,aug_closure_107_F,en,en,the cat,"a gray , black , and white cat",BACKWARD_ENTAILMENT
+aug_closure_108_E__0,aug_closure_108_E,en,en,play,plays,EQUIVALENCE
+aug_closure_108_E__1,aug_closure_108_E,en,en,plays,play,EQUIVALENCE
+aug_closure_109_E__0,aug_closure_109_E,en,en,plays,play,EQUIVALENCE
+aug_closure_109_E__1,aug_closure_109_E,en,en,play,plays,EQUIVALENCE
+aug_closure_110_E__0,aug_closure_110_E,en,en,run,runs,EQUIVALENCE
+aug_closure_110_E__1,aug_closure_110_E,en,en,runs,run,EQUIVALENCE
+aug_closure_111_E__0,aug_closure_111_E,en,en,runs,run,EQUIVALENCE
+aug_closure_111_E__1,aug_closure_111_E,en,en,run,runs,EQUIVALENCE
+aug_closure_112_E__0,aug_closure_112_E,en,en,seated,sit,EQUIVALENCE
+aug_closure_112_E__1,aug_closure_112_E,en,en,sit,seated,EQUIVALENCE
+aug_closure_113_E__0,aug_closure_113_E,en,en,sit,seated,EQUIVALENCE
+aug_closure_113_E__1,aug_closure_113_E,en,en,seated,sit,EQUIVALENCE
+aug_closure_114_E__0,aug_closure_114_E,en,en,crowd,a collection,EQUIVALENCE
+aug_closure_114_E__1,aug_closure_114_E,en,en,a collection,crowd,EQUIVALENCE
+aug_closure_115_E__0,aug_closure_115_E,en,en,eats,consuming food,EQUIVALENCE
+aug_closure_115_E__1,aug_closure_115_E,en,en,consuming food,eats,EQUIVALENCE
+aug_closure_116_E__0,aug_closure_116_E,en,en,holding,is holding,EQUIVALENCE
+aug_closure_116_E__1,aug_closure_116_E,en,en,is holding,holding,EQUIVALENCE
+aug_closure_117_E__0,aug_closure_117_E,en,en,man,the man,EQUIVALENCE
+aug_closure_117_E__1,aug_closure_117_E,en,en,the man,man,EQUIVALENCE
+aug_closure_118_E__0,aug_closure_118_E,en,en,perches,is sitting,EQUIVALENCE
+aug_closure_118_E__1,aug_closure_118_E,en,en,is sitting,perches,EQUIVALENCE
+aug_closure_119_E__0,aug_closure_119_E,en,en,philippines,the philippines,EQUIVALENCE
+aug_closure_119_E__1,aug_closure_119_E,en,en,the philippines,philippines,EQUIVALENCE
+aug_closure_120_E__0,aug_closure_120_E,en,en,walking,is walking,EQUIVALENCE
+aug_closure_120_E__1,aug_closure_120_E,en,en,is walking,walking,EQUIVALENCE
+aug_closure_121_E__0,aug_closure_121_E,en,en,holds,keeping hold of,EQUIVALENCE
+aug_closure_121_E__1,aug_closure_121_E,en,en,keeping hold of,holds,EQUIVALENCE
+aug_closure_122_E__0,aug_closure_122_E,en,en,play,engaging in play,EQUIVALENCE
+aug_closure_122_E__1,aug_closure_122_E,en,en,engaging in play,play,EQUIVALENCE
+aug_closure_123_E__0,aug_closure_123_E,en,en,plays,engaging in play,EQUIVALENCE
+aug_closure_123_E__1,aug_closure_123_E,en,en,engaging in play,plays,EQUIVALENCE
+aug_closure_124_E__0,aug_closure_124_E,en,en,rides,traveling while mounted,EQUIVALENCE
+aug_closure_124_E__1,aug_closure_124_E,en,en,traveling while mounted,rides,EQUIVALENCE
+aug_closure_125_E__0,aug_closure_125_E,en,en,a collection,crowd,EQUIVALENCE
+aug_closure_125_E__1,aug_closure_125_E,en,en,crowd,a collection,EQUIVALENCE
+aug_closure_126_E__0,aug_closure_126_E,en,en,consuming food,eats,EQUIVALENCE
+aug_closure_126_E__1,aug_closure_126_E,en,en,eats,consuming food,EQUIVALENCE
+aug_closure_127_E__0,aug_closure_127_E,en,en,is holding,holding,EQUIVALENCE
+aug_closure_127_E__1,aug_closure_127_E,en,en,holding,is holding,EQUIVALENCE
+aug_closure_128_E__0,aug_closure_128_E,en,en,is sitting,perches,EQUIVALENCE
+aug_closure_128_E__1,aug_closure_128_E,en,en,perches,is sitting,EQUIVALENCE
+aug_closure_129_E__0,aug_closure_129_E,en,en,is walking,walking,EQUIVALENCE
+aug_closure_129_E__1,aug_closure_129_E,en,en,walking,is walking,EQUIVALENCE
+aug_closure_130_E__0,aug_closure_130_E,en,en,the man,man,EQUIVALENCE
+aug_closure_130_E__1,aug_closure_130_E,en,en,man,the man,EQUIVALENCE
+aug_closure_131_E__0,aug_closure_131_E,en,en,the philippines,philippines,EQUIVALENCE
+aug_closure_131_E__1,aug_closure_131_E,en,en,philippines,the philippines,EQUIVALENCE
+aug_closure_132_E__0,aug_closure_132_E,en,en,'s killing,among dead,EQUIVALENCE
+aug_closure_132_E__1,aug_closure_132_E,en,en,among dead,'s killing,EQUIVALENCE
+aug_closure_133_E__0,aug_closure_133_E,en,en,among dead,'s killing,EQUIVALENCE
+aug_closure_133_E__1,aug_closure_133_E,en,en,'s killing,among dead,EQUIVALENCE
+aug_closure_134_E__0,aug_closure_134_E,en,en,announces retirement,to retire,EQUIVALENCE
+aug_closure_134_E__1,aug_closure_134_E,en,en,to retire,announces retirement,EQUIVALENCE
+aug_closure_135_E__0,aug_closure_135_E,en,en,are playing,is playing,EQUIVALENCE
+aug_closure_135_E__1,aug_closure_135_E,en,en,is playing,are playing,EQUIVALENCE
+aug_closure_136_E__0,aug_closure_136_E,en,en,is holding,to hold,EQUIVALENCE
+aug_closure_136_E__1,aug_closure_136_E,en,en,to hold,is holding,EQUIVALENCE
+aug_closure_137_E__0,aug_closure_137_E,en,en,is jumping,is leaping,EQUIVALENCE
+aug_closure_137_E__1,aug_closure_137_E,en,en,is leaping,is jumping,EQUIVALENCE
+aug_closure_138_E__0,aug_closure_138_E,en,en,is leaping,is jumping,EQUIVALENCE
+aug_closure_138_E__1,aug_closure_138_E,en,en,is jumping,is leaping,EQUIVALENCE
+aug_closure_139_E__0,aug_closure_139_E,en,en,is playing,are playing,EQUIVALENCE
+aug_closure_139_E__1,aug_closure_139_E,en,en,are playing,is playing,EQUIVALENCE
+aug_closure_140_E__0,aug_closure_140_E,en,en,to hold,is holding,EQUIVALENCE
+aug_closure_140_E__1,aug_closure_140_E,en,en,is holding,to hold,EQUIVALENCE
+aug_closure_141_E__0,aug_closure_141_E,en,en,to retire,announces retirement,EQUIVALENCE
+aug_closure_141_E__1,aug_closure_141_E,en,en,announces retirement,to retire,EQUIVALENCE
+aug_closure_142_E__0,aug_closure_142_E,en,en,amid snow,within the snow,EQUIVALENCE
+aug_closure_142_E__1,aug_closure_142_E,en,en,within the snow,amid snow,EQUIVALENCE
+aug_closure_143_E__0,aug_closure_143_E,en,en,has seized,has been captured,EQUIVALENCE
+aug_closure_143_E__1,aug_closure_143_E,en,en,has been captured,has seized,EQUIVALENCE
+aug_closure_144_E__0,aug_closure_144_E,en,en,in snow,in the snow,EQUIVALENCE
+aug_closure_144_E__1,aug_closure_144_E,en,en,in the snow,in snow,EQUIVALENCE
+aug_closure_145_E__0,aug_closure_145_E,en,en,amid snow,in the white snow,EQUIVALENCE
+aug_closure_145_E__1,aug_closure_145_E,en,en,in the white snow,amid snow,EQUIVALENCE
+aug_closure_146_E__0,aug_closure_146_E,en,en,remain upright,maintaining an upright stance,EQUIVALENCE
+aug_closure_146_E__1,aug_closure_146_E,en,en,maintaining an upright stance,remain upright,EQUIVALENCE
+aug_closure_147_E__0,aug_closure_147_E,en,en,engaging in play,play,EQUIVALENCE
+aug_closure_147_E__1,aug_closure_147_E,en,en,play,engaging in play,EQUIVALENCE
+aug_closure_148_E__0,aug_closure_148_E,en,en,engaging in play,plays,EQUIVALENCE
+aug_closure_148_E__1,aug_closure_148_E,en,en,plays,engaging in play,EQUIVALENCE
+aug_closure_149_E__0,aug_closure_149_E,en,en,keeping hold of,holds,EQUIVALENCE
+aug_closure_149_E__1,aug_closure_149_E,en,en,holds,keeping hold of,EQUIVALENCE
+aug_closure_150_E__0,aug_closure_150_E,en,en,traveling while mounted,rides,EQUIVALENCE
+aug_closure_150_E__1,aug_closure_150_E,en,en,rides,traveling while mounted,EQUIVALENCE
+aug_closure_151_E__0,aug_closure_151_E,en,en,has been captured,has seized,EQUIVALENCE
+aug_closure_151_E__1,aug_closure_151_E,en,en,has seized,has been captured,EQUIVALENCE
+aug_closure_152_E__0,aug_closure_152_E,en,en,in the snow,in snow,EQUIVALENCE
+aug_closure_152_E__1,aug_closure_152_E,en,en,in snow,in the snow,EQUIVALENCE
+aug_closure_153_E__0,aug_closure_153_E,en,en,within the snow,amid snow,EQUIVALENCE
+aug_closure_153_E__1,aug_closure_153_E,en,en,amid snow,within the snow,EQUIVALENCE
+aug_closure_154_E__0,aug_closure_154_E,en,en,a brown dog,the brown dog,EQUIVALENCE
+aug_closure_154_E__1,aug_closure_154_E,en,en,the brown dog,a brown dog,EQUIVALENCE
+aug_closure_155_E__0,aug_closure_155_E,en,en,assuming a pose,holding a pose,EQUIVALENCE
+aug_closure_155_E__1,aug_closure_155_E,en,en,holding a pose,assuming a pose,EQUIVALENCE
+aug_closure_156_E__0,aug_closure_156_E,en,en,casting its gaze,directing its gaze,EQUIVALENCE
+aug_closure_156_E__1,aug_closure_156_E,en,en,directing its gaze,casting its gaze,EQUIVALENCE
+aug_closure_157_E__0,aug_closure_157_E,en,en,directing its gaze,casting its gaze,EQUIVALENCE
+aug_closure_157_E__1,aug_closure_157_E,en,en,casting its gaze,directing its gaze,EQUIVALENCE
+aug_closure_158_E__0,aug_closure_158_E,en,en,holding a pose,assuming a pose,EQUIVALENCE
+aug_closure_158_E__1,aug_closure_158_E,en,en,assuming a pose,holding a pose,EQUIVALENCE
+aug_closure_159_E__0,aug_closure_159_E,en,en,the adult male,the male adult,EQUIVALENCE
+aug_closure_159_E__1,aug_closure_159_E,en,en,the male adult,the adult male,EQUIVALENCE
+aug_closure_160_E__0,aug_closure_160_E,en,en,the brown dog,a brown dog,EQUIVALENCE
+aug_closure_160_E__1,aug_closure_160_E,en,en,a brown dog,the brown dog,EQUIVALENCE
+aug_closure_161_E__0,aug_closure_161_E,en,en,the male adult,the adult male,EQUIVALENCE
+aug_closure_161_E__1,aug_closure_161_E,en,en,the adult male,the male adult,EQUIVALENCE
+aug_closure_162_E__0,aug_closure_162_E,en,en,a close-up view,an enlarged detail view,EQUIVALENCE
+aug_closure_162_E__1,aug_closure_162_E,en,en,an enlarged detail view,a close-up view,EQUIVALENCE
+aug_closure_163_E__0,aug_closure_163_E,en,en,atop grassy ground,atop the grassy ground,EQUIVALENCE
+aug_closure_163_E__1,aug_closure_163_E,en,en,atop the grassy ground,atop grassy ground,EQUIVALENCE
+aug_closure_164_E__0,aug_closure_164_E,en,en,immersed in water,immersed in the water,EQUIVALENCE
+aug_closure_164_E__1,aug_closure_164_E,en,en,immersed in the water,immersed in water,EQUIVALENCE
+aug_closure_165_E__0,aug_closure_165_E,en,en,immersed in water,located within the water,EQUIVALENCE
+aug_closure_165_E__1,aug_closure_165_E,en,en,located within the water,immersed in water,EQUIVALENCE
+aug_closure_166_E__0,aug_closure_166_E,en,en,in a plain,within an open field,EQUIVALENCE
+aug_closure_166_E__1,aug_closure_166_E,en,en,within an open field,in a plain,EQUIVALENCE
+aug_closure_167_E__0,aug_closure_167_E,en,en,the male child,the young male child,EQUIVALENCE
+aug_closure_167_E__1,aug_closure_167_E,en,en,the young male child,the male child,EQUIVALENCE
+aug_closure_168_E__0,aug_closure_168_E,en,en,the rail conveyance,the rail passenger vehicle,EQUIVALENCE
+aug_closure_168_E__1,aug_closure_168_E,en,en,the rail passenger vehicle,the rail conveyance,EQUIVALENCE
+aug_closure_169_E__0,aug_closure_169_E,en,en,upon railway lines,on the railroad tracks,EQUIVALENCE
+aug_closure_169_E__1,aug_closure_169_E,en,en,on the railroad tracks,upon railway lines,EQUIVALENCE
+aug_closure_170_E__0,aug_closure_170_E,en,en,within the snow,in the white snow,EQUIVALENCE
+aug_closure_170_E__1,aug_closure_170_E,en,en,in the white snow,within the snow,EQUIVALENCE
+aug_closure_171_E__0,aug_closure_171_E,en,en,a brown-colored equine,an equine whose coat is brown,EQUIVALENCE
+aug_closure_171_E__1,aug_closure_171_E,en,en,an equine whose coat is brown,a brown-colored equine,EQUIVALENCE
+aug_closure_172_E__0,aug_closure_172_E,en,en,in the white snow,amid snow,EQUIVALENCE
+aug_closure_172_E__1,aug_closure_172_E,en,en,amid snow,in the white snow,EQUIVALENCE
+aug_closure_173_E__0,aug_closure_173_E,en,en,maintaining an upright stance,remain upright,EQUIVALENCE
+aug_closure_173_E__1,aug_closure_173_E,en,en,remain upright,maintaining an upright stance,EQUIVALENCE
+aug_closure_174_E__0,aug_closure_174_E,en,en,an enlarged detail view,a close-up view,EQUIVALENCE
+aug_closure_174_E__1,aug_closure_174_E,en,en,a close-up view,an enlarged detail view,EQUIVALENCE
+aug_closure_175_E__0,aug_closure_175_E,en,en,atop the grassy ground,atop grassy ground,EQUIVALENCE
+aug_closure_175_E__1,aug_closure_175_E,en,en,atop grassy ground,atop the grassy ground,EQUIVALENCE
+aug_closure_176_E__0,aug_closure_176_E,en,en,immersed in the water,immersed in water,EQUIVALENCE
+aug_closure_176_E__1,aug_closure_176_E,en,en,immersed in water,immersed in the water,EQUIVALENCE
+aug_closure_177_E__0,aug_closure_177_E,en,en,in the white snow,within the snow,EQUIVALENCE
+aug_closure_177_E__1,aug_closure_177_E,en,en,within the snow,in the white snow,EQUIVALENCE
+aug_closure_178_E__0,aug_closure_178_E,en,en,located within the water,immersed in water,EQUIVALENCE
+aug_closure_178_E__1,aug_closure_178_E,en,en,immersed in water,located within the water,EQUIVALENCE
+aug_closure_179_E__0,aug_closure_179_E,en,en,on the railroad tracks,upon railway lines,EQUIVALENCE
+aug_closure_179_E__1,aug_closure_179_E,en,en,upon railway lines,on the railroad tracks,EQUIVALENCE
+aug_closure_180_E__0,aug_closure_180_E,en,en,the rail passenger vehicle,the rail conveyance,EQUIVALENCE
+aug_closure_180_E__1,aug_closure_180_E,en,en,the rail conveyance,the rail passenger vehicle,EQUIVALENCE
+aug_closure_181_E__0,aug_closure_181_E,en,en,the young male child,the male child,EQUIVALENCE
+aug_closure_181_E__1,aug_closure_181_E,en,en,the male child,the young male child,EQUIVALENCE
+aug_closure_182_E__0,aug_closure_182_E,en,en,within an open field,in a plain,EQUIVALENCE
+aug_closure_182_E__1,aug_closure_182_E,en,en,in a plain,within an open field,EQUIVALENCE
+aug_closure_183_E__0,aug_closure_183_E,en,en,a pair of dogs,the pair of canines,EQUIVALENCE
+aug_closure_183_E__1,aug_closure_183_E,en,en,the pair of canines,a pair of dogs,EQUIVALENCE
+aug_closure_184_E__0,aug_closure_184_E,en,en,across the water's surface,afloat on the water,EQUIVALENCE
+aug_closure_184_E__1,aug_closure_184_E,en,en,afloat on the water,across the water's surface,EQUIVALENCE
+aug_closure_185_E__0,aug_closure_185_E,en,en,afloat on the water,across the water's surface,EQUIVALENCE
+aug_closure_185_E__1,aug_closure_185_E,en,en,across the water's surface,afloat on the water,EQUIVALENCE
+aug_closure_186_E__0,aug_closure_186_E,en,en,at the rail-transport terminal,at the railway terminal,EQUIVALENCE
+aug_closure_186_E__1,aug_closure_186_E,en,en,at the railway terminal,at the rail-transport terminal,EQUIVALENCE
+aug_closure_187_E__0,aug_closure_187_E,en,en,at the railway terminal,at the rail-transport terminal,EQUIVALENCE
+aug_closure_187_E__1,aug_closure_187_E,en,en,at the rail-transport terminal,at the railway terminal,EQUIVALENCE
+aug_closure_188_E__0,aug_closure_188_E,en,en,immersed in the water,located within the water,EQUIVALENCE
+aug_closure_188_E__1,aug_closure_188_E,en,en,located within the water,immersed in the water,EQUIVALENCE
+aug_closure_189_E__0,aug_closure_189_E,en,en,located within the water,immersed in the water,EQUIVALENCE
+aug_closure_189_E__1,aug_closure_189_E,en,en,immersed in the water,located within the water,EQUIVALENCE
+aug_closure_190_E__0,aug_closure_190_E,en,en,the pair of canines,a pair of dogs,EQUIVALENCE
+aug_closure_190_E__1,aug_closure_190_E,en,en,a pair of dogs,the pair of canines,EQUIVALENCE
+aug_closure_191_E__0,aug_closure_191_E,en,en,across the water's surface,in a body of water,EQUIVALENCE
+aug_closure_191_E__1,aug_closure_191_E,en,en,in a body of water,across the water's surface,EQUIVALENCE
+aug_closure_192_E__0,aug_closure_192_E,en,en,afloat on the water,in a body of water,EQUIVALENCE
+aug_closure_192_E__1,aug_closure_192_E,en,en,in a body of water,afloat on the water,EQUIVALENCE
+aug_closure_193_E__0,aug_closure_193_E,en,en,entering a transport terminal,moving into a transport terminal,EQUIVALENCE
+aug_closure_193_E__1,aug_closure_193_E,en,en,moving into a transport terminal,entering a transport terminal,EQUIVALENCE
+aug_closure_194_E__0,aug_closure_194_E,en,en,nobel author doris lessing,nobel prize winning author doris lessing,EQUIVALENCE
+aug_closure_194_E__1,aug_closure_194_E,en,en,nobel prize winning author doris lessing,nobel author doris lessing,EQUIVALENCE
+aug_closure_195_E__0,aug_closure_195_E,en,en,in a body of water,across the water's surface,EQUIVALENCE
+aug_closure_195_E__1,aug_closure_195_E,en,en,across the water's surface,in a body of water,EQUIVALENCE
+aug_closure_196_E__0,aug_closure_196_E,en,en,in a body of water,afloat on the water,EQUIVALENCE
+aug_closure_196_E__1,aug_closure_196_E,en,en,afloat on the water,in a body of water,EQUIVALENCE
+aug_closure_197_E__0,aug_closure_197_E,en,en,moving into a transport terminal,entering a transport terminal,EQUIVALENCE
+aug_closure_197_E__1,aug_closure_197_E,en,en,entering a transport terminal,moving into a transport terminal,EQUIVALENCE
+aug_closure_198_E__0,aug_closure_198_E,en,en,a canine with black-and-white fur,the canine with black-and-white fur,EQUIVALENCE
+aug_closure_198_E__1,aug_closure_198_E,en,en,the canine with black-and-white fur,a canine with black-and-white fur,EQUIVALENCE
+aug_closure_199_E__0,aug_closure_199_E,en,en,a white and brown dog,the white and brown dog,EQUIVALENCE
+aug_closure_199_E__1,aug_closure_199_E,en,en,the white and brown dog,a white and brown dog,EQUIVALENCE
+aug_closure_200_E__0,aug_closure_200_E,en,en,the canine with black-and-white fur,a canine with black-and-white fur,EQUIVALENCE
+aug_closure_200_E__1,aug_closure_200_E,en,en,a canine with black-and-white fur,the canine with black-and-white fur,EQUIVALENCE
+aug_closure_201_E__0,aug_closure_201_E,en,en,the white and brown dog,a white and brown dog,EQUIVALENCE
+aug_closure_201_E__1,aug_closure_201_E,en,en,a white and brown dog,the white and brown dog,EQUIVALENCE
+aug_closure_202_E__0,aug_closure_202_E,en,en,a photograph rendered in monochrome,this is a black and white picture,EQUIVALENCE
+aug_closure_202_E__1,aug_closure_202_E,en,en,this is a black and white picture,a photograph rendered in monochrome,EQUIVALENCE
+aug_closure_203_E__0,aug_closure_203_E,en,en,an equine whose coat is brown,a brown-colored equine,EQUIVALENCE
+aug_closure_203_E__1,aug_closure_203_E,en,en,a brown-colored equine,an equine whose coat is brown,EQUIVALENCE
+aug_closure_204_E__0,aug_closure_204_E,en,en,nobel prize winning author doris lessing,nobel author doris lessing,EQUIVALENCE
+aug_closure_204_E__1,aug_closure_204_E,en,en,nobel author doris lessing,nobel prize winning author doris lessing,EQUIVALENCE
+aug_closure_205_E__0,aug_closure_205_E,en,en,this is a black and white picture,a photograph rendered in monochrome,EQUIVALENCE
+aug_closure_205_E__1,aug_closure_205_E,en,en,a photograph rendered in monochrome,this is a black and white picture,EQUIVALENCE

@@ -1,0 +1,75 @@
+{
+  "run_name": "run01_original_manual",
+  "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "seed": 42,
+  "epochs": 10,
+  "max_length": 128,
+  "dtype": "float32",
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "row_batch_size": 16,
+  "pair_batch_size": 16,
+  "dev_batch_size": 16,
+  "row_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.5
+  ],
+  "pair_weights": [
+    1.0,
+    1.0,
+    1.25
+  ],
+  "pair_weight": 0.5,
+  "pair_label_smoothing": 0.05,
+  "freeze_embeddings": false,
+  "freeze_first_n_layers": 0,
+  "use_lexical_features": false,
+  "augmentation": {
+    "mode": "manual",
+    "original_rows": 3042,
+    "baseline_rows": 3242,
+    "old_scope_rows": 200,
+    "extra_rows": 80,
+    "train_rows": 3322,
+    "dev_rows": 660,
+    "extra_class_counts": {
+      "FORWARD_ENTAILMENT": 20,
+      "BACKWARD_ENTAILMENT": 20,
+      "EQUIVALENCE": 20,
+      "NEGATIVE_OTHER": 20
+    },
+    "effective_train_sha256": "3e7a566e747e58378fd2df96f1ba4b9894a6e18c13c7bafd4387a586f8e5338a",
+    "manual_source_sha256": "768775fc6b2c76b089c5194a5855450a54bddb3b2963652314dfa7291d58bb98",
+    "baseline_snapshot_canonical_sha256": "3a482bf7b0bcd2d6bb44acc3c63e9c83623b136e3eb778e796ec8b509cf0b733",
+    "annotation_note": "Assistant-handcrafted draft; no independent human adjudication; Dev-guided family selection disclosed.",
+    "new_manual_vs_dev": {
+      "word_intersection": [],
+      "word_intersection_count": 0,
+      "porter_stem_intersection": [],
+      "porter_stem_intersection_count": 0,
+      "whole_phrase_intersection": [],
+      "whole_phrase_intersection_count": 0,
+      "unordered_pair_intersection": [],
+      "unordered_pair_intersection_count": 0
+    },
+    "audit_scope": "Zero vocabulary/stem overlap applies to NEW MANUAL rows; old scope/Train/copy control are separately audited."
+  },
+  "trainable_parameters": 184001800,
+  "total_parameters": 184001800,
+  "real_pairs": 1392,
+  "row_steps_per_epoch": 208,
+  "pair_steps_per_epoch": 87,
+  "training_order": "all Row CE batches, then all Real Pair CE batches",
+  "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
+  "historical_reference": 0.9354929652717138,
+  "comparison_note": "Keep original two-stage recipe and exact 3242-row scope snapshot; add handcrafted rows. Use copy mode for matched row counts, class counts and update budget.",
+  "source_sha256": {
+    "train_original_manual.py": "99cbff31ad336434ac6d79209b278d232fc443cfa028026a724c6b2dc53969fa",
+    "prepare_manual_data.py": "5133bd8c79c900ad4ed08eff1f75ba0fce2ef03d188507259af5bcded0da9aae",
+    "manual_examples.csv": "768775fc6b2c76b089c5194a5855450a54bddb3b2963652314dfa7291d58bb98"
+  },
+  "train_sha256": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211",
+  "dev_sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511"
+}

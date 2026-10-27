@@ -1,0 +1,661 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label,logit_F,logit_B,logit_E,logit_N,prediction,pair_prediction
+dico_phrasis_0000002__en-en__flipped,dico_phrasis_0000002,en,en,'s war shrine visit,'s shrine visit,FORWARD_ENTAILMENT,-0.071783134300904,-7.203712738016641,-6.30383961792727,-7.433520797848103,F,F
+dico_phrasis_0000002__en-en__original,dico_phrasis_0000002,en,en,'s shrine visit,'s war shrine visit,BACKWARD_ENTAILMENT,-7.066511929564105,-0.2290588957890137,-6.998139842631844,-8.117094555777735,B,B
+dico_phrasis_0000004__en-en__flipped,dico_phrasis_0000004,en,en,anti-protest laws,anti-protest law,FORWARD_ENTAILMENT,-0.1617053220375419,-6.36364842153629,-5.579578078757131,-5.4122269620204015,F,F
+dico_phrasis_0000004__en-en__original,dico_phrasis_0000004,en,en,anti-protest law,anti-protest laws,BACKWARD_ENTAILMENT,-6.1057380061203945,-0.6440802535270368,-5.359813498542181,-5.087569040144952,B,B
+dico_phrasis_0000008__en-en__flipped,dico_phrasis_0000008,en,en,Iran nuclear experts and also world powers,World powers and Iran,FORWARD_ENTAILMENT,-0.1515545267322921,-6.730645201450514,-4.902533478385137,-5.388034862126833,F,F
+dico_phrasis_0000008__en-en__original,dico_phrasis_0000008,en,en,World powers and Iran,Iran nuclear experts and also world powers,BACKWARD_ENTAILMENT,-5.539672961280014,-0.7524279509437743,-4.21429436449733,-6.139749959553545,B,B
+dico_phrasis_0000010__en-en__flipped,dico_phrasis_0000010,en,en,Nine children,Five children,FORWARD_ENTAILMENT,-0.0695955185223864,-6.970933221591437,-7.420285714480205,-6.103969969166244,F,F
+dico_phrasis_0000010__en-en__original,dico_phrasis_0000010,en,en,Five children,Nine children,BACKWARD_ENTAILMENT,-5.941552689882964,-0.1193755529451857,-6.754759297979722,-5.644088735146173,B,B
+dico_phrasis_0000018__en-en__flipped,dico_phrasis_0000018,en,en,of all Rage rallies,march of anger,FORWARD_ENTAILMENT,-1.2856055623684113,-6.3175540046288345,-3.3947692490015213,-3.017637816706676,F,F
+dico_phrasis_0000018__en-en__original,dico_phrasis_0000018,en,en,march of anger,of all Rage rallies,BACKWARD_ENTAILMENT,-5.744650829356487,-1.3306711798127244,-3.4271271263773984,-3.672481475791906,B,B
+dico_phrasis_0000019__en-en__flipped,dico_phrasis_0000019,en,en,Security video,Video,FORWARD_ENTAILMENT,-0.1167156172705701,-6.953207288971843,-6.017340759228965,-7.429237966528834,F,F
+dico_phrasis_0000019__en-en__original,dico_phrasis_0000019,en,en,Video,Security video,BACKWARD_ENTAILMENT,-6.403311556604501,-0.2685698479682166,-5.985292296635108,-6.64988338304261,B,B
+dico_phrasis_0000021__en-en__flipped,dico_phrasis_0000021,en,en,Six killed,One dead,FORWARD_ENTAILMENT,-0.0795576520851074,-7.021773665953757,-6.593982502628447,-6.011115963070672,F,F
+dico_phrasis_0000021__en-en__original,dico_phrasis_0000021,en,en,One dead,Six killed,BACKWARD_ENTAILMENT,-6.193480374417006,-0.3057572339984759,-6.733750186365146,-5.3221448878460125,B,B
+dico_phrasis_0000023__en-en__flipped,dico_phrasis_0000023,en,en,Pope Francis,pope,FORWARD_ENTAILMENT,-0.2027513407684237,-6.84768827984898,-5.308232637546149,-7.065405197244573,F,F
+dico_phrasis_0000023__en-en__original,dico_phrasis_0000023,en,en,pope,Pope Francis,BACKWARD_ENTAILMENT,-5.06080312989818,-0.509915922707985,-3.362372892227441,-4.52217823229896,B,B
+dico_phrasis_0000024__en-en__flipped,dico_phrasis_0000024,en,en,in destroying,destroy,FORWARD_ENTAILMENT,-0.4362856865157478,-6.558451316776851,-3.2916470786164,-3.927028426426628,F,F
+dico_phrasis_0000024__en-en__original,dico_phrasis_0000024,en,en,destroy,in destroying,BACKWARD_ENTAILMENT,-5.998876853059784,-0.5791716570864679,-3.940846630206759,-4.651652743564105,B,B
+dico_phrasis_0000030__en-en__flipped,dico_phrasis_0000030,en,en,Wikileaks soldier Bradley Manning,Bradley Manning,FORWARD_ENTAILMENT,-0.1515356849450255,-6.917258622826971,-5.992443703196284,-7.131739487331944,F,F
+dico_phrasis_0000030__en-en__original,dico_phrasis_0000030,en,en,Bradley Manning,Wikileaks soldier Bradley Manning,BACKWARD_ENTAILMENT,-5.872435734666508,-0.8421258191239037,-5.293189432220777,-4.555552235242844,B,B
+dico_phrasis_0000031__en-en__flipped,dico_phrasis_0000031,en,en,Brazil crowds,Brazil,FORWARD_ENTAILMENT,-0.2868502193764559,-6.024801031159928,-5.538774545398922,-4.498036966132691,F,F
+dico_phrasis_0000031__en-en__original,dico_phrasis_0000031,en,en,Brazil,Brazil crowds,BACKWARD_ENTAILMENT,-4.976805516052516,-0.8677952517750575,-5.102038803665113,-3.562509552109511,B,B
+dico_phrasis_0000034__en-en__flipped,dico_phrasis_0000034,en,en,"Venezuela Government , Opposition Head",Venezuelan opposition leader,FORWARD_ENTAILMENT,-1.2172805547408994,-5.798063271213844,-3.0943921312384544,-2.368423206576977,F,F
+dico_phrasis_0000034__en-en__original,dico_phrasis_0000034,en,en,Venezuelan opposition leader,"Venezuela Government , Opposition Head",BACKWARD_ENTAILMENT,-5.372300095366359,-2.4570341477860222,-2.8318828637470013,-2.458169516927919,B,B
+dico_phrasis_0000046__en-en__flipped,dico_phrasis_0000046,en,en,as new CEO,as CEO,FORWARD_ENTAILMENT,-0.0967537922815568,-7.517774446622142,-6.10109484574756,-7.228423457657903,F,F
+dico_phrasis_0000046__en-en__original,dico_phrasis_0000046,en,en,as CEO,as new CEO,BACKWARD_ENTAILMENT,-6.870475359357564,-0.6678295658003971,-6.274377880093623,-6.518865970370341,B,B
+dico_phrasis_0000059__en-en__flipped,dico_phrasis_0000059,en,en,for costa concordia shipwreck disaster,over Costa Concordia disaster,FORWARD_ENTAILMENT,-1.3584679233111323,-5.128698395398993,-2.0365756940918547,-1.7613068289634957,F,F
+dico_phrasis_0000059__en-en__original,dico_phrasis_0000059,en,en,over Costa Concordia disaster,for costa concordia shipwreck disaster,BACKWARD_ENTAILMENT,-5.390977048533308,-1.9343344704877816,-3.0132648782503093,-1.4711715118658013,N,B
+dico_phrasis_0000070__en-en__flipped,dico_phrasis_0000070,en,en,for huge democracy rally,for democracy march,FORWARD_ENTAILMENT,-0.1291801361897362,-6.927069001263258,-5.474811412757514,-5.512738993133979,F,F
+dico_phrasis_0000070__en-en__original,dico_phrasis_0000070,en,en,for democracy march,for huge democracy rally,BACKWARD_ENTAILMENT,-6.3571515406014845,-0.5665743897201934,-5.381705840413005,-5.551520533844065,B,B
+dico_phrasis_0000078__en-en__flipped,dico_phrasis_0000078,en,en,in Afghan city,in Afghanistan,FORWARD_ENTAILMENT,-0.2990157927688641,-6.7945077246046734,-6.258818460068771,-3.771481069487003,F,F
+dico_phrasis_0000078__en-en__original,dico_phrasis_0000078,en,en,in Afghanistan,in Afghan city,BACKWARD_ENTAILMENT,-5.540115677263028,-0.9806334604280066,-5.959845831439581,-2.9883150164740155,B,B
+dico_phrasis_0000087__en-en__flipped,dico_phrasis_0000087,en,en,as national security adviser,as his security adviser,FORWARD_ENTAILMENT,-3.520030940558305,-6.842966509347946,-5.428007674699813,-0.5516599739450131,N,F
+dico_phrasis_0000087__en-en__original,dico_phrasis_0000087,en,en,as his security adviser,as national security adviser,BACKWARD_ENTAILMENT,-5.617460736508607,-5.463101793205182,-5.522955327108939,-0.3735887297743952,N,B
+dico_phrasis_0000096__en-en__flipped,dico_phrasis_0000096,en,en,A man and a woman,A man,FORWARD_ENTAILMENT,-0.1144989743511253,-7.604348631171422,-7.206342291303513,-6.242891943919696,F,F
+dico_phrasis_0000096__en-en__original,dico_phrasis_0000096,en,en,A man,A man and a woman,BACKWARD_ENTAILMENT,-6.894810132827104,-0.6600172993001735,-6.975270134852071,-7.253873792932173,B,B
+dico_phrasis_0000099__en-en__flipped,dico_phrasis_0000099,en,en,Three dogs,The dog,FORWARD_ENTAILMENT,-0.085498917508132,-6.754469015606252,-6.778634139307347,-5.597643999663997,F,F
+dico_phrasis_0000099__en-en__original,dico_phrasis_0000099,en,en,The dog,Three dogs,BACKWARD_ENTAILMENT,-5.793049201648752,-0.1676616361054962,-6.826538297316749,-6.19705585418276,B,B
+dico_phrasis_0000101__en-en__flipped,dico_phrasis_0000101,en,en,A biker,A person,FORWARD_ENTAILMENT,-0.1196912811185612,-6.698599220413535,-6.714664154846041,-6.069150103726554,F,F
+dico_phrasis_0000101__en-en__original,dico_phrasis_0000101,en,en,A person,A biker,BACKWARD_ENTAILMENT,-5.916701680949536,-0.7438378622444529,-5.970171202253507,-3.9649162878902815,B,B
+dico_phrasis_0000106__en-en__flipped,dico_phrasis_0000106,en,en,with a tennis ball,with a ball,FORWARD_ENTAILMENT,-0.0786295049756845,-7.135257985529312,-6.988738712009795,-7.962262393372266,F,F
+dico_phrasis_0000106__en-en__original,dico_phrasis_0000106,en,en,with a ball,with a tennis ball,BACKWARD_ENTAILMENT,-7.079337538273002,-0.5004432813484135,-6.9423356258530085,-8.244392748043802,B,B
+dico_phrasis_0000118__en-en__flipped,dico_phrasis_0000118,en,en,through the tall green grass,on the grass,FORWARD_ENTAILMENT,-0.0612077846523743,-7.431599913477562,-6.327653490940395,-6.587393952846192,F,F
+dico_phrasis_0000118__en-en__original,dico_phrasis_0000118,en,en,on the grass,through the tall green grass,BACKWARD_ENTAILMENT,-6.389012467352444,-0.2163038839776271,-5.902693275598581,-5.276711085426704,B,B
+dico_phrasis_0000120__en-en__flipped,dico_phrasis_0000120,en,en,A white boat,a boat,FORWARD_ENTAILMENT,-0.1095491711767348,-7.192172583388472,-7.072518274383927,-7.462209578799391,F,F
+dico_phrasis_0000120__en-en__original,dico_phrasis_0000120,en,en,a boat,A white boat,BACKWARD_ENTAILMENT,-6.966231158868339,-0.6762834926405225,-6.744533781206477,-7.681333714719482,B,B
+dico_phrasis_0000125__en-en__flipped,dico_phrasis_0000125,en,en,in an overgrown green grassy field,through green grass,FORWARD_ENTAILMENT,-3.801393343443445,-6.810842835341664,-5.886057340537282,-0.0473310186811009,N,F
+dico_phrasis_0000125__en-en__original,dico_phrasis_0000125,en,en,through green grass,in an overgrown green grassy field,BACKWARD_ENTAILMENT,-6.334114078290786,-4.461955829071528,-5.878719591704534,-0.4836546615834303,N,B
+dico_phrasis_0000133__en-en__flipped,dico_phrasis_0000133,en,en,The German shepherd dark dog,A black dog,FORWARD_ENTAILMENT,-0.1242994871994571,-6.592518161461823,-5.84835134270397,-6.550949256346694,F,F
+dico_phrasis_0000133__en-en__original,dico_phrasis_0000133,en,en,A black dog,The German shepherd dark dog,BACKWARD_ENTAILMENT,-6.3773256654603685,-0.517117496834537,-5.271984604752402,-5.6849958886765855,B,B
+dico_phrasis_0000141__en-en__flipped,dico_phrasis_0000141,en,en,in front of a pool,at a pool,FORWARD_ENTAILMENT,-0.7821717097799666,-6.565491717004844,-4.979325295432477,-2.8211226671378498,F,F
+dico_phrasis_0000141__en-en__original,dico_phrasis_0000141,en,en,at a pool,in front of a pool,BACKWARD_ENTAILMENT,-5.943349247764861,-1.6193349814328697,-5.18856078941754,-1.898319776446934,B,B
+dico_phrasis_0000145__en-en__flipped,dico_phrasis_0000145,en,en,Two brown dogs,Two dogs,FORWARD_ENTAILMENT,-0.1518077953194669,-6.623046896461158,-7.038075025234132,-7.384975901224721,F,F
+dico_phrasis_0000145__en-en__original,dico_phrasis_0000145,en,en,Two dogs,Two brown dogs,BACKWARD_ENTAILMENT,-6.965217927653036,-0.8322374493464252,-7.311022373098574,-7.805095849120064,B,B
+dico_phrasis_0000162__en-en__flipped,dico_phrasis_0000162,en,en,of every horse,a horse,FORWARD_ENTAILMENT,-0.0713009213873991,-7.276093627062366,-6.473009567754392,-7.000732419438088,F,F
+dico_phrasis_0000162__en-en__original,dico_phrasis_0000162,en,en,a horse,of every horse,BACKWARD_ENTAILMENT,-6.62685031750101,-0.176365559878927,-6.416313306076309,-6.97525813240109,B,B
+dico_phrasis_0000164__en-en__flipped,dico_phrasis_0000164,en,en,A young man,A man,FORWARD_ENTAILMENT,-0.0847317596330383,-7.231920559709683,-6.83936969017527,-8.248415184026376,F,F
+dico_phrasis_0000164__en-en__original,dico_phrasis_0000164,en,en,A man,A young man,BACKWARD_ENTAILMENT,-7.433763946259379,-0.6222398257894913,-6.925103468362849,-8.215646120572448,B,B
+dico_phrasis_0000165__en-en__flipped,dico_phrasis_0000165,en,en,A black pit bull dog,A black dog,FORWARD_ENTAILMENT,-0.0659851218567959,-7.143501948347358,-7.406480591526299,-9.061125331650842,F,F
+dico_phrasis_0000165__en-en__original,dico_phrasis_0000165,en,en,A black dog,A black pit bull dog,BACKWARD_ENTAILMENT,-7.038453880959868,-0.0733727101376859,-6.778849282253902,-8.736237032601357,B,B
+dico_phrasis_0000185__en-en__flipped,dico_phrasis_0000185,en,en,Three girls,The girl,FORWARD_ENTAILMENT,-0.0783957368989464,-6.930062897688117,-6.874356823847658,-5.684383012539116,F,F
+dico_phrasis_0000185__en-en__original,dico_phrasis_0000185,en,en,The girl,Three girls,BACKWARD_ENTAILMENT,-5.869247282901365,-0.1644379667778401,-6.791085146103263,-6.033562294874549,B,B
+dico_phrasis_0000190__en-en__flipped,dico_phrasis_0000190,en,en,The brownish and white dogs,The tan and white dog,FORWARD_ENTAILMENT,-0.4316635787257912,-6.014912114517824,-4.632548258679048,-4.093811070896126,F,F
+dico_phrasis_0000190__en-en__original,dico_phrasis_0000190,en,en,The tan and white dog,The brownish and white dogs,BACKWARD_ENTAILMENT,-6.189492184819323,-0.6889032164231361,-4.514292656284116,-5.305585875015996,B,B
+dico_phrasis_0000192__en-en__flipped,dico_phrasis_0000192,en,en,a blond girl,A woman,FORWARD_ENTAILMENT,-0.1727333275495516,-6.934397728047624,-6.335153719585989,-4.688193366728082,F,F
+dico_phrasis_0000192__en-en__original,dico_phrasis_0000192,en,en,A woman,a blond girl,BACKWARD_ENTAILMENT,-6.717266072457998,-1.4814284365633814,-6.8918299298743095,-4.3962548048555545,B,B
+dico_phrasis_0000198__en-en__flipped,dico_phrasis_0000198,en,en,a chocolate bar,a candy bar,FORWARD_ENTAILMENT,-1.8285651143354764,-5.238039069966732,-2.983818951841453,-1.1100690946939185,N,F
+dico_phrasis_0000198__en-en__original,dico_phrasis_0000198,en,en,a candy bar,a chocolate bar,BACKWARD_ENTAILMENT,-5.405819743512756,-2.7937219785041463,-3.42325040289629,-1.3758334563560135,N,B
+dico_phrasis_0000219__en-en__flipped,dico_phrasis_0000219,en,en,around the flat snowy street,across the snow,FORWARD_ENTAILMENT,-2.1082889525440702,-6.712296358083424,-5.028102826411264,-1.420997591152525,N,F
+dico_phrasis_0000219__en-en__original,dico_phrasis_0000219,en,en,across the snow,around the flat snowy street,BACKWARD_ENTAILMENT,-6.388032326040332,-2.017679561115965,-5.189053435065016,-1.2069469580428451,N,B
+dico_phrasis_0000221__en-en__flipped,dico_phrasis_0000221,en,en,in a grassy green field,in a yard,FORWARD_ENTAILMENT,-2.3231049879286805,-6.661522254734646,-5.374836569417925,-0.6987521701945977,N,F
+dico_phrasis_0000221__en-en__original,dico_phrasis_0000221,en,en,in a yard,in a grassy green field,BACKWARD_ENTAILMENT,-6.788529235609308,-2.9586762025832485,-6.447843341517384,-1.8929925645271293,N,B
+dico_phrasis_0000223__en-en__flipped,dico_phrasis_0000223,en,en,of a brown bull,while a bull,FORWARD_ENTAILMENT,-1.1411286250703818,-5.689006465768146,-5.34735349624885,-0.8122194589131356,N,F
+dico_phrasis_0000223__en-en__original,dico_phrasis_0000223,en,en,while a bull,of a brown bull,BACKWARD_ENTAILMENT,-4.846793982818216,-2.164270506237437,-4.978680042857418,-1.7655162919903695,N,B
+dico_phrasis_0000226__en-en__flipped,dico_phrasis_0000226,en,en,through a green yard,through the grass,FORWARD_ENTAILMENT,-0.2461201819335915,-6.638407436267087,-4.691029570753922,-4.1378706418032944,F,F
+dico_phrasis_0000226__en-en__original,dico_phrasis_0000226,en,en,through the grass,through a green yard,BACKWARD_ENTAILMENT,-5.680301633059801,-0.7438702946700867,-3.78877021032554,-3.4119106546837297,B,B
+dico_phrasis_0000240__en-en__flipped,dico_phrasis_0000240,en,en,Cambodia opposition leaders,Opposition leaders,FORWARD_ENTAILMENT,-0.2530477320430176,-6.0310586716013646,-6.205121673671155,-5.760717056719213,F,F
+dico_phrasis_0000240__en-en__original,dico_phrasis_0000240,en,en,Opposition leaders,Cambodia opposition leaders,BACKWARD_ENTAILMENT,-6.599841582617599,-0.8719754197611788,-6.689828095675943,-6.624156169932522,B,B
+dico_phrasis_0000241__en-en__flipped,dico_phrasis_0000241,en,en,To Taliban,Taliban,FORWARD_ENTAILMENT,-0.4555104126839004,-6.864733681113339,-6.239348995219484,-5.680481295442399,F,F
+dico_phrasis_0000241__en-en__original,dico_phrasis_0000241,en,en,Taliban,To Taliban,BACKWARD_ENTAILMENT,-6.716693237756048,-0.7733373024407566,-6.377955933744068,-5.933748862106953,B,B
+dico_phrasis_0000249__en-en__flipped,dico_phrasis_0000249,en,en,its first memorial,remembered,FORWARD_ENTAILMENT,-2.901971933323532,-7.042991620380072,-5.119515013772635,-1.3130363246583827,N,F
+dico_phrasis_0000249__en-en__original,dico_phrasis_0000249,en,en,remembered,its first memorial,BACKWARD_ENTAILMENT,-5.270157185275529,-2.25019752440768,-4.181286197979426,-2.325245874205405,B,B
+dico_phrasis_0000259__en-en__flipped,dico_phrasis_0000259,en,en,new health care law,health care law,FORWARD_ENTAILMENT,-0.4049341218195023,-6.679574503155713,-5.762914760561948,-5.474961296868489,F,F
+dico_phrasis_0000259__en-en__original,dico_phrasis_0000259,en,en,health care law,new health care law,BACKWARD_ENTAILMENT,-5.981304833706481,-1.006156265155736,-5.97387512963639,-4.93223399610943,B,B
+dico_phrasis_0000262__en-en__flipped,dico_phrasis_0000262,en,en,of most critics,Critics,FORWARD_ENTAILMENT,-0.1199576062018454,-6.344164351826387,-5.976779659793256,-4.727640445237833,F,F
+dico_phrasis_0000262__en-en__original,dico_phrasis_0000262,en,en,Critics,of most critics,BACKWARD_ENTAILMENT,-5.973094092078948,-0.7897331876237632,-6.4304333490808245,-5.971728922196174,B,B
+dico_phrasis_0000263__en-en__flipped,dico_phrasis_0000263,en,en,on Muslim Brotherhood,on Brotherhood,FORWARD_ENTAILMENT,-0.086689543432475,-7.165060817407053,-6.043372583097697,-7.682248191740594,F,F
+dico_phrasis_0000263__en-en__original,dico_phrasis_0000263,en,en,on Brotherhood,on Muslim Brotherhood,BACKWARD_ENTAILMENT,-6.466908513280703,-0.2527339396605408,-5.973705141517473,-6.8230437326162585,B,B
+dico_phrasis_0000271__en-en__flipped,dico_phrasis_0000271,en,en,US stocks,Stocks,FORWARD_ENTAILMENT,-0.1061660068345711,-6.862577698341275,-6.302029005399611,-6.819248932561542,F,F
+dico_phrasis_0000271__en-en__original,dico_phrasis_0000271,en,en,Stocks,US stocks,BACKWARD_ENTAILMENT,-6.372165254298639,-0.1438548182882776,-6.753839260879945,-6.536442915890408,B,B
+dico_phrasis_0000277__en-en__flipped,dico_phrasis_0000277,en,en,stroke,health problem,FORWARD_ENTAILMENT,-0.6489147370171724,-5.49283270290615,-5.034183385482648,-3.4268093481771325,F,F
+dico_phrasis_0000277__en-en__original,dico_phrasis_0000277,en,en,health problem,stroke,BACKWARD_ENTAILMENT,-5.0181237010795705,-1.2167017458517193,-5.2416108795641705,-3.2461755274374124,B,B
+dico_phrasis_0000279__en-en__flipped,dico_phrasis_0000279,en,en,11 Afghan children,two Afghan children,FORWARD_ENTAILMENT,-0.0671685112561917,-6.367238985801353,-6.778137750729535,-6.900756822704885,F,F
+dico_phrasis_0000279__en-en__original,dico_phrasis_0000279,en,en,two Afghan children,11 Afghan children,BACKWARD_ENTAILMENT,-6.085124012306984,-0.1684247220314101,-7.292184304670151,-6.872490680069383,B,B
+dico_phrasis_0000283__en-en__flipped,dico_phrasis_0000283,en,en,Muslim Brotherhood supporters,Muslim Brotherhood supporter,FORWARD_ENTAILMENT,-0.3987033828296547,-6.352780517359403,-5.832126097301472,-5.628609266300825,F,F
+dico_phrasis_0000283__en-en__original,dico_phrasis_0000283,en,en,Muslim Brotherhood supporter,Muslim Brotherhood supporters,BACKWARD_ENTAILMENT,-6.078681280008168,-0.7969139265926787,-5.558265752882967,-5.486612741938443,B,B
+dico_phrasis_0000284__en-en__flipped,dico_phrasis_0000284,en,en,on Thursday,Thursday,FORWARD_ENTAILMENT,-0.2624934012997334,-7.362162539890228,-5.903335948319056,-5.830114443630794,F,F
+dico_phrasis_0000284__en-en__original,dico_phrasis_0000284,en,en,Thursday,on Thursday,BACKWARD_ENTAILMENT,-7.111440634308237,-0.5503200863331329,-5.699064101356245,-5.738332565206266,B,B
+dico_phrasis_0000290__en-en__flipped,dico_phrasis_0000290,en,en,for return,return,FORWARD_ENTAILMENT,-0.3073468777667552,-7.158168879462388,-5.375766026291358,-5.744241513126202,F,F
+dico_phrasis_0000290__en-en__original,dico_phrasis_0000290,en,en,return,for return,BACKWARD_ENTAILMENT,-5.853620862906815,-0.5096182571804927,-4.535099124854447,-5.050481225992879,B,B
+dico_phrasis_0000294__en-en__flipped,dico_phrasis_0000294,en,en,in Syria chemical weapons attack,in Syria attack,FORWARD_ENTAILMENT,-0.0776117073494838,-7.333097937404975,-6.511031461457278,-8.202548521458969,F,F
+dico_phrasis_0000294__en-en__original,dico_phrasis_0000294,en,en,in Syria attack,in Syria chemical weapons attack,BACKWARD_ENTAILMENT,-7.187813223888497,-0.345771230374795,-6.824861454084537,-7.774638893321178,B,B
+dico_phrasis_0000303__en-en__flipped,dico_phrasis_0000303,en,en,in prayer and song,prays,FORWARD_ENTAILMENT,-0.1355142640516422,-6.88744480882538,-4.821630554640816,-4.756946260476635,F,F
+dico_phrasis_0000303__en-en__original,dico_phrasis_0000303,en,en,prays,in prayer and song,BACKWARD_ENTAILMENT,-6.322797546307388,-0.618414823730929,-5.182390793681287,-3.885884254694128,B,B
+dico_phrasis_0000328__en-en__flipped,dico_phrasis_0000328,en,en,in NW Pakistan,in Pak,FORWARD_ENTAILMENT,-0.1010832087976476,-6.903688856391384,-6.005170816856896,-6.11969109344311,F,F
+dico_phrasis_0000328__en-en__original,dico_phrasis_0000328,en,en,in Pak,in NW Pakistan,BACKWARD_ENTAILMENT,-6.639712906865568,-0.1797044421119396,-6.371929990240226,-6.681492464729439,B,B
+dico_phrasis_0000329__en-en__flipped,dico_phrasis_0000329,en,en,Suicide bombers,Suicide bomber,FORWARD_ENTAILMENT,-0.3946539428862334,-6.218678510887663,-6.195845918559274,-5.054118346873164,F,F
+dico_phrasis_0000329__en-en__original,dico_phrasis_0000329,en,en,Suicide bomber,Suicide bombers,BACKWARD_ENTAILMENT,-6.219423840744444,-0.8324109020860467,-6.0370088495842085,-5.4049285603594255,B,B
+dico_phrasis_0000331__en-en__flipped,dico_phrasis_0000331,en,en,China and Taiwan,China,FORWARD_ENTAILMENT,-0.100411889075118,-7.178553618112084,-6.697418784964956,-7.486657518514868,F,F
+dico_phrasis_0000331__en-en__original,dico_phrasis_0000331,en,en,China,China and Taiwan,BACKWARD_ENTAILMENT,-6.496037110081745,-0.3930919214004602,-6.828989693911307,-7.498421709379983,B,B
+dico_phrasis_0000340__en-en__flipped,dico_phrasis_0000340,en,en,Air strikes,strikes,FORWARD_ENTAILMENT,-0.2414683342855293,-6.536838803776216,-5.836566641020887,-4.949668309055877,F,F
+dico_phrasis_0000340__en-en__original,dico_phrasis_0000340,en,en,strikes,Air strikes,BACKWARD_ENTAILMENT,-6.297591784429343,-0.6443554946102602,-5.749252198966136,-5.394255751204281,B,B
+dico_phrasis_0000345__en-en__flipped,dico_phrasis_0000345,en,en,after Zimmerman,George Zimmerman,FORWARD_ENTAILMENT,-1.6522972956950914,-6.146270183290586,-5.786382702554808,-1.363888430163806,N,F
+dico_phrasis_0000345__en-en__original,dico_phrasis_0000345,en,en,George Zimmerman,after Zimmerman,BACKWARD_ENTAILMENT,-5.39346798710771,-2.176629408724581,-6.012399856773492,-2.00725971115378,N,B
+dico_phrasis_0000350__en-en__flipped,dico_phrasis_0000350,en,en,of all people,8-10 people,FORWARD_ENTAILMENT,-1.4597353138559035,-6.519423509442109,-5.972786629997986,-1.0605729866060585,N,F
+dico_phrasis_0000350__en-en__original,dico_phrasis_0000350,en,en,8-10 people,of all people,BACKWARD_ENTAILMENT,-5.321049780781412,-1.42788868261908,-5.615863652165079,-1.1149220577233483,N,B
+dico_phrasis_0000370__en-en__flipped,dico_phrasis_0000370,en,en,on Syria military action,over Syria action,FORWARD_ENTAILMENT,-0.3798954933110198,-6.344836915455591,-4.592261488161815,-4.041031454923085,F,F
+dico_phrasis_0000370__en-en__original,dico_phrasis_0000370,en,en,over Syria action,on Syria military action,BACKWARD_ENTAILMENT,-5.829228510908638,-0.860273955218347,-3.9882728126668474,-3.846920788737489,B,B
+dico_phrasis_0000375__en-en__flipped,dico_phrasis_0000375,en,en,to deliver statement,to speak,FORWARD_ENTAILMENT,-1.9308699769367577,-5.59952533270814,-0.7610665264318182,-3.347582986214737,E,E
+dico_phrasis_0000375__en-en__original,dico_phrasis_0000375,en,en,to speak,to deliver statement,BACKWARD_ENTAILMENT,-5.172097608821846,-3.077298815426486,-0.5028739078613687,-4.096888497846581,E,E
+dico_phrasis_0000391__en-en__flipped,dico_phrasis_0000391,en,en,British hospital,hospital,FORWARD_ENTAILMENT,-0.164100657078022,-6.692165315322472,-6.4450894881510665,-6.499670610003068,F,F
+dico_phrasis_0000391__en-en__original,dico_phrasis_0000391,en,en,hospital,British hospital,BACKWARD_ENTAILMENT,-6.681016059026746,-0.6423704339123044,-6.351264070774742,-5.768233375058202,B,B
+dico_phrasis_0000393__en-en__flipped,dico_phrasis_0000393,en,en,diamond sanctions,sanctions,FORWARD_ENTAILMENT,-0.276210422438353,-6.665722966315319,-6.230970591427852,-5.8106240159491405,F,F
+dico_phrasis_0000393__en-en__original,dico_phrasis_0000393,en,en,sanctions,diamond sanctions,BACKWARD_ENTAILMENT,-6.432666014447441,-0.7234531301405324,-6.371403814171383,-5.753477770402658,B,B
+dico_phrasis_0000405__en-en__flipped,dico_phrasis_0000405,en,en,at Morsi rallies,at Morsi rally,FORWARD_ENTAILMENT,-0.2116757687652998,-7.170019552779682,-6.062869758081921,-5.734144355528045,F,F
+dico_phrasis_0000405__en-en__original,dico_phrasis_0000405,en,en,at Morsi rally,at Morsi rallies,BACKWARD_ENTAILMENT,-6.702991710258357,-0.6954544049032853,-5.346379956754876,-5.69248034174525,B,B
+dico_phrasis_0000421__en-en__flipped,dico_phrasis_0000421,en,en,Mubarak 's release request,Mubarak release,FORWARD_ENTAILMENT,-1.0304237173750206,-5.769015285298646,-4.334557446763338,-2.133917627657871,F,F
+dico_phrasis_0000421__en-en__original,dico_phrasis_0000421,en,en,Mubarak release,Mubarak 's release request,BACKWARD_ENTAILMENT,-4.840380678781317,-1.6540841015263867,-4.309660434929973,-2.569847757824706,B,B
+dico_phrasis_0000425__en-en__flipped,dico_phrasis_0000425,en,en,on economy,economy,FORWARD_ENTAILMENT,-0.3797964213485383,-7.36158017895568,-6.381061768352474,-6.20367286435712,F,F
+dico_phrasis_0000425__en-en__original,dico_phrasis_0000425,en,en,economy,on economy,BACKWARD_ENTAILMENT,-7.017769837809734,-0.8812927747101907,-6.945029739969107,-6.1371575563481775,B,B
+dico_phrasis_0000432__en-en__flipped,dico_phrasis_0000432,en,en,with a black top and a necklace,with a big necklace,FORWARD_ENTAILMENT,-4.122643902077366,-5.720935247018029,-6.183824374451327,-0.0673821709295993,N,F
+dico_phrasis_0000432__en-en__original,dico_phrasis_0000432,en,en,with a big necklace,with a black top and a necklace,BACKWARD_ENTAILMENT,-5.887647646913504,-5.97501273776052,-7.330760099738416,-0.0382789952055377,N,B
+dico_phrasis_0000444__en-en__flipped,dico_phrasis_0000444,en,en,in a lush green field,in the field,FORWARD_ENTAILMENT,-0.0657252605186033,-7.909916526121511,-6.251358229460927,-7.75903146320841,F,F
+dico_phrasis_0000444__en-en__original,dico_phrasis_0000444,en,en,in the field,in a lush green field,BACKWARD_ENTAILMENT,-7.014293403051577,-0.1130699670536137,-6.096385499459784,-8.358604858937147,B,B
+dico_phrasis_0000447__en-en__flipped,dico_phrasis_0000447,en,en,four people,Two people,FORWARD_ENTAILMENT,-0.0890004788211099,-7.11544424835554,-7.259673451818139,-5.083002365938933,F,F
+dico_phrasis_0000447__en-en__original,dico_phrasis_0000447,en,en,Two people,four people,BACKWARD_ENTAILMENT,-5.901696089410642,-0.2576407191692384,-6.900623964522143,-5.370659323785563,B,B
+dico_phrasis_0000449__en-en__flipped,dico_phrasis_0000449,en,en,A black car,A black vehicle,FORWARD_ENTAILMENT,-0.1279049914096247,-6.094122224898583,-5.668510804674472,-6.254933959594812,F,F
+dico_phrasis_0000449__en-en__original,dico_phrasis_0000449,en,en,A black vehicle,A black car,BACKWARD_ENTAILMENT,-6.667160771985085,-0.7666823567939104,-5.683219577073285,-5.5566404910874665,B,B
+dico_phrasis_0000452__en-en__flipped,dico_phrasis_0000452,en,en,A small orange and white dog,A brownish and white dog,FORWARD_ENTAILMENT,-4.604091249291628,-6.987314082567423,-6.194499331101308,-0.1775106364334903,N,F
+dico_phrasis_0000452__en-en__original,dico_phrasis_0000452,en,en,A brownish and white dog,A small orange and white dog,BACKWARD_ENTAILMENT,-6.488203464824552,-5.339136355994737,-6.5763042309667625,-0.186999712267116,N,B
+dico_phrasis_0000453__en-en__flipped,dico_phrasis_0000453,en,en,looking up,looking,FORWARD_ENTAILMENT,-0.5782831911808213,-7.020147294259663,-5.628858040230071,-4.573691964603063,F,F
+dico_phrasis_0000453__en-en__original,dico_phrasis_0000453,en,en,looking,looking up,BACKWARD_ENTAILMENT,-6.623879091414675,-1.0262722635993011,-5.677176789912448,-5.063235656890138,B,B
+dico_phrasis_0000466__en-en__flipped,dico_phrasis_0000466,en,en,A large sheep,A sheep,FORWARD_ENTAILMENT,-0.0790942499215139,-6.668091661152713,-6.702064597524676,-8.190447695098792,F,F
+dico_phrasis_0000466__en-en__original,dico_phrasis_0000466,en,en,A sheep,A large sheep,BACKWARD_ENTAILMENT,-7.256318897692624,-0.4010729306074614,-7.1222006691627335,-8.347702507613365,B,B
+dico_phrasis_0000469__en-en__flipped,dico_phrasis_0000469,en,en,A red and white England bus,A red and white bus,FORWARD_ENTAILMENT,-0.1070533557887085,-6.923185371026915,-6.730670299545447,-7.042927023187796,F,F
+dico_phrasis_0000469__en-en__original,dico_phrasis_0000469,en,en,A red and white bus,A red and white England bus,BACKWARD_ENTAILMENT,-6.798465411793193,-0.8131677741120263,-6.885090831350287,-7.132123255164424,B,B
+dico_phrasis_0000487__en-en__flipped,dico_phrasis_0000487,en,en,on branches,on the branch,FORWARD_ENTAILMENT,-0.2269867950337903,-6.8344756010828185,-5.8034842455047135,-3.820712190733132,F,F
+dico_phrasis_0000487__en-en__original,dico_phrasis_0000487,en,en,on the branch,on branches,BACKWARD_ENTAILMENT,-6.571957137910014,-0.4632633792633669,-5.332717509793724,-5.256008817978189,B,B
+dico_phrasis_0000493__en-en__flipped,dico_phrasis_0000493,en,en,on the brown horse,a horse,FORWARD_ENTAILMENT,-0.0752919720092502,-7.239050771442958,-6.836240105974583,-7.366949082064539,F,F
+dico_phrasis_0000493__en-en__original,dico_phrasis_0000493,en,en,a horse,on the brown horse,BACKWARD_ENTAILMENT,-6.351838671691742,-0.225120230046438,-6.436585141745733,-6.373002805836525,B,B
+dico_phrasis_0000495__en-en__flipped,dico_phrasis_0000495,en,en,A black steam train,Train,FORWARD_ENTAILMENT,-0.0711607492143708,-7.104573692498087,-6.811696674046395,-7.373127344367384,F,F
+dico_phrasis_0000495__en-en__original,dico_phrasis_0000495,en,en,Train,A black steam train,BACKWARD_ENTAILMENT,-6.210379571874591,-0.1429138443466543,-6.3990238966143655,-7.044000805576297,B,B
+dico_phrasis_0000497__en-en__flipped,dico_phrasis_0000497,en,en,of some runway,from the airport,FORWARD_ENTAILMENT,-6.70443689400124,-7.678163688124887,-7.32716455135909,-0.0132854786929223,N,F
+dico_phrasis_0000497__en-en__original,dico_phrasis_0000497,en,en,from the airport,of some runway,BACKWARD_ENTAILMENT,-7.055823994923801,-7.555968367307554,-7.06140850310442,-0.0125978025289092,N,B
+dico_phrasis_0000499__en-en__flipped,dico_phrasis_0000499,en,en,"inside a cow-schemed , fur-covered dome",inside and black and white furry enclosure,FORWARD_ENTAILMENT,-4.278485958983639,-5.854969228516161,-4.572739804993212,-0.0763101232152575,N,F
+dico_phrasis_0000499__en-en__original,dico_phrasis_0000499,en,en,inside and black and white furry enclosure,"inside a cow-schemed , fur-covered dome",BACKWARD_ENTAILMENT,-6.185707251966214,-5.856197667112169,-5.756469668934958,-0.019809277842658,N,B
+dico_phrasis_0000514__en-en__flipped,dico_phrasis_0000514,en,en,from a bird feeder,from the feeder,FORWARD_ENTAILMENT,-0.2145391752271838,-7.051670625800788,-3.580524697894751,-5.477036009227136,F,F
+dico_phrasis_0000514__en-en__original,dico_phrasis_0000514,en,en,from the feeder,from a bird feeder,BACKWARD_ENTAILMENT,-6.010346067898816,-0.7773857742084523,-3.993323621480015,-3.862619095000969,B,B
+dico_phrasis_0000516__en-en__flipped,dico_phrasis_0000516,en,en,A small red and gray bird,A red bird,FORWARD_ENTAILMENT,-0.0597463398146105,-7.778113640742251,-7.396861078735935,-8.227654750666764,F,F
+dico_phrasis_0000516__en-en__original,dico_phrasis_0000516,en,en,A red bird,A small red and gray bird,BACKWARD_ENTAILMENT,-6.883430308574552,-0.3894383735697617,-7.187469706161932,-8.376391578067455,B,B
+dico_phrasis_0000540__en-en__flipped,dico_phrasis_0000540,en,en,in a pen with hay,in hay,FORWARD_ENTAILMENT,-0.1305298594833624,-7.661772855937602,-6.161119869669399,-5.696999946057917,F,F
+dico_phrasis_0000540__en-en__original,dico_phrasis_0000540,en,en,in hay,in a pen with hay,BACKWARD_ENTAILMENT,-6.695726030005915,-0.5706605592706832,-5.610634178354246,-5.864666425122721,B,B
+dico_phrasis_0000541__en-en__flipped,dico_phrasis_0000541,en,en,along the street,a street,FORWARD_ENTAILMENT,-0.2236665952385944,-6.759531159518311,-5.80709801298196,-5.296265191652525,F,F
+dico_phrasis_0000541__en-en__original,dico_phrasis_0000541,en,en,a street,along the street,BACKWARD_ENTAILMENT,-6.129002879479934,-0.9634516541355927,-5.7049456441595225,-4.224049042085219,B,B
+dico_phrasis_0000552__en-en__flipped,dico_phrasis_0000552,en,en,Dining room with wooden dining table,The dining room table,FORWARD_ENTAILMENT,-0.0778336740211029,-7.127680998710332,-6.257267921336033,-7.768490693636274,F,F
+dico_phrasis_0000552__en-en__original,dico_phrasis_0000552,en,en,The dining room table,Dining room with wooden dining table,BACKWARD_ENTAILMENT,-6.45272435154214,-0.2932484711775621,-5.91699211454088,-7.51437153076822,B,B
+dico_phrasis_0000559__en-en__flipped,dico_phrasis_0000559,en,en,A man,A person,FORWARD_ENTAILMENT,-0.0728954604864012,-6.883134005626033,-6.838580442627261,-6.669394839589785,F,F
+dico_phrasis_0000559__en-en__original,dico_phrasis_0000559,en,en,A person,A man,BACKWARD_ENTAILMENT,-7.0428481772285805,-0.7442842125636443,-7.100024521325241,-6.209123547473759,B,B
+dico_phrasis_0000560__en-en__flipped,dico_phrasis_0000560,en,en,A mostly black train,A black train,FORWARD_ENTAILMENT,-0.3004650493889448,-6.4305026216238135,-4.128381775858938,-6.91863899632587,F,F
+dico_phrasis_0000560__en-en__original,dico_phrasis_0000560,en,en,A black train,A mostly black train,BACKWARD_ENTAILMENT,-6.480485670418468,-0.5754628549277045,-5.714641600997176,-5.116529382915226,B,B
+dico_phrasis_0000561__en-en__flipped,dico_phrasis_0000561,en,en,A white dog,A white animal,FORWARD_ENTAILMENT,-0.0784832155101875,-6.208453468024072,-6.340408264636335,-6.233402099747795,F,F
+dico_phrasis_0000561__en-en__original,dico_phrasis_0000561,en,en,A white animal,A white dog,BACKWARD_ENTAILMENT,-6.4502870462609065,-0.4037537298870808,-6.572077842779232,-6.783122482128216,B,B
+dico_phrasis_0000562__en-en__flipped,dico_phrasis_0000562,en,en,at a window,the window,FORWARD_ENTAILMENT,-0.1484536604072792,-7.302112291354551,-6.170092528163011,-6.1601882304734135,F,F
+dico_phrasis_0000562__en-en__original,dico_phrasis_0000562,en,en,the window,at a window,BACKWARD_ENTAILMENT,-7.031238047658658,-0.76365919995234,-5.989386909583465,-5.340924008070684,B,B
+dico_phrasis_0000568__en-en__flipped,dico_phrasis_0000568,en,en,A red and white double decker bus is parked,Parked white double decker bus,FORWARD_ENTAILMENT,-0.3594439984246012,-6.7827534270419605,-5.57400632323165,-4.853791444712274,F,F
+dico_phrasis_0000568__en-en__original,dico_phrasis_0000568,en,en,Parked white double decker bus,A red and white double decker bus is parked,BACKWARD_ENTAILMENT,-5.8220377687547495,-1.4473571900461006,-4.38960710902352,-2.697788687937844,B,B
+dico_phrasis_0000602__en-en__flipped,dico_phrasis_0000602,en,en,"A gray , black , and white cat",The black and white cat,FORWARD_ENTAILMENT,-0.1221496857611455,-6.720722247899385,-6.020444370548738,-6.066521674137128,F,F
+dico_phrasis_0000602__en-en__original,dico_phrasis_0000602,en,en,The black and white cat,"A gray , black , and white cat",BACKWARD_ENTAILMENT,-6.385431126267341,-0.9406483526136736,-5.836975877990947,-5.198865339667226,B,B
+dico_phrasis_0000604__en-en__flipped,dico_phrasis_0000604,en,en,A small white dog,The small dog,FORWARD_ENTAILMENT,-0.093748508263418,-6.895255025097518,-6.207590926059871,-6.812435896067609,F,F
+dico_phrasis_0000604__en-en__original,dico_phrasis_0000604,en,en,The small dog,A small white dog,BACKWARD_ENTAILMENT,-6.502390588756284,-0.5792685416200564,-6.331023121064784,-7.13456343530206,B,B
+dico_phrasis_0000614__en-en__flipped,dico_phrasis_0000614,en,en,with a puppy,with dog,FORWARD_ENTAILMENT,-0.1607149157853855,-7.056317415230665,-6.379371038469864,-6.109066568457279,F,F
+dico_phrasis_0000614__en-en__original,dico_phrasis_0000614,en,en,with dog,with a puppy,BACKWARD_ENTAILMENT,-6.57884019271042,-0.8827531800221005,-6.476637518957317,-4.768664308195372,B,B
+dico_phrasis_0000616__en-en__flipped,dico_phrasis_0000616,en,en,The wall-mounted flat-screen TV,of a television screen,FORWARD_ENTAILMENT,-3.497941991496436,-6.589707237540037,-5.472426029104344,-0.0817082942111803,N,F
+dico_phrasis_0000616__en-en__original,dico_phrasis_0000616,en,en,of a television screen,The wall-mounted flat-screen TV,BACKWARD_ENTAILMENT,-6.239108055069242,-5.698211214675699,-6.015673718585764,-0.0259684738856504,N,B
+dico_phrasis_0000618__en-en__flipped,dico_phrasis_0000618,en,en,Two women,Two people,FORWARD_ENTAILMENT,-0.3474837130711226,-6.321984314561461,-6.8623115853871655,-4.808898626407558,F,F
+dico_phrasis_0000618__en-en__original,dico_phrasis_0000618,en,en,Two people,Two women,BACKWARD_ENTAILMENT,-6.156811406236346,-1.4245948394352748,-7.135436425627724,-3.7594874253088784,B,B
+dico_phrasis_0000619__en-en__flipped,dico_phrasis_0000619,en,en,A group of people,Six people,FORWARD_ENTAILMENT,-0.0839945420746389,-7.226011047276297,-6.505988021207291,-4.60038440501932,F,F
+dico_phrasis_0000619__en-en__original,dico_phrasis_0000619,en,en,Six people,A group of people,BACKWARD_ENTAILMENT,-5.6196811017353605,-0.1427393895347184,-5.601656686957605,-4.371121872659452,B,B
+dico_phrasis_0000623__en-en__flipped,dico_phrasis_0000623,en,en,with newborn baby,a baby,FORWARD_ENTAILMENT,-0.092736431484261,-7.208634928886929,-6.471727533663152,-7.710260141417224,F,F
+dico_phrasis_0000623__en-en__original,dico_phrasis_0000623,en,en,a baby,with newborn baby,BACKWARD_ENTAILMENT,-6.483950593857177,-0.3553460343189114,-5.799856999616531,-7.029477551927872,B,B
+dico_phrasis_0000632__en-en__flipped,dico_phrasis_0000632,en,en,with its landing gears,with its landing gear,FORWARD_ENTAILMENT,-0.5659294684950078,-6.762705053907987,-5.157019400122122,-4.654688804494696,F,F
+dico_phrasis_0000632__en-en__original,dico_phrasis_0000632,en,en,with its landing gear,with its landing gears,BACKWARD_ENTAILMENT,-5.875469296726851,-1.1804488849424,-4.125877628900874,-4.056067817711102,B,B
+dico_phrasis_0000641__en-en__flipped,dico_phrasis_0000641,en,en,In Bhutto Death,over Bhutto murder,EQUIVALENCE,-5.821212862982048,-4.837104057325615,-3.940484320177329,-0.1998864760534888,N,E
+dico_phrasis_0000641__en-en__original,dico_phrasis_0000641,en,en,over Bhutto murder,In Bhutto Death,EQUIVALENCE,-4.445283375185783,-5.993316672247704,-2.804011535646573,-1.0987115522246114,N,E
+dico_phrasis_0000661__en-en__flipped,dico_phrasis_0000661,en,en,to Bring,brings,EQUIVALENCE,-3.2887468992084745,-4.874817228159357,-0.4989048101912425,-3.514901211699892,E,E
+dico_phrasis_0000661__en-en__original,dico_phrasis_0000661,en,en,brings,to Bring,EQUIVALENCE,-3.952035119923854,-3.3193402993608547,-0.262181441776855,-2.765512703153395,E,E
+dico_phrasis_0000711__en-en__flipped,dico_phrasis_0000711,en,en,of bribing,to pay off,EQUIVALENCE,-5.599127514615689,-7.033124492521121,-4.303983197564914,-0.6849892993321366,N,E
+dico_phrasis_0000711__en-en__original,dico_phrasis_0000711,en,en,to pay off,of bribing,EQUIVALENCE,-6.808880800061188,-5.570260539951684,-5.433960731131595,-0.0291479779310637,N,E
+dico_phrasis_0000712__en-en__flipped,dico_phrasis_0000712,en,en,Microsoft's productivity-software suite,Microsoft Office,EQUIVALENCE,-4.482968596680286,-4.453229420446675,-0.1813148042195257,-5.986650522116147,E,E
+dico_phrasis_0000712__en-en__original,dico_phrasis_0000712,en,en,Microsoft Office,Microsoft's productivity-software suite,EQUIVALENCE,-4.72117581140748,-5.15905475166193,-0.1491240925764175,-6.378211822825187,E,E
+dico_phrasis_0000721__en-en__flipped,dico_phrasis_0000721,en,en,Rabbi Ovadia Yosef,Ovadia Yosef,EQUIVALENCE,-1.3140237372090249,-5.101397404171013,-2.2217660835355346,-5.25192102700172,F,E
+dico_phrasis_0000721__en-en__original,dico_phrasis_0000721,en,en,Ovadia Yosef,Rabbi Ovadia Yosef,EQUIVALENCE,-4.561616020591186,-3.329085968127973,-0.9123471053353218,-4.539529017797237,E,E
+dico_phrasis_0000724__en-en__flipped,dico_phrasis_0000724,en,en,a man and a woman,A woman and a man,EQUIVALENCE,-3.964059728863452,-5.224709013832225,-1.2731401222274836,-3.3943394519215957,E,E
+dico_phrasis_0000724__en-en__original,dico_phrasis_0000724,en,en,A woman and a man,a man and a woman,EQUIVALENCE,-3.9835194188956375,-5.3605746565862455,-1.4207626371188915,-3.059249544004992,E,E
+dico_phrasis_0000725__en-en__flipped,dico_phrasis_0000725,en,en,for a picture,For a photograph,EQUIVALENCE,-5.074741472706722,-5.106837807750232,-0.1187367587343121,-5.163983362322576,E,E
+dico_phrasis_0000725__en-en__original,dico_phrasis_0000725,en,en,For a photograph,for a picture,EQUIVALENCE,-2.8626130912069114,-5.379136273599033,-0.2473196380698314,-3.597552046762271,E,E
+dico_phrasis_0000726__en-en__flipped,dico_phrasis_0000726,en,en,A young boy,A youthful male child,EQUIVALENCE,-5.002438918839382,-5.20817046969184,-0.0556287031277881,-6.333159424206104,E,E
+dico_phrasis_0000726__en-en__original,dico_phrasis_0000726,en,en,A youthful male child,A young boy,EQUIVALENCE,-4.688531115514805,-5.008618231105576,-0.0664911119766731,-6.169147913518319,E,E
+dico_phrasis_0000729__en-en__flipped,dico_phrasis_0000729,en,en,A woman,An adult female,EQUIVALENCE,-5.085265935732251,-2.37412124253643,-0.4482368541492278,-5.921186373902684,E,E
+dico_phrasis_0000729__en-en__original,dico_phrasis_0000729,en,en,An adult female,A woman,EQUIVALENCE,-1.9943544591685916,-5.146038802983441,-0.6372997090439776,-6.497093391937096,E,E
+dico_phrasis_0000731__en-en__flipped,dico_phrasis_0000731,en,en,inside a swimming pool,in the pool,EQUIVALENCE,-1.8837850678735224,-5.6147645303381735,-0.9932138511313252,-3.160821645336673,E,E
+dico_phrasis_0000731__en-en__original,dico_phrasis_0000731,en,en,in the pool,inside a swimming pool,EQUIVALENCE,-4.979864167395629,-2.505617382350959,-0.5400126250817354,-3.05809668920775,E,E
+dico_phrasis_0000732__en-en__flipped,dico_phrasis_0000732,en,en,leaping,is jumping,EQUIVALENCE,-5.152950441016806,-5.262786170019759,-0.0587206881980625,-5.56902323928878,E,E
+dico_phrasis_0000732__en-en__original,dico_phrasis_0000732,en,en,is jumping,leaping,EQUIVALENCE,-4.531369481474005,-5.141526131818536,-0.1009302973646359,-5.34254007934515,E,E
+dico_phrasis_0000733__en-en__flipped,dico_phrasis_0000733,en,en,through grass,across the grassy area,EQUIVALENCE,-3.696412757899628,-6.324006809161371,-1.8423980296813105,-3.5611953123075417,E,E
+dico_phrasis_0000733__en-en__original,dico_phrasis_0000733,en,en,across the grassy area,through grass,EQUIVALENCE,-5.378260753717703,-3.811450230247461,-1.7878377906150444,-3.061800477074268,E,E
+dico_phrasis_0000743__en-en__flipped,dico_phrasis_0000743,en,en,is underwater,submerged in water,EQUIVALENCE,-4.892676390711985,-4.91535360614908,-0.1626418282633246,-5.470213676496866,E,E
+dico_phrasis_0000743__en-en__original,dico_phrasis_0000743,en,en,submerged in water,is underwater,EQUIVALENCE,-5.05749489742822,-5.360665245635377,-0.2234581448466233,-5.884194929185575,E,E
+dico_phrasis_0000752__en-en__flipped,dico_phrasis_0000752,en,en,immersed in water,in water,EQUIVALENCE,-3.913604756379327,-5.024297428810797,-0.2196286322516219,-5.179432958547475,E,E
+dico_phrasis_0000752__en-en__original,dico_phrasis_0000752,en,en,in water,immersed in water,EQUIVALENCE,-5.413075559742325,-4.833384556976033,-0.0833189223280278,-5.9619851891270015,E,E
+dico_phrasis_0000768__en-en__flipped,dico_phrasis_0000768,en,en,play,are playing,EQUIVALENCE,-5.316101734492899,-4.8834194345064175,-0.0523057030178309,-5.2026316395935615,E,E
+dico_phrasis_0000768__en-en__original,dico_phrasis_0000768,en,en,are playing,play,EQUIVALENCE,-4.026451638008311,-5.5881554788998296,-0.0634759174437859,-5.311670947238955,E,E
+dico_phrasis_0000788__en-en__flipped,dico_phrasis_0000788,en,en,upside-down,inverted,EQUIVALENCE,-4.886327088582532,-5.902654857146756,-0.3857950873255888,-5.312492505419271,E,E
+dico_phrasis_0000788__en-en__original,dico_phrasis_0000788,en,en,inverted,upside-down,EQUIVALENCE,-5.693623632251388,-5.0167502612463295,-0.2486281097523035,-4.829419466415213,E,E
+dico_phrasis_0000801__en-en__flipped,dico_phrasis_0000801,en,en,towards the shore,in the direction of the shoreline,EQUIVALENCE,-5.399393605195344,-4.8099012394774565,-0.162163661919892,-4.828213539722424,E,E
+dico_phrasis_0000801__en-en__original,dico_phrasis_0000801,en,en,in the direction of the shoreline,towards the shore,EQUIVALENCE,-4.413309816362312,-5.8479605802315975,-0.1313158709226548,-5.000078860761573,E,E
+dico_phrasis_0000808__en-en__flipped,dico_phrasis_0000808,en,en,A beagle,the dog of the beagle breed,EQUIVALENCE,-5.208973646959612,-3.1483804343153534,-0.1966922837505235,-5.579585508307765,E,E
+dico_phrasis_0000808__en-en__original,dico_phrasis_0000808,en,en,the dog of the beagle breed,A beagle,EQUIVALENCE,-1.7922391207923611,-5.222435800920935,-2.905868578643612,-5.405052491715562,F,E
+dico_phrasis_0000811__en-en__flipped,dico_phrasis_0000811,en,en,on a beach,at a shoreline,EQUIVALENCE,-3.8243006030344326,-5.218776559792296,-2.258012270890013,-1.622174278857644,N,E
+dico_phrasis_0000811__en-en__original,dico_phrasis_0000811,en,en,at a shoreline,on a beach,EQUIVALENCE,-4.957142455918796,-4.85597876066288,-2.4668628658286798,-1.332062193297552,N,E
+dico_phrasis_0000815__en-en__flipped,dico_phrasis_0000815,en,en,is running,moving at a run,EQUIVALENCE,-5.903253696154867,-4.730620759766613,-0.0543572125745971,-6.075834752908663,E,E
+dico_phrasis_0000815__en-en__original,dico_phrasis_0000815,en,en,moving at a run,is running,EQUIVALENCE,-4.834409964152841,-5.490186410217155,-0.0796975017276095,-6.3429436207499785,E,E
+dico_phrasis_0000817__en-en__flipped,dico_phrasis_0000817,en,en,on rocks next to water,on a rocky seashore,EQUIVALENCE,-5.290814424088279,-2.6978425031211786,-2.06932791275847,-1.86932360582618,N,E
+dico_phrasis_0000817__en-en__original,dico_phrasis_0000817,en,en,on a rocky seashore,on rocks next to water,EQUIVALENCE,-2.21667431970477,-4.735838469664652,-1.616220622559786,-2.013261613051493,E,E
+dico_phrasis_0000825__en-en__flipped,dico_phrasis_0000825,en,en,through the snow,across snow-covered ground,EQUIVALENCE,-3.806163785878264,-6.282049177113616,-1.7935871387754314,-3.3928451220427385,E,E
+dico_phrasis_0000825__en-en__original,dico_phrasis_0000825,en,en,across snow-covered ground,through the snow,EQUIVALENCE,-5.600724235810244,-4.2545283790801,-1.4761196108037271,-3.789475292600596,E,E
+dico_phrasis_0000833__en-en__flipped,dico_phrasis_0000833,en,en,holding a baseball,with a baseball,EQUIVALENCE,-4.422950519743598,-5.080399916691618,-0.5689044158886236,-2.8822046206623675,E,E
+dico_phrasis_0000833__en-en__original,dico_phrasis_0000833,en,en,with a baseball,holding a baseball,EQUIVALENCE,-4.736014012184466,-5.574888123757368,-0.6112114289767789,-3.4863245349990577,E,E
+dico_phrasis_0000842__en-en__flipped,dico_phrasis_0000842,en,en,is bouncing,bounces,EQUIVALENCE,-4.046162632284077,-4.970050600347432,-0.1254044047768049,-4.8755190965309865,E,E
+dico_phrasis_0000842__en-en__original,dico_phrasis_0000842,en,en,bounces,is bouncing,EQUIVALENCE,-5.122971928771367,-4.8014038072586365,-0.0623618331114754,-5.513689546938768,E,E
+dico_phrasis_0000845__en-en__flipped,dico_phrasis_0000845,en,en,seated upon a swing,on a swing,EQUIVALENCE,-4.627736068025631,-5.292400508503518,-0.0937855274780614,-5.081982854138218,E,E
+dico_phrasis_0000845__en-en__original,dico_phrasis_0000845,en,en,on a swing,seated upon a swing,EQUIVALENCE,-5.000586274371571,-5.038912224874919,-0.0938641857167343,-5.19063078175587,E,E
+dico_phrasis_0000846__en-en__flipped,dico_phrasis_0000846,en,en,before catching,about to catch,EQUIVALENCE,-4.219767470821178,-5.4450376328472645,-1.194126496379014,-1.6507942971233878,E,E
+dico_phrasis_0000846__en-en__original,dico_phrasis_0000846,en,en,about to catch,before catching,EQUIVALENCE,-4.8176774437013945,-3.512599781630802,-0.9374451194985396,-0.9765834763431224,E,E
+dico_phrasis_0000855__en-en__flipped,dico_phrasis_0000855,en,en,is standing,remaining upright,EQUIVALENCE,-5.50823547590818,-5.249282155424814,-0.054625631859363,-5.99073252229935,E,E
+dico_phrasis_0000855__en-en__original,dico_phrasis_0000855,en,en,remaining upright,is standing,EQUIVALENCE,-5.143733214021749,-5.655126399726695,-0.0546627026607857,-6.156036544025963,E,E
+dico_phrasis_0000859__en-en__flipped,dico_phrasis_0000859,en,en,aged 91,at 91,EQUIVALENCE,-4.58815749823773,-4.495459664262573,-0.2048796647759689,-4.322673408585032,E,E
+dico_phrasis_0000859__en-en__original,dico_phrasis_0000859,en,en,at 91,aged 91,EQUIVALENCE,-4.043286478689638,-5.14342670755717,-0.214413087736893,-4.568661671053696,E,E
+dico_phrasis_0000866__en-en__flipped,dico_phrasis_0000866,en,en,family unions,Family Reunions,EQUIVALENCE,-3.234778134092999,-3.390921024546337,-0.2796879590206471,-3.977444895173423,E,E
+dico_phrasis_0000866__en-en__original,dico_phrasis_0000866,en,en,Family Reunions,family unions,EQUIVALENCE,-3.0267456959799213,-3.98071763824575,-0.3601625354205846,-3.4986358611400203,E,E
+dico_phrasis_0000875__en-en__flipped,dico_phrasis_0000875,en,en,fall sick,ill,EQUIVALENCE,-2.733042550103056,-5.532384020106185,-0.6688948790393147,-4.127049527581719,E,E
+dico_phrasis_0000875__en-en__original,dico_phrasis_0000875,en,en,ill,fall sick,EQUIVALENCE,-5.083327517030606,-3.1744068713167994,-0.7077060616194895,-3.5054899703641422,E,E
+dico_phrasis_0000876__en-en__flipped,dico_phrasis_0000876,en,en,Two French journalists,2 French Journalists,EQUIVALENCE,-4.069647968570773,-4.789103180925431,-0.0964647141698831,-5.546038886666679,E,E
+dico_phrasis_0000876__en-en__original,dico_phrasis_0000876,en,en,2 French Journalists,Two French journalists,EQUIVALENCE,-4.098464105310636,-4.8250567702279445,-0.0933644610470487,-5.406557742538648,E,E
+dico_phrasis_0000895__en-en__flipped,dico_phrasis_0000895,en,en,of Texas fertiliser plant blast,in Texas fertilizer plant blast,EQUIVALENCE,-5.975609647306243,-6.305974326603054,-5.358968905679821,-0.0272741338336862,N,E
+dico_phrasis_0000895__en-en__original,dico_phrasis_0000895,en,en,in Texas fertilizer plant blast,of Texas fertiliser plant blast,EQUIVALENCE,-6.467293739199396,-7.430140485246734,-5.626095980286356,-0.0178166527348317,N,E
+dico_phrasis_0000896__en-en__flipped,dico_phrasis_0000896,en,en,US,the U.S.,EQUIVALENCE,-4.18500417916149,-4.247125056367816,-0.1547851855374386,-5.277476916195652,E,E
+dico_phrasis_0000896__en-en__original,dico_phrasis_0000896,en,en,the U.S.,US,EQUIVALENCE,-3.5892782757707344,-5.135472069186757,-0.3720871210125989,-5.695781052115351,E,E
+dico_phrasis_0000906__en-en__flipped,dico_phrasis_0000906,en,en,On New Constitution,within the country's newly adopted constitution,EQUIVALENCE,-5.266436455351531,-3.864087867441197,-1.5145801680310764,-2.575284856262227,E,E
+dico_phrasis_0000906__en-en__original,dico_phrasis_0000906,en,en,within the country's newly adopted constitution,On New Constitution,EQUIVALENCE,-3.1965015475732668,-5.856143613138058,-1.0302914686285052,-2.783505821703135,E,E
+dico_phrasis_0000931__en-en__flipped,dico_phrasis_0000931,en,en,near Iranian embassy,in the vicinity of Iran's embassy,EQUIVALENCE,-5.396189356928588,-5.362329395572861,-0.616474904204925,-5.44630698371482,E,E
+dico_phrasis_0000931__en-en__original,dico_phrasis_0000931,en,en,in the vicinity of Iran's embassy,near Iranian embassy,EQUIVALENCE,-4.610686316633019,-5.970953677638167,-0.655538255516482,-5.528826002820128,E,E
+dico_phrasis_0000933__en-en__flipped,dico_phrasis_0000933,en,en,says 's not true,denies,EQUIVALENCE,-5.121139589895123,-5.980238388180052,-0.1419312558564685,-5.658834209242776,E,E
+dico_phrasis_0000933__en-en__original,dico_phrasis_0000933,en,en,denies,says 's not true,EQUIVALENCE,-5.852678738640381,-5.198136046634748,-0.1001044040984242,-5.312928977217905,E,E
+dico_phrasis_0000936__en-en__flipped,dico_phrasis_0000936,en,en,fresh presidential election,fresh election for president,EQUIVALENCE,-4.659052331268751,-4.238327894628012,-0.8217186048825216,-4.462535862147772,E,E
+dico_phrasis_0000936__en-en__original,dico_phrasis_0000936,en,en,fresh election for president,fresh presidential election,EQUIVALENCE,-2.391256711215372,-5.178127776911452,-1.1220986458963107,-3.942226580113765,E,E
+dico_phrasis_0000939__en-en__flipped,dico_phrasis_0000939,en,en,by judge,issued by a judge,EQUIVALENCE,-4.470520046993468,-2.827511318171396,-0.9996330888513468,-3.743203160806869,E,E
+dico_phrasis_0000939__en-en__original,dico_phrasis_0000939,en,en,issued by a judge,by judge,EQUIVALENCE,-2.2810984621312738,-4.885551802304042,-0.9225811431672696,-4.004141946123692,E,E
+dico_phrasis_0000942__en-en__flipped,dico_phrasis_0000942,en,en,East Coast,the United States' eastern seaboard,EQUIVALENCE,-5.298597447768394,-2.524861440256778,-0.2503993836000995,-5.417848649318558,E,E
+dico_phrasis_0000942__en-en__original,dico_phrasis_0000942,en,en,the United States' eastern seaboard,East Coast,EQUIVALENCE,-1.88712945062376,-5.234401893898416,-0.4534617784466037,-5.495175512914429,E,E
+dico_phrasis_0000943__en-en__flipped,dico_phrasis_0000943,en,en,to slide up,zipping up,EQUIVALENCE,-6.565539761415965,-5.920758609008637,-4.208368315330988,-0.1143941323278806,N,E
+dico_phrasis_0000943__en-en__original,dico_phrasis_0000943,en,en,zipping up,to slide up,EQUIVALENCE,-5.485506373619246,-6.156162995075392,-3.769655339891918,-0.838251727794813,N,E
+dico_phrasis_0000948__en-en__flipped,dico_phrasis_0000948,en,en,over police crackdown,over police violence,EQUIVALENCE,-5.000769574808537,-6.862524017063238,-5.827038650083004,-0.3408391320382153,N,F
+dico_phrasis_0000948__en-en__original,dico_phrasis_0000948,en,en,over police violence,over police crackdown,EQUIVALENCE,-6.098653574170743,-4.009269316377316,-5.053997535886441,-0.586000700177823,N,B
+dico_phrasis_0000950__en-en__flipped,dico_phrasis_0000950,en,en,to set out,to announce,EQUIVALENCE,-7.044710596744885,-7.659519414449403,-6.305442293827404,-0.0175627274758312,N,E
+dico_phrasis_0000950__en-en__original,dico_phrasis_0000950,en,en,to announce,to set out,EQUIVALENCE,-7.28805076497655,-7.504128370859831,-6.43873994964223,-0.0155307791417926,N,E
+dico_phrasis_0000952__en-en__flipped,dico_phrasis_0000952,en,en,as rupee crisis,as rupee collapse,EQUIVALENCE,-4.98909261825898,-3.856191843780068,-2.3153769523225107,-1.0584080318929618,N,E
+dico_phrasis_0000952__en-en__original,dico_phrasis_0000952,en,en,as rupee collapse,as rupee crisis,EQUIVALENCE,-3.5316064703537715,-4.987039743420849,-1.757383474267889,-1.5071075047625788,N,E
+dico_phrasis_0000953__en-en__flipped,dico_phrasis_0000953,en,en,same-sex marriage,gay marriage,EQUIVALENCE,-3.993762592853115,-4.963998943945772,-0.4126815302978017,-5.117691840113208,E,E
+dico_phrasis_0000953__en-en__original,dico_phrasis_0000953,en,en,gay marriage,same-sex marriage,EQUIVALENCE,-4.615471673068293,-4.481477198061236,-0.4205828875868396,-4.962552172002085,E,E
+dico_phrasis_0000954__en-en__flipped,dico_phrasis_0000954,en,en,Martial Arts Schools,martial arts clubs,EQUIVALENCE,-3.841136033048707,-3.403269245932974,-1.5668661194150424,-1.492992082943993,N,E
+dico_phrasis_0000954__en-en__original,dico_phrasis_0000954,en,en,martial arts clubs,Martial Arts Schools,EQUIVALENCE,-2.4916476204909097,-3.413237034769575,-1.571035523704411,-1.0442852571524393,N,E
+dico_phrasis_0000966__en-en__flipped,dico_phrasis_0000966,en,en,north . Europe,northern Europe,EQUIVALENCE,-3.327407897701907,-4.063377878259667,-0.2775729608446836,-2.9604500817170223,E,E
+dico_phrasis_0000966__en-en__original,dico_phrasis_0000966,en,en,northern Europe,north . Europe,EQUIVALENCE,-2.308144495511128,-3.955951507512801,-1.3441963351012,-2.594374370139413,E,E
+dico_phrasis_0000979__en-en__flipped,dico_phrasis_0000979,en,en,after pro-Morsi protest,to pro-Morsi protests,EQUIVALENCE,-6.041035822575498,-4.059914765551894,-4.938722896372485,-0.4145095326455513,N,B
+dico_phrasis_0000979__en-en__original,dico_phrasis_0000979,en,en,to pro-Morsi protests,after pro-Morsi protest,EQUIVALENCE,-4.337175145472819,-7.159439275389645,-5.27425484828724,-0.0933438238757201,N,F
+dico_phrasis_0000980__en-en__flipped,dico_phrasis_0000980,en,en,Bangladesh building collapse,Bangladesh building disaster,EQUIVALENCE,-0.8560860279032636,-5.22539786724538,-2.610296336097423,-2.775334087295238,F,F
+dico_phrasis_0000980__en-en__original,dico_phrasis_0000980,en,en,Bangladesh building disaster,Bangladesh building collapse,EQUIVALENCE,-5.63866701052757,-1.908604967854141,-3.883828280629435,-2.175916838905929,B,B
+dico_phrasis_0000982__en-en__flipped,dico_phrasis_0000982,en,en,in Belgian bus crash,in Belgian coach crash,EQUIVALENCE,-5.135581601998713,-4.345124502322581,-3.0137764109586747,-3.0706592195645044,E,E
+dico_phrasis_0000982__en-en__original,dico_phrasis_0000982,en,en,in Belgian coach crash,in Belgian bus crash,EQUIVALENCE,-3.775554467834768,-5.42548528025323,-2.6425478528914224,-1.7103127907690776,N,E
+dico_phrasis_0000983__en-en__flipped,dico_phrasis_0000983,en,en,subjected to a gang rape,gang-raped,EQUIVALENCE,-4.3791958367123165,-5.512342101613079,-0.3122637247337855,-5.467308469145888,E,E
+dico_phrasis_0000983__en-en__original,dico_phrasis_0000983,en,en,gang-raped,subjected to a gang rape,EQUIVALENCE,-4.9252648578266935,-5.040409331637686,-0.2716876592418193,-5.580438924449744,E,E
+dico_phrasis_0000994__en-en__flipped,dico_phrasis_0000994,en,en,May Housing,Housing in May,EQUIVALENCE,-4.740709438671185,-2.94394224360537,-0.9315746573105602,-4.74869191124987,E,E
+dico_phrasis_0000994__en-en__original,dico_phrasis_0000994,en,en,Housing in May,May Housing,EQUIVALENCE,-1.868614746703254,-5.135231786542682,-1.3892396276926473,-5.534132931206174,E,E
+dico_phrasis_0001000__en-en__flipped,dico_phrasis_0001000,en,en,executed,'s execution,EQUIVALENCE,-4.487615577308519,-4.646728060571535,-0.3812813281299496,-3.250142566291672,E,E
+dico_phrasis_0001000__en-en__original,dico_phrasis_0001000,en,en,'s execution,executed,EQUIVALENCE,-3.732369759409643,-5.0760443769186905,-0.8023371038129098,-2.4600385688036845,E,E
+dico_phrasis_0001005__en-en__flipped,dico_phrasis_0001005,en,en,a man from California,Calif man,EQUIVALENCE,-2.391010162111491,-4.894213112072517,-0.3404091664913993,-4.14069320447879,E,E
+dico_phrasis_0001005__en-en__original,dico_phrasis_0001005,en,en,Calif man,a man from California,EQUIVALENCE,-5.299418946719107,-4.842707737029528,-0.0985033245046291,-6.034080727016861,E,E
+dico_phrasis_0001026__en-en__flipped,dico_phrasis_0001026,en,en,200 million USD,$ 200 million,EQUIVALENCE,-3.204248003328096,-4.574192026917388,-0.3641568617664288,-4.0871315098447125,E,E
+dico_phrasis_0001026__en-en__original,dico_phrasis_0001026,en,en,$ 200 million,200 million USD,EQUIVALENCE,-3.706726187831352,-3.4735680663249795,-0.248423049217652,-3.710777629778972,E,E
+dico_phrasis_0001033__en-en__flipped,dico_phrasis_0001033,en,en,Washington Post,the newspaper called The Washington Post,EQUIVALENCE,-5.146754038370942,-4.671435199218287,-0.2967601836098174,-5.742518427011663,E,E
+dico_phrasis_0001033__en-en__original,dico_phrasis_0001033,en,en,the newspaper called The Washington Post,Washington Post,EQUIVALENCE,-3.809822199679959,-5.532226421373633,-0.4116106261189262,-6.143075503843573,E,E
+dico_phrasis_0001037__en-en__flipped,dico_phrasis_0001037,en,en,a knighthood,an honor conferring the title of knight,EQUIVALENCE,-5.408689816454764,-5.288167881130891,-0.0410160120921494,-6.136089195469733,E,E
+dico_phrasis_0001037__en-en__original,dico_phrasis_0001037,en,en,an honor conferring the title of knight,a knighthood,EQUIVALENCE,-4.768087312865842,-5.763827085781682,-0.0739817572520067,-5.901233022698352,E,E
+dico_phrasis_0001047__en-en__flipped,dico_phrasis_0001047,en,en,Facebook profits,Facebook earnings,EQUIVALENCE,-3.67982826377512,-4.608099363700162,-0.3648088325615828,-4.187860086516153,E,E
+dico_phrasis_0001047__en-en__original,dico_phrasis_0001047,en,en,Facebook earnings,Facebook profits,EQUIVALENCE,-4.0815713223586885,-4.429054455634994,-0.317299904105109,-4.198687798457386,E,E
+dico_phrasis_0001062__en-en__flipped,dico_phrasis_0001062,en,en,since Rohani election,since Rowhani election,EQUIVALENCE,-4.202947867075637,-4.965695072869494,-0.9536158910990108,-3.6048434497515713,E,E
+dico_phrasis_0001062__en-en__original,dico_phrasis_0001062,en,en,since Rowhani election,since Rohani election,EQUIVALENCE,-4.26725174210535,-5.184708331744537,-0.9195889579461666,-3.4491091765171937,E,E
+dico_phrasis_0001069__en-en__flipped,dico_phrasis_0001069,en,en,for granting asylum,for asylum,EQUIVALENCE,-1.677630017929389,-5.817651501032824,-1.407887315484995,-4.75055522296142,E,E
+dico_phrasis_0001069__en-en__original,dico_phrasis_0001069,en,en,for asylum,for granting asylum,EQUIVALENCE,-5.221215714505141,-2.640250578016863,-1.2239852443246295,-3.9079335972575593,E,E
+dico_phrasis_0001080__en-en__flipped,dico_phrasis_0001080,en,en,'s chemical weapons,weapons that use toxic chemicals,EQUIVALENCE,-6.009995855325589,-2.515118407640983,-2.4032911185762584,-5.053483520879477,E,B
+dico_phrasis_0001080__en-en__original,dico_phrasis_0001080,en,en,weapons that use toxic chemicals,'s chemical weapons,EQUIVALENCE,-0.9455599076896808,-6.245106348132086,-3.7104305165360274,-4.189265058671425,F,F
+dico_phrasis_0001095__en-en__flipped,dico_phrasis_0001095,en,en,A brown and white cow,a bovine with brown-and-white coloring,EQUIVALENCE,-4.858870159181055,-5.04249420324176,-0.0711826886654849,-6.240416577053167,E,E
+dico_phrasis_0001095__en-en__original,dico_phrasis_0001095,en,en,a bovine with brown-and-white coloring,A brown and white cow,EQUIVALENCE,-4.83877010046412,-5.107070266196822,-0.0770913849171947,-6.5274991979099255,E,E
+dico_phrasis_0001103__en-en__flipped,dico_phrasis_0001103,en,en,A ginger and white cat,A orange and white cat,EQUIVALENCE,-6.450093400827704,-7.642454462599416,-7.250222203484832,-0.0149917576230158,N,F
+dico_phrasis_0001103__en-en__original,dico_phrasis_0001103,en,en,A orange and white cat,A ginger and white cat,EQUIVALENCE,-7.512693872522671,-7.505721365880327,-7.77329078860219,-0.0105639452451051,N,B
+dico_phrasis_0001129__en-en__flipped,dico_phrasis_0001129,en,en,A boy,a male child,EQUIVALENCE,-4.153218971024664,-4.992627925009244,-0.0996347629335645,-6.373082803021582,E,E
+dico_phrasis_0001129__en-en__original,dico_phrasis_0001129,en,en,a male child,A boy,EQUIVALENCE,-4.970680054301175,-5.050742314531558,-0.0585583610079215,-6.7322947395584505,E,E
+dico_phrasis_0001131__en-en__flipped,dico_phrasis_0001131,en,en,the tires belonging to them,their tires,EQUIVALENCE,-3.885543301533995,-5.537640747757095,-0.3967139868252852,-5.435822337698277,E,E
+dico_phrasis_0001131__en-en__original,dico_phrasis_0001131,en,en,their tires,the tires belonging to them,EQUIVALENCE,-5.195458728025613,-5.087749659220632,-0.2652870917819509,-5.643434594522174,E,E
+dico_phrasis_0001136__en-en__flipped,dico_phrasis_0001136,en,en,on the street,along a city path,EQUIVALENCE,-6.592702489902803,-4.711129855921099,-5.647651833107301,-0.1286135532560244,N,B
+dico_phrasis_0001136__en-en__original,dico_phrasis_0001136,en,en,along a city path,on the street,EQUIVALENCE,-3.3594220725282486,-6.743228420375234,-5.3435854561710805,-0.4114184625530695,N,F
+dico_phrasis_0001143__en-en__flipped,dico_phrasis_0001143,en,en,the canine with black fur,The black dog,EQUIVALENCE,-4.6455377044544415,-5.262095151073317,-0.0572416883971098,-6.463624188280682,E,E
+dico_phrasis_0001143__en-en__original,dico_phrasis_0001143,en,en,The black dog,the canine with black fur,EQUIVALENCE,-5.215958472337007,-4.780897772556224,-0.0444171167867168,-6.075643761700072,E,E
+dico_phrasis_0001150__en-en__flipped,dico_phrasis_0001150,en,en,beside a cluttered table,at a messy table,EQUIVALENCE,-5.149442966399209,-5.3984779038703605,-0.095576844481246,-5.141209832695739,E,E
+dico_phrasis_0001150__en-en__original,dico_phrasis_0001150,en,en,at a messy table,beside a cluttered table,EQUIVALENCE,-5.094729261670801,-5.418325808718098,-0.1163554907583131,-4.968682768021318,E,E
+dico_phrasis_0001156__en-en__flipped,dico_phrasis_0001156,en,en,on green grass,on a lawn,EQUIVALENCE,-4.940478359666276,-5.681688869999655,-2.023095794028845,-2.2643139908778736,E,E
+dico_phrasis_0001156__en-en__original,dico_phrasis_0001156,en,en,on a lawn,on green grass,EQUIVALENCE,-4.688229311139684,-4.832320589454276,-1.7373046166015682,-1.9391135162426056,E,E
+dico_phrasis_0001167__en-en__flipped,dico_phrasis_0001167,en,en,Black and white cat,a feline with black-and-white fur,EQUIVALENCE,-4.777883478789338,-5.078229152946481,-0.0739380307881127,-6.279199611434151,E,E
+dico_phrasis_0001167__en-en__original,dico_phrasis_0001167,en,en,a feline with black-and-white fur,Black and white cat,EQUIVALENCE,-4.359136181555309,-5.239414865754164,-0.1202110821824444,-6.222402530394116,E,E
+dico_phrasis_0001174__en-en__flipped,dico_phrasis_0001174,en,en,of wooden debris,of used wooden building materials,EQUIVALENCE,-6.298614728111198,-3.103351680098147,-4.96909593309777,-1.578511960961591,N,B
+dico_phrasis_0001174__en-en__original,dico_phrasis_0001174,en,en,of used wooden building materials,of wooden debris,EQUIVALENCE,-2.7722849108966208,-6.550784525343977,-5.128319041996401,-0.9213812918158392,N,F
+dico_phrasis_0001175__en-en__flipped,dico_phrasis_0001175,en,en,Pile,a heap,EQUIVALENCE,-4.976782113192625,-4.730963090934502,-0.2901519535761541,-3.5583577850243917,E,E
+dico_phrasis_0001175__en-en__original,dico_phrasis_0001175,en,en,a heap,Pile,EQUIVALENCE,-4.14977964495031,-4.821395955824931,-0.1969318711202142,-4.401316302363157,E,E
+dico_phrasis_0001210__en-en__flipped,dico_phrasis_0001210,en,en,A camouflaged plane,Camouflage airplane,EQUIVALENCE,-4.30281863578699,-4.58035342364055,-0.1275124248717427,-4.394038517957349,E,E
+dico_phrasis_0001210__en-en__original,dico_phrasis_0001210,en,en,Camouflage airplane,A camouflaged plane,EQUIVALENCE,-3.74848729487066,-4.889766580023414,-0.1806960365752832,-4.903079667347716,E,E
+dico_phrasis_0001214__en-en__flipped,dico_phrasis_0001214,en,en,clings,holding on,EQUIVALENCE,-5.038968183530534,-5.649596689078376,-0.5304522593152173,-3.043404805593853,E,E
+dico_phrasis_0001214__en-en__original,dico_phrasis_0001214,en,en,holding on,clings,EQUIVALENCE,-4.922703248377983,-5.779482908165797,-0.399692363655908,-3.330456154660725,E,E
+dico_phrasis_0001216__en-en__flipped,dico_phrasis_0001216,en,en,The rear view,the view from behind,EQUIVALENCE,-5.43294060110322,-5.018348931066906,-0.0739724226720279,-5.446768049193139,E,E
+dico_phrasis_0001216__en-en__original,dico_phrasis_0001216,en,en,the view from behind,The rear view,EQUIVALENCE,-4.671930606082289,-5.350148186003376,-0.0904711335055119,-5.705966032957245,E,E
+dico_phrasis_0001218__en-en__flipped,dico_phrasis_0001218,en,en,resting at the water's surface,on the water,EQUIVALENCE,-4.746077273669935,-5.402474810066916,-0.3906939768623275,-5.691776751859085,E,E
+dico_phrasis_0001218__en-en__original,dico_phrasis_0001218,en,en,on the water,resting at the water's surface,EQUIVALENCE,-5.760549237897941,-4.6330645462582,-0.3311473931580275,-5.402461797566165,E,E
+dico_phrasis_0001221__en-en__flipped,dico_phrasis_0001221,en,en,a black and white photo,a monochrome photograph,EQUIVALENCE,-4.455618382307502,-5.595182384861123,-0.0912003425882381,-5.553286073915771,E,E
+dico_phrasis_0001221__en-en__original,dico_phrasis_0001221,en,en,a monochrome photograph,a black and white photo,EQUIVALENCE,-5.490942767495494,-4.878491571778637,-0.0893633874600948,-5.340684228871844,E,E
+dico_phrasis_0001224__en-en__flipped,dico_phrasis_0001224,en,en,onto the back,on the back,EQUIVALENCE,-4.385012656831228,-4.935123173900926,-0.3255132167373922,-3.26247780808159,E,E
+dico_phrasis_0001224__en-en__original,dico_phrasis_0001224,en,en,on the back,onto the back,EQUIVALENCE,-4.530459005392772,-3.646010129409216,-1.1289329417121234,-2.2088392116200746,E,E
+dico_phrasis_0001236__en-en__flipped,dico_phrasis_0001236,en,en,at a transport terminal,at a station,EQUIVALENCE,-4.6854739852050855,-5.131391109754634,-0.1463234640459133,-5.110975848366807,E,E
+dico_phrasis_0001236__en-en__original,dico_phrasis_0001236,en,en,at a station,at a transport terminal,EQUIVALENCE,-5.02293054138212,-5.005077853173898,-0.0991493649739883,-5.366905534014986,E,E
+dico_phrasis_0001239__en-en__flipped,dico_phrasis_0001239,en,en,perched,resting on elevated spots,EQUIVALENCE,-5.314714074662325,-3.2773439740449164,-0.8357930089344551,-4.754710674813387,E,E
+dico_phrasis_0001239__en-en__original,dico_phrasis_0001239,en,en,resting on elevated spots,perched,EQUIVALENCE,-4.31609093403841,-5.586395420814802,-0.1749142589025193,-5.01829967964217,E,E
+dico_phrasis_0001243__en-en__flipped,dico_phrasis_0001243,en,en,of grassy field,in a field of green grass,EQUIVALENCE,-5.13897700091296,-4.033481980165775,-0.7838856277872482,-2.1972827114670834,E,E
+dico_phrasis_0001243__en-en__original,dico_phrasis_0001243,en,en,in a field of green grass,of grassy field,EQUIVALENCE,-2.8711932284046937,-5.353829511246059,-0.9728233535994818,-2.500552741925888,E,E
+dico_phrasis_0001264__en-en__flipped,dico_phrasis_0001264,en,en,wearing,dressed in,EQUIVALENCE,-5.288561913951445,-5.152549051825413,-0.1682046786787197,-4.621524466657846,E,E
+dico_phrasis_0001264__en-en__original,dico_phrasis_0001264,en,en,dressed in,wearing,EQUIVALENCE,-4.497157476232689,-5.613827508574964,-0.1542972643040038,-5.192094904071333,E,E
+dico_phrasis_0001265__en-en__flipped,dico_phrasis_0001265,en,en,are crossing,moving from one side to the other,EQUIVALENCE,-4.961008856764154,-5.016228487164494,-0.2992206713266345,-4.390110055675821,E,E
+dico_phrasis_0001265__en-en__original,dico_phrasis_0001265,en,en,moving from one side to the other,are crossing,EQUIVALENCE,-5.22894965747651,-5.341992767052418,-0.2992806150481759,-5.476184809105164,E,E
+dico_phrasis_0001279__en-en__flipped,dico_phrasis_0001279,en,en,Couple,Two people,EQUIVALENCE,-3.605407659444788,-4.195634125901837,-0.404840731852828,-4.439197539521831,E,E
+dico_phrasis_0001279__en-en__original,dico_phrasis_0001279,en,en,Two people,Couple,EQUIVALENCE,-3.173406103006481,-4.378135133536138,-0.4677906123315082,-4.4105985797956375,E,E
+dico_phrasis_0001286__en-en__flipped,dico_phrasis_0001286,en,en,looks up,looking up,EQUIVALENCE,-3.805943789307319,-4.226818583631558,-0.5760441643238494,-3.5009971382459426,E,E
+dico_phrasis_0001286__en-en__original,dico_phrasis_0001286,en,en,looking up,looks up,EQUIVALENCE,-3.303487481237436,-4.254199284127339,-0.567499426812912,-3.589575387846415,E,E
+dico_phrasis_0001291__en-en__flipped,dico_phrasis_0001291,en,en,of the stop sign,of the traffic sign that requires stopping,EQUIVALENCE,-4.900447200878149,-3.481086570663935,-0.5110606463190778,-4.100350400948212,E,E
+dico_phrasis_0001291__en-en__original,dico_phrasis_0001291,en,en,of the traffic sign that requires stopping,of the stop sign,EQUIVALENCE,-2.810754740616185,-5.166277401775621,-0.8967100710973172,-4.031705139210327,E,E
+dico_phrasis_0001300__en-en__flipped,dico_phrasis_0001300,en,en,is lying,laying,EQUIVALENCE,-3.360591975510475,-5.342844901144859,-0.2648655252261523,-4.216184767743306,E,E
+dico_phrasis_0001300__en-en__original,dico_phrasis_0001300,en,en,laying,is lying,EQUIVALENCE,-5.39065817078172,-4.879361992877908,-0.0544019448778912,-5.321347768904952,E,E
+dico_phrasis_0001306__en-en__flipped,dico_phrasis_0001306,en,en,with two remote controls,accompanied by both of its remote-control units,EQUIVALENCE,-4.95598905669057,-4.1662003908197445,-0.4185297304034591,-5.027917575204409,E,E
+dico_phrasis_0001306__en-en__original,dico_phrasis_0001306,en,en,accompanied by both of its remote-control units,with two remote controls,EQUIVALENCE,-3.1854398860765456,-5.6173228958480514,-0.3616026058031081,-5.308130563719368,E,E
+dico_phrasis_0001323__en-en__flipped,dico_phrasis_0001323,en,en,wins Australian election,to Australia first election victory,BACKWARD_ENTAILMENT,-5.901913599865701,-1.0600716637542498,-4.290857704179551,-3.9723174756487865,B,B
+dico_phrasis_0001323__en-en__original,dico_phrasis_0001323,en,en,to Australia first election victory,wins Australian election,FORWARD_ENTAILMENT,-0.3820131757951355,-6.75956152271197,-4.955603096792756,-3.682902828638412,F,F
+dico_phrasis_0001324__en-en__flipped,dico_phrasis_0001324,en,en,in Mediterranean,from deep Mediterranean Sea,BACKWARD_ENTAILMENT,-5.794281659826823,-1.07647468478003,-5.391198971177328,-2.731383555437315,B,B
+dico_phrasis_0001324__en-en__original,dico_phrasis_0001324,en,en,from deep Mediterranean Sea,in Mediterranean,FORWARD_ENTAILMENT,-1.3293844685120535,-6.965189499175863,-5.8096870804988505,-2.407844506220337,F,F
+dico_phrasis_0001346__en-en__flipped,dico_phrasis_0001346,en,en,London Marathon,Every London Marathon runner,BACKWARD_ENTAILMENT,-5.74043062404272,-0.5050594758289754,-5.627567711725603,-4.802230080718567,B,B
+dico_phrasis_0001346__en-en__original,dico_phrasis_0001346,en,en,Every London Marathon runner,London Marathon,FORWARD_ENTAILMENT,-0.1367865259595314,-6.288365995401899,-5.822967832798521,-6.071265454604983,F,F
+dico_phrasis_0001352__en-en__flipped,dico_phrasis_0001352,en,en,to East Coast,to US East Coast,BACKWARD_ENTAILMENT,-6.655624411375745,-0.3124677557462682,-5.884004316599591,-6.942981384070141,B,B
+dico_phrasis_0001352__en-en__original,dico_phrasis_0001352,en,en,to US East Coast,to East Coast,FORWARD_ENTAILMENT,-0.1183580002639009,-7.4121568144811505,-6.289120103314848,-7.407096171523463,F,F
+dico_phrasis_0001361__en-en__flipped,dico_phrasis_0001361,en,en,'s violence,in all forms of violence,BACKWARD_ENTAILMENT,-6.821219661649075,-0.7230763125578635,-6.067614294654139,-6.573853352483122,B,B
+dico_phrasis_0001361__en-en__original,dico_phrasis_0001361,en,en,in all forms of violence,'s violence,FORWARD_ENTAILMENT,-0.0876837903541641,-7.425038142431013,-5.903070937522482,-6.377497596967451,F,F
+dico_phrasis_0001378__en-en__flipped,dico_phrasis_0001378,en,en,Berlusconi ministers,Berlusconi party ministers,BACKWARD_ENTAILMENT,-5.842922421122425,-0.8911783080049691,-5.366528665597074,-4.97145141469919,B,B
+dico_phrasis_0001378__en-en__original,dico_phrasis_0001378,en,en,Berlusconi party ministers,Berlusconi ministers,FORWARD_ENTAILMENT,-0.342642690119352,-5.664487019555971,-5.558916328228718,-4.67599338827253,F,F
+dico_phrasis_0001379__en-en__flipped,dico_phrasis_0001379,en,en,Venezuela,"Nicaragua , Venezuela",BACKWARD_ENTAILMENT,-6.303594828936597,-0.935395634465556,-7.298210637065909,-5.237187262667359,B,B
+dico_phrasis_0001379__en-en__original,dico_phrasis_0001379,en,en,"Nicaragua , Venezuela",Venezuela,FORWARD_ENTAILMENT,-0.1555779341697648,-7.238623675092057,-6.604240150634444,-6.44512871045271,F,F
+dico_phrasis_0001386__en-en__flipped,dico_phrasis_0001386,en,en,Palestinian,7 Palestinians,BACKWARD_ENTAILMENT,-2.969045947677832,-1.3735035118330925,-4.777668819513857,-1.0664051132271093,N,B
+dico_phrasis_0001386__en-en__original,dico_phrasis_0001386,en,en,7 Palestinians,Palestinian,FORWARD_ENTAILMENT,-1.321291851879853,-4.45137238292068,-5.623911746225455,-1.690963544330695,F,F
+dico_phrasis_0001392__en-en__flipped,dico_phrasis_0001392,en,en,in Bhutto death,in 2007 Bhutto assassination,BACKWARD_ENTAILMENT,-5.493806681722204,-0.7708815402684608,-5.500046783874233,-5.773008005509575,B,B
+dico_phrasis_0001392__en-en__original,dico_phrasis_0001392,en,en,in 2007 Bhutto assassination,in Bhutto death,FORWARD_ENTAILMENT,-0.2176991230831493,-5.68235628074268,-4.885248025415932,-5.543221148509379,F,F
+dico_phrasis_0001398__en-en__flipped,dico_phrasis_0001398,en,en,Palestinian militant,2 Palestinian Militants,BACKWARD_ENTAILMENT,-5.458251324952182,-0.5556390734121569,-6.25196304436578,-5.433949530284143,B,B
+dico_phrasis_0001398__en-en__original,dico_phrasis_0001398,en,en,2 Palestinian Militants,Palestinian militant,FORWARD_ENTAILMENT,-0.1959932210256584,-5.681238931885354,-6.8427139185080845,-5.689888995111975,F,F
+dico_phrasis_0001404__en-en__flipped,dico_phrasis_0001404,en,en,13 Iraqi army recruits,23 Iraqi army recruits,BACKWARD_ENTAILMENT,-5.769782093577715,-0.5650001440576047,-6.8341876242688615,-4.715964006794625,B,B
+dico_phrasis_0001404__en-en__original,dico_phrasis_0001404,en,en,23 Iraqi army recruits,13 Iraqi army recruits,FORWARD_ENTAILMENT,-0.2780335479463532,-6.730896118629514,-7.159258140473106,-5.468702567963342,F,F
+dico_phrasis_0001410__en-en__flipped,dico_phrasis_0001410,en,en,Philippines,for Philippines,BACKWARD_ENTAILMENT,-6.833098847675994,-0.5566363374478371,-6.66251652340956,-6.314779921381349,B,B
+dico_phrasis_0001410__en-en__original,dico_phrasis_0001410,en,en,for Philippines,Philippines,FORWARD_ENTAILMENT,-0.2203053450522911,-7.404956501318821,-6.65011090695243,-6.879272278739819,F,F
+dico_phrasis_0001413__en-en__flipped,dico_phrasis_0001413,en,en,Protests,In Egyptian Protests,BACKWARD_ENTAILMENT,-6.728475117690857,-0.431429253526027,-7.052625963099296,-6.638164648421104,B,B
+dico_phrasis_0001413__en-en__original,dico_phrasis_0001413,en,en,In Egyptian Protests,Protests,FORWARD_ENTAILMENT,-0.1080274484000596,-7.440598269446888,-6.922664046430786,-7.185431197428902,F,F
+dico_phrasis_0001423__en-en__flipped,dico_phrasis_0001423,en,en,Nigeria,Nigerian police,BACKWARD_ENTAILMENT,-5.235869583418734,-0.8570939271954371,-5.507738209695386,-3.3473038940934017,B,B
+dico_phrasis_0001423__en-en__original,dico_phrasis_0001423,en,en,Nigerian police,Nigeria,FORWARD_ENTAILMENT,-0.5527670610362394,-5.667541054727049,-4.853420106412381,-2.7110079281940167,F,F
+dico_phrasis_0001437__en-en__flipped,dico_phrasis_0001437,en,en,two girls,Two young girls,BACKWARD_ENTAILMENT,-7.05386345513454,-0.2917000172316122,-6.6750954009869785,-8.073411600567807,B,B
+dico_phrasis_0001437__en-en__original,dico_phrasis_0001437,en,en,Two young girls,two girls,FORWARD_ENTAILMENT,-0.0636598940991021,-6.835947965711619,-6.531152340402471,-8.33752805752582,F,F
+dico_phrasis_0001444__en-en__flipped,dico_phrasis_0001444,en,en,A person,A man,BACKWARD_ENTAILMENT,-7.023007028220893,-0.7442842577087889,-7.080183054426115,-6.189282080574633,B,B
+dico_phrasis_0001444__en-en__original,dico_phrasis_0001444,en,en,A man,A person,FORWARD_ENTAILMENT,-0.072893789848525,-6.922814723293821,-6.8981023544478814,-6.689234045213301,F,F
+dico_phrasis_0001447__en-en__flipped,dico_phrasis_0001447,en,en,A black dog,The brown and black dog,BACKWARD_ENTAILMENT,-6.786786010905075,-0.502507940350938,-6.660014481389491,-6.6003651629328415,B,B
+dico_phrasis_0001447__en-en__original,dico_phrasis_0001447,en,en,The brown and black dog,A black dog,FORWARD_ENTAILMENT,-0.0834629278298348,-6.867963576407843,-6.7109606058315565,-6.9926683943387005,F,F
+dico_phrasis_0001451__en-en__flipped,dico_phrasis_0001451,en,en,The dog,A brown and white dog,BACKWARD_ENTAILMENT,-6.416022797054676,-0.5836768991019602,-6.479985457784561,-6.890660366293417,B,B
+dico_phrasis_0001451__en-en__original,dico_phrasis_0001451,en,en,A brown and white dog,The dog,FORWARD_ENTAILMENT,-0.0920346943494765,-6.978245997722653,-6.477430491939892,-7.3413751155592095,F,F
+dico_phrasis_0001456__en-en__flipped,dico_phrasis_0001456,en,en,is playing,is skijoring,BACKWARD_ENTAILMENT,-6.643022216286531,-3.4862464536490747,-6.153434144383939,-1.742072608993719,N,B
+dico_phrasis_0001456__en-en__original,dico_phrasis_0001456,en,en,is skijoring,is playing,FORWARD_ENTAILMENT,-3.159369001074506,-6.897812067750963,-5.802981236859037,-1.1499713453490277,N,F
+dico_phrasis_0001472__en-en__flipped,dico_phrasis_0001472,en,en,of a saddle,of a horse saddle,BACKWARD_ENTAILMENT,-6.548083371618144,-0.6844604913877954,-6.03648098975296,-6.222606104313087,B,B
+dico_phrasis_0001472__en-en__original,dico_phrasis_0001472,en,en,of a horse saddle,of a saddle,FORWARD_ENTAILMENT,-0.0749788094109454,-6.996802383020139,-6.155874091739075,-6.821766327673809,F,F
+dico_phrasis_0001479__en-en__flipped,dico_phrasis_0001479,en,en,Dog,A brown dog,BACKWARD_ENTAILMENT,-6.343344946372675,-0.3832181738497492,-6.351647391585675,-7.318886277246643,B,B
+dico_phrasis_0001479__en-en__original,dico_phrasis_0001479,en,en,A brown dog,Dog,FORWARD_ENTAILMENT,-0.1152643546980572,-6.762191430779493,-6.696926773639714,-6.720942798805431,F,F
+dico_phrasis_0001491__en-en__flipped,dico_phrasis_0001491,en,en,in the grass,in tall grass,BACKWARD_ENTAILMENT,-6.782030342706463,-0.6102983317657504,-6.473142478553872,-7.15651874362272,B,B
+dico_phrasis_0001491__en-en__original,dico_phrasis_0001491,en,en,in tall grass,in the grass,FORWARD_ENTAILMENT,-0.0759117468955899,-7.50412254927186,-6.76104128010698,-7.307014963503956,F,F
+dico_phrasis_0001501__en-en__flipped,dico_phrasis_0001501,en,en,A white dog,A wet white dog,BACKWARD_ENTAILMENT,-7.135816996735511,-0.6782755309762343,-7.202860102496722,-7.362599010708113,B,B
+dico_phrasis_0001501__en-en__original,dico_phrasis_0001501,en,en,A wet white dog,A white dog,FORWARD_ENTAILMENT,-0.1181727490595443,-7.309731413103289,-6.817400824702926,-7.73758792795454,F,F
+dico_phrasis_0001505__en-en__flipped,dico_phrasis_0001505,en,en,Two Asian men and a woman,Two Asian men and Asian woman,BACKWARD_ENTAILMENT,-4.800627637026697,-1.6909635346313217,-2.8634445449888606,-4.65128150892058,B,B
+dico_phrasis_0001505__en-en__original,dico_phrasis_0001505,en,en,Two Asian men and Asian woman,Two Asian men and a woman,FORWARD_ENTAILMENT,-0.333694425067294,-6.006346321941404,-4.566895655633,-5.388007662535696,F,F
+dico_phrasis_0001506__en-en__flipped,dico_phrasis_0001506,en,en,Two dogs,two puppies,BACKWARD_ENTAILMENT,-5.387186925159239,-1.4719890460832348,-6.915633619374378,-3.535611004180057,B,B
+dico_phrasis_0001506__en-en__original,dico_phrasis_0001506,en,en,two puppies,Two dogs,FORWARD_ENTAILMENT,-0.1605763741903263,-6.264157753047621,-6.658012810704387,-5.062079519885059,F,F
+dico_phrasis_0001511__en-en__flipped,dico_phrasis_0001511,en,en,in a dress,in an orange dress,BACKWARD_ENTAILMENT,-6.764086401548206,-0.5951069951913951,-6.518080513761659,-7.758328135273079,B,B
+dico_phrasis_0001511__en-en__original,dico_phrasis_0001511,en,en,in an orange dress,in a dress,FORWARD_ENTAILMENT,-0.1003831326642356,-7.5835190390227964,-7.054478645292792,-7.870240146262321,F,F
+dico_phrasis_0001521__en-en__flipped,dico_phrasis_0001521,en,en,a scooter,on a scooter,BACKWARD_ENTAILMENT,-7.171708783504467,-0.2225741654605678,-6.391332657135627,-6.822901184729834,B,B
+dico_phrasis_0001521__en-en__original,dico_phrasis_0001521,en,en,on a scooter,a scooter,FORWARD_ENTAILMENT,-0.0764423457968686,-7.558373631108647,-6.538210859963144,-7.385766569965924,F,F
+dico_phrasis_0001523__en-en__flipped,dico_phrasis_0001523,en,en,a white Frisbee,with a white Frisbee,BACKWARD_ENTAILMENT,-6.414699724950448,-0.8479255305111951,-6.045336426931674,-6.033129336077029,B,B
+dico_phrasis_0001523__en-en__original,dico_phrasis_0001523,en,en,with a white Frisbee,a white Frisbee,FORWARD_ENTAILMENT,-0.1730354312510639,-7.029811859970425,-6.736580916588639,-7.003877538785472,F,F
+dico_phrasis_0001525__en-en__flipped,dico_phrasis_0001525,en,en,in the grass,through the grass,BACKWARD_ENTAILMENT,-6.67006163324693,-0.8019912692485169,-5.888784016428184,-5.2212550568161324,B,B
+dico_phrasis_0001525__en-en__original,dico_phrasis_0001525,en,en,through the grass,in the grass,FORWARD_ENTAILMENT,-0.4935478832632078,-7.148132996391234,-5.914071586361504,-4.751571182540037,F,F
+dico_phrasis_0001527__en-en__flipped,dico_phrasis_0001527,en,en,Two girls,Girls,BACKWARD_ENTAILMENT,-5.399887439806721,-0.3485959541792295,-5.979858743349177,-6.003435569206339,B,B
+dico_phrasis_0001527__en-en__original,dico_phrasis_0001527,en,en,Girls,Two girls,FORWARD_ENTAILMENT,-0.0569167141633659,-6.823868742040538,-6.846614659281317,-6.685595532707118,F,F
+dico_phrasis_0001540__en-en__flipped,dico_phrasis_0001540,en,en,through the snow,through the deep snow,BACKWARD_ENTAILMENT,-6.852796933066608,-0.3625085661925486,-5.625886684667827,-6.835836518940092,B,B
+dico_phrasis_0001540__en-en__original,dico_phrasis_0001540,en,en,through the deep snow,through the snow,FORWARD_ENTAILMENT,-0.0861647971085141,-7.106824790200733,-5.649952138226372,-6.589803941931469,F,F
+dico_phrasis_0001547__en-en__flipped,dico_phrasis_0001547,en,en,instruments,brass instruments,BACKWARD_ENTAILMENT,-6.181606645709741,-0.8368419114018152,-6.519189243839651,-5.298221275534697,B,B
+dico_phrasis_0001547__en-en__original,dico_phrasis_0001547,en,en,brass instruments,instruments,FORWARD_ENTAILMENT,-0.3202534654158103,-6.413283630054965,-6.427491142195239,-4.505041334869241,F,F
+dico_phrasis_0001551__en-en__flipped,dico_phrasis_0001551,en,en,Saudi Women,Saudis,BACKWARD_ENTAILMENT,-1.211539662013002,-4.63600077840641,-5.036786145100542,-0.6286554596121587,N,F
+dico_phrasis_0001551__en-en__original,dico_phrasis_0001551,en,en,Saudis,Saudi Women,FORWARD_ENTAILMENT,-3.536981208844108,-1.4078890668582142,-5.439438242438556,-1.204300620876871,N,B
+dico_phrasis_0001562__en-en__flipped,dico_phrasis_0001562,en,en,from Japan tunnel,in collapsed Japan tunnel,BACKWARD_ENTAILMENT,-6.590768266129146,-3.689994373329133,-6.019209234324744,-0.3847136978384351,N,B
+dico_phrasis_0001562__en-en__original,dico_phrasis_0001562,en,en,in collapsed Japan tunnel,from Japan tunnel,FORWARD_ENTAILMENT,-3.986417295639785,-8.0878084918907,-6.848860246047448,-0.279386085376214,N,F
+dico_phrasis_0001564__en-en__flipped,dico_phrasis_0001564,en,en,gay marriage,gay marriage bill,BACKWARD_ENTAILMENT,-5.83793824873491,-1.0289873526704698,-5.515532741567729,-5.307657576721151,B,B
+dico_phrasis_0001564__en-en__original,dico_phrasis_0001564,en,en,gay marriage bill,gay marriage,FORWARD_ENTAILMENT,-0.7169029130370083,-5.608116368584898,-4.603110051535633,-4.340158824009762,F,F
+dico_phrasis_0001567__en-en__flipped,dico_phrasis_0001567,en,en,as Bangladesh building toll,after deadly Bangladesh building collapse,BACKWARD_ENTAILMENT,-7.3348319981503485,-3.4266486519583057,-6.121353383263746,-1.267882819375196,N,B
+dico_phrasis_0001567__en-en__original,dico_phrasis_0001567,en,en,after deadly Bangladesh building collapse,as Bangladesh building toll,FORWARD_ENTAILMENT,-1.7031267874019544,-6.03481657480967,-3.815943739570896,-1.664717884617766,N,F
+dico_phrasis_0001583__en-en__flipped,dico_phrasis_0001583,en,en,'s chemical weapons,on chemical weapons,BACKWARD_ENTAILMENT,-6.566439925534069,-1.3335395394787577,-6.3748572308843725,-4.320482695005873,B,B
+dico_phrasis_0001583__en-en__original,dico_phrasis_0001583,en,en,on chemical weapons,'s chemical weapons,FORWARD_ENTAILMENT,-1.0028215819921338,-7.128736890785521,-6.366987662943824,-3.5354355647490667,F,F
+dico_phrasis_0001584__en-en__flipped,dico_phrasis_0001584,en,en,for Boston victims,for Boston bomb victims,BACKWARD_ENTAILMENT,-6.7996465832231126,-0.6023379236695849,-6.716183237258363,-7.166891805354524,B,B
+dico_phrasis_0001584__en-en__original,dico_phrasis_0001584,en,en,for Boston bomb victims,for Boston victims,FORWARD_ENTAILMENT,-0.0980187296203234,-6.292357274823533,-5.7291533936392725,-7.007079520755158,F,F
+dico_phrasis_0001590__en-en__flipped,dico_phrasis_0001590,en,en,for another term,for seventh term,BACKWARD_ENTAILMENT,-4.908212489611841,-3.094093135721422,-4.892199070977108,-0.262132020520108,N,B
+dico_phrasis_0001590__en-en__original,dico_phrasis_0001590,en,en,for seventh term,for another term,FORWARD_ENTAILMENT,-2.4002189133360656,-6.351836333055762,-5.157412578045793,-0.3870032721553917,N,F
+dico_phrasis_0001599__en-en__flipped,dico_phrasis_0001599,en,en,Pakistan Taliban,Pakistani Taliban chief Hakimullah Mehsud,BACKWARD_ENTAILMENT,-5.615981550564368,-0.7342469521363567,-5.755340365370114,-5.5459862776597335,B,B
+dico_phrasis_0001599__en-en__original,dico_phrasis_0001599,en,en,Pakistani Taliban chief Hakimullah Mehsud,Pakistan Taliban,FORWARD_ENTAILMENT,-0.1738326267554193,-5.983777045324825,-5.782342708722137,-5.942565482472761,F,F
+dico_phrasis_0001600__en-en__flipped,dico_phrasis_0001600,en,en,Hakimullah,Pakistani Taliban chief Hakimullah Mehsud,BACKWARD_ENTAILMENT,-6.00989568018514,-0.7710982440272777,-5.769987739956361,-5.272906246618412,B,B
+dico_phrasis_0001600__en-en__original,dico_phrasis_0001600,en,en,Pakistani Taliban chief Hakimullah Mehsud,Hakimullah,FORWARD_ENTAILMENT,-0.0754369361443032,-7.0557268920781935,-6.278619489395887,-6.8907759004079,F,F
+dico_phrasis_0001606__en-en__flipped,dico_phrasis_0001606,en,en,to airport,to Alaska airport runway,BACKWARD_ENTAILMENT,-6.468376460173068,-0.1061511281861229,-6.393520553905105,-7.115572815138435,B,B
+dico_phrasis_0001606__en-en__original,dico_phrasis_0001606,en,en,to Alaska airport runway,to airport,FORWARD_ENTAILMENT,-0.0650859254811128,-7.5045583176825374,-6.54824454369286,-7.175402038118633,F,F
+dico_phrasis_0001629__en-en__flipped,dico_phrasis_0001629,en,en,on rebel-held town,into strategic rebelheld town,BACKWARD_ENTAILMENT,-6.171781443223058,-0.9500616417971238,-5.645628594025671,-3.816287271842061,B,B
+dico_phrasis_0001629__en-en__original,dico_phrasis_0001629,en,en,into strategic rebelheld town,on rebel-held town,FORWARD_ENTAILMENT,-0.8996401528708787,-6.805191869556174,-5.136951521058147,-2.548411245166525,F,F
+dico_phrasis_0001630__en-en__flipped,dico_phrasis_0001630,en,en,Thai protesters,Thai opposition protesters,BACKWARD_ENTAILMENT,-6.679946944317579,-0.7859012523803711,-6.54061233893172,-6.145990013034503,B,B
+dico_phrasis_0001630__en-en__original,dico_phrasis_0001630,en,en,Thai opposition protesters,Thai protesters,FORWARD_ENTAILMENT,-0.1888606661720343,-6.418384409364389,-6.511321267899201,-5.76706582448515,F,F
+dico_phrasis_0001645__en-en__flipped,dico_phrasis_0001645,en,en,hospital,in hospital,BACKWARD_ENTAILMENT,-7.198512550014964,-0.3352437077151855,-6.272530018854848,-6.029291975814811,B,B
+dico_phrasis_0001645__en-en__original,dico_phrasis_0001645,en,en,in hospital,hospital,FORWARD_ENTAILMENT,-0.2097437378626909,-7.3878488537531934,-5.945656875457551,-6.066300185706402,F,F
+dico_phrasis_0001654__en-en__flipped,dico_phrasis_0001654,en,en,Egypt,Egypt ministry,BACKWARD_ENTAILMENT,-5.8047716334554,-0.7767121955844208,-6.083808319279794,-4.523468143253768,B,B
+dico_phrasis_0001654__en-en__original,dico_phrasis_0001654,en,en,Egypt ministry,Egypt,FORWARD_ENTAILMENT,-0.1865426061068613,-6.347844492148821,-5.5146298713996655,-4.194873234382732,F,F
+dico_phrasis_0001656__en-en__flipped,dico_phrasis_0001656,en,en,hospital,Texas hospital,BACKWARD_ENTAILMENT,-6.587352352387529,-0.6449286163318373,-6.557098753300132,-6.199641393668276,B,B
+dico_phrasis_0001656__en-en__original,dico_phrasis_0001656,en,en,Texas hospital,hospital,FORWARD_ENTAILMENT,-0.2091044416850714,-6.864415166857431,-6.639373972348959,-7.004233422957451,F,F
+dico_phrasis_0001659__en-en__flipped,dico_phrasis_0001659,en,en,$ 25bn oil link,$ 30 billion oil link,BACKWARD_ENTAILMENT,-5.537376933067127,-1.1965815253745358,-5.923503212898059,-2.2550061571290936,B,B
+dico_phrasis_0001659__en-en__original,dico_phrasis_0001659,en,en,$ 30 billion oil link,$ 25bn oil link,FORWARD_ENTAILMENT,-2.117423958411316,-6.5610615778272345,-6.302996155451237,-0.489963587950169,N,F
+dico_phrasis_0001663__en-en__flipped,dico_phrasis_0001663,en,en,Syria Chemical Weapons,for Syrian Chemical Weapons Transport,BACKWARD_ENTAILMENT,-6.184369745312385,-0.8895382756573483,-5.691702611702932,-5.260680752454452,B,B
+dico_phrasis_0001663__en-en__original,dico_phrasis_0001663,en,en,for Syrian Chemical Weapons Transport,Syria Chemical Weapons,FORWARD_ENTAILMENT,-0.1654950442905638,-6.788483601112705,-5.963380349228324,-5.740125423967384,F,F
+dico_phrasis_0001665__en-en__flipped,dico_phrasis_0001665,en,en,Two Palestinians,Palestinians,BACKWARD_ENTAILMENT,-5.209188212360764,-0.425488600537999,-6.234989741847737,-5.863512982334519,B,B
+dico_phrasis_0001665__en-en__original,dico_phrasis_0001665,en,en,Palestinians,Two Palestinians,FORWARD_ENTAILMENT,-0.0552552067390866,-6.463115545426984,-6.868047279432592,-6.083339368120014,F,F
+dico_phrasis_0001667__en-en__flipped,dico_phrasis_0001667,en,en,Protesters,ABVP protesters,BACKWARD_ENTAILMENT,-6.111443396246677,-0.4924239872259338,-6.182983289993051,-5.519325932697697,B,B
+dico_phrasis_0001667__en-en__original,dico_phrasis_0001667,en,en,ABVP protesters,Protesters,FORWARD_ENTAILMENT,-0.143519126515464,-6.177492115041491,-6.219975206395861,-5.193464441240704,F,F
+dico_phrasis_0001669__en-en__flipped,dico_phrasis_0001669,en,en,12 militants,35 militants,BACKWARD_ENTAILMENT,-5.907789876764664,-0.1960564163383335,-6.9033091323630495,-5.946424976692248,B,B
+dico_phrasis_0001669__en-en__original,dico_phrasis_0001669,en,en,35 militants,12 militants,FORWARD_ENTAILMENT,-0.3035106260033639,-6.348835090642392,-7.0068205494137805,-5.657724653527359,F,F
+dico_phrasis_0001675__en-en__flipped,dico_phrasis_0001675,en,en,Rafa Nadal,ailing Nadal,BACKWARD_ENTAILMENT,-5.474753118361302,-1.31311261336532,-4.852091870511837,-2.847582645024128,B,B
+dico_phrasis_0001675__en-en__original,dico_phrasis_0001675,en,en,ailing Nadal,Rafa Nadal,FORWARD_ENTAILMENT,-0.686446243645308,-5.94455700032071,-4.466730084639348,-2.487544794004716,F,F
+dico_phrasis_0001682__en-en__flipped,dico_phrasis_0001682,en,en,Roadside bomb,Roadside bombs,BACKWARD_ENTAILMENT,-6.298588804201935,-0.8471317160096309,-5.963960386113976,-5.385854522309358,B,B
+dico_phrasis_0001682__en-en__original,dico_phrasis_0001682,en,en,Roadside bombs,Roadside bomb,FORWARD_ENTAILMENT,-0.4363867610949892,-6.229840126659336,-5.817696141228936,-5.0603536567597205,F,F
+dico_phrasis_0001685__en-en__flipped,dico_phrasis_0001685,en,en,closes,abruptly closes,BACKWARD_ENTAILMENT,-6.706397516414078,-0.3056930481240661,-5.281056933487009,-5.173794995133631,B,B
+dico_phrasis_0001685__en-en__original,dico_phrasis_0001685,en,en,abruptly closes,closes,FORWARD_ENTAILMENT,-0.2004536156936184,-6.7604661052508845,-5.23902731787003,-4.514673117804894,F,F
+dico_phrasis_0001690__en-en__flipped,dico_phrasis_0001690,en,en,fresh record,fresh record high,BACKWARD_ENTAILMENT,-6.646157894141628,-0.7699166895023525,-5.692631613321258,-6.0221920918496,B,B
+dico_phrasis_0001690__en-en__original,dico_phrasis_0001690,en,en,fresh record high,fresh record,FORWARD_ENTAILMENT,-0.2318951382219006,-6.772679201660476,-5.570863211550237,-5.359618797300182,F,F
+dico_phrasis_0001691__en-en__flipped,dico_phrasis_0001691,en,en,Stocks,US stocks,BACKWARD_ENTAILMENT,-6.372165254298639,-0.1438548182882776,-6.753839260879945,-6.536442915890408,B,B
+dico_phrasis_0001691__en-en__original,dico_phrasis_0001691,en,en,US stocks,Stocks,FORWARD_ENTAILMENT,-0.1061679174490263,-6.8824208031085625,-6.302030916014065,-6.799409331131726,F,F
+dico_phrasis_0001702__en-en__flipped,dico_phrasis_0001702,en,en,in Germany Election,in Germany Elections,BACKWARD_ENTAILMENT,-6.070339032106382,-0.7821198086865563,-4.115121367665909,-4.701063526762309,B,B
+dico_phrasis_0001702__en-en__original,dico_phrasis_0001702,en,en,in Germany Elections,in Germany Election,FORWARD_ENTAILMENT,-1.794531805683098,-6.9082180891125615,-2.981987946598652,-5.706749536960246,F,F
+dico_phrasis_0001706__en-en__flipped,dico_phrasis_0001706,en,en,Pak army,In Pakistan army,BACKWARD_ENTAILMENT,-6.429156997539479,-0.5900476140160148,-5.918970792231836,-5.160826095678288,B,B
+dico_phrasis_0001706__en-en__original,dico_phrasis_0001706,en,en,In Pakistan army,Pak army,FORWARD_ENTAILMENT,-0.1585117993056945,-6.739694954683401,-4.388270289182681,-5.482989213595805,F,F
+dico_phrasis_0001710__en-en__flipped,dico_phrasis_0001710,en,en,Malala,Pakistan 's Malala,BACKWARD_ENTAILMENT,-6.779566109411982,-0.9260750762950066,-6.154799923532276,-5.845775842898159,B,B
+dico_phrasis_0001710__en-en__original,dico_phrasis_0001710,en,en,Pakistan 's Malala,Malala,FORWARD_ENTAILMENT,-0.2800351527259818,-7.31799542376658,-6.109015628390121,-6.298516938778367,F,F
+dico_phrasis_0001714__en-en__flipped,dico_phrasis_0001714,en,en,meeting,Moscow meeting,BACKWARD_ENTAILMENT,-6.607486300055399,-0.4743875338477036,-6.525091402117624,-6.099486139798377,B,B
+dico_phrasis_0001714__en-en__original,dico_phrasis_0001714,en,en,Moscow meeting,meeting,FORWARD_ENTAILMENT,-0.1610495394304762,-7.031065920575,-6.460850004934805,-6.399741222047346,F,F
+dico_phrasis_0001727__en-en__flipped,dico_phrasis_0001727,en,en,clash,Brief clashes,BACKWARD_ENTAILMENT,-5.658580420945679,-0.6248723179445609,-5.849721529617503,-4.626941033735469,B,B
+dico_phrasis_0001727__en-en__original,dico_phrasis_0001727,en,en,Brief clashes,clash,FORWARD_ENTAILMENT,-0.3682412386107773,-6.109700484093858,-5.476534071581397,-3.453032735006842,F,F
+dico_phrasis_0001748__en-en__flipped,dico_phrasis_0001748,en,en,Two animals,Two mountain goats,BACKWARD_ENTAILMENT,-5.773776495822507,-0.1078972462497528,-6.222352091837165,-6.5132100873870025,B,B
+dico_phrasis_0001748__en-en__original,dico_phrasis_0001748,en,en,Two mountain goats,Two animals,FORWARD_ENTAILMENT,-0.0607879536638373,-6.892544001568329,-6.673001108297677,-8.147220723558437,F,F
+dico_phrasis_0001750__en-en__flipped,dico_phrasis_0001750,en,en,A train,Black train,BACKWARD_ENTAILMENT,-5.76764746657409,-0.8968343426922737,-6.226459380501486,-5.172849095378297,B,B
+dico_phrasis_0001750__en-en__original,dico_phrasis_0001750,en,en,Black train,A train,FORWARD_ENTAILMENT,-0.2412268478411434,-6.0052904346325,-6.308600232873161,-5.49232474552969,F,F
+dico_phrasis_0001751__en-en__flipped,dico_phrasis_0001751,en,en,on couch,on a black couch,BACKWARD_ENTAILMENT,-6.736490391802474,-0.226905391848767,-6.613749684131825,-8.017519478362486,B,B
+dico_phrasis_0001751__en-en__original,dico_phrasis_0001751,en,en,on a black couch,on couch,FORWARD_ENTAILMENT,-0.0849896658486241,-7.499023702147217,-6.692220661940785,-7.938922889061383,F,F
+dico_phrasis_0001755__en-en__flipped,dico_phrasis_0001755,en,en,a baby,a small baby,BACKWARD_ENTAILMENT,-7.0516068955894085,-0.4734873171285554,-6.89547024872261,-8.47315650327859,B,B
+dico_phrasis_0001755__en-en__original,dico_phrasis_0001755,en,en,a small baby,a baby,FORWARD_ENTAILMENT,-0.0863486129275139,-7.801108588599283,-7.025072999122858,-7.479170130390046,F,F
+dico_phrasis_0001757__en-en__flipped,dico_phrasis_0001757,en,en,A cat,Gray cat,BACKWARD_ENTAILMENT,-6.362828764228236,-0.4987205606283849,-6.775841513433268,-7.03049868509989,B,B
+dico_phrasis_0001757__en-en__original,dico_phrasis_0001757,en,en,Gray cat,A cat,FORWARD_ENTAILMENT,-0.0846457737052977,-6.8538747586175335,-6.817811705903663,-7.698527667161279,F,F
+dico_phrasis_0001772__en-en__flipped,dico_phrasis_0001772,en,en,Three televisions,Several televisions,BACKWARD_ENTAILMENT,-6.250129316329808,-0.1001933257578329,-6.446645646373283,-6.168362999041729,B,B
+dico_phrasis_0001772__en-en__original,dico_phrasis_0001772,en,en,Several televisions,Three televisions,FORWARD_ENTAILMENT,-0.0606806462282415,-7.657864211526957,-7.542043704318449,-7.431091803836273,F,F
+dico_phrasis_0001778__en-en__flipped,dico_phrasis_0001778,en,en,The train,A red train,BACKWARD_ENTAILMENT,-6.838393947338787,-0.5300636995392326,-6.719061176832246,-7.228269081171084,B,B
+dico_phrasis_0001778__en-en__original,dico_phrasis_0001778,en,en,A red train,The train,FORWARD_ENTAILMENT,-0.0842746174880059,-7.029071572080075,-6.429533635730365,-7.195468368783414,F,F
+dico_phrasis_0001781__en-en__flipped,dico_phrasis_0001781,en,en,at the station,at the train station,BACKWARD_ENTAILMENT,-4.447842881347191,-3.268850922848236,-0.3353435648137845,-3.848432724938245,E,E
+dico_phrasis_0001781__en-en__original,dico_phrasis_0001781,en,en,at the train station,at the station,FORWARD_ENTAILMENT,-1.7487755370386482,-5.105098122333293,-0.735629736358726,-4.232625852251853,E,E
+dico_phrasis_0001794__en-en__flipped,dico_phrasis_0001794,en,en,a sheep,at barn animals,BACKWARD_ENTAILMENT,-6.350119282909271,-3.8671107889294993,-6.959239641932683,-0.0871949196935064,N,B
+dico_phrasis_0001794__en-en__original,dico_phrasis_0001794,en,en,at barn animals,a sheep,FORWARD_ENTAILMENT,-3.309420408260856,-6.2667498801668815,-6.354813577187095,-0.232687733026379,N,F
+dico_phrasis_0001801__en-en__flipped,dico_phrasis_0001801,en,en,A cruise ship,A large cruise ship,BACKWARD_ENTAILMENT,-7.132184976346866,-0.8417640424098312,-7.084135892125542,-7.961633766325886,B,B
+dico_phrasis_0001801__en-en__original,dico_phrasis_0001801,en,en,A large cruise ship,A cruise ship,FORWARD_ENTAILMENT,-0.1039176219684566,-6.840373489656319,-6.859394968448349,-8.070111451941996,F,F
+dico_phrasis_0001817__en-en__flipped,dico_phrasis_0001817,en,en,in water,down a river,BACKWARD_ENTAILMENT,-5.851784425877532,-0.7070053298304478,-5.618462118410071,-2.493071221215527,B,B
+dico_phrasis_0001817__en-en__original,dico_phrasis_0001817,en,en,down a river,in water,FORWARD_ENTAILMENT,-0.1201539309725056,-6.488730239063988,-5.73837505498577,-4.321060446093965,F,F
+dico_phrasis_0001830__en-en__flipped,dico_phrasis_0001830,en,en,The red bus,A white and red bus,BACKWARD_ENTAILMENT,-6.817486404147338,-0.66351278500417,-6.59630803144633,-5.622041879859161,B,B
+dico_phrasis_0001830__en-en__original,dico_phrasis_0001830,en,en,A white and red bus,The red bus,FORWARD_ENTAILMENT,-0.0785847101602452,-6.9975201878938575,-6.517997234463046,-6.72237427969709,F,F
+dico_phrasis_0001841__en-en__flipped,dico_phrasis_0001841,en,en,People,Several people,BACKWARD_ENTAILMENT,-3.4839094132336483,-1.5945047587307786,-5.588813836391022,-3.595859748636931,B,B
+dico_phrasis_0001841__en-en__original,dico_phrasis_0001841,en,en,Several people,People,FORWARD_ENTAILMENT,-1.9893214106630492,-3.955872349448125,-5.076996465531112,-4.236424811191481,F,F
+dico_phrasis_0001846__en-en__flipped,dico_phrasis_0001846,en,en,in front of ruins,in front of steps of ruins,BACKWARD_ENTAILMENT,-6.354082268486838,-0.8073998361929466,-6.23301065664532,-6.429647437741778,B,B
+dico_phrasis_0001846__en-en__original,dico_phrasis_0001846,en,en,in front of steps of ruins,in front of ruins,FORWARD_ENTAILMENT,-0.2006740563107528,-7.065658171275557,-6.190598954060971,-5.06861912141174,F,F
+dico_phrasis_0001847__en-en__flipped,dico_phrasis_0001847,en,en,bicycle,with a bicycle,BACKWARD_ENTAILMENT,-6.887070380441941,-0.3831596551265286,-6.45811679243306,-6.241942882828511,B,B
+dico_phrasis_0001847__en-en__original,dico_phrasis_0001847,en,en,with a bicycle,bicycle,FORWARD_ENTAILMENT,-0.124175772935586,-7.186171537509002,-6.707752730320332,-6.309404669573344,F,F
+dico_phrasis_0001848__en-en__flipped,dico_phrasis_0001848,en,en,driving,driving down,BACKWARD_ENTAILMENT,-6.44926711632652,-0.5192577847723455,-6.258856840072501,-5.148977857965657,B,B
+dico_phrasis_0001848__en-en__original,dico_phrasis_0001848,en,en,driving down,driving,FORWARD_ENTAILMENT,-0.1419029828909643,-7.06413074304696,-6.092907428443791,-5.673948878745596,F,F
+dico_phrasis_0001856__en-en__flipped,dico_phrasis_0001856,en,en,on the ground,on the grass,BACKWARD_ENTAILMENT,-5.518312958454428,-2.9853755509608355,-4.079809123104151,-1.16592829185261,N,B
+dico_phrasis_0001856__en-en__original,dico_phrasis_0001856,en,en,on the grass,on the ground,FORWARD_ENTAILMENT,-1.4903531841264732,-6.03959313748544,-3.886114431850768,-1.4956601830151246,F,F
+dico_phrasis_0001871__en-en__flipped,dico_phrasis_0001871,en,en,An Apple computer,A white Apple computer,BACKWARD_ENTAILMENT,-6.710462749131881,-0.5984455025477835,-6.819084790973228,-7.286597691603862,B,B
+dico_phrasis_0001871__en-en__original,dico_phrasis_0001871,en,en,A white Apple computer,An Apple computer,FORWARD_ENTAILMENT,-0.0897468871866277,-7.040708956320544,-6.800093424518368,-7.247052684127749,F,F
+dico_phrasis_0001875__en-en__flipped,dico_phrasis_0001875,en,en,a baby,with a baby,BACKWARD_ENTAILMENT,-6.9603088145706105,-0.888846347257798,-6.726775357649033,-6.639228132392273,B,B
+dico_phrasis_0001875__en-en__original,dico_phrasis_0001875,en,en,with a baby,a baby,FORWARD_ENTAILMENT,-0.1463231504645219,-7.096624879607187,-6.781437882352499,-6.81588503576182,F,F
+dico_phrasis_0001880__en-en__flipped,dico_phrasis_0001880,en,en,a black and white cow,A black and white horned cow,BACKWARD_ENTAILMENT,-6.610987244386692,-0.5965950845074831,-6.577916002113838,-7.562502139150321,B,B
+dico_phrasis_0001880__en-en__original,dico_phrasis_0001880,en,en,A black and white horned cow,a black and white cow,FORWARD_ENTAILMENT,-0.0986671925767305,-6.688769269107187,-6.4559466025416095,-6.822564061103666,F,F
+dico_phrasis_0001882__en-en__flipped,dico_phrasis_0001882,en,en,with a top hat,wearing black formal wear & a black top hat,BACKWARD_ENTAILMENT,-6.435838809132766,-0.7757207259736373,-5.280615956107965,-4.700402759532323,B,B
+dico_phrasis_0001882__en-en__original,dico_phrasis_0001882,en,en,wearing black formal wear & a black top hat,with a top hat,FORWARD_ENTAILMENT,-0.1830560877738401,-7.340681410314442,-5.6610255454796565,-5.714248343290688,F,F
+dico_phrasis_0001883__en-en__flipped,dico_phrasis_0001883,en,en,A small bird,A small brown birds,BACKWARD_ENTAILMENT,-6.654947011712331,-0.2849122661283981,-6.8081774292321375,-7.774947732978203,B,B
+dico_phrasis_0001883__en-en__original,dico_phrasis_0001883,en,en,A small brown birds,A small bird,FORWARD_ENTAILMENT,-0.0825646474731727,-6.705770761248743,-6.646669517434911,-7.051136829433119,F,F
+dico_phrasis_0001884__en-en__flipped,dico_phrasis_0001884,en,en,a brown horse,atop a brown horse,BACKWARD_ENTAILMENT,-6.917371857861082,-0.7532574372484292,-6.007282907713851,-6.722213624615868,B,B
+dico_phrasis_0001884__en-en__original,dico_phrasis_0001884,en,en,atop a brown horse,a brown horse,FORWARD_ENTAILMENT,-0.0950625539893317,-6.956959173190039,-6.046828039097231,-6.46885941933338,F,F
+dico_phrasis_0001887__en-en__flipped,dico_phrasis_0001887,en,en,in a field,in a large field,BACKWARD_ENTAILMENT,-7.208771931030268,-0.4067640329628339,-6.676091699573313,-8.236165098868723,B,B
+dico_phrasis_0001887__en-en__original,dico_phrasis_0001887,en,en,in a large field,in a field,FORWARD_ENTAILMENT,-0.0808059495115607,-7.3521274970396675,-6.529967801911069,-8.032565451803242,F,F
+dico_phrasis_0001900__en-en__flipped,dico_phrasis_0001900,en,en,a shopping cart,a small shopping cart,BACKWARD_ENTAILMENT,-6.9042935559667065,-0.7241542974627929,-7.176870305291506,-7.591567910166275,B,B
+dico_phrasis_0001900__en-en__original,dico_phrasis_0001900,en,en,a small shopping cart,a shopping cart,FORWARD_ENTAILMENT,-0.1005262295010614,-7.29784096997012,-7.092794373343679,-6.608321213186078,F,F
+dico_phrasis_0001904__en-en__flipped,dico_phrasis_0001904,en,en,Two people,Two young people,BACKWARD_ENTAILMENT,-7.26380382915509,-0.3885875493553498,-7.262056276228748,-8.51331542434963,B,B
+dico_phrasis_0001904__en-en__original,dico_phrasis_0001904,en,en,Two young people,Two people,FORWARD_ENTAILMENT,-0.0735992256848225,-6.696756173079034,-6.603667787119568,-8.183896150593778,F,F
+dico_phrasis_0001906__en-en__flipped,dico_phrasis_0001906,en,en,A train,A long train,BACKWARD_ENTAILMENT,-7.161003962065203,-0.6557553300936246,-7.006028053877675,-8.286447322833462,B,B
+dico_phrasis_0001906__en-en__original,dico_phrasis_0001906,en,en,A long train,A train,FORWARD_ENTAILMENT,-0.0803091513805644,-6.995183536181158,-6.578861285020217,-7.837908015916056,F,F
+dico_phrasis_0001908__en-en__flipped,dico_phrasis_0001908,en,en,a boat,Small boat,BACKWARD_ENTAILMENT,-6.5561572472196765,-0.5418220519961872,-6.959552597000395,-6.982820760204589,B,B
+dico_phrasis_0001908__en-en__original,dico_phrasis_0001908,en,en,Small boat,a boat,FORWARD_ENTAILMENT,-0.0908723231427093,-6.959153501319114,-6.97114761236034,-7.140738155074142,F,F
+dico_phrasis_0001926__en-en__flipped,dico_phrasis_0001926,en,en,game,a video game,BACKWARD_ENTAILMENT,-5.966520328288856,-0.5652933011110455,-4.741607823933744,-4.719500759209776,B,B
+dico_phrasis_0001926__en-en__original,dico_phrasis_0001926,en,en,a video game,game,FORWARD_ENTAILMENT,-0.5376499494212073,-7.027666683027864,-5.862751243044655,-4.897355849573732,F,F
+dico_phrasis_0001940__en-en__flipped,dico_phrasis_0001940,en,en,eat,having a meal,BACKWARD_ENTAILMENT,-5.4556491349050695,-4.106504906481434,-0.1921876344988044,-5.065698034953008,E,E
+dico_phrasis_0001940__en-en__original,dico_phrasis_0001940,en,en,having a meal,eat,FORWARD_ENTAILMENT,-3.7593896583930007,-5.612428883335525,-0.1878227786437025,-5.420490905266539,E,E
+dico_phrasis_0001944__en-en__flipped,dico_phrasis_0001944,en,en,The cow,Two cows,BACKWARD_ENTAILMENT,-5.418141595220138,-0.2373279697652361,-6.227383024191429,-5.5895364400700425,B,B
+dico_phrasis_0001944__en-en__original,dico_phrasis_0001944,en,en,Two cows,The cow,FORWARD_ENTAILMENT,-0.1778661133817529,-6.694730873850156,-7.1561649798822105,-5.68524442458865,F,F
+dico_phrasis_0001945__en-en__flipped,dico_phrasis_0001945,en,en,Two cows,Three cows,BACKWARD_ENTAILMENT,-5.9359101881234855,-0.17568300462256,-6.811839692756436,-5.265739265049398,B,B
+dico_phrasis_0001945__en-en__original,dico_phrasis_0001945,en,en,Three cows,Two cows,FORWARD_ENTAILMENT,-0.0897602979608036,-7.098432649599279,-7.190588145878678,-5.928905446754659,F,F
+dico_phrasis_0001949__en-en__original,dico_phrasis_0001949,en,en,Syria opposition unity,Syria divided opposition,NEGATIVE_OTHER,-5.860280418924115,-6.402683371833585,-5.98093421710692,-0.247159416011594,N,N
+dico_phrasis_0001952__en-en__original,dico_phrasis_0001952,en,en,out of the water,through the water,NEGATIVE_OTHER,-7.073442734650784,-6.272106093537821,-6.332898420465006,-0.0213697576244804,N,N
+dico_phrasis_0001962__en-en__original,dico_phrasis_0001962,en,en,to Farrow,against Farrow,NEGATIVE_OTHER,-7.934156156802575,-7.419489937250216,-6.866388238692681,-0.011135893289645,N,N
+dico_phrasis_0001979__en-en__original,dico_phrasis_0001979,en,en,on Syria abuse,on Syrian chemical arms,NEGATIVE_OTHER,-6.509558870207605,-3.227111641378539,-6.183094217192469,-1.1064089077823729,N,N
+dico_phrasis_0002003__en-en__original,dico_phrasis_0002003,en,en,Bangladesh collapse search,Bangladesh collapse deaths,NEGATIVE_OTHER,-5.62566380240695,-4.596666376796128,-5.86375626028256,-0.3611543387241787,N,N
+dico_phrasis_0002044__en-en__original,dico_phrasis_0002044,en,en,on the grass,by a tree,NEGATIVE_OTHER,-7.851582753123941,-7.76502244667421,-7.806882073444229,-0.0154950717708486,N,N
+dico_phrasis_0002052__en-en__original,dico_phrasis_0002052,en,en,down a snowy hill,sledding,NEGATIVE_OTHER,-4.72097787450519,-6.443783300029899,-4.870975282696551,-0.135673658954766,N,N
+dico_phrasis_0002056__en-en__original,dico_phrasis_0002056,en,en,white water rafting,down the rapids,NEGATIVE_OTHER,-6.410322445292512,-6.292562730768561,-5.496955695409814,-0.5221199866724406,N,N
+dico_phrasis_0002069__en-en__original,dico_phrasis_0002069,en,en,A family,A naked little girl,NEGATIVE_OTHER,-5.844921469953557,-5.403577327993413,-6.8515158298282826,-0.0467936001885927,N,N
+dico_phrasis_0002071__en-en__original,dico_phrasis_0002071,en,en,on an orange wand,from an orange bubble hoop,NEGATIVE_OTHER,-7.018490741628265,-6.436467111088688,-6.704220632690046,-0.0145509242791475,N,N
+dico_phrasis_0002092__en-en__original,dico_phrasis_0002092,en,en,through the water,through the grass,NEGATIVE_OTHER,-7.648382459822989,-8.390627614899175,-7.695797256870764,-0.0101242385742046,N,N
+dico_phrasis_0002104__en-en__original,dico_phrasis_0002104,en,en,A blonde dog,A little blonde girl,NEGATIVE_OTHER,-6.970592588156982,-5.516268983454032,-7.447959418068849,-0.1717018236423765,N,N
+dico_phrasis_0002141__en-en__original,dico_phrasis_0002141,en,en,in a sunlit forest,on a beach,NEGATIVE_OTHER,-6.1242366629444165,-7.750416512052477,-6.964869633078835,-0.0324809101822577,N,N
+dico_phrasis_0002147__en-en__original,dico_phrasis_0002147,en,en,on Syrian chemical arms,over Syria chemical claims,NEGATIVE_OTHER,-5.666812157812772,-6.999165089113571,-5.820446740769403,-0.0667948635250906,N,N
+dico_phrasis_0002152__en-en__original,dico_phrasis_0002152,en,en,Afghans,Afghan District Governor,NEGATIVE_OTHER,-3.286657055255212,-3.3227564394836,-5.236065293388006,-0.3321028401816262,N,N
+dico_phrasis_0002181__en-en__original,dico_phrasis_0002181,en,en,`` political '' changes,proposed cuts,NEGATIVE_OTHER,-6.795273393676271,-6.769395590112199,-6.788222591365963,-0.0218263072625685,N,N
+dico_phrasis_0002188__en-en__original,dico_phrasis_0002188,en,en,to Cardinals,Vatican,NEGATIVE_OTHER,-1.538746879212946,-5.963952869885058,-5.137850354823361,-0.4242074993380806,N,N
+dico_phrasis_0002220__en-en__original,dico_phrasis_0002220,en,en,for Mali Town,Mali army,NEGATIVE_OTHER,-4.988693813737635,-7.250749588267411,-6.909400999800766,-0.0320288342797796,N,N
+dico_phrasis_0002242__en-en__original,dico_phrasis_0002242,en,en,Opens,begins operation,NEGATIVE_OTHER,-5.143421224608023,-4.888276568903525,-0.3473467547237856,-5.24709571088751,E,E
+dico_phrasis_0002244__en-en__original,dico_phrasis_0002244,en,en,two people,2,NEGATIVE_OTHER,-1.028926912226731,-5.437731648016427,-1.8533653065844915,-3.541119579999103,F,F
+dico_phrasis_0002251__en-en__original,dico_phrasis_0002251,en,en,Muslim Brotherhood Supreme Guide,Muslim Brotherhood group,NEGATIVE_OTHER,-0.4831945580943899,-5.5455897743706375,-4.802630293637958,-3.3739303432608128,F,F
+dico_phrasis_0002266__en-en__original,dico_phrasis_0002266,en,en,presidential elections,'s interim president,NEGATIVE_OTHER,-5.614768318623324,-7.271544635087271,-6.616725563794394,-0.0203887818157863,N,N
+dico_phrasis_0002300__en-en__original,dico_phrasis_0002300,en,en,on a runway,close to the ground,NEGATIVE_OTHER,-3.943730695973192,-7.123469898035481,-5.829381295969441,-0.4189783224765002,N,N
+dico_phrasis_0002307__en-en__original,dico_phrasis_0002307,en,en,in front of a door,in front of a fence,NEGATIVE_OTHER,-7.40679493652856,-8.141193825573481,-7.616410214275874,-0.0117799426821436,N,N
+dico_phrasis_0002314__en-en__original,dico_phrasis_0002314,en,en,with a dining room,with large sofas and a dining table,NEGATIVE_OTHER,-7.530997982955429,-1.9279358350599347,-7.215367229120386,-1.8459221833313049,N,N
+dico_phrasis_0002383__en-en__original,dico_phrasis_0002383,en,en,with Monaco win,despite Monaco win,NEGATIVE_OTHER,-7.5496514170126625,-6.129824110369534,-6.311138380071174,-0.0680412337190425,N,N
+dico_phrasis_0002406__en-en__original,dico_phrasis_0002406,en,en,in Canada Oil Train Explosion,in Canada train crash,NEGATIVE_OTHER,-0.6056351934296328,-5.910943347592894,-5.035504875957711,-2.8852298839685755,F,F
+dico_phrasis_0002436__en-en__original,dico_phrasis_0002436,en,en,over child,over daughter,NEGATIVE_OTHER,-6.439442085211006,-0.7909438133086035,-6.238029561424779,-4.897577623014178,B,B
+dico_phrasis_0002446__en-en__original,dico_phrasis_0002446,en,en,in Ukraine,in Syria,NEGATIVE_OTHER,-7.115792877180354,-8.013929537637011,-7.738416603905932,-0.012190611862119,N,N
+dico_phrasis_0002463__en-en__original,dico_phrasis_0002463,en,en,'s integration,to join,NEGATIVE_OTHER,-4.407079596899074,-5.434739013097804,-0.7141566471081191,-3.2277194952787176,E,E
+dico_phrasis_0002479__en-en__original,dico_phrasis_0002479,en,en,to 6.1651,to 6.1696,NEGATIVE_OTHER,-7.80333021821751,-7.253261655988035,-6.919640581232048,-0.0150537395693232,N,N
+dico_phrasis_0002486__en-en__original,dico_phrasis_0002486,en,en,38,to 39,NEGATIVE_OTHER,-5.438914173604729,-3.433352136375191,-5.164046261471195,-0.3824424482998079,N,N
+dico_phrasis_0002487__en-en__original,dico_phrasis_0002487,en,en,Southern Italy Coach Crash,in Italy coach crash,NEGATIVE_OTHER,-4.2719421904378905,-5.424693308382608,-5.913282893210031,-0.7089666546477651,N,N
+dico_phrasis_0002492__en-en__original,dico_phrasis_0002492,en,en,Super typhoon,Most powerful typhoon,NEGATIVE_OTHER,-4.1224806781872045,-3.3982632136607105,-2.109826726343625,-1.631561426571402,N,N
+dico_phrasis_0002493__en-en__original,dico_phrasis_0002493,en,en,Russia Pulled Back,of Russian Withdrawal,NEGATIVE_OTHER,-5.8009499207708215,-3.5762577847215504,-3.801447286762095,-0.5736376837465135,N,N
+dico_phrasis_0002510__en-en__original,dico_phrasis_0002510,en,en,as Manager,Ferguson,NEGATIVE_OTHER,-4.50111419372994,-5.95148133648672,-6.540738974146429,-0.039856110148015,N,N
+dico_phrasis_0002527__en-en__original,dico_phrasis_0002527,en,en,rabbi and Israeli kingmaker,kingmaker of Israeli politics,NEGATIVE_OTHER,-4.900239444011949,-5.486451492939892,-6.094752039744955,-0.0478888017281924,N,N
+dico_phrasis_0002548__en-en__original,dico_phrasis_0002548,en,en,while their dog,while a black dog,NEGATIVE_OTHER,-6.506298341036366,-5.515436216126409,-6.874685569535223,-0.7322428861563677,N,N
+dico_phrasis_0002560__en-en__original,dico_phrasis_0002560,en,en,Two young children,Two small children,NEGATIVE_OTHER,-5.606191221561859,-6.555521253433656,-5.86584887274785,-0.0494153138864341,N,N
+dico_phrasis_0002567__en-en__original,dico_phrasis_0002567,en,en,shaving,is carving,NEGATIVE_OTHER,-7.052759511863589,-7.087096257602572,-5.787802044148644,-0.568265322442253,N,N
+dico_phrasis_0002584__en-en__original,dico_phrasis_0002584,en,en,are playing,run,NEGATIVE_OTHER,-6.597316450554587,-7.487969305791913,-6.469276315647818,-0.0197445021852424,N,N
+dico_phrasis_0002597__en-en__original,dico_phrasis_0002597,en,en,on a red play structure,on a red jungle gym,NEGATIVE_OTHER,-5.230003641748829,-1.074497666661345,-4.0108441280369,-2.8901319980168374,B,B
+dico_phrasis_0002599__en-en__original,dico_phrasis_0002599,en,en,in the waves,on a medium wave,NEGATIVE_OTHER,-5.032348232032269,-3.9737107843770674,-5.198214003504723,-0.9129543593142516,N,N
+dico_phrasis_0002613__en-en__original,dico_phrasis_0002613,en,en,on the shore,on beside the beach,NEGATIVE_OTHER,-5.020268884241286,-2.5064689089255565,-2.401465293705169,-1.2009101280964452,N,N
+dico_phrasis_0002616__en-en__original,dico_phrasis_0002616,en,en,onto another,to another,NEGATIVE_OTHER,-4.318952721353475,-5.151345551755134,-0.1201449354450937,-3.6737817930639824,E,E
+dico_phrasis_0002623__en-en__original,dico_phrasis_0002623,en,en,as another dog,while another dog,NEGATIVE_OTHER,-5.312544752349182,-5.543391097773835,-4.400906909694,-0.1170587432282414,N,N
+dico_phrasis_0002671__en-en__original,dico_phrasis_0002671,en,en,performs,to do,NEGATIVE_OTHER,-4.405074351784173,-5.53969702249426,-1.0157325118845535,-2.502147904293321,E,E
+dico_phrasis_0002676__en-en__original,dico_phrasis_0002676,en,en,A young boy,A young girl,NEGATIVE_OTHER,-6.722386578898785,-7.758244760514454,-7.328215984186687,-0.0164074179342953,N,N
+dico_phrasis_0002708__en-en__original,dico_phrasis_0002708,en,en,6.8 quake,Magnitude 6.3 quake,NEGATIVE_OTHER,-6.27445390818425,-7.180237308123787,-6.763642922023018,-0.0222244411499097,N,N
+dico_phrasis_0002711__en-en__original,dico_phrasis_0002711,en,en,catches fire,after fire,NEGATIVE_OTHER,-5.2519049341565625,-4.837716499476259,-4.268546717374151,-0.2856936449891584,N,N
+dico_phrasis_0002712__en-en__original,dico_phrasis_0002712,en,en,Israeli forces,security forces,NEGATIVE_OTHER,-3.080679902352431,-5.923034577486455,-5.520793446816543,-0.3003421117042886,N,N
+dico_phrasis_0002715__en-en__original,dico_phrasis_0002715,en,en,after China earthquake,in China quake,NEGATIVE_OTHER,-5.207112541862166,-6.655325864571172,-3.3891101626732314,-1.480538815078971,N,N
+dico_phrasis_0002738__en-en__original,dico_phrasis_0002738,en,en,convicted,get jail time,NEGATIVE_OTHER,-4.188217474399653,-2.388339485604215,-1.326432363071688,-0.8594270382112735,N,N
+dico_phrasis_0002750__en-en__original,dico_phrasis_0002750,en,en,round up,arrest,NEGATIVE_OTHER,-6.233537378901839,-6.689196274175842,-5.952106640234192,-0.2322860613411654,N,N
+dico_phrasis_0002772__en-en__original,dico_phrasis_0002772,en,en,against USD Thursday,against USD Tuesday,NEGATIVE_OTHER,-7.015276049937487,-8.228211691345454,-7.179273695116919,-0.0099399192787013,N,N
+dico_phrasis_0002790__en-en__original,dico_phrasis_0002790,en,en,in West Bank,across West Bank,NEGATIVE_OTHER,-6.530718520226384,-5.315129294934178,-5.449075822971566,-0.0446955213370966,N,N
+dico_phrasis_0002792__en-en__original,dico_phrasis_0002792,en,en,2 Turkish unions,Unions,NEGATIVE_OTHER,-3.311060930556035,-3.0710160585899904,-5.9886853945910685,-1.7353475543518613,N,N
+dico_phrasis_0002804__en-en__original,dico_phrasis_0002804,en,en,airline pilots,2 Turkish Airlines pilots,NEGATIVE_OTHER,-1.675021229946415,-3.2196179094551005,-4.992570525669852,-1.293276470168233,N,N
+dico_phrasis_0002806__en-en__original,dico_phrasis_0002806,en,en,U.S. drone strike,Pakistan drone strike,NEGATIVE_OTHER,-6.290173552033724,-6.037435115970593,-7.531082552271506,-0.0169710135434284,N,N
+dico_phrasis_0002842__en-en__original,dico_phrasis_0002842,en,en,for Massive Cyclone,for cyclone Phailin,NEGATIVE_OTHER,-5.339220879772173,-2.826699071426061,-5.368985507189102,-0.8011860582221219,N,N
+dico_phrasis_0002843__en-en__original,dico_phrasis_0002843,en,en,on Friday,on Thursday,NEGATIVE_OTHER,-6.989808638709143,-8.499172309852993,-7.497529188610469,-0.0110998350554262,N,N
+dico_phrasis_0002844__en-en__original,dico_phrasis_0002844,en,en,Northwest China,in China,NEGATIVE_OTHER,-2.668729918323215,-6.354288244865593,-6.145217999440686,-0.6688593075893877,N,N
+dico_phrasis_0002898__en-en__original,dico_phrasis_0002898,en,en,may be trapped,trapped,NEGATIVE_OTHER,-2.535358966544651,-3.73026160513896,-2.5204451294296817,-1.4812435171558291,N,N
+dico_phrasis_0002900__en-en__original,dico_phrasis_0002900,en,en,Australian senator,Australian lawmaker,NEGATIVE_OTHER,-0.3719531002721232,-5.502306533662583,-4.686989610699917,-5.297862388499682,F,F
+dico_phrasis_0002925__en-en__original,dico_phrasis_0002925,en,en,with network-sharing deal,"network-sharing , spectrum deal",NEGATIVE_OTHER,-5.208071955561523,-1.83215385528394,-5.040389039635543,-1.0970502083697755,N,N
+dico_phrasis_0002927__en-en__original,dico_phrasis_0002927,en,en,New World Trade Center,One World Trade Center,NEGATIVE_OTHER,-2.6350419283175675,-6.043455919649623,-5.350232006138981,-0.6801920444035742,N,N
+dico_phrasis_0002933__en-en__original,dico_phrasis_0002933,en,en,Nigeria lawmaker,Nigerian MP,NEGATIVE_OTHER,-4.947466801465616,-3.882743189966744,-0.5752555860688938,-5.003001903107826,E,E
+dico_phrasis_0002937__en-en__original,dico_phrasis_0002937,en,en,56 stolen skulls,after 56 human skulls,NEGATIVE_OTHER,-6.380765458656015,-5.398541679692927,-6.9606485075877735,-0.077342421524388,N,N
+dico_phrasis_0002938__en-en__original,dico_phrasis_0002938,en,en,in home museum,at his home,NEGATIVE_OTHER,-1.7561717140875188,-6.768176402469667,-5.491762683610312,-0.7013455289802875,N,N
+dico_phrasis_0002943__en-en__original,dico_phrasis_0002943,en,en,in first talks,first nuclear talks,NEGATIVE_OTHER,-5.662815884376017,-4.302330236260541,-5.869578203185845,-0.1279531723503747,N,N
+dico_phrasis_0002952__en-en__original,dico_phrasis_0002952,en,en,Al Qaeda Hostages,for hostages,NEGATIVE_OTHER,-3.4959716408600605,-6.392397970870157,-6.252992720320839,-0.8937242934256985,N,N
+dico_phrasis_0002959__en-en__original,dico_phrasis_0002959,en,en,at Tian ` anmen,At Tiananmen Square,NEGATIVE_OTHER,-4.4686433379095245,-4.405860459232474,-1.430805618985638,-2.289486354017402,E,E
+dico_phrasis_0002986__en-en__original,dico_phrasis_0002986,en,en,as Mandela,for Mandela,NEGATIVE_OTHER,-6.516132438794705,-6.406189784026079,-5.744001770631404,-0.0177361216306018,N,N
+dico_phrasis_0003000__en-en__original,dico_phrasis_0003000,en,en,A striped cat,Domestic cat,NEGATIVE_OTHER,-5.743664705693611,-7.485781572326907,-7.666856867139427,-0.0147159517455976,N,N
+dico_phrasis_0003007__en-en__original,dico_phrasis_0003007,en,en,Two cats,A white cat,NEGATIVE_OTHER,-3.978766762737144,-5.325650695486574,-7.129867318792848,-0.095564647042462,N,N
+dico_phrasis_0003044__en-en__original,dico_phrasis_0003044,en,en,stand,are posing,NEGATIVE_OTHER,-5.598362023084249,-3.1765541577824816,-3.497578486252712,-0.4461023951062424,N,N
+dico_phrasis_0003051__en-en__original,dico_phrasis_0003051,en,en,in a fenced area,in a gated yard,NEGATIVE_OTHER,-6.162515802666573,-4.616973363841601,-3.834256150806972,-0.6937350864062983,N,N
+dico_phrasis_0003056__en-en__original,dico_phrasis_0003056,en,en,on a wire grate,on a bird feeder,NEGATIVE_OTHER,-6.750366742486943,-7.716104433015178,-7.308995689029683,-0.0149648637326451,N,N
+dico_phrasis_0003057__en-en__original,dico_phrasis_0003057,en,en,on the tracks,down the tracks,NEGATIVE_OTHER,-7.014322635286835,-6.200702495131679,-5.5009326803225145,-0.0233038532274831,N,N
+dico_phrasis_0003063__en-en__original,dico_phrasis_0003063,en,en,on a crowded street,on a public street,NEGATIVE_OTHER,-5.6504820328040095,-8.532215196995255,-6.391600598005769,-0.1407747855865125,N,N
+dico_phrasis_0003064__en-en__original,dico_phrasis_0003064,en,en,A red double decker bus,A white bus,NEGATIVE_OTHER,-5.480686291772955,-7.7540680216936595,-7.186054592051936,-0.0523799307334751,N,N
+dico_phrasis_0003096__en-en__original,dico_phrasis_0003096,en,en,A close-up view,A side view,NEGATIVE_OTHER,-6.901299756505948,-8.343357469751298,-7.099149630580207,-0.0154615900058162,N,N
+dico_phrasis_0003112__en-en__original,dico_phrasis_0003112,en,en,from a bird feeder,on a bird feeder,NEGATIVE_OTHER,-7.359582140954728,-8.84922178080916,-7.156755998643632,-0.0174097964290739,N,N
+dico_phrasis_0003136__en-en__original,dico_phrasis_0003136,en,en,near a model building,infant of an ornate building,NEGATIVE_OTHER,-7.294369082003544,-7.364868705818762,-7.438407207876156,-0.0103798164424396,N,N
+dico_phrasis_0003178__en-en__original,dico_phrasis_0003178,en,en,a pony,a brown horse,NEGATIVE_OTHER,-5.436540900907569,-6.303003054600609,-6.589754821600171,-0.0190731502986475,N,N
+dico_phrasis_0003187__en-en__original,dico_phrasis_0003187,en,en,A man,A child,NEGATIVE_OTHER,-6.593851248593577,-6.941994294694511,-7.491609876524854,-0.0163441749130169,N,N
+dico_phrasis_0003193__en-en__original,dico_phrasis_0003193,en,en,the tracks,on a track,NEGATIVE_OTHER,-5.334659207814613,-4.550607451750516,-6.180804241650978,-0.2270787248548656,N,N
+dico_phrasis_0003200__en-en__original,dico_phrasis_0003200,en,en,in a top hat,with a top hat,NEGATIVE_OTHER,-3.889923724686805,-5.329138545349939,-1.7155252254562612,-1.578996989285652,N,N
+dico_phrasis_0003203__en-en__original,dico_phrasis_0003203,en,en,Yellow striped cat,An orange tabby cat,NEGATIVE_OTHER,-7.139381186992718,-5.988324390680386,-6.338528818717394,-0.0709498393841526,N,N
+dico_phrasis_0003204__en-en__original,dico_phrasis_0003204,en,en,with gardens in front of them,beside a formal garden,NEGATIVE_OTHER,-5.014482562787116,-5.612612273590545,-5.279681003388544,-0.0661717318463129,N,N
+dico_phrasis_0003226__en-en__original,dico_phrasis_0003226,en,en,Two black and white dogs,A dog next to another standing dog,NEGATIVE_OTHER,-4.985368707794218,-5.899085560459166,-6.223034857728351,-0.0379783898773472,N,N
+dico_phrasis_0003241__en-en__original,dico_phrasis_0003241,en,en,one,as one,NEGATIVE_OTHER,-5.835220954201596,-0.4726652417401236,-5.0653190229157365,-3.9099025541364902,B,B
+dico_phrasis_0003243__en-en__original,dico_phrasis_0003243,en,en,Parrot,A white bird,NEGATIVE_OTHER,-3.1402381829826878,-5.8277083359568165,-5.777131639163578,-0.7395922762561682,N,N
+dico_phrasis_0003245__en-en__original,dico_phrasis_0003245,en,en,into the camera,at the camera,NEGATIVE_OTHER,-7.264425927383846,-8.337806365373874,-6.967564345879501,-0.0122829491726019,N,N
+dico_phrasis_0003250__en-en__original,dico_phrasis_0003250,en,en,A dining table,A wooden table,NEGATIVE_OTHER,-6.786677681787997,-7.937889507297863,-8.06028289684076,-0.0105055082680677,N,N
+dico_phrasis_0003251__en-en__original,dico_phrasis_0003251,en,en,"with candles , wine , and a teapot","with candles , wine , and a purple plastic bowl",NEGATIVE_OTHER,-6.8395509513644726,-6.347804595274564,-7.467770347240403,-0.0155197275110439,N,N
+dico_phrasis_0003254__en-en__original,dico_phrasis_0003254,en,en,a creek,in a river,NEGATIVE_OTHER,-7.491354443457703,-6.510628817306936,-7.307817596025249,-0.0104953227708536,N,N
+dico_phrasis_0003264__en-en__original,dico_phrasis_0003264,en,en,of a truck,of a van,NEGATIVE_OTHER,-7.5606540609032065,-7.85252834296526,-7.456179866555348,-0.0101812376211223,N,N
+dico_phrasis_0003267__en-en__original,dico_phrasis_0003267,en,en,near water and a big ship,with water and a barge,NEGATIVE_OTHER,-5.224892716912957,-6.441180091409418,-6.183304509827032,-0.0220205002114507,N,N
+dico_phrasis_0003281__en-en__original,dico_phrasis_0003281,en,en,in a shop,in a cafe,NEGATIVE_OTHER,-7.298430841812601,-6.279637954283864,-7.08239849572292,-0.011442980815083,N,N
+dico_phrasis_0003283__en-en__original,dico_phrasis_0003283,en,en,A close-up view,Close up,NEGATIVE_OTHER,-1.0856562825883442,-6.006748484854401,-2.411745592737695,-4.148418259903292,F,F
+dico_phrasis_0003290__en-en__original,dico_phrasis_0003290,en,en,A white bicycle,Old style bicycle,NEGATIVE_OTHER,-7.030405347405949,-6.807534513234177,-7.329735653955816,-0.0147901349853269,N,N
+dico_phrasis_0003294__en-en__original,dico_phrasis_0003294,en,en,A young boy,A small boy,NEGATIVE_OTHER,-6.741091437219129,-7.8386875535831315,-7.279340092915841,-0.0116746570453508,N,N
+dico_phrasis_0003304__en-en__original,dico_phrasis_0003304,en,en,on a leather couch,on a black couch,NEGATIVE_OTHER,-7.033485632460381,-8.452183908543056,-7.680390642405613,-0.011339770079717,N,N
+dico_phrasis_0003307__en-en__original,dico_phrasis_0003307,en,en,of a silver train engine,of a black train engine,NEGATIVE_OTHER,-7.1144660098988295,-8.073747616498517,-7.107349595913139,-0.0124806975214154,N,N
+dico_phrasis_0003320__en-en__original,dico_phrasis_0003320,en,en,from a tree,in a tree,NEGATIVE_OTHER,-6.653936702982613,-8.1446319212278,-6.834526180203785,-0.0120688865344023,N,N

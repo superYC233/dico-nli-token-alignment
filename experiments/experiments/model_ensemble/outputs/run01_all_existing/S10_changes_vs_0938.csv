@@ -1,0 +1,33 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label,logit_F,logit_B,logit_E,logit_N,prediction,pair_prediction,baseline_prediction
+dico_phrasis_0000018__en-en__flipped,dico_phrasis_0000018,en,en,of all Rage rallies,march of anger,FORWARD_ENTAILMENT,-0.7298825344370494,-4.903038907519242,-1.3985762951331804,-1.3330868605063428,F,F,E
+dico_phrasis_0000018__en-en__original,dico_phrasis_0000018,en,en,march of anger,of all Rage rallies,BACKWARD_ENTAILMENT,-4.426042013967497,-0.5383105087512291,-2.1544564211840673,-1.2436204309440382,B,B,E
+dico_phrasis_0000034__en-en__flipped,dico_phrasis_0000034,en,en,"Venezuela Government , Opposition Head",Venezuelan opposition leader,FORWARD_ENTAILMENT,-0.45627188790417555,-3.347932466327092,-1.3983410619964294,-2.474618482486394,F,F,E
+dico_phrasis_0000034__en-en__original,dico_phrasis_0000034,en,en,Venezuelan opposition leader,"Venezuela Government , Opposition Head",BACKWARD_ENTAILMENT,-2.657156919916519,-0.568942506308384,-1.3410641670411358,-2.2811987887671092,B,B,E
+dico_phrasis_0000514__en-en__flipped,dico_phrasis_0000514,en,en,from a bird feeder,from the feeder,FORWARD_ENTAILMENT,-0.37556941114068476,-3.78765169797117,-1.4337758265389446,-2.955623541988135,F,F,E
+dico_phrasis_0000514__en-en__original,dico_phrasis_0000514,en,en,from the feeder,from a bird feeder,BACKWARD_ENTAILMENT,-4.424249928625176,-0.1726833861530989,-2.4101054441582344,-2.86809560842021,B,B,E
+dico_phrasis_0000641__en-en__flipped,dico_phrasis_0000641,en,en,In Bhutto Death,over Bhutto murder,EQUIVALENCE,-3.8603206376190298,-2.3025750121925346,-1.1534962942553257,-0.5737545975446425,N,E,B
+dico_phrasis_0000641__en-en__original,dico_phrasis_0000641,en,en,over Bhutto murder,In Bhutto Death,EQUIVALENCE,-2.0960529594249193,-4.1028171837511485,-0.9009548224599473,-0.7888839751012354,N,E,F
+dico_phrasis_0000948__en-en__flipped,dico_phrasis_0000948,en,en,over police crackdown,over police violence,EQUIVALENCE,-1.6923576059411163,-2.8479003424034453,-1.0236663792263043,-0.9196117324082405,N,E,F
+dico_phrasis_0000948__en-en__original,dico_phrasis_0000948,en,en,over police violence,over police crackdown,EQUIVALENCE,-3.0154549736324516,-1.8897278729968412,-1.1313371077892822,-0.7396898107772185,N,E,B
+dico_phrasis_0000954__en-en__flipped,dico_phrasis_0000954,en,en,Martial Arts Schools,martial arts clubs,EQUIVALENCE,-2.7599697385404975,-2.4498352230979044,-0.5277964089949975,-1.3451713622059143,E,E,B
+dico_phrasis_0000954__en-en__original,dico_phrasis_0000954,en,en,martial arts clubs,Martial Arts Schools,EQUIVALENCE,-2.1560100081992224,-2.5649335622173726,-0.6350304164722173,-1.282402377047997,E,E,F
+dico_phrasis_0001174__en-en__flipped,dico_phrasis_0001174,en,en,of wooden debris,of used wooden building materials,EQUIVALENCE,-4.369038199633498,-1.8072916716346872,-0.5103652390267323,-1.5007524703136963,E,E,B
+dico_phrasis_0001174__en-en__original,dico_phrasis_0001174,en,en,of used wooden building materials,of wooden debris,EQUIVALENCE,-1.407753080129495,-4.179667676295758,-0.6440017136633586,-1.5379670529889382,E,E,F
+dico_phrasis_0002244__en-en__original,dico_phrasis_0002244,en,en,two people,2,NEGATIVE_OTHER,-0.776605598213654,-2.005226210065394,-1.1565224796553024,-2.3987958197677215,F,F,N
+dico_phrasis_0002251__en-en__original,dico_phrasis_0002251,en,en,Muslim Brotherhood Supreme Guide,Muslim Brotherhood group,NEGATIVE_OTHER,-0.3110133631403701,-3.379587919081918,-2.4211759657087226,-1.9350481335064587,F,F,N
+dico_phrasis_0002406__en-en__original,dico_phrasis_0002406,en,en,in Canada Oil Train Explosion,in Canada train crash,NEGATIVE_OTHER,-0.20179178825491237,-5.00148102226101,-3.321699302859965,-1.966716603329611,F,F,N
+dico_phrasis_0002436__en-en__original,dico_phrasis_0002436,en,en,over child,over daughter,NEGATIVE_OTHER,-3.1554475847986443,-0.18823027130987688,-4.091665237327761,-2.1870679641364195,B,B,N
+dico_phrasis_0002463__en-en__original,dico_phrasis_0002463,en,en,'s integration,to join,NEGATIVE_OTHER,-3.768610643469913,-4.355941820880706,-0.2541872039878481,-1.6684507476423065,E,E,N
+dico_phrasis_0002492__en-en__original,dico_phrasis_0002492,en,en,Super typhoon,Most powerful typhoon,NEGATIVE_OTHER,-2.9703032046285336,-2.226872702688389,-0.4588675606712813,-1.5661482197288523,E,E,N
+dico_phrasis_0002597__en-en__original,dico_phrasis_0002597,en,en,on a red play structure,on a red jungle gym,NEGATIVE_OTHER,-4.078254419857147,-0.41549528982116996,-2.7694532313480074,-1.3457152723614099,B,B,N
+dico_phrasis_0002613__en-en__original,dico_phrasis_0002613,en,en,on the shore,on beside the beach,NEGATIVE_OTHER,-4.996429228955251,-2.3434686991600113,-0.4346387246729755,-1.3873136212456123,E,E,N
+dico_phrasis_0002671__en-en__original,dico_phrasis_0002671,en,en,performs,to do,NEGATIVE_OTHER,-3.38297349092125,-3.6184768404853553,-0.2286828509046343,-1.9403802161824166,E,E,N
+dico_phrasis_0002738__en-en__original,dico_phrasis_0002738,en,en,convicted,get jail time,NEGATIVE_OTHER,-3.686703490368287,-2.0509606981367714,-0.6375048606301695,-1.1465705634711814,E,E,N
+dico_phrasis_0002792__en-en__original,dico_phrasis_0002792,en,en,2 Turkish unions,Unions,NEGATIVE_OTHER,-0.8869095263971241,-0.8855674377058661,-3.792466046471385,-1.876969937251492,B,B,N
+dico_phrasis_0002804__en-en__original,dico_phrasis_0002804,en,en,airline pilots,2 Turkish Airlines pilots,NEGATIVE_OTHER,-1.195509388130021,-0.8731665410574702,-2.8990110613085607,-1.4927865451835678,B,B,N
+dico_phrasis_0002842__en-en__original,dico_phrasis_0002842,en,en,for Massive Cyclone,for cyclone Phailin,NEGATIVE_OTHER,-3.4219547004963538,-0.6302646034934601,-3.610621376447237,-0.8968177939349901,B,B,N
+dico_phrasis_0002898__en-en__original,dico_phrasis_0002898,en,en,may be trapped,trapped,NEGATIVE_OTHER,-0.7184384706182837,-2.5959633490576985,-1.1400876627983776,-2.136036571916654,F,F,N
+dico_phrasis_0002959__en-en__original,dico_phrasis_0002959,en,en,at Tian ` anmen,At Tiananmen Square,NEGATIVE_OTHER,-3.169795357871392,-2.4520346517973852,-0.3051950071700803,-2.003295841352073,E,E,N
+dico_phrasis_0003051__en-en__original,dico_phrasis_0003051,en,en,in a fenced area,in a gated yard,NEGATIVE_OTHER,-4.457951957427897,-2.208465665428226,-0.34200238406250805,-1.7826114849340418,E,E,N
+dico_phrasis_0003200__en-en__original,dico_phrasis_0003200,en,en,in a top hat,with a top hat,NEGATIVE_OTHER,-2.7628550015435165,-3.221995897919116,-0.5156214283381151,-1.2043599649281214,E,E,N
+dico_phrasis_0003241__en-en__original,dico_phrasis_0003241,en,en,one,as one,NEGATIVE_OTHER,-4.735709289416083,-0.07295986423608569,-3.684741413745609,-3.310937061053486,B,B,N

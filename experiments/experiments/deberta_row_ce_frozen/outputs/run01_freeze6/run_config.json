@@ -1,0 +1,50 @@
+{
+  "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "seed": 42,
+  "use_lexical_features": false,
+  "epochs": 10,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "freeze_embeddings": true,
+  "freeze_first_n_layers": 6,
+  "freeze_bottom_conv": true,
+  "frozen_modules_dropout": "unchanged; model.train() still applies",
+  "total_parameters": 184001800,
+  "trainable_parameters": 42697480,
+  "max_length": 128,
+  "dtype": "float32",
+  "row_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.5
+  ],
+  "pair_weights": [
+    1.0,
+    1.0,
+    1.25
+  ],
+  "pair_weight": 0.0,
+  "pair_label_smoothing": 0.05,
+  "group_batch_size": 8,
+  "dev_batch_size": 16,
+  "train_rows": 3042,
+  "train_groups": 1760,
+  "train_pairs": 1282,
+  "steps_per_epoch": 220,
+  "select_by": "independent",
+  "labels": [
+    "FORWARD_ENTAILMENT",
+    "BACKWARD_ENTAILMENT",
+    "EQUIVALENCE",
+    "NEGATIVE_OTHER"
+  ],
+  "training": "one pass over the same groups; one forward and one Row CE optimizer step per batch",
+  "row_exposure": "each original row exactly once per epoch; no augmentation or oversampling",
+  "pair_exposure": "groups retained only for matching batch composition; Pair CE disabled",
+  "loss": "full four-class Row CE only; pair_weight=0",
+  "comparison_note": "same frozen recipe as deberta_joint_pair_frozen/run01_freeze6; only Pair CE is disabled",
+  "train_sha256": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211",
+  "dev_sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511",
+  "model_dir": "D:\\model\\SEAMEVAL\\deberta_row_ce_frozen\\run01_freeze6"
+}

@@ -1,0 +1,49 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
+aug_manual_r_f01__0,aug_manual_r_f01,en,en,under metal bridge,under bridge,FORWARD_ENTAILMENT
+aug_manual_r_f01__1,aug_manual_r_f01,en,en,under bridge,under metal bridge,BACKWARD_ENTAILMENT
+aug_manual_r_f02__0,aug_manual_r_f02,en,en,cargo aircraft,cargo jet,BACKWARD_ENTAILMENT
+aug_manual_r_f02__1,aug_manual_r_f02,en,en,cargo jet,cargo aircraft,FORWARD_ENTAILMENT
+aug_manual_r_f03__0,aug_manual_r_f03,en,en,outside empty factory,outside factory,FORWARD_ENTAILMENT
+aug_manual_r_f03__1,aug_manual_r_f03,en,en,outside factory,outside empty factory,BACKWARD_ENTAILMENT
+aug_manual_r_f04__0,aug_manual_r_f04,en,en,among boxes,among empty boxes,BACKWARD_ENTAILMENT
+aug_manual_r_f04__1,aug_manual_r_f04,en,en,among empty boxes,among boxes,FORWARD_ENTAILMENT
+aug_manual_r_f05__0,aug_manual_r_f05,en,en,during heavy rain,during rain,FORWARD_ENTAILMENT
+aug_manual_r_f05__1,aug_manual_r_f05,en,en,during rain,during heavy rain,BACKWARD_ENTAILMENT
+aug_manual_r_f06__0,aug_manual_r_f06,en,en,following eruption,following volcanic eruption,BACKWARD_ENTAILMENT
+aug_manual_r_f06__1,aug_manual_r_f06,en,en,following volcanic eruption,following eruption,FORWARD_ENTAILMENT
+aug_manual_r_f07__0,aug_manual_r_f07,en,en,firefighters drinking coffee,firefighters drinking,FORWARD_ENTAILMENT
+aug_manual_r_f07__1,aug_manual_r_f07,en,en,firefighters drinking,firefighters drinking coffee,BACKWARD_ENTAILMENT
+aug_manual_r_f08__0,aug_manual_r_f08,en,en,kittens sleeping,kittens sleeping under bridge,BACKWARD_ENTAILMENT
+aug_manual_r_f08__1,aug_manual_r_f08,en,en,kittens sleeping under bridge,kittens sleeping,FORWARD_ENTAILMENT
+aug_manual_r_f09__0,aug_manual_r_f09,en,en,consuming food during November,consuming food,FORWARD_ENTAILMENT
+aug_manual_r_f09__1,aug_manual_r_f09,en,en,consuming food,consuming food during November,BACKWARD_ENTAILMENT
+aug_manual_r_f10__0,aug_manual_r_f10,en,en,factory construction,factory construction during November,BACKWARD_ENTAILMENT
+aug_manual_r_f10__1,aug_manual_r_f10,en,en,factory construction during November,factory construction,FORWARD_ENTAILMENT
+aug_manual_r_f11__0,aug_manual_r_f11,en,en,flooding during April,flooding,FORWARD_ENTAILMENT
+aug_manual_r_f11__1,aug_manual_r_f11,en,en,flooding,flooding during April,BACKWARD_ENTAILMENT
+aug_manual_r_f12__0,aug_manual_r_f12,en,en,commercial aircraft,commercial jet,BACKWARD_ENTAILMENT
+aug_manual_r_f12__1,aug_manual_r_f12,en,en,commercial jet,commercial aircraft,FORWARD_ENTAILMENT
+aug_manual_r_e01__0,aug_manual_r_e01,en,en,under metal bridge,underneath metal bridge,EQUIVALENCE
+aug_manual_r_e01__1,aug_manual_r_e01,en,en,underneath metal bridge,under metal bridge,EQUIVALENCE
+aug_manual_r_e02__0,aug_manual_r_e02,en,en,among cargo boxes,amongst cargo boxes,EQUIVALENCE
+aug_manual_r_e02__1,aug_manual_r_e02,en,en,amongst cargo boxes,among cargo boxes,EQUIVALENCE
+aug_manual_r_e03__0,aug_manual_r_e03,en,en,sleeping kittens,kittens sleeping,EQUIVALENCE
+aug_manual_r_e03__1,aug_manual_r_e03,en,en,kittens sleeping,sleeping kittens,EQUIVALENCE
+aug_manual_r_e04__0,aug_manual_r_e04,en,en,firefighters drinking coffee,firefighters consuming coffee,EQUIVALENCE
+aug_manual_r_e04__1,aug_manual_r_e04,en,en,firefighters consuming coffee,firefighters drinking coffee,EQUIVALENCE
+aug_manual_r_e05__0,aug_manual_r_e05,en,en,November construction,construction during November,EQUIVALENCE
+aug_manual_r_e05__1,aug_manual_r_e05,en,en,construction during November,November construction,EQUIVALENCE
+aug_manual_r_e06__0,aug_manual_r_e06,en,en,April flooding,flooding during April,EQUIVALENCE
+aug_manual_r_e06__1,aug_manual_r_e06,en,en,flooding during April,April flooding,EQUIVALENCE
+aug_manual_r_n01__0,aug_manual_r_n01,en,en,under metal bridge,above metal bridge,NEGATIVE_OTHER
+aug_manual_r_n02__0,aug_manual_r_n02,en,en,among cargo boxes,above cargo boxes,NEGATIVE_OTHER
+aug_manual_r_n03__0,aug_manual_r_n03,en,en,during construction,following construction,NEGATIVE_OTHER
+aug_manual_r_n04__0,aug_manual_r_n04,en,en,construction during November,construction during April,NEGATIVE_OTHER
+aug_manual_r_n05__0,aug_manual_r_n05,en,en,factory construction,factory flooding,NEGATIVE_OTHER
+aug_manual_r_n06__0,aug_manual_r_n06,en,en,heavy rain,flooding,NEGATIVE_OTHER
+aug_manual_r_n07__0,aug_manual_r_n07,en,en,firefighters drinking coffee,firefighters drinking beer,NEGATIVE_OTHER
+aug_manual_r_n08__0,aug_manual_r_n08,en,en,cooking food,consuming food,NEGATIVE_OTHER
+aug_manual_r_n09__0,aug_manual_r_n09,en,en,kittens sleeping,kittens drinking,NEGATIVE_OTHER
+aug_manual_r_n10__0,aug_manual_r_n10,en,en,firefighters,factory workers,NEGATIVE_OTHER
+aug_manual_r_n11__0,aug_manual_r_n11,en,en,cargo boxes,empty boxes,NEGATIVE_OTHER
+aug_manual_r_n12__0,aug_manual_r_n12,en,en,blue shirt,grey shirt,NEGATIVE_OTHER
