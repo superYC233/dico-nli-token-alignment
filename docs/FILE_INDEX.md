@@ -4,14 +4,24 @@
 
 | 位置 | 用途 |
 |---|---|
-| [项目 README](../README.md) | 任务、最终方法、环境、运行方式与结果总览 |
-| [train.py](../train.py) | 最终 DeBERTa Token Alignment 方案的训练入口；仍为原四分类 + Real Pair CE |
-| [evaluate.py](../evaluate.py) | 直接复核已保存的最终 DEV 预测，不加载大模型 |
-| [artifacts/final](../artifacts/final/) | 最终预测、三个官方分数、配置和正确的英文提交包 |
-| [完整实验记录](../DICO_NLI_FINAL_EXPERIMENT_RECORD.md) | 原文保留；其中历史旧路径可在本页或 file_manifest.json 查找新位置 |
+| [项目 README](../README.md) | 任务、14阶段实验、成绩和导师讨论问题 |
+| [实验分类索引](../experiments/README.md) | 按模型、数据增强、诊断、训练方法和融合分类查找实验 |
+| [融合入口](../experiments/ensemble_selected/README.md) | S01／S11／S12／S14／S16的训练和预测 |
+| [train.py](../experiments/deberta_original/train.py) | 原0.9248版DeBERTa Token Alignment训练入口，四分类＋Real Pair CE |
+| [evaluate.py](../experiments/deberta_original/evaluate.py) | 复核原0.9248版保存的Dev预测，不加载模型 |
+| [artifacts/final](../artifacts/final) | 原0.9248版预测、三个官方分数、配置和提交包；保留历史目录名 |
+| [S14本次结果](../experiments/ensemble_selected/outputs/S14/run01_retrain/summary.csv) | 同一组融合分数的独立0.545861／结构0.962381 |
+| [S14提交说明](../submissions/S14_track1_dev_20261027/README.md) | 英文开发阶段提交包和本地验证结果 |
+| [完整实验记录](history/DICO_NLI_FINAL_EXPERIMENT_RECORD.md) | 原文保留；其中历史旧路径可在本页或 file_manifest.json 查找新位置 |
 | [快速回顾](DICO_NLI_SIMPLE_REVIEW.md) | 项目发展过程的大白话记录 |
 | [一页摘要](DICO_NLI_TLDR.md) | 最终配置和结果摘要 |
 | [model_inventory.json](model_inventory.json) | 本地模型目录及其已有产物清单 |
+| [Dev重合核对](DATA_AUGMENTATION_DEV_OVERLAP_AUDIT.md) | 原Train、人工增强和copy与Dev的重合结果 |
+| [Pair目标研究](research/PAIR_OBJECTIVE_RESEARCH_2026-10-24.md) | 三组合Pair CE、阶段漂移及相关方法 |
+| [GitHub更新说明](GITHUB_UPLOAD_GUIDE.md) | 上传范围和使用方法 |
+| [本次移动记录](DIRECTORY_ORGANIZATION_20261027.json) | 文件新旧路径、校验值和文档修改清单 |
+
+根目录散文件已归位：原版分析脚本在[tools/analysis](../tools/analysis/analyze_deberta_original.py)，Qwen早期Real Pair CE脚本在[Qwen2.5实验目录](../experiments/qwen2p5_3b/qwen_dico_lora_real_pair_ce.py)，闭包生成器与两批旧CSV在[deberta_closure](../experiments/deberta_closure/legacy_data/README.md)。`experiments/generative_nli.py`是多个生成式实验共用的工具模块。
 
 ## 历史实验和工具
 
@@ -149,11 +159,11 @@ Pair CE、一致性、权重、平滑与训练阶段实验
 - `model`：本地权重和各实验原始产物，路径保留，Git 忽略。
 - `results`：已有官方评分结果。
 - `predictions/legacy_calibration`：原来散落在根目录的惩罚系数预测 CSV。
-- `submissions`：提交包；第一次错误命名的包放到 `obsolete`，正确包是 `submission_track1.zip`。
+- `submissions`：按方案、赛道和日期保存提交包；旧原版包和本次S14包分开保留。
 
 ## 运行习惯
 
-子目录脚本仍可以右键运行。路径适配统一由根目录 `project_paths.py` 处理。
+脚本通过自身位置定位项目根目录；早期入口使用`project_paths.py`适配，后期实验多在各自入口中设置路径。
 历史实验保留各自原来的参数和入口；有些依赖已有 checkpoint 或外部预训练模型。
 本机 D 盘预训练模型缓存路径保留。最终训练入口也支持 DICO_MODEL_CACHE 环境变量，其他机器未配置时使用 Hugging Face 默认缓存。新训练输出目录与已提交模型目录分开。
 文件整理与 README 编写期间未执行训练；运行方式见根目录 README。

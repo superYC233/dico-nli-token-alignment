@@ -37,6 +37,6 @@
   "soft_cons": 1.0,
   "hard_cons": 0.924187725631769,
   "checkpoint": "model/deberta_nli_base_token_alignment_official_full_control_seed_42/epoch_7.pth",
-  "training_script": "train.py",
+  "training_script": "experiments/deberta_original/train.py",
   "note": "训练算法沿用原成功复现脚本；整理后新训练输出到 reproduction 目录，已提交的权重位置不变。"
 }

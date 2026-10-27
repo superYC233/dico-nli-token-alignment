@@ -1,0 +1,20 @@
+{
+  "scores_path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\qwen_lora\\outputs\\teacher_scores\\run01\\dev_teacher_scores.csv",
+  "scores_sha256": "7726697ce8c565f1c670d825f72193f9762db968195ce9c160f1b5cfdee3b9a5",
+  "reference_path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\artifacts\\final\\dev_predictions_pair_aware.csv",
+  "checkpoint": "model/deberta_nli_base_token_alignment_official_full_control_seed_42/epoch_7.pth",
+  "historical_prediction_differences": 0,
+  "original_export_batch_size": 16,
+  "max_length": 128,
+  "dtype": "float32",
+  "notes": [
+    "原版 DeBERTa + Token Alignment + Real Pair CE：seed 42，epoch 7",
+    "仅分析已导出的 Dev 分数；不训练、不加载模型。历史结构预测逐条一致：660/660。",
+    "independent_max_probability 只属于独立预测，不能解释为结构预测置信度。",
+    "配对错误请看 pair_errors：联合分数为 FB/BF/EE 两行 logits 之和。",
+    "conditional_legal_probability 是合法组合内归一化值，未经校准。",
+    "每个配对组只列一次，text1/text2 为 instance_id_0 的方向，两个组合保持相同行序。",
+    "N-P=1 和 SoftCons=1 依赖当前数据结构和解码规则。",
+    "本报告只对应已选中的 epoch 7，不能据此判断全部轮次或跨种子稳定性。"
+  ]
+}

@@ -1,0 +1,8 @@
+﻿error_type,independent,pair_aware
+E → F/B,1,16
+F ↔ B,0,6
+F/B → E,7,20
+F/B/E → N,307,0
+N → E,6,6
+N → F/B,2,2
+正确,337,610

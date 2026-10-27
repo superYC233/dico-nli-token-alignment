@@ -1,0 +1,9 @@
+﻿instance_id,pair_id,text1,text2,label,gold,logit_F,logit_B,logit_E,logit_N,prediction,independent_max_probability,independent_top1_minus_top2,pair_prediction,n_relation,prediction_error,pair_prediction_error,correct
+dico_phrasis_0001979__en-en__original,dico_phrasis_0001979,on Syria abuse,on Syrian chemical arms,NEGATIVE_OTHER,N,-1.4043221,2.508821,-0.98555565,0.14793086,B,0.8736054555569469,2.3608901400000004,B,REL,N → F/B,N → F/B,False
+dico_phrasis_0002242__en-en__original,dico_phrasis_0002242,Opens,begins operation,NEGATIVE_OTHER,N,-0.9913708,-0.43233025,3.080955,-0.3675638,E,0.9271026031030668,3.4485188,E,REL,N → E,N → E,False
+dico_phrasis_0002244__en-en__original,dico_phrasis_0002244,two people,2,NEGATIVE_OTHER,N,-0.7303603,-1.5902724,1.4425063,0.6880583,E,0.6126315487133425,0.754448,E,REL,N → E,N → E,False
+dico_phrasis_0002463__en-en__original,dico_phrasis_0002463,'s integration,to join,NEGATIVE_OTHER,N,-0.94187737,-0.98792243,2.3108768,0.667598,E,0.7880592578580732,1.6432788,E,SIMI,N → E,N → E,False
+dico_phrasis_0002492__en-en__original,dico_phrasis_0002492,Super typhoon,Most powerful typhoon,NEGATIVE_OTHER,N,-0.987435,-1.104605,1.9586431,0.6537461,E,0.729670560737818,1.304897,E,SIMI,N → E,N → E,False
+dico_phrasis_0002616__en-en__original,dico_phrasis_0002616,onto another,to another,NEGATIVE_OTHER,N,-1.31176,-0.80930555,1.9052323,1.2160873,E,0.6217683324030792,0.6891449999999999,E,SIMI,N → E,N → E,False
+dico_phrasis_0002900__en-en__original,dico_phrasis_0002900,Australian senator,Australian lawmaker,NEGATIVE_OTHER,N,1.009695,-1.4822696,-1.5388831,0.08911337,F,0.6413432997211691,0.92058163,F,SIMI,N → F/B,N → F/B,False
+dico_phrasis_0002933__en-en__original,dico_phrasis_0002933,Nigeria lawmaker,Nigerian MP,NEGATIVE_OTHER,N,-1.278686,-0.22587678,1.9783804,0.2019633,E,0.7586809740207978,1.7764171,E,SIMI,N → E,N → E,False

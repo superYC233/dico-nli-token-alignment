@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-27",
+  "moves": [
+    {
+      "old": "train.py",
+      "new": "experiments/deberta_original/train.py",
+      "before_sha256": "7a08404dbadfd95ac6219b7438585e47cfafb5e2757808dc81eb27ad46ddde51",
+      "after_sha256": "e7190f3f8a4d54854ab93d29fa947a2ba04d671fd4756002996bdf957d0ab293",
+      "content_unchanged": false
+    },
+    {
+      "old": "evaluate.py",
+      "new": "experiments/deberta_original/evaluate.py",
+      "before_sha256": "17ddca287197cd2cbc80b1fa814a65cc31e08b45914e3365dde3c49f76f49f0e",
+      "after_sha256": "9748ae55512fee709e60e9a328d8d13922e13409255f29e11e5de05de075961e",
+      "content_unchanged": false
+    },
+    {
+      "old": "DICO_NLI_FINAL_EXPERIMENT_RECORD.md",
+      "new": "docs/history/DICO_NLI_FINAL_EXPERIMENT_RECORD.md",
+      "before_sha256": "1b163b4a0249f3de9c70cb807569ebb5ecfe15c82c5bc0b399d35e7f28d5d1fe",
+      "after_sha256": "f4d70c3a6e365c4872ca979b464f5d7e7bf39fa4ed9c8c454ab6a88a44d049dc",
+      "content_unchanged": false
+    },
+    {
+      "old": "PAIR_OBJECTIVE_RESEARCH_2026-10-24.md",
+      "new": "docs/research/PAIR_OBJECTIVE_RESEARCH_2026-10-24.md",
+      "before_sha256": "5ac09941976f023c1b453407e76c6953382c9f7c1c58f9ebd6f7ac605cedc7d7",
+      "after_sha256": "e888f47d43ebab62c6b3a5cfb5068d0ec192c84c70695ca76e45b0ab5c70111c",
+      "content_unchanged": false
+    },
+    {
+      "old": "analyze_deberta_original.py",
+      "new": "tools/analysis/analyze_deberta_original.py",
+      "before_sha256": "cb0b1048b99ebd384764ff9b5e13c1ba9ac69333b8a9839efeb61bd768fa420f",
+      "after_sha256": "087ec1acef1c1f620a1b30ba91879bac1315d9ddb5b2f25e67d33711378ca76f",
+      "content_unchanged": false
+    },
+    {
+      "old": "qwen_dico_lora_real_pair_ce.py",
+      "new": "experiments/qwen2p5_3b/qwen_dico_lora_real_pair_ce.py",
+      "before_sha256": "663eefad85e360f1c91a6396dc91db658987c5325e9740f103e4281246075943",
+      "after_sha256": "b786ee86e4af3c3881c16be38bc19c48f78384b253d1943d92683f47622df694",
+      "content_unchanged": false
+    },
+    {
+      "old": "closure_pairs.csv",
+      "new": "experiments/deberta_closure/legacy_data/reviewed/closure_pairs.csv",
+      "before_sha256": "eb5d9687908824628e9f8a78640aaa7bc44b9aee0bd9a1a4de75fe53b7a6cc95",
+      "after_sha256": "eb5d9687908824628e9f8a78640aaa7bc44b9aee0bd9a1a4de75fe53b7a6cc95",
+      "content_unchanged": true
+    },
+    {
+      "old": "closure_rows.csv",
+      "new": "experiments/deberta_closure/legacy_data/reviewed/closure_rows.csv",
+      "before_sha256": "3e01248894517e8f2b81f68a9bd7d20fb8d01afef96cbec6b133ddb63315b9ba",
+      "after_sha256": "3e01248894517e8f2b81f68a9bd7d20fb8d01afef96cbec6b133ddb63315b9ba",
+      "content_unchanged": true
+    },
+    {
+      "old": "experiments/closure_pairs.csv",
+      "new": "experiments/deberta_closure/legacy_data/unfiltered/closure_pairs.csv",
+      "before_sha256": "d4997c6fd7167dce24496659929abe166c34cb4d2405b2a271a85f8fd6e47f40",
+      "after_sha256": "d4997c6fd7167dce24496659929abe166c34cb4d2405b2a271a85f8fd6e47f40",
+      "content_unchanged": true
+    },
+    {
+      "old": "experiments/closure_rows.csv",
+      "new": "experiments/deberta_closure/legacy_data/unfiltered/closure_rows.csv",
+      "before_sha256": "dfd2127e728615be09a8c12d14689be568c249ee0d61166d57d1bbf3bfe9f429",
+      "after_sha256": "dfd2127e728615be09a8c12d14689be568c249ee0d61166d57d1bbf3bfe9f429",
+      "content_unchanged": true
+    },
+    {
+      "old": "experiments/deberta_data.py",
+      "new": "experiments/deberta_closure/generate_legacy_closure.py",
+      "before_sha256": "f25fdf7b0d5e6f7e51a06896d0cd9d9fdb3ac7b523ed892c8d926531491d21b3",
+      "after_sha256": "b57e2d46ae7dba9f60e99f65d8cd5afd9025d1bc3f61f178779cbf2d1481c760",
+      "content_unchanged": false
+    },
+    {
+      "old": "experiments/download.py",
+      "new": "tools/downloads/download_qwen3_1p7b_modelscope.py",
+      "before_sha256": "64e2d9991791740dc6c49e13cbb896931abccd4bab7b72dd029c3bc12cb4054b",
+      "after_sha256": "2de3876f0985463ab5ce8bd8451444400458a24f53dac52fb339e39fee969865",
+      "content_unchanged": false
+    }
+  ],
+  "documentation_links_updated": [
+    {
+      "file": "README.md",
+      "links_changed": 2
+    },
+    {
+      "file": "docs/DICO_NLI_SIMPLE_REVIEW.md",
+      "links_changed": 1
+    },
+    {
+      "file": "docs/DICO_NLI_TLDR.md",
+      "links_changed": 1
+    },
+    {
+      "file": "docs/FILE_INDEX.md",
+      "links_changed": 2
+    }
+  ],
+  "official_train_dev_modified": false,
+  "model_weights_moved_or_modified": false,
+  "prediction_scores_modified": false,
+  "training_performed": false,
+  "backup": ".project_backups/before_directory_organization_20261027.zip",
+  "additional_backups": [
+    ".project_backups/before_original_entry_move_20261027.zip"
+  ],
+  "historical_manifest": "docs/file_manifest.json"
+}

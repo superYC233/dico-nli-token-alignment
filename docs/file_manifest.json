@@ -1,6 +1,6 @@
 {
   "moves": {
-    "deberta_nli_base_token_alignment_trainonly_aug_dev.py": "train.py",
+    "deberta_nli_base_token_alignment_trainonly_aug_dev.py": "experiments/deberta_original/train.py",
     "predict_unlabeled.py": "tools/predict/predict_trial_null.py",
     "download.py": "tools/downloads/download_deberta_base.py",
     "download_DeBERTa-v3-base-mnli-fever-anli.py": "tools/downloads/download_deberta_nli_base.py",
@@ -57,7 +57,19 @@
     "dev_predictions_penalty_0.5.csv": "predictions/legacy_calibration/dev_predictions_penalty_0.5.csv",
     "dev_predictions_penalty_1.0.csv": "predictions/legacy_calibration/dev_predictions_penalty_1.0.csv",
     "dev_predictions_penalty_1.5.csv": "predictions/legacy_calibration/dev_predictions_penalty_1.5.csv",
-    "dev_predictions_penalty_1.csv": "predictions/legacy_calibration/dev_predictions_penalty_1.csv"
+    "dev_predictions_penalty_1.csv": "predictions/legacy_calibration/dev_predictions_penalty_1.csv",
+    "DICO_NLI_FINAL_EXPERIMENT_RECORD.md": "docs/history/DICO_NLI_FINAL_EXPERIMENT_RECORD.md",
+    "PAIR_OBJECTIVE_RESEARCH_2026-10-24.md": "docs/research/PAIR_OBJECTIVE_RESEARCH_2026-10-24.md",
+    "analyze_deberta_original.py": "tools/analysis/analyze_deberta_original.py",
+    "qwen_dico_lora_real_pair_ce.py": "experiments/qwen2p5_3b/qwen_dico_lora_real_pair_ce.py",
+    "closure_pairs.csv": "experiments/deberta_closure/legacy_data/reviewed/closure_pairs.csv",
+    "closure_rows.csv": "experiments/deberta_closure/legacy_data/reviewed/closure_rows.csv",
+    "experiments/closure_pairs.csv": "experiments/deberta_closure/legacy_data/unfiltered/closure_pairs.csv",
+    "experiments/closure_rows.csv": "experiments/deberta_closure/legacy_data/unfiltered/closure_rows.csv",
+    "experiments/deberta_data.py": "experiments/deberta_closure/generate_legacy_closure.py",
+    "experiments/download.py": "tools/downloads/download_qwen3_1p7b_modelscope.py",
+    "train.py": "experiments/deberta_original/train.py",
+    "evaluate.py": "experiments/deberta_original/evaluate.py"
   },
   "external_csv_copies": [
     {
@@ -86,11 +98,16 @@
     }
   ],
   "backup": ".project_backups/before_organization_20261015.zip",
-  "protected_record": "DICO_NLI_FINAL_EXPERIMENT_RECORD.md",
+  "protected_record": "docs/history/DICO_NLI_FINAL_EXPERIMENT_RECORD.md",
   "model_directory_moved": false,
   "official_data_modified": false,
   "obsolete_submission_files": [
     "submissions/dico_track1_token_alignment_dev_20261015/obsolete/submission.zip",
     "submissions/dico_track1_token_alignment_dev_20261015/obsolete/predictions.csv"
-  ]
+  ],
+  "latest_organization": {
+    "date": "2026-10-27",
+    "details": "docs/DIRECTORY_ORGANIZATION_20261027.json",
+    "backup": ".project_backups/before_directory_organization_20261027.zip"
+  }
 }

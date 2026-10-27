@@ -29,8 +29,8 @@ NULL-M曾有单次.9290，manual曾有.9335；前者有限seed未建立稳定优
 
 ## 下次回来先看哪里
 
-- [完整研究/实验记录](../DICO_NLI_FINAL_EXPERIMENT_RECORD.md)：方法、结果、失败分支、代码配置和产物索引。
-- [最近复现脚本](../train.py)：`USE_AUGMENTATION=False`，compare为ReLU；原名token脚本当前已经是GELU，勿混用配置。
+- [完整研究/实验记录](history/DICO_NLI_FINAL_EXPERIMENT_RECORD.md)：方法、结果、失败分支、代码配置和产物索引。
+- [最近复现脚本](../experiments/deberta_original/train.py)：`USE_AUGMENTATION=False`，compare为ReLU；原名token脚本当前已经是GELU，勿混用配置。
 - [最终权重](../model/deberta_nli_base_token_alignment_official_full_control_seed_42/epoch_7.pth) / [最终预测](../model/deberta_nli_base_token_alignment_official_full_control_seed_42/dev_predictions_pair_aware.csv)。
 
 `clean`是官方train内部重新划分的2430/612，**不是官方DEV**。最终保留官方原始数据，其train/DEV存在少量规范化文本对重合，完整记录已披露。

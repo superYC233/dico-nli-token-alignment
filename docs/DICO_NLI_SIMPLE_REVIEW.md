@@ -359,8 +359,8 @@ Token Alignment提供了观察差异的路径，但看到不同不等于理解�
 
 ### 最重要的几个文件
 
-- [最终复现训练脚本](../train.py)：关闭增强的版本；直接运行会重新训练。
+- [最终复现训练脚本](../experiments/deberta_original/train.py)：关闭增强的版本；直接运行会重新训练。
 - [最终 checkpoint：epoch_7.pth](../model/deberta_nli_base_token_alignment_official_full_control_seed_42/epoch_7.pth)。
 - [最终 prediction](../model/deberta_nli_base_token_alignment_official_full_control_seed_42/dev_predictions_pair_aware.csv)。
-- [完整实验记录](../DICO_NLI_FINAL_EXPERIMENT_RECORD.md)：查详细参数、历史结果和文件对应关系。
-- [当前大白话回顾](../docs/DICO_NLI_SIMPLE_REVIEW.md)：先读它找回思路，再决定要不要深入。
+- [完整实验记录](history/DICO_NLI_FINAL_EXPERIMENT_RECORD.md)：查详细参数、历史结果和文件对应关系。
+- [当前大白话回顾](DICO_NLI_SIMPLE_REVIEW.md)：先读它找回思路，再决定要不要深入。
