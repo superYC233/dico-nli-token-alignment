@@ -1,0 +1,263 @@
+﻿split,word,porter_stem,source_type,train_instance_id,train_column,train_phrase
+train,14,14,official_train_exact_token,dico_phrasis_0001639__en-en__flipped,text2,among 14 killed
+train,15,15,official_train_exact_token,dico_phrasis_0000317__en-en__flipped,text1,at least 15
+train,16,16,official_train_exact_token,dico_phrasis_0000076__en-en__flipped,text1,16 soldiers
+train,17,17,official_train_exact_token,dico_phrasis_0001338__en-en__flipped,text1,17 Hurt
+train,18,18,official_train_exact_token,dico_phrasis_0000416__en-en__flipped,text1,18 dead
+train,19,19,official_train_exact_token,dico_phrasis_0001338__en-en__flipped,text2,19 hurt
+train,20,20,official_train_exact_token,dico_phrasis_0001394__en-en__flipped,text1,Jan 20
+train,40,40,official_train_exact_token,dico_phrasis_0000061__en-en__flipped,text1,for 40 missing
+train,above,abov,official_train_exact_token,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+train,aircraft,aircraft,official_train_exact_token,dico_phrasis_0000656__en-en__flipped,text1,originating from the missing aircraft
+train,annexes,annex,official_train_stem_only,dico_phrasis_0001951__en-en__original,text1,Crimea annexation
+train,approving,approv,official_train_stem_only,dico_phrasis_0000883__en-en__flipped,text1,initial approval
+train,april,april,official_train_exact_token,dico_phrasis_0002440__en-en__original,text2,April 4
+train,armchairs,armchair,manually_selected_common_english,,,
+train,awnings,awn,manually_selected_common_english,,,
+train,backpack,backpack,manually_selected_common_english,,,
+train,backpacks,backpack,manually_selected_common_english,,,
+train,balconies,balconi,manually_selected_common_english,,,
+train,bat,bat,official_train_exact_token,dico_phrasis_0000115__en-en__flipped,text1,with his bat
+train,bats,bat,official_train_stem_only,dico_phrasis_0000115__en-en__flipped,text1,with his bat
+train,batteries,batteri,official_train_exact_token,dico_phrasis_0000266__en-en__flipped,text1,Patriot missile batteries
+train,bedrooms,bedroom,manually_selected_common_english,,,
+train,beer,beer,official_train_exact_token,dico_phrasis_0000430__en-en__flipped,text1,with food and beer
+train,beige,beig,official_train_exact_token,dico_phrasis_0002592__en-en__original,text2,on beige carpet
+train,blankets,blanket,official_train_stem_only,dico_phrasis_0000507__en-en__flipped,text1,on a purple blanket
+train,blue,blue,official_train_exact_token,dico_phrasis_0000427__en-en__flipped,text1,on the blue sea
+train,bottles,bottl,official_train_exact_token,dico_phrasis_0001925__en-en__flipped,text1,between two large bottles
+train,bridges,bridg,official_train_stem_only,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+train,cabinets,cabinet,official_train_exact_token,dico_phrasis_0001780__en-en__flipped,text1,with wooden cabinets and furniture
+train,cabins,cabin,manually_selected_common_english,,,
+train,cables,cabl,manually_selected_common_english,,,
+train,canoe,cano,official_train_exact_token,dico_phrasis_0000505__en-en__flipped,text1,in a red canoe
+train,canoes,cano,official_train_exact_token,dico_phrasis_0002360__en-en__original,text1,with yellow canoes
+train,carrying,carri,official_train_exact_token,dico_phrasis_0000159__en-en__flipped,text1,while carrying
+train,cartons,carton,manually_selected_common_english,,,
+train,ceramic,ceram,manually_selected_common_english,,,
+train,chairs,chair,official_train_exact_token,dico_phrasis_0001504__en-en__flipped,text1,in massage chairs
+train,chargers,charger,manually_selected_common_english,,,
+train,charging,charg,official_train_stem_only,dico_phrasis_0000085__en-en__flipped,text1,arms trafficking charges
+train,checking,check,manually_selected_common_english,,,
+train,chilled,chill,manually_selected_common_english,,,
+train,coiling,coil,manually_selected_common_english,,,
+train,completing,complet,manually_selected_common_english,,,
+train,contracts,contract,manually_selected_common_english,,,
+train,cooking,cook,official_train_exact_token,dico_phrasis_0001140__en-en__flipped,text1,inside a cooking area
+train,cotton,cotton,manually_selected_common_english,,,
+train,counting,count,official_train_stem_only,dico_phrasis_0001042__en-en__flipped,text1,fatality count from the collapse of a building in Bangladesh
+train,crate,crate,manually_selected_common_english,,,
+train,crates,crate,manually_selected_common_english,,,
+train,crimson,crimson,official_train_exact_token,dico_phrasis_0001021__en-en__flipped,text2,a combination of blueberries and crimson grapes
+train,cupboards,cupboard,manually_selected_common_english,,,
+train,curtains,curtain,manually_selected_common_english,,,
+train,cushions,cushion,manually_selected_common_english,,,
+train,december,decemb,manually_selected_common_english,,,
+train,depots,depot,manually_selected_common_english,,,
+train,desks,desk,official_train_stem_only,dico_phrasis_0001212__en-en__flipped,text1,Messy computer desk
+train,detailed,detail,official_train_stem_only,dico_phrasis_0001310__en-en__flipped,text2,an enlarged detail view
+train,diagrams,diagram,manually_selected_common_english,,,
+train,dinner,dinner,official_train_exact_token,dico_phrasis_0000971__en-en__flipped,text1,during press dinner
+train,dispatching,dispatch,manually_selected_common_english,,,
+train,dolls,doll,manually_selected_common_english,,,
+train,drafting,draft,manually_selected_common_english,,,
+train,drawing,draw,official_train_exact_token,dico_phrasis_0000775__en-en__flipped,text1,drawing in scents
+train,drinking,drink,official_train_exact_token,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+train,drivers,driver,official_train_exact_token,dico_phrasis_0000386__en-en__flipped,text1,Women drivers
+train,during,dure,official_train_exact_token,dico_phrasis_0000668__en-en__flipped,text2,during November
+train,eighteen,eighteen,manually_selected_common_english,,,
+train,elderly,elderli,official_train_exact_token,dico_phrasis_0000443__en-en__flipped,text1,of elderly people
+train,electrical,electr,manually_selected_common_english,,,
+train,enforcing,enforc,official_train_stem_only,dico_phrasis_0000885__en-en__flipped,text2,carried out by law-enforcement officers
+train,envelopes,envelop,manually_selected_common_english,,,
+train,exactly,exactli,manually_selected_common_english,,,
+train,february,februari,official_train_exact_token,dico_phrasis_0000051__en-en__flipped,text1,of February general election
+train,fifteen,fifteen,manually_selected_common_english,,,
+train,firefighters,firefight,official_train_exact_token,dico_phrasis_0000413__en-en__flipped,text1,Two New York firefighters
+train,flying,fli,official_train_exact_token,dico_phrasis_0001132__en-en__flipped,text2,flying
+train,folded,fold,manually_selected_common_english,,,
+train,forty,forti,manually_selected_common_english,,,
+train,fourteen,fourteen,manually_selected_common_english,,,
+train,garages,garag,manually_selected_common_english,,,
+train,glass,glass,official_train_exact_token,dico_phrasis_0001432__en-en__flipped,text1,in a glass structure
+train,gloved,glove,official_train_exact_token,dico_phrasis_0001791__en-en__flipped,text1,'s gloved hand
+train,gloves,glove,official_train_stem_only,dico_phrasis_0001791__en-en__flipped,text1,'s gloved hand
+train,golden,golden,official_train_exact_token,dico_phrasis_0002681__en-en__original,text1,A golden dog
+train,grey,grey,official_train_exact_token,dico_phrasis_0000212__en-en__flipped,text1,Two grey dogs
+train,hangars,hangar,manually_selected_common_english,,,
+train,harbours,harbour,manually_selected_common_english,,,
+train,heavy,heavi,official_train_exact_token,dico_phrasis_0001331__en-en__flipped,text2,heavy rain
+train,helmet,helmet,official_train_exact_token,dico_phrasis_0001520__en-en__flipped,text1,wearing a helmet
+train,helmeted,helmet,official_train_exact_token,dico_phrasis_0000629__en-en__flipped,text1,next to a helmeted man
+train,helmets,helmet,official_train_stem_only,dico_phrasis_0000629__en-en__flipped,text1,next to a helmeted man
+train,hiking,hike,manually_selected_common_english,,,
+train,icy,ici,official_train_exact_token,dico_phrasis_0000461__en-en__flipped,text1,on an icy branch
+train,inspecting,inspect,manually_selected_common_english,,,
+train,insulated,insul,manually_selected_common_english,,,
+train,january,januari,manually_selected_common_english,,,
+train,jars,jar,manually_selected_common_english,,,
+train,july,juli,manually_selected_common_english,,,
+train,june,june,official_train_exact_token,dico_phrasis_0002815__en-en__original,text2,"June 25 , 2013"
+train,kettles,kettl,manually_selected_common_english,,,
+train,kites,kite,official_train_stem_only,dico_phrasis_0002555__en-en__original,text2,kite surfing
+train,ladder,ladder,manually_selected_common_english,,,
+train,ladders,ladder,manually_selected_common_english,,,
+train,lanterns,lantern,manually_selected_common_english,,,
+train,laptops,laptop,official_train_stem_only,dico_phrasis_0001918__en-en__flipped,text1,with laptop
+train,lifting,lift,official_train_exact_token,dico_phrasis_0000672__en-en__flipped,text1,for lifting
+train,lockers,locker,manually_selected_common_english,,,
+train,lodges,lodg,manually_selected_common_english,,,
+train,mailing,mail,manually_selected_common_english,,,
+train,mats,mat,manually_selected_common_english,,,
+train,measuring,measur,manually_selected_common_english,,,
+train,mechanics,mechan,manually_selected_common_english,,,
+train,metal,metal,official_train_exact_token,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+train,midday,midday,official_train_exact_token,dico_phrasis_0000229__en-en__flipped,text1,midday Friday
+train,mittens,mitten,manually_selected_common_english,,,
+train,moped,mope,official_train_exact_token,dico_phrasis_0000435__en-en__flipped,text2,A red moped
+train,mopeds,mope,official_train_exact_token,dico_phrasis_0001842__en-en__flipped,text1,mopeds
+train,mugs,mug,manually_selected_common_english,,,
+train,municipal,municip,manually_selected_common_english,,,
+train,nineteen,nineteen,manually_selected_common_english,,,
+train,november,novemb,official_train_exact_token,dico_phrasis_0000668__en-en__flipped,text1,in November
+train,or,or,official_train_exact_token,dico_phrasis_0000236__en-en__flipped,text1,Hundreds of dead and or injured
+train,outside,outsid,official_train_exact_token,dico_phrasis_0000437__en-en__flipped,text1,outside a bookstore
+train,padded,pad,manually_selected_common_english,,,
+train,padlocks,padlock,manually_selected_common_english,,,
+train,painting,paint,official_train_stem_only,dico_phrasis_0001110__en-en__flipped,text2,an aircraft painted red and white
+train,parcel,parcel,manually_selected_common_english,,,
+train,parcels,parcel,manually_selected_common_english,,,
+train,passenger,passeng,official_train_exact_token,dico_phrasis_0000476__en-en__flipped,text1,A large passenger jet
+train,permits,permit,official_train_stem_only,dico_phrasis_0000862__en-en__flipped,text2,to permit
+train,piers,pier,official_train_stem_only,dico_phrasis_0002352__en-en__original,text2,at the pier
+train,pink,pink,official_train_exact_token,dico_phrasis_0000104__en-en__flipped,text1,with pink streaked dye hair
+train,plaid,plaid,official_train_exact_token,dico_phrasis_0000759__en-en__flipped,text1,in a plaid shirt
+train,planning,plan,official_train_stem_only,dico_phrasis_0000028__en-en__flipped,text1,for plan
+train,platforms,platform,manually_selected_common_english,,,
+train,players,player,official_train_exact_token,dico_phrasis_0002689__en-en__original,text2,Two football players
+train,portable,portabl,manually_selected_common_english,,,
+train,pouring,pour,manually_selected_common_english,,,
+train,pubs,pub,official_train_stem_only,dico_phrasis_0000941__en-en__flipped,text1,after helicopter pub crash
+train,radios,radio,manually_selected_common_english,,,
+train,reading,read,manually_selected_common_english,,,
+train,rechargeable,recharg,manually_selected_common_english,,,
+train,regulations,regul,manually_selected_common_english,,,
+train,renewing,renew,manually_selected_common_english,,,
+train,rental,rental,manually_selected_common_english,,,
+train,repairing,repair,manually_selected_common_english,,,
+train,repairs,repair,manually_selected_common_english,,,
+train,riders,rider,official_train_stem_only,dico_phrasis_0000510__en-en__flipped,text1,A young female rider
+train,rowing,row,official_train_exact_token,dico_phrasis_0001765__en-en__flipped,text2,are rowing
+train,rubber,rubber,manually_selected_common_english,,,
+train,rucksacks,rucksack,manually_selected_common_english,,,
+train,sacks,sack,manually_selected_common_english,,,
+train,sailors,sailor,official_train_exact_token,dico_phrasis_0000086__en-en__flipped,text1,against Russian sailors
+train,scaffolds,scaffold,manually_selected_common_english,,,
+train,scarves,scarv,manually_selected_common_english,,,
+train,sealed,seal,manually_selected_common_english,,,
+train,sealing,seal,manually_selected_common_english,,,
+train,september,septemb,official_train_exact_token,dico_phrasis_0000694__en-en__flipped,text2,election for 7 September
+train,serving,serv,manually_selected_common_english,,,
+train,seventeen,seventeen,manually_selected_common_english,,,
+train,sewing,sew,manually_selected_common_english,,,
+train,shelters,shelter,manually_selected_common_english,,,
+train,shelves,shelv,official_train_exact_token,dico_phrasis_0000519__en-en__flipped,text1,on the shelves and on the counter
+train,shirts,shirt,official_train_stem_only,dico_phrasis_0000464__en-en__flipped,text1,in a blue shirt and tan pants
+train,silk,silk,manually_selected_common_english,,,
+train,sixteen,sixteen,manually_selected_common_english,,,
+train,skiing,ski,official_train_exact_token,dico_phrasis_0000796__en-en__flipped,text1,behind a no skiing sign
+train,skirts,skirt,manually_selected_common_english,,,
+train,sleeping,sleep,official_train_exact_token,dico_phrasis_0000211__en-en__flipped,text2,is sleeping
+train,slopes,slope,official_train_stem_only,dico_phrasis_0002655__en-en__original,text2,to a slope
+train,sorting,sort,manually_selected_common_english,,,
+train,stadiums,stadium,official_train_stem_only,dico_phrasis_0001683__en-en__flipped,text1,at stadium
+train,stools,stool,official_train_exact_token,dico_phrasis_0000110__en-en__flipped,text1,on tall bar stools
+train,studios,studio,manually_selected_common_english,,,
+train,temporary,temporari,manually_selected_common_english,,,
+train,tiny,tini,official_train_exact_token,dico_phrasis_0002285__en-en__original,text1,near two tiny animals
+train,tourists,tourist,official_train_exact_token,dico_phrasis_0000033__en-en__flipped,text1,9 foreign tourists and one Pakistani
+train,towing,tow,manually_selected_common_english,,,
+train,tractors,tractor,manually_selected_common_english,,,
+train,trays,tray,manually_selected_common_english,,,
+train,twenty,twenti,manually_selected_common_english,,,
+train,umbrellas,umbrella,manually_selected_common_english,,,
+train,under,under,official_train_exact_token,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+train,underneath,underneath,official_train_exact_token,dico_phrasis_0001760__en-en__flipped,text2,underneath a chair
+train,unpacking,unpack,manually_selected_common_english,,,
+train,vegetarian,vegetarian,manually_selected_common_english,,,
+train,verandas,veranda,manually_selected_common_english,,,
+train,wardrobes,wardrob,manually_selected_common_english,,,
+train,warehouses,warehous,manually_selected_common_english,,,
+train,washing,wash,manually_selected_common_english,,,
+train,woolly,woolli,official_train_exact_token,dico_phrasis_0000491__en-en__flipped,text1,Woolly sheep
+train,workers,worker,official_train_exact_token,dico_phrasis_0000673__en-en__flipped,text2,Red Cross workers
+train,workshops,workshop,manually_selected_common_english,,,
+diagnostic,40,40,official_train_exact_token,dico_phrasis_0000061__en-en__flipped,text1,for 40 missing
+diagnostic,50,50,official_train_exact_token,dico_phrasis_0000289__en-en__flipped,text2,Up to 50 dead
+diagnostic,above,abov,official_train_exact_token,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+diagnostic,arbours,arbour,manually_selected_common_english,,,
+diagnostic,august,august,manually_selected_common_english,,,
+diagnostic,barley,barley,manually_selected_common_english,,,
+diagnostic,basket,basket,manually_selected_common_english,,,
+diagnostic,baskets,basket,manually_selected_common_english,,,
+diagnostic,beige,beig,official_train_exact_token,dico_phrasis_0002592__en-en__original,text2,on beige carpet
+diagnostic,blue,blue,official_train_exact_token,dico_phrasis_0000427__en-en__flipped,text1,on the blue sea
+diagnostic,bronze,bronz,manually_selected_common_english,,,
+diagnostic,cafeterias,cafeteria,manually_selected_common_english,,,
+diagnostic,carrying,carri,official_train_exact_token,dico_phrasis_0000159__en-en__flipped,text1,while carrying
+diagnostic,ceramic,ceram,manually_selected_common_english,,,
+diagnostic,cradles,cradl,manually_selected_common_english,,,
+diagnostic,cutlery,cutleri,manually_selected_common_english,,,
+diagnostic,during,dure,official_train_exact_token,dico_phrasis_0000668__en-en__flipped,text2,during November
+diagnostic,duvets,duvet,manually_selected_common_english,,,
+diagnostic,elderly,elderli,official_train_exact_token,dico_phrasis_0000443__en-en__flipped,text1,of elderly people
+diagnostic,exactly,exactli,manually_selected_common_english,,,
+diagnostic,fifty,fifti,manually_selected_common_english,,,
+diagnostic,figurine,figurin,manually_selected_common_english,,,
+diagnostic,figurines,figurin,manually_selected_common_english,,,
+diagnostic,flour,flour,manually_selected_common_english,,,
+diagnostic,folded,fold,manually_selected_common_english,,,
+diagnostic,forty,forti,manually_selected_common_english,,,
+diagnostic,galleries,galleri,manually_selected_common_english,,,
+diagnostic,gazebos,gazebo,manually_selected_common_english,,,
+diagnostic,gloved,glove,official_train_exact_token,dico_phrasis_0001791__en-en__flipped,text1,'s gloved hand
+diagnostic,goblets,goblet,manually_selected_common_english,,,
+diagnostic,hammocks,hammock,manually_selected_common_english,,,
+diagnostic,harvests,harvest,manually_selected_common_english,,,
+diagnostic,inspecting,inspect,manually_selected_common_english,,,
+diagnostic,insulated,insul,manually_selected_common_english,,,
+diagnostic,knitted,knit,manually_selected_common_english,,,
+diagnostic,lofts,loft,manually_selected_common_english,,,
+diagnostic,metal,metal,official_train_exact_token,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+diagnostic,midday,midday,official_train_exact_token,dico_phrasis_0000229__en-en__flipped,text1,midday Friday
+diagnostic,murals,mural,manually_selected_common_english,,,
+diagnostic,or,or,official_train_exact_token,dico_phrasis_0000236__en-en__flipped,text1,Hundreds of dead and or injured
+diagnostic,outdoor,outdoor,official_train_exact_token,dico_phrasis_0001432__en-en__flipped,text2,in an outdoor glass structure
+diagnostic,outside,outsid,official_train_exact_token,dico_phrasis_0000437__en-en__flipped,text1,outside a bookstore
+diagnostic,pantries,pantri,manually_selected_common_english,,,
+diagnostic,pergolas,pergola,manually_selected_common_english,,,
+diagnostic,pillowcases,pillowcas,manually_selected_common_english,,,
+diagnostic,pink,pink,official_train_exact_token,dico_phrasis_0000104__en-en__flipped,text1,with pink streaked dye hair
+diagnostic,pitchers,pitcher,manually_selected_common_english,,,
+diagnostic,polishing,polish,manually_selected_common_english,,,
+diagnostic,pouring,pour,manually_selected_common_english,,,
+diagnostic,prams,pram,manually_selected_common_english,,,
+diagnostic,rye,rye,manually_selected_common_english,,,
+diagnostic,saucers,saucer,manually_selected_common_english,,,
+diagnostic,sculptors,sculptor,manually_selected_common_english,,,
+diagnostic,selling,sell,manually_selected_common_english,,,
+diagnostic,silos,silo,manually_selected_common_english,,,
+diagnostic,sketching,sketch,manually_selected_common_english,,,
+diagnostic,sleeping,sleep,official_train_exact_token,dico_phrasis_0000211__en-en__flipped,text2,is sleeping
+diagnostic,sorting,sort,manually_selected_common_english,,,
+diagnostic,storing,store,official_train_stem_only,dico_phrasis_0001284__en-en__flipped,text1,in a clothing store
+diagnostic,studios,studio,manually_selected_common_english,,,
+diagnostic,thermoses,thermos,manually_selected_common_english,,,
+diagnostic,trellises,trellis,manually_selected_common_english,,,
+diagnostic,under,under,official_train_exact_token,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+diagnostic,underneath,underneath,official_train_exact_token,dico_phrasis_0001760__en-en__flipped,text2,underneath a chair
+diagnostic,unveiling,unveil,manually_selected_common_english,,,
+diagnostic,weavers,weaver,manually_selected_common_english,,,
+diagnostic,weighing,weigh,manually_selected_common_english,,,
+diagnostic,wheelbarrows,wheelbarrow,manually_selected_common_english,,,
+diagnostic,wicker,wicker,official_train_exact_token,dico_phrasis_0001518__en-en__flipped,text2,of a wicker chair

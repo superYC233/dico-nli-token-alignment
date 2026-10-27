@@ -1,0 +1,161 @@
+﻿example_id,word,train_instance_id,train_column,original_train_phrase
+c64_food_f1,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+c64_food_f1,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+c64_food_f1,workers,dico_phrasis_0000673__en-en__flipped,text2,Red Cross workers
+c64_food_b1,consuming,dico_phrasis_0001135__en-en__flipped,text1,consuming food
+c64_food_b1,food,dico_phrasis_0000430__en-en__flipped,text1,with food and beer
+c64_food_b1,rice,dico_phrasis_0002474__en-en__original,text1,Pat Rice
+c64_food_f2,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+c64_food_f2,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+c64_food_f2,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+c64_food_f2,june,dico_phrasis_0002815__en-en__original,text2,"June 25 , 2013"
+c64_food_b2,consuming,dico_phrasis_0001135__en-en__flipped,text1,consuming food
+c64_food_b2,food,dico_phrasis_0000430__en-en__flipped,text1,with food and beer
+c64_food_b2,rice,dico_phrasis_0002474__en-en__original,text1,Pat Rice
+c64_food_b2,workers,dico_phrasis_0000673__en-en__flipped,text2,Red Cross workers
+c64_food_e1,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+c64_food_e1,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+c64_food_e1,quickly,dico_phrasis_0000745__en-en__flipped,text1,is running quickly
+c64_food_e2,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_food_e2,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+c64_food_e2,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+c64_food_e2,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_food_e2,underneath,dico_phrasis_0001760__en-en__flipped,text2,underneath a chair
+c64_food_n1,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+c64_food_n1,cooking,dico_phrasis_0001140__en-en__flipped,text1,inside a cooking area
+c64_food_n1,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+c64_food_n1,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+c64_food_n1,june,dico_phrasis_0002815__en-en__original,text2,"June 25 , 2013"
+c64_food_n1,rice,dico_phrasis_0002474__en-en__original,text1,Pat Rice
+c64_food_n2,consuming,dico_phrasis_0001135__en-en__flipped,text1,consuming food
+c64_food_n2,cooking,dico_phrasis_0001140__en-en__flipped,text1,inside a cooking area
+c64_food_n2,rice,dico_phrasis_0002474__en-en__original,text1,Pat Rice
+c64_food_n3,carrying,dico_phrasis_0000159__en-en__flipped,text1,while carrying
+c64_food_n3,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+c64_food_n3,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+c64_food_n3,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+c64_food_n3,june,dico_phrasis_0002815__en-en__original,text2,"June 25 , 2013"
+c64_food_n3,workers,dico_phrasis_0000673__en-en__flipped,text2,Red Cross workers
+c64_food_n4,consuming,dico_phrasis_0001135__en-en__flipped,text1,consuming food
+c64_food_n4,lamb,dico_phrasis_0001815__en-en__flipped,text1,A white lamb
+c64_food_n4,rice,dico_phrasis_0002474__en-en__original,text1,Pat Rice
+c64_air_f1,above,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+c64_air_f1,aircraft,dico_phrasis_0000656__en-en__flipped,text1,originating from the missing aircraft
+c64_air_f1,factory,dico_phrasis_0001734__en-en__flipped,text1,in Bangladesh factory
+c64_air_f1,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+c64_air_b1,aircraft,dico_phrasis_0000656__en-en__flipped,text1,originating from the missing aircraft
+c64_air_b1,airfield,dico_phrasis_0003299__en-en__original,text1,at an airfield
+c64_air_b1,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+c64_air_b1,outside,dico_phrasis_0000437__en-en__flipped,text1,outside a bookstore
+c64_air_f2,above,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+c64_air_f2,aircraft,dico_phrasis_0000656__en-en__flipped,text1,originating from the missing aircraft
+c64_air_f2,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_air_f2,cargo,dico_phrasis_0001728__en-en__flipped,text2,North Korean cargo
+c64_air_f2,metal,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+c64_air_b2,aircraft,dico_phrasis_0000656__en-en__flipped,text1,originating from the missing aircraft
+c64_air_b2,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+c64_air_b2,carrying,dico_phrasis_0000159__en-en__flipped,text1,while carrying
+c64_air_b2,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+c64_air_e1,above,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+c64_air_e1,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_air_e1,flying,dico_phrasis_0001132__en-en__flipped,text2,flying
+c64_air_e1,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+c64_air_e2,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_air_e2,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+c64_air_e2,metal,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+c64_air_e2,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_air_e2,underneath,dico_phrasis_0001760__en-en__flipped,text2,underneath a chair
+c64_air_n1,above,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+c64_air_n1,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_air_n1,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+c64_air_n1,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_air_n2,cargo,dico_phrasis_0001728__en-en__flipped,text2,North Korean cargo
+c64_air_n2,carrying,dico_phrasis_0000159__en-en__flipped,text1,while carrying
+c64_air_n2,commercial,dico_phrasis_0003095__en-en__original,text2,White and green commercial airliner
+c64_air_n2,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+c64_air_n2,passengers,dico_phrasis_0000417__en-en__flipped,text1,French train passengers
+c64_air_n3,aircraft,dico_phrasis_0000656__en-en__flipped,text1,originating from the missing aircraft
+c64_air_n3,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+c64_air_n3,carrying,dico_phrasis_0000159__en-en__flipped,text1,while carrying
+c64_air_n3,chairs,dico_phrasis_0001504__en-en__flipped,text1,in massage chairs
+c64_air_n3,heavy,dico_phrasis_0001331__en-en__flipped,text2,heavy rain
+c64_air_n4,flying,dico_phrasis_0001132__en-en__flipped,text2,flying
+c64_air_n4,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+c64_air_n4,stationary,dico_phrasis_0001245__en-en__flipped,text2,stationary after parking
+c64_scope_f1,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_scope_f1,metal,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+c64_scope_f1,motorcycle,dico_phrasis_0000485__en-en__flipped,text1,with a classic motorcycle
+c64_scope_f1,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_scope_b1,empty,dico_phrasis_0001925__en-en__flipped,text2,"between two large , half-empty Coke bottles"
+c64_scope_b1,factory,dico_phrasis_0001734__en-en__flipped,text1,in Bangladesh factory
+c64_scope_b1,motorbike,dico_phrasis_0001298__en-en__flipped,text2,a motorbike
+c64_scope_b1,outside,dico_phrasis_0000437__en-en__flipped,text1,outside a bookstore
+c64_scope_f2,among,dico_phrasis_0000006__en-en__flipped,text1,among all dead
+c64_scope_f2,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+c64_scope_f2,heavy,dico_phrasis_0001331__en-en__flipped,text2,heavy rain
+c64_scope_b2,dilapidated,dico_phrasis_0001170__en-en__flipped,text2,of a dilapidated wooden fence
+c64_scope_b2,factory,dico_phrasis_0001734__en-en__flipped,text1,in Bangladesh factory
+c64_scope_b2,outside,dico_phrasis_0000437__en-en__flipped,text1,outside a bookstore
+c64_scope_e1,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_scope_e1,motorbike,dico_phrasis_0001298__en-en__flipped,text2,a motorbike
+c64_scope_e1,motorcyclist,dico_phrasis_0001814__en-en__flipped,text1,Motorcyclist
+c64_scope_e1,rider,dico_phrasis_0000510__en-en__flipped,text1,A young female rider
+c64_scope_e1,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_scope_e1,underneath,dico_phrasis_0001760__en-en__flipped,text2,underneath a chair
+c64_scope_e2,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+c64_scope_e2,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_scope_e2,empty,dico_phrasis_0001925__en-en__flipped,text2,"between two large , half-empty Coke bottles"
+c64_scope_e2,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_scope_e2,underneath,dico_phrasis_0001760__en-en__flipped,text2,underneath a chair
+c64_scope_n1,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+c64_scope_n1,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_scope_n1,empty,dico_phrasis_0001925__en-en__flipped,text2,"between two large , half-empty Coke bottles"
+c64_scope_n1,heavy,dico_phrasis_0001331__en-en__flipped,text2,heavy rain
+c64_scope_n1,metal,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+c64_scope_n1,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_scope_n2,above,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+c64_scope_n2,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_scope_n2,motorbike,dico_phrasis_0001298__en-en__flipped,text2,a motorbike
+c64_scope_n2,motorcycle,dico_phrasis_0000485__en-en__flipped,text1,with a classic motorcycle
+c64_scope_n2,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_scope_n3,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+c64_scope_n3,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+c64_scope_n3,empty,dico_phrasis_0001925__en-en__flipped,text2,"between two large , half-empty Coke bottles"
+c64_scope_n3,factory,dico_phrasis_0001734__en-en__flipped,text1,in Bangladesh factory
+c64_scope_n3,outside,dico_phrasis_0000437__en-en__flipped,text1,outside a bookstore
+c64_scope_n3,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+c64_scope_n4,bottles,dico_phrasis_0001925__en-en__flipped,text1,between two large bottles
+c64_scope_n4,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+c64_scope_n4,carrying,dico_phrasis_0000159__en-en__flipped,text1,while carrying
+c64_scope_n4,motorbike,dico_phrasis_0001298__en-en__flipped,text2,a motorbike
+c64_event_f1,accused,dico_phrasis_0000937__en-en__flipped,text1,All five accused
+c64_event_f1,officials,dico_phrasis_0000252__en-en__flipped,text1,Some county officials
+c64_event_b1,diplomats,dico_phrasis_0000682__en-en__flipped,text1,3 U.S. Diplomats
+c64_event_b1,kidnapped,dico_phrasis_0001412__en-en__flipped,text1,kidnapped girls
+c64_event_f2,drivers,dico_phrasis_0000386__en-en__flipped,text1,Women drivers
+c64_event_f2,policemen,dico_phrasis_0002228__en-en__original,text2,3 policemen
+c64_event_f2,warning,dico_phrasis_0000997__en-en__flipped,text1,given warning
+c64_event_b2,doctors,dico_phrasis_0001401__en-en__flipped,text1,"4,000 Cuban doctors"
+c64_event_b2,tourists,dico_phrasis_0000033__en-en__flipped,text1,9 foreign tourists and one Pakistani
+c64_event_b2,warning,dico_phrasis_0000997__en-en__flipped,text1,given warning
+c64_event_e1,abducted,dico_phrasis_0001412__en-en__flipped,text2,abducted schoolgirls
+c64_event_e1,diplomats,dico_phrasis_0000682__en-en__flipped,text1,3 U.S. Diplomats
+c64_event_e1,kidnapped,dico_phrasis_0001412__en-en__flipped,text1,kidnapped girls
+c64_event_e2,construction,dico_phrasis_0001289__en-en__flipped,text2,at a construction site
+c64_event_e2,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+c64_event_e2,june,dico_phrasis_0002815__en-en__original,text2,"June 25 , 2013"
+c64_event_n1,accused,dico_phrasis_0000937__en-en__flipped,text1,All five accused
+c64_event_n1,guilty,dico_phrasis_0001011__en-en__flipped,text2,found not guilty
+c64_event_n1,officials,dico_phrasis_0000252__en-en__flipped,text1,Some county officials
+c64_event_n2,diplomats,dico_phrasis_0000682__en-en__flipped,text1,3 U.S. Diplomats
+c64_event_n2,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+c64_event_n2,injured,dico_phrasis_0000236__en-en__flipped,text1,Hundreds of dead and or injured
+c64_event_n2,june,dico_phrasis_0002815__en-en__original,text2,"June 25 , 2013"
+c64_event_n2,kidnapped,dico_phrasis_0001412__en-en__flipped,text1,kidnapped girls
+c64_event_n3,drivers,dico_phrasis_0000386__en-en__flipped,text1,Women drivers
+c64_event_n3,helmeted,dico_phrasis_0000629__en-en__flipped,text1,next to a helmeted man
+c64_event_n3,policemen,dico_phrasis_0002228__en-en__original,text2,3 policemen
+c64_event_n3,warning,dico_phrasis_0000997__en-en__flipped,text1,given warning
+c64_event_n4,doctors,dico_phrasis_0001401__en-en__flipped,text1,"4,000 Cuban doctors"
+c64_event_n4,tourists,dico_phrasis_0000033__en-en__flipped,text1,9 foreign tourists and one Pakistani
+c64_event_n4,warning,dico_phrasis_0000997__en-en__flipped,text1,given warning

@@ -1,0 +1,34 @@
+{
+  "train_rows": 3290,
+  "official_train_rows": 3042,
+  "new_text_rows": 0,
+  "local_train_rows": 64,
+  "local_diagnostic_rows": 16,
+  "local_train_relations": {
+    "F": 16,
+    "B": 16,
+    "E": 16,
+    "N": 16
+  },
+  "local_diagnostic_relations": {
+    "F": 4,
+    "B": 4,
+    "E": 4,
+    "N": 4
+  },
+  "whole_input_pair_overlap_with_dev": 0,
+  "existing_whole_phrase_overlap_with_dev": 5,
+  "effective_train_sha256": "7b53191544c9f0e4f82ad32ec4e414c50b6791df4f41d9a8a69e17abc96c6fd6",
+  "reference_train_sha256": "7b53191544c9f0e4f82ad32ec4e414c50b6791df4f41d9a8a69e17abc96c6fd6",
+  "train_equals_original_0p938_snapshot": true,
+  "source_sha256": {
+    "experiments\\deberta_manual_aug\\outputs\\run06_relation48_staged\\training_data.csv": "b6a1ace5674efd71a21ef7142b656e36680c3d93defb0beaed26c70bacc247d3",
+    "data\\train\\dico_nli_train_track1_participant_labeled.csv": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211",
+    "experiments\\deberta_local_semantics\\annotation_sources.csv": "c6f69086ff702ad26e066a5b54f2521016df493e233a841674ff6688cf9e4014"
+  },
+  "annotation_source": "Only existing official Train pairs; explicit span/relation annotations with reading assumptions. Dev text pairs are a rejection-only blacklist; Dev labels are not read for annotation.",
+  "annotation_status": "Assistant annotations, not independently adjudicated; not automatic semantic proofs.",
+  "diagnostic_scope": "These 16 inputs still receive ordinary Row CE because they are existing Train rows. Only their local annotations are held out. This is not an unseen-text generalization test.",
+  "development": "Method direction informed by earlier Dev analysis. Annotation examples selected by inspecting Train, without reading Dev labels or model predictions.",
+  "isolation_scope": "No new inputs are added. Existing Train may share vocabulary or a whole phrase with Dev. No claim of word-level isolation or hidden-Test non-overlap."
+}

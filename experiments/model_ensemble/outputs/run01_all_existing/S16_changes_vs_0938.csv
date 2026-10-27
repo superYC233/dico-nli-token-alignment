@@ -1,0 +1,28 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label,logit_F,logit_B,logit_E,logit_N,prediction,pair_prediction,baseline_prediction
+dico_phrasis_0000018__en-en__flipped,dico_phrasis_0000018,en,en,of all Rage rallies,march of anger,FORWARD_ENTAILMENT,-5.659960993808691,-7.580405213616804,-5.18600159457565,-0.009633592073239708,N,F,E
+dico_phrasis_0000018__en-en__original,dico_phrasis_0000018,en,en,march of anger,of all Rage rallies,BACKWARD_ENTAILMENT,-3.325529111013053,-1.467531761869076,-2.2829873429584997,-0.45954062504969506,N,B,E
+dico_phrasis_0000034__en-en__flipped,dico_phrasis_0000034,en,en,"Venezuela Government , Opposition Head",Venezuelan opposition leader,FORWARD_ENTAILMENT,-4.465598469012848,-6.663412387058756,-5.143271539941485,-0.01878855671052284,N,F,E
+dico_phrasis_0000034__en-en__original,dico_phrasis_0000034,en,en,Venezuelan opposition leader,"Venezuela Government , Opposition Head",BACKWARD_ENTAILMENT,-4.787003306690337,-3.4756715994810206,-3.954812623070857,-0.06021795916558308,N,B,E
+dico_phrasis_0000432__en-en__flipped,dico_phrasis_0000432,en,en,with a black top and a necklace,with a big necklace,FORWARD_ENTAILMENT,-4.654379913540932,-4.2597515882344235,-5.582008636548882,-0.02779330120713626,N,F,B
+dico_phrasis_0000432__en-en__original,dico_phrasis_0000432,en,en,with a big necklace,with a black top and a necklace,BACKWARD_ENTAILMENT,-6.69970877184551,-5.575683386124047,-6.861751239225465,-0.006085714952767176,N,B,F
+dico_phrasis_0000497__en-en__flipped,dico_phrasis_0000497,en,en,of some runway,from the airport,FORWARD_ENTAILMENT,-5.678741646386788,-5.77624176550098,-6.160907187978851,-0.008665981288362455,N,F,B
+dico_phrasis_0000497__en-en__original,dico_phrasis_0000497,en,en,from the airport,of some runway,BACKWARD_ENTAILMENT,-6.348213049503399,-6.2353039598359326,-6.222904581049932,-0.00570864395608841,N,B,F
+dico_phrasis_0000514__en-en__flipped,dico_phrasis_0000514,en,en,from a bird feeder,from the feeder,FORWARD_ENTAILMENT,-3.3006121310956167,-6.171502118922788,-4.184843516026574,-0.05569590029139091,N,F,E
+dico_phrasis_0000514__en-en__original,dico_phrasis_0000514,en,en,from the feeder,from a bird feeder,BACKWARD_ENTAILMENT,-3.125216973322196,-0.4080699266580507,-1.9256747196448314,-1.9285222281413266,B,B,E
+dico_phrasis_0000641__en-en__flipped,dico_phrasis_0000641,en,en,In Bhutto Death,over Bhutto murder,EQUIVALENCE,-4.733940379217997,-3.9231752280961296,-3.328233511814137,-0.06659540149801936,N,E,B
+dico_phrasis_0000641__en-en__original,dico_phrasis_0000641,en,en,over Bhutto murder,In Bhutto Death,EQUIVALENCE,-5.431038168805789,-7.022459646220714,-4.998849383438097,-0.012088655983816834,N,E,F
+dico_phrasis_0000948__en-en__flipped,dico_phrasis_0000948,en,en,over police crackdown,over police violence,EQUIVALENCE,-5.444029502298337,-6.711267841400399,-5.558173149954075,-0.009439377564508723,N,E,F
+dico_phrasis_0000948__en-en__original,dico_phrasis_0000948,en,en,over police violence,over police crackdown,EQUIVALENCE,-4.455385370524961,-3.623383403003207,-3.4540639420066337,-0.072489987902605,N,E,B
+dico_phrasis_0000954__en-en__flipped,dico_phrasis_0000954,en,en,Martial Arts Schools,martial arts clubs,EQUIVALENCE,-3.717568233009971,-3.185488692977042,-2.099029953924054,-0.20853364103852062,N,E,B
+dico_phrasis_0000954__en-en__original,dico_phrasis_0000954,en,en,martial arts clubs,Martial Arts Schools,EQUIVALENCE,-2.6141545450442094,-3.4567781310514363,-1.7477340892256876,-0.3270176846369616,N,E,F
+dico_phrasis_0000994__en-en__flipped,dico_phrasis_0000994,en,en,May Housing,Housing in May,EQUIVALENCE,-3.630830003640818,-0.6406344820924811,-0.9667770618677122,-2.7144545823694095,B,B,E
+dico_phrasis_0000994__en-en__original,dico_phrasis_0000994,en,en,Housing in May,May Housing,EQUIVALENCE,-3.1850192807752156,-6.461143925582541,-4.6842988433140995,-0.05359031494557441,N,F,E
+dico_phrasis_0001174__en-en__flipped,dico_phrasis_0001174,en,en,of wooden debris,of used wooden building materials,EQUIVALENCE,-6.161835994191482,-4.748457423887963,-4.272161487508422,-0.025035821579028558,N,E,B
+dico_phrasis_0001174__en-en__original,dico_phrasis_0001174,en,en,of used wooden building materials,of wooden debris,EQUIVALENCE,-5.808570701858516,-8.04800691064139,-5.453062705468186,-0.0076336849911705406,N,E,F
+dico_phrasis_0001505__en-en__flipped,dico_phrasis_0001505,en,en,Two Asian men and a woman,Two Asian men and Asian woman,BACKWARD_ENTAILMENT,-2.3081283479725365,-1.0783837205108908,-0.7546261354390119,-2.4054867085047142,E,E,B
+dico_phrasis_0001505__en-en__original,dico_phrasis_0001505,en,en,Two Asian men and Asian woman,Two Asian men and a woman,FORWARD_ENTAILMENT,-1.4771274667473782,-2.08374328691221,-0.6644491937755397,-2.0197610478899453,E,E,F
+dico_phrasis_0001979__en-en__original,dico_phrasis_0001979,en,en,on Syria abuse,on Syrian chemical arms,NEGATIVE_OTHER,-2.6815333809134807,-0.629833961209178,-2.26395017226439,-1.2210424518857717,B,B,N
+dico_phrasis_0002244__en-en__original,dico_phrasis_0002244,en,en,two people,2,NEGATIVE_OTHER,-1.323710511609684,-3.455772583570804,-0.645376540119857,-1.7269489630361488,E,E,N
+dico_phrasis_0002436__en-en__original,dico_phrasis_0002436,en,en,over child,over daughter,NEGATIVE_OTHER,-4.716188241416966,-0.6703011700449562,-4.519638004211686,-0.7579986717645216,B,B,N
+dico_phrasis_0002463__en-en__original,dico_phrasis_0002463,en,en,'s integration,to join,NEGATIVE_OTHER,-4.0493446940862805,-4.574218410212195,-0.41980857435747965,-1.154931117679958,E,E,N
+dico_phrasis_0002900__en-en__original,dico_phrasis_0002900,en,en,Australian senator,Australian lawmaker,NEGATIVE_OTHER,-3.1432998200232745,-5.449227581617439,-4.705637379466514,-0.05814193518961523,N,N,F

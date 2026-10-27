@@ -1,0 +1,109 @@
+{
+  "new_rows": 200,
+  "source_contrasts": 120,
+  "lexical_families": 20,
+  "template_types": 7,
+  "rows_by_type": {
+    "action_object_change": 12,
+    "action_specificity": 40,
+    "event_scope": 40,
+    "event_state_equivalence": 40,
+    "manner_equivalence": 40,
+    "participant_roles": 8,
+    "planned_vs_completed": 20
+  },
+  "state_word_rows": 100,
+  "new_unique_words": 103,
+  "words_not_in_official_train": 87,
+  "token_fraction_not_in_official_train": 0.8768939393939394,
+  "phrase_word_counts": {
+    "2": 80,
+    "1": 40,
+    "3": 264,
+    "4": 16
+  },
+  "surface_rule": {
+    "new_200": {
+      "rows": 200,
+      "correct": 200,
+      "accuracy": 1.0,
+      "weighted_f1": 1.0
+    },
+    "official_train": {
+      "rows": 3042,
+      "correct": 1602,
+      "accuracy": 0.5266272189349113,
+      "weighted_f1": 0.45173562957952673
+    },
+    "dev": {
+      "rows": 660,
+      "correct": 336,
+      "accuracy": 0.509090909090909,
+      "weighted_f1": 0.44068447789378024
+    }
+  },
+  "best_event_epoch": 4,
+  "observed_event_epochs": 10,
+  "fixed": 14,
+  "broken": 21,
+  "changed": 35,
+  "changed_wrong": 0,
+  "old_error_groups": 25,
+  "old_error_rows": 43,
+  "event_error_groups": 29,
+  "event_error_rows": 50,
+  "coverage_of_old_errors": {
+    "待核验": {
+      "groups": 4,
+      "rows": 6
+    },
+    "未覆盖": {
+      "groups": 15,
+      "rows": 26
+    },
+    "部分": {
+      "groups": 6,
+      "rows": 11
+    }
+  },
+  "class_repairs": {
+    "B": {
+      "fixed": 1,
+      "broken": 3
+    },
+    "E": {
+      "fixed": 10,
+      "broken": 12
+    },
+    "F": {
+      "fixed": 1,
+      "broken": 3
+    },
+    "N": {
+      "fixed": 2,
+      "broken": 3
+    }
+  },
+  "bootstrap": {
+    "resamples": 20000,
+    "groups": 383,
+    "seed": 20261022,
+    "delta_percentage_points": -1.054396744606112,
+    "ci95_percentage_points": [
+      -3.462808079084148,
+      1.3157907014897543
+    ],
+    "scope": "Fixed selected models/current Dev only; excludes training-seed and checkpoint-selection uncertainty."
+  },
+  "normalized_ordered_label_conflict_groups": 1,
+  "conflict_rows_from_new_200": 0,
+  "analysis_only": "No model loaded; no training; no training data/config modified.",
+  "assessment_limit": "Coverage/fluency judgements are assistant hypotheses; shortcut existence does not prove model use.",
+  "files": {
+    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\event_examples.csv": "504a43f89a5f35115640cdf1752934d3b8df0c9bfd063be45d55e8aa81d64eea",
+    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\manual_label_notes.csv": "514a5d08fcd299f7b88a37950f3850393754c0fa8579002716c290009f73168e",
+    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\epoch_3\\predictions_with_scores.csv": "8b702650eb011b91c6faceb6e31bf1f6a7a563fce6d769788f1604da0bae1084",
+    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run03_event_200\\epoch_4\\predictions_with_scores.csv": "e03c2afa996c0970809086ba2d7c9bd003246f1f24e7c26c7ca7ab1df9c91066",
+    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\review_events.py": "cd92c9edfcbda29180ff249ce4d05e8c7bedfd69490c9d05cd28616d2f220eb5"
+  }
+}

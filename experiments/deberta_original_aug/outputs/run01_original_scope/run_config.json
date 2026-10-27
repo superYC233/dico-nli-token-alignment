@@ -1,0 +1,55 @@
+{
+  "run_name": "run01_original_scope",
+  "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "seed": 42,
+  "epochs": 10,
+  "max_length": 128,
+  "dtype": "float32",
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "row_batch_size": 16,
+  "pair_batch_size": 16,
+  "dev_batch_size": 16,
+  "row_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.5
+  ],
+  "pair_weights": [
+    1.0,
+    1.0,
+    1.25
+  ],
+  "pair_weight": 0.5,
+  "pair_label_smoothing": 0.05,
+  "freeze_embeddings": false,
+  "freeze_first_n_layers": 0,
+  "use_lexical_features": false,
+  "augmentation": {
+    "mode": "scope",
+    "original_rows": 3042,
+    "extra_rows": 200,
+    "train_rows": 3242,
+    "dev_rows": 660,
+    "extra_class_counts": {
+      "EQUIVALENCE": 80,
+      "FORWARD_ENTAILMENT": 40,
+      "BACKWARD_ENTAILMENT": 40,
+      "NEGATIVE_OTHER": 40
+    },
+    "effective_train_sha256": "3a482bf7b0bcd2d6bb44acc3c63e9c83623b136e3eb778e796ec8b509cf0b733",
+    "annotation_note": "Same synthetic templates as run02_scope; no independent label adjudication."
+  },
+  "trainable_parameters": 184001800,
+  "total_parameters": 184001800,
+  "real_pairs": 1362,
+  "row_steps_per_epoch": 203,
+  "pair_steps_per_epoch": 86,
+  "training_order": "all Row CE batches, then all Real Pair CE batches",
+  "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
+  "historical_reference": 0.924793585,
+  "comparison_note": "Original recipe with extra data; original historical run has fewer updates. Use copy mode for a matched-budget control.",
+  "train_sha256": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211",
+  "dev_sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511"
+}

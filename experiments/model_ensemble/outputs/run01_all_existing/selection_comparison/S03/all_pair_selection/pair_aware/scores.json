@@ -1,0 +1,202 @@
+{
+  "classification": {
+    "accuracy": 0.9363636363636364,
+    "confusion_matrix": {
+      "BACKWARD_ENTAILMENT": {
+        "BACKWARD_ENTAILMENT": 182,
+        "EQUIVALENCE": 6,
+        "FORWARD_ENTAILMENT": 2,
+        "NEGATIVE_OTHER": 0
+      },
+      "EQUIVALENCE": {
+        "BACKWARD_ENTAILMENT": 3,
+        "EQUIVALENCE": 168,
+        "FORWARD_ENTAILMENT": 3,
+        "NEGATIVE_OTHER": 0
+      },
+      "FORWARD_ENTAILMENT": {
+        "BACKWARD_ENTAILMENT": 2,
+        "EQUIVALENCE": 6,
+        "FORWARD_ENTAILMENT": 182,
+        "NEGATIVE_OTHER": 0
+      },
+      "NEGATIVE_OTHER": {
+        "BACKWARD_ENTAILMENT": 5,
+        "EQUIVALENCE": 10,
+        "FORWARD_ENTAILMENT": 5,
+        "NEGATIVE_OTHER": 86
+      }
+    },
+    "macro_f1": 0.9311673546784803,
+    "per_label": {
+      "BACKWARD_ENTAILMENT": {
+        "f1": 0.9528795811518324,
+        "false_negative": 8,
+        "false_positive": 10,
+        "label": "BACKWARD_ENTAILMENT",
+        "precision": 0.9479166666666666,
+        "predicted": 192,
+        "recall": 0.9578947368421052,
+        "support": 190,
+        "true_positive": 182
+      },
+      "EQUIVALENCE": {
+        "f1": 0.9230769230769231,
+        "false_negative": 6,
+        "false_positive": 22,
+        "label": "EQUIVALENCE",
+        "precision": 0.8842105263157894,
+        "predicted": 190,
+        "recall": 0.9655172413793104,
+        "support": 174,
+        "true_positive": 168
+      },
+      "FORWARD_ENTAILMENT": {
+        "f1": 0.9528795811518324,
+        "false_negative": 8,
+        "false_positive": 10,
+        "label": "FORWARD_ENTAILMENT",
+        "precision": 0.9479166666666666,
+        "predicted": 192,
+        "recall": 0.9578947368421052,
+        "support": 190,
+        "true_positive": 182
+      },
+      "NEGATIVE_OTHER": {
+        "f1": 0.8958333333333334,
+        "false_negative": 20,
+        "false_positive": 0,
+        "label": "NEGATIVE_OTHER",
+        "precision": 1.0,
+        "predicted": 86,
+        "recall": 0.8113207547169812,
+        "support": 106,
+        "true_positive": 86
+      }
+    },
+    "total_instances": 660,
+    "weighted_f1": 0.9358605436157792
+  },
+  "consistency": {
+    "hard_cons": 0.9602888086642599,
+    "hard_correct_pairs": 266,
+    "pair_errors": [
+      {
+        "first_gold": "FORWARD_ENTAILMENT",
+        "first_id": "dico_phrasis_0000198__en-en__flipped",
+        "first_prediction": "EQUIVALENCE",
+        "hard_correct": "false",
+        "second_gold": "BACKWARD_ENTAILMENT",
+        "second_id": "dico_phrasis_0000198__en-en__original",
+        "second_prediction": "EQUIVALENCE",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "FORWARD_ENTAILMENT",
+        "first_id": "dico_phrasis_0000375__en-en__flipped",
+        "first_prediction": "EQUIVALENCE",
+        "hard_correct": "false",
+        "second_gold": "BACKWARD_ENTAILMENT",
+        "second_id": "dico_phrasis_0000375__en-en__original",
+        "second_prediction": "EQUIVALENCE",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "FORWARD_ENTAILMENT",
+        "first_id": "dico_phrasis_0000432__en-en__flipped",
+        "first_prediction": "BACKWARD_ENTAILMENT",
+        "hard_correct": "false",
+        "second_gold": "BACKWARD_ENTAILMENT",
+        "second_id": "dico_phrasis_0000432__en-en__original",
+        "second_prediction": "FORWARD_ENTAILMENT",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "FORWARD_ENTAILMENT",
+        "first_id": "dico_phrasis_0000497__en-en__flipped",
+        "first_prediction": "EQUIVALENCE",
+        "hard_correct": "false",
+        "second_gold": "BACKWARD_ENTAILMENT",
+        "second_id": "dico_phrasis_0000497__en-en__original",
+        "second_prediction": "EQUIVALENCE",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "FORWARD_ENTAILMENT",
+        "first_id": "dico_phrasis_0000499__en-en__flipped",
+        "first_prediction": "EQUIVALENCE",
+        "hard_correct": "false",
+        "second_gold": "BACKWARD_ENTAILMENT",
+        "second_id": "dico_phrasis_0000499__en-en__original",
+        "second_prediction": "EQUIVALENCE",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "EQUIVALENCE",
+        "first_id": "dico_phrasis_0000980__en-en__flipped",
+        "first_prediction": "FORWARD_ENTAILMENT",
+        "hard_correct": "false",
+        "second_gold": "EQUIVALENCE",
+        "second_id": "dico_phrasis_0000980__en-en__original",
+        "second_prediction": "BACKWARD_ENTAILMENT",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "EQUIVALENCE",
+        "first_id": "dico_phrasis_0001103__en-en__flipped",
+        "first_prediction": "FORWARD_ENTAILMENT",
+        "hard_correct": "false",
+        "second_gold": "EQUIVALENCE",
+        "second_id": "dico_phrasis_0001103__en-en__original",
+        "second_prediction": "BACKWARD_ENTAILMENT",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "EQUIVALENCE",
+        "first_id": "dico_phrasis_0001136__en-en__flipped",
+        "first_prediction": "BACKWARD_ENTAILMENT",
+        "hard_correct": "false",
+        "second_gold": "EQUIVALENCE",
+        "second_id": "dico_phrasis_0001136__en-en__original",
+        "second_prediction": "FORWARD_ENTAILMENT",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "BACKWARD_ENTAILMENT",
+        "first_id": "dico_phrasis_0001551__en-en__flipped",
+        "first_prediction": "FORWARD_ENTAILMENT",
+        "hard_correct": "false",
+        "second_gold": "FORWARD_ENTAILMENT",
+        "second_id": "dico_phrasis_0001551__en-en__original",
+        "second_prediction": "BACKWARD_ENTAILMENT",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "BACKWARD_ENTAILMENT",
+        "first_id": "dico_phrasis_0001781__en-en__flipped",
+        "first_prediction": "EQUIVALENCE",
+        "hard_correct": "false",
+        "second_gold": "FORWARD_ENTAILMENT",
+        "second_id": "dico_phrasis_0001781__en-en__original",
+        "second_prediction": "EQUIVALENCE",
+        "soft_consistent": "true"
+      },
+      {
+        "first_gold": "BACKWARD_ENTAILMENT",
+        "first_id": "dico_phrasis_0001940__en-en__flipped",
+        "first_prediction": "EQUIVALENCE",
+        "hard_correct": "false",
+        "second_gold": "FORWARD_ENTAILMENT",
+        "second_id": "dico_phrasis_0001940__en-en__original",
+        "second_prediction": "EQUIVALENCE",
+        "soft_consistent": "true"
+      }
+    ],
+    "reversible_pairs": 277,
+    "soft_cons": 1.0,
+    "soft_consistent_pairs": 277
+  },
+  "hard_cons": 0.9602888086642599,
+  "soft_cons": 1.0,
+  "weighted_f1": 0.9358605436157792
+}

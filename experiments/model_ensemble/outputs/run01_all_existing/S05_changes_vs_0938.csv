@@ -1,0 +1,16 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label,logit_F,logit_B,logit_E,logit_N,prediction,pair_prediction,baseline_prediction
+dico_phrasis_0000432__en-en__flipped,dico_phrasis_0000432,en,en,with a black top and a necklace,with a big necklace,FORWARD_ENTAILMENT,-6.144222735918927,-6.306765358822529,-6.975468959944713,-0.004916360102134444,N,F,B
+dico_phrasis_0000432__en-en__original,dico_phrasis_0000432,en,en,with a big necklace,with a black top and a necklace,BACKWARD_ENTAILMENT,-5.443885454333261,-5.171327244800703,-5.526177548608448,-0.014079514862183848,N,B,F
+dico_phrasis_0000497__en-en__flipped,dico_phrasis_0000497,en,en,of some runway,from the airport,FORWARD_ENTAILMENT,-5.535765647827857,-5.19320394071104,-5.179124321330208,-0.015245939239887412,N,E,B
+dico_phrasis_0000497__en-en__original,dico_phrasis_0000497,en,en,from the airport,of some runway,BACKWARD_ENTAILMENT,-4.63340385210641,-4.484770232018424,-4.130545763315972,-0.03777995377318947,N,E,F
+dico_phrasis_0000514__en-en__flipped,dico_phrasis_0000514,en,en,from a bird feeder,from the feeder,FORWARD_ENTAILMENT,-1.0844285370693287,-3.9842697587454254,-2.4623199516779364,-0.5832851066919171,N,F,E
+dico_phrasis_0000514__en-en__original,dico_phrasis_0000514,en,en,from the feeder,from a bird feeder,BACKWARD_ENTAILMENT,-3.3950537601745667,-1.0784814977109942,-2.7252660791825054,-0.5783536928622726,N,B,E
+dico_phrasis_0000641__en-en__flipped,dico_phrasis_0000641,en,en,In Bhutto Death,over Bhutto murder,EQUIVALENCE,-3.9770807936439536,-3.202274209375486,-3.103906573107203,-0.1101312458404046,N,E,B
+dico_phrasis_0000641__en-en__original,dico_phrasis_0000641,en,en,over Bhutto murder,In Bhutto Death,EQUIVALENCE,-4.649369974391324,-5.829828232582745,-4.323195619726538,-0.026101355473565572,N,E,F
+dico_phrasis_0000948__en-en__flipped,dico_phrasis_0000948,en,en,over police crackdown,over police violence,EQUIVALENCE,-3.6939665919774893,-5.1291677602225665,-3.1857552838763596,-0.07487618315816792,N,E,F
+dico_phrasis_0000948__en-en__original,dico_phrasis_0000948,en,en,over police violence,over police crackdown,EQUIVALENCE,-4.209119445035644,-3.4587592094192936,-3.326339947276804,-0.08583306877804407,N,E,B
+dico_phrasis_0000954__en-en__flipped,dico_phrasis_0000954,en,en,Martial Arts Schools,martial arts clubs,EQUIVALENCE,-3.8929460706804035,-3.067508344143459,-2.639690741679214,-0.14885448865298603,N,E,B
+dico_phrasis_0000954__en-en__original,dico_phrasis_0000954,en,en,martial arts clubs,Martial Arts Schools,EQUIVALENCE,-2.2430772774585015,-4.1504030357973996,-2.501586281909003,-0.22796058662879606,N,E,F
+dico_phrasis_0002492__en-en__original,dico_phrasis_0002492,en,en,Super typhoon,Most powerful typhoon,NEGATIVE_OTHER,-3.0868311514184583,-2.6651907968369275,-0.8004548095589068,-0.8309324052705964,E,E,N
+dico_phrasis_0002900__en-en__original,dico_phrasis_0002900,en,en,Australian senator,Australian lawmaker,NEGATIVE_OTHER,-0.8541048198281793,-3.880659632276799,-2.682456701958625,-0.7229801841265105,N,N,F
+dico_phrasis_0003283__en-en__original,dico_phrasis_0003283,en,en,A close-up view,Close up,NEGATIVE_OTHER,-1.650146758573551,-3.7554273018000695,-1.275818549495895,-0.6824338005841548,N,N,F

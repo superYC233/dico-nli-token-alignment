@@ -1,0 +1,65 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
+aug_manual_c64_food_f1__0,aug_manual_c64_food_f1,en,en,workers drinking coffee,workers drinking,FORWARD_ENTAILMENT
+aug_manual_c64_food_f1__1,aug_manual_c64_food_f1,en,en,workers drinking,workers drinking coffee,BACKWARD_ENTAILMENT
+aug_manual_c64_food_b1__0,aug_manual_c64_food_b1,en,en,consuming food,consuming rice,BACKWARD_ENTAILMENT
+aug_manual_c64_food_b1__1,aug_manual_c64_food_b1,en,en,consuming rice,consuming food,FORWARD_ENTAILMENT
+aug_manual_c64_food_f2__0,aug_manual_c64_food_f2,en,en,drinking coffee during June,drinking coffee,FORWARD_ENTAILMENT
+aug_manual_c64_food_f2__1,aug_manual_c64_food_f2,en,en,drinking coffee,drinking coffee during June,BACKWARD_ENTAILMENT
+aug_manual_c64_food_b2__0,aug_manual_c64_food_b2,en,en,workers consuming food,workers consuming rice,BACKWARD_ENTAILMENT
+aug_manual_c64_food_b2__1,aug_manual_c64_food_b2,en,en,workers consuming rice,workers consuming food,FORWARD_ENTAILMENT
+aug_manual_c64_food_e1__0,aug_manual_c64_food_e1,en,en,quickly drinking coffee,drinking coffee quickly,EQUIVALENCE
+aug_manual_c64_food_e1__1,aug_manual_c64_food_e1,en,en,drinking coffee quickly,quickly drinking coffee,EQUIVALENCE
+aug_manual_c64_food_e2__0,aug_manual_c64_food_e2,en,en,drinking coffee underneath bridge,"under bridge, drinking coffee",EQUIVALENCE
+aug_manual_c64_food_e2__1,aug_manual_c64_food_e2,en,en,"under bridge, drinking coffee",drinking coffee underneath bridge,EQUIVALENCE
+aug_manual_c64_food_n1__0,aug_manual_c64_food_n1,en,en,drinking coffee,cooking rice during June,NEGATIVE_OTHER
+aug_manual_c64_food_n2__0,aug_manual_c64_food_n2,en,en,cooking rice,consuming rice,NEGATIVE_OTHER
+aug_manual_c64_food_n3__0,aug_manual_c64_food_n3,en,en,workers drinking coffee during June,workers carrying coffee,NEGATIVE_OTHER
+aug_manual_c64_food_n4__0,aug_manual_c64_food_n4,en,en,consuming rice,consuming lamb,NEGATIVE_OTHER
+aug_manual_c64_air_f1__0,aug_manual_c64_air_f1,en,en,jet above factory,aircraft above factory,FORWARD_ENTAILMENT
+aug_manual_c64_air_f1__1,aug_manual_c64_air_f1,en,en,aircraft above factory,jet above factory,BACKWARD_ENTAILMENT
+aug_manual_c64_air_b1__0,aug_manual_c64_air_b1,en,en,aircraft outside airfield,jet outside airfield,BACKWARD_ENTAILMENT
+aug_manual_c64_air_b1__1,aug_manual_c64_air_b1,en,en,jet outside airfield,aircraft outside airfield,FORWARD_ENTAILMENT
+aug_manual_c64_air_f2__0,aug_manual_c64_air_f2,en,en,cargo aircraft above metal bridge,aircraft above bridge,FORWARD_ENTAILMENT
+aug_manual_c64_air_f2__1,aug_manual_c64_air_f2,en,en,aircraft above bridge,cargo aircraft above metal bridge,BACKWARD_ENTAILMENT
+aug_manual_c64_air_b2__0,aug_manual_c64_air_b2,en,en,aircraft carrying boxes,jet carrying boxes,BACKWARD_ENTAILMENT
+aug_manual_c64_air_b2__1,aug_manual_c64_air_b2,en,en,jet carrying boxes,aircraft carrying boxes,FORWARD_ENTAILMENT
+aug_manual_c64_air_e1__0,aug_manual_c64_air_e1,en,en,flying jet above bridge,jet flying above bridge,EQUIVALENCE
+aug_manual_c64_air_e1__1,aug_manual_c64_air_e1,en,en,jet flying above bridge,flying jet above bridge,EQUIVALENCE
+aug_manual_c64_air_e2__0,aug_manual_c64_air_e2,en,en,"underneath metal bridge, jet",jet under metal bridge,EQUIVALENCE
+aug_manual_c64_air_e2__1,aug_manual_c64_air_e2,en,en,jet under metal bridge,"underneath metal bridge, jet",EQUIVALENCE
+aug_manual_c64_air_n1__0,aug_manual_c64_air_n1,en,en,jet above bridge,jet under bridge,NEGATIVE_OTHER
+aug_manual_c64_air_n2__0,aug_manual_c64_air_n2,en,en,commercial jet carrying cargo,jet carrying passengers,NEGATIVE_OTHER
+aug_manual_c64_air_n3__0,aug_manual_c64_air_n3,en,en,aircraft carrying boxes,aircraft carrying heavy chairs,NEGATIVE_OTHER
+aug_manual_c64_air_n4__0,aug_manual_c64_air_n4,en,en,flying jet,stationary jet,NEGATIVE_OTHER
+aug_manual_c64_scope_f1__0,aug_manual_c64_scope_f1,en,en,motorcycle under metal bridge,motorcycle under bridge,FORWARD_ENTAILMENT
+aug_manual_c64_scope_f1__1,aug_manual_c64_scope_f1,en,en,motorcycle under bridge,motorcycle under metal bridge,BACKWARD_ENTAILMENT
+aug_manual_c64_scope_b1__0,aug_manual_c64_scope_b1,en,en,motorbike outside factory,motorbike outside empty factory,BACKWARD_ENTAILMENT
+aug_manual_c64_scope_b1__1,aug_manual_c64_scope_b1,en,en,motorbike outside empty factory,motorbike outside factory,FORWARD_ENTAILMENT
+aug_manual_c64_scope_f2__0,aug_manual_c64_scope_f2,en,en,among heavy boxes,among boxes,FORWARD_ENTAILMENT
+aug_manual_c64_scope_f2__1,aug_manual_c64_scope_f2,en,en,among boxes,among heavy boxes,BACKWARD_ENTAILMENT
+aug_manual_c64_scope_b2__0,aug_manual_c64_scope_b2,en,en,outside factory,outside dilapidated factory,BACKWARD_ENTAILMENT
+aug_manual_c64_scope_b2__1,aug_manual_c64_scope_b2,en,en,outside dilapidated factory,outside factory,FORWARD_ENTAILMENT
+aug_manual_c64_scope_e1__0,aug_manual_c64_scope_e1,en,en,motorcyclist under bridge,motorbike rider underneath bridge,EQUIVALENCE
+aug_manual_c64_scope_e1__1,aug_manual_c64_scope_e1,en,en,motorbike rider underneath bridge,motorcyclist under bridge,EQUIVALENCE
+aug_manual_c64_scope_e2__0,aug_manual_c64_scope_e2,en,en,empty boxes under bridge,"underneath bridge, empty boxes",EQUIVALENCE
+aug_manual_c64_scope_e2__1,aug_manual_c64_scope_e2,en,en,"underneath bridge, empty boxes",empty boxes under bridge,EQUIVALENCE
+aug_manual_c64_scope_n1__0,aug_manual_c64_scope_n1,en,en,empty boxes under bridge,heavy boxes under metal bridge,NEGATIVE_OTHER
+aug_manual_c64_scope_n2__0,aug_manual_c64_scope_n2,en,en,motorcycle under bridge,motorbike above bridge,NEGATIVE_OTHER
+aug_manual_c64_scope_n3__0,aug_manual_c64_scope_n3,en,en,empty boxes outside factory,boxes under bridge,NEGATIVE_OTHER
+aug_manual_c64_scope_n4__0,aug_manual_c64_scope_n4,en,en,motorbike carrying boxes,motorbike carrying bottles,NEGATIVE_OTHER
+aug_manual_c64_event_f1__0,aug_manual_c64_event_f1,en,en,accused officials,officials,FORWARD_ENTAILMENT
+aug_manual_c64_event_f1__1,aug_manual_c64_event_f1,en,en,officials,accused officials,BACKWARD_ENTAILMENT
+aug_manual_c64_event_b1__0,aug_manual_c64_event_b1,en,en,diplomats,kidnapped diplomats,BACKWARD_ENTAILMENT
+aug_manual_c64_event_b1__1,aug_manual_c64_event_b1,en,en,kidnapped diplomats,diplomats,FORWARD_ENTAILMENT
+aug_manual_c64_event_f2__0,aug_manual_c64_event_f2,en,en,policemen warning drivers,policemen warning,FORWARD_ENTAILMENT
+aug_manual_c64_event_f2__1,aug_manual_c64_event_f2,en,en,policemen warning,policemen warning drivers,BACKWARD_ENTAILMENT
+aug_manual_c64_event_b2__0,aug_manual_c64_event_b2,en,en,doctors,doctors warning tourists,BACKWARD_ENTAILMENT
+aug_manual_c64_event_b2__1,aug_manual_c64_event_b2,en,en,doctors warning tourists,doctors,FORWARD_ENTAILMENT
+aug_manual_c64_event_e1__0,aug_manual_c64_event_e1,en,en,abducted diplomats,kidnapped diplomats,EQUIVALENCE
+aug_manual_c64_event_e1__1,aug_manual_c64_event_e1,en,en,kidnapped diplomats,abducted diplomats,EQUIVALENCE
+aug_manual_c64_event_e2__0,aug_manual_c64_event_e2,en,en,June construction,construction during June,EQUIVALENCE
+aug_manual_c64_event_e2__1,aug_manual_c64_event_e2,en,en,construction during June,June construction,EQUIVALENCE
+aug_manual_c64_event_n1__0,aug_manual_c64_event_n1,en,en,accused officials,guilty officials,NEGATIVE_OTHER
+aug_manual_c64_event_n2__0,aug_manual_c64_event_n2,en,en,injured diplomats during June,kidnapped diplomats,NEGATIVE_OTHER
+aug_manual_c64_event_n3__0,aug_manual_c64_event_n3,en,en,policemen warning drivers,drivers warning helmeted policemen,NEGATIVE_OTHER
+aug_manual_c64_event_n4__0,aug_manual_c64_event_n4,en,en,doctors warning tourists,tourists warning doctors,NEGATIVE_OTHER

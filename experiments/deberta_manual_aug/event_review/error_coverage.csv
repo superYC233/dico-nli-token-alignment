@@ -1,0 +1,38 @@
+﻿pair_id,text1,text2,gold,reference_prediction,event_prediction,reference_wrong_rows,event_wrong_rows,fixed_rows,broken_rows,coverage_assessment,mechanism_to_check,coverage_gap_or_review_issue,assessment_status
+dico_phrasis_0000018,of all Rage rallies,march of anger,F,F,E,0,2,0,2,未覆盖,新闻事件、名词与介词,没有新闻短语省略与事件名词关系；无法从副词换位外推。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000034,"Venezuela Government , Opposition Head",Venezuelan opposition leader,F,E,E,2,2,0,0,未覆盖,实体职务与新闻片段,没有实体指称、职务和省略成分对照；先核对上下文。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000125,in an overgrown green grassy field,through green grass,F,F,E,0,2,0,2,未覆盖,地点属性与介词,没有地点属性与路径/位置角色对照；需语境核验。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000198,a chocolate bar,a candy bar,F,E,E,2,2,0,0,未覆盖,名词词汇包含,宾语删除不是两个不同中心名词之间的包含；需要独立的新词汇层级对照。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000221,in a grassy green field,in a yard,F,F,E,0,2,0,2,未覆盖,地点名词与场景指称,没有field/yard式地点名词关系；不能直接照金标推广词义。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000375,to deliver statement,to speak,F,E,E,2,2,0,0,部分,不同谓词的动作粒度,新增仅练习V+宾语到V，缺少具体谓词到一般谓词的同词数对照。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000432,with a black top and a necklace,with a big necklace,F,B,B,2,2,0,0,待核验,修饰范围与方向疑点,不能从black top和necklace推出big necklace；不据此编造相同方向规则。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000497,of some runway,from the airport,F,E,E,2,2,0,0,未覆盖,地点、部分整体与介词,动作宾语和事件名词不覆盖of/from的关系；需要源上下文。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000499,"inside a cow-schemed , fur-covered dome",inside and black and white furry enclosure,F,E,E,2,2,0,0,未覆盖,外观改写与异常片段,没有外观属性、对象称呼和非标准短语对照；不能仅按词数解释。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000616,The wall-mounted flat-screen TV,of a television screen,F,E,F,2,0,2,0,部分,修饰限制、对象类型与片段,event_scope只练习去掉事件限定；没有TV/screen一类对象类型及of片段。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000729,A woman,An adult female,E,B,E,2,0,2,0,未覆盖,定义性等价,副词换位和两个状态词的替换都不覆盖短词到多词定义的等价。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000808,A beagle,the dog of the beagle breed,E,E,B,0,2,0,2,未覆盖,定义性等价、长而不增信息,所有新增F/B都与长度方向一致；缺少这种不同长度的定义性E。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000817,on rocks next to water,on a rocky seashore,E,B,E,2,0,2,0,未覆盖,场景地点的指称等价,没有场景改写；字面普遍等价不明确，需核对源上下文。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000825,through the snow,across snow-covered ground,E,E,F,0,2,0,2,未覆盖,介词短语与场景改写,没有路径表达与复合形容词的改写；副词换位不足以覆盖。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000939,by judge,issued by a judge,E,E,B,0,2,0,2,未覆盖,施事片段与事件省略,新增角色N交换两个人，没有教会事件短语与施事片段何时可等价。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000948,over police crackdown,over police violence,E,F,F,2,2,0,0,未覆盖,同一新闻事件的语境等价,两个不同事件谓词的关系没有训练；不能将crackdown与violence普遍等同。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000979,after pro-Morsi protest,to pro-Morsi protests,E,B,E,2,0,2,0,未覆盖,介词角色与源对齐,没有after/to之类角色变化；金标的语境依据需要核验。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000980,Bangladesh building collapse,Bangladesh building disaster,E,E,F,0,2,0,2,未覆盖,同一新闻事件的不同称呼,同一对象/事件的指称等价依赖语境；不是计划与完成的区别。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0000994,May Housing,Housing in May,E,E,B,0,2,0,2,未覆盖,时间修饰与名词/PP改写,副词前后换位没有覆盖名词修饰与介词结构之间的改写。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0001103,A ginger and white cat,A orange and white cat,E,F,E,2,0,2,0,未覆盖,颜色近义与指称约定,没有颜色、近义精度和类别称谓对照；不把所有近似都标为E。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0001136,on the street,along a city path,E,E,B,0,2,0,2,未覆盖,地点名词与路径角色,没有street/path及on/along的场景与角色对照。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0001156,on green grass,on a lawn,E,F,E,2,0,2,0,未覆盖,属性描述与场景名词,没有属性描述与地点名词之间的改写；普遍等价并不明确。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0001456,is playing,is skijoring,B,E,E,2,2,0,0,部分,运动与一般活动,V+宾语删除不能直接教会具体运动谓词到一般活动谓词；playing的词义依赖语境。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0001551,Saudi Women,Saudis,B,F,F,2,2,0,0,待核验,集合方向疑点,通常集合解释与官方B方向有疑问；保留官方标签，不能由它反推一般规则。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0001567,as Bangladesh building toll,after deadly Bangladesh building collapse,B,E,E,2,2,0,0,未覆盖,事件、统计与新闻省略,同一事件的计划/完成不覆盖事故与伤亡统计的关系；需原新闻语境。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0001781,at the station,at the train station,B,E,E,2,2,0,0,部分,地点类别的限定,去掉限定有相似子操作，但没有PP框架、站点词义和不同长度的E反例。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0001940,eat,having a meal,B,E,E,2,2,0,0,部分,活动粒度与事件表达,删除宾语有部分关联；没有两种不同动作表达的包含，且需固定事件/体貌解释。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002242,Opens,begins operation,N,E,E,1,1,0,0,未覆盖,多义谓词与开始状态,计划/完成的固定替换没有解决Opens的词义与论元缺失；多义本身不等于N。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002244,two people,2,N,N,F,0,1,0,1,未覆盖,数量与中心对象缺失,有数字不等于保留了对象类型；当前没有数量、单位与中心名词的对照。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002251,Muslim Brotherhood Supreme Guide,Muslim Brotherhood group,N,N,F,0,1,0,1,未覆盖,人、职务与组织类型,两个人互换角色不是人与组织的类型差异；需要实体类型对照。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002463,'s integration,to join,N,E,E,1,1,0,0,未覆盖,名词化与动词、相关不等价,新增两侧均为事件名词的状态对照，没有名词与动词表达的关系。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002492,Super typhoon,Most powerful typhoon,N,E,E,1,1,0,0,未覆盖,等级阈值与最高级,没有程度、比较集合和最高级对照。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002616,onto another,to another,N,E,N,1,0,1,0,未覆盖,路径与终点介词,没有路径、接触/到达和目标角色对照；片段仍需语境核验。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002738,convicted,get jail time,N,E,N,1,0,1,0,部分,不同事件的后续关系,计划/完成是同一事件的状态；缺少两个不同事件之间有关但不能必然互推的对照。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002900,Australian senator,Australian lawmaker,N,F,F,1,1,0,0,待核验,职务上下位与标签约定,通常senator属于lawmaker；不能为了修一条Dev而否认一般包含关系。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0002933,Nigeria lawmaker,Nigerian MP,N,E,E,1,1,0,0,待核验,地域、机构职务与称谓,需要核对地域表达、MP词义和源标注依据；没有相应增强。,assistant hypothesis; not independent gold adjudication
+dico_phrasis_0003283,A close-up view,Close up,N,N,F,0,1,0,1,未覆盖,词性、片段与指称范围,没有名词短语与修饰性片段的关系；不能仅用长短决定包含。,assistant hypothesis; not independent gold adjudication

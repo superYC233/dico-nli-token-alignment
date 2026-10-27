@@ -1,0 +1,22 @@
+﻿instance_id,pair_id,text1,text2,gold,reference_prediction,event_prediction,fixed,broken,changed,changed_wrong,reference_error_family,event_error_family
+dico_phrasis_0000018__en-en__flipped,dico_phrasis_0000018,of all Rage rallies,march of anger,F,F,E,False,True,True,False,correct,FB_to_E
+dico_phrasis_0000018__en-en__original,dico_phrasis_0000018,march of anger,of all Rage rallies,B,B,E,False,True,True,False,correct,FB_to_E
+dico_phrasis_0000125__en-en__flipped,dico_phrasis_0000125,in an overgrown green grassy field,through green grass,F,F,E,False,True,True,False,correct,FB_to_E
+dico_phrasis_0000125__en-en__original,dico_phrasis_0000125,through green grass,in an overgrown green grassy field,B,B,E,False,True,True,False,correct,FB_to_E
+dico_phrasis_0000221__en-en__flipped,dico_phrasis_0000221,in a grassy green field,in a yard,F,F,E,False,True,True,False,correct,FB_to_E
+dico_phrasis_0000221__en-en__original,dico_phrasis_0000221,in a yard,in a grassy green field,B,B,E,False,True,True,False,correct,FB_to_E
+dico_phrasis_0000808__en-en__flipped,dico_phrasis_0000808,A beagle,the dog of the beagle breed,E,E,B,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000808__en-en__original,dico_phrasis_0000808,the dog of the beagle breed,A beagle,E,E,F,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000825__en-en__flipped,dico_phrasis_0000825,through the snow,across snow-covered ground,E,E,F,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000825__en-en__original,dico_phrasis_0000825,across snow-covered ground,through the snow,E,E,B,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000939__en-en__flipped,dico_phrasis_0000939,by judge,issued by a judge,E,E,B,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000939__en-en__original,dico_phrasis_0000939,issued by a judge,by judge,E,E,F,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000980__en-en__flipped,dico_phrasis_0000980,Bangladesh building collapse,Bangladesh building disaster,E,E,F,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000980__en-en__original,dico_phrasis_0000980,Bangladesh building disaster,Bangladesh building collapse,E,E,B,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000994__en-en__flipped,dico_phrasis_0000994,May Housing,Housing in May,E,E,B,False,True,True,False,correct,E_to_FB
+dico_phrasis_0000994__en-en__original,dico_phrasis_0000994,Housing in May,May Housing,E,E,F,False,True,True,False,correct,E_to_FB
+dico_phrasis_0001136__en-en__flipped,dico_phrasis_0001136,on the street,along a city path,E,E,B,False,True,True,False,correct,E_to_FB
+dico_phrasis_0001136__en-en__original,dico_phrasis_0001136,along a city path,on the street,E,E,F,False,True,True,False,correct,E_to_FB
+dico_phrasis_0002244__en-en__original,dico_phrasis_0002244,two people,2,N,N,F,False,True,True,False,correct,N_to_FB
+dico_phrasis_0002251__en-en__original,dico_phrasis_0002251,Muslim Brotherhood Supreme Guide,Muslim Brotherhood group,N,N,F,False,True,True,False,correct,N_to_FB
+dico_phrasis_0003283__en-en__original,dico_phrasis_0003283,A close-up view,Close up,N,N,F,False,True,True,False,correct,N_to_FB

@@ -1,0 +1,28 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label,logit_F,logit_B,logit_E,logit_N,prediction,pair_prediction,baseline_prediction
+dico_phrasis_0000018__en-en__flipped,dico_phrasis_0000018,en,en,of all Rage rallies,march of anger,FORWARD_ENTAILMENT,-3.1959969474484553,-5.52149284975706,-1.4073035067557198,-0.342107394643627,N,F,E
+dico_phrasis_0000018__en-en__original,dico_phrasis_0000018,en,en,march of anger,of all Rage rallies,BACKWARD_ENTAILMENT,-4.721987683364601,-1.0822026479690647,-3.2401123790781656,-0.4892358838272472,N,B,E
+dico_phrasis_0000497__en-en__flipped,dico_phrasis_0000497,en,en,of some runway,from the airport,FORWARD_ENTAILMENT,-5.338374390359756,-6.624259666588364,-6.707283416760696,-0.007380585181886809,N,F,B
+dico_phrasis_0000497__en-en__original,dico_phrasis_0000497,en,en,from the airport,of some runway,BACKWARD_ENTAILMENT,-5.8337660297594045,-7.079501482940049,-6.725828458063649,-0.0049811374983636065,N,B,F
+dico_phrasis_0000514__en-en__flipped,dico_phrasis_0000514,en,en,from a bird feeder,from the feeder,FORWARD_ENTAILMENT,-1.0798805427688805,-5.034897101645903,-2.2244957566518173,-0.6056215628804047,N,F,E
+dico_phrasis_0000514__en-en__original,dico_phrasis_0000514,en,en,from the feeder,from a bird feeder,BACKWARD_ENTAILMENT,-4.912759055812446,-1.3888538994785946,-2.4792003218149588,-0.4163086810408102,N,B,E
+dico_phrasis_0000641__en-en__flipped,dico_phrasis_0000641,en,en,In Bhutto Death,over Bhutto murder,EQUIVALENCE,-4.317954394863448,-5.31739399805363,-3.302134810146703,-0.05660966591723139,N,E,B
+dico_phrasis_0000641__en-en__original,dico_phrasis_0000641,en,en,over Bhutto murder,In Bhutto Death,EQUIVALENCE,-2.4742480765725245,-5.541376706254568,-2.483293617032849,-0.18827759997216836,N,E,F
+dico_phrasis_0000950__en-en__flipped,dico_phrasis_0000950,en,en,to set out,to announce,EQUIVALENCE,-5.124986289233955,-6.673986606818699,-6.4111638119947765,-0.008892180724183721,N,F,E
+dico_phrasis_0000950__en-en__original,dico_phrasis_0000950,en,en,to announce,to set out,EQUIVALENCE,-5.017398038048508,-6.509716485998535,-5.889616914127419,-0.010938277927422049,N,B,E
+dico_phrasis_0000954__en-en__flipped,dico_phrasis_0000954,en,en,Martial Arts Schools,martial arts clubs,EQUIVALENCE,-3.3637481001751706,-4.130445337529539,-1.3462237286041514,-0.37237193166212723,N,E,B
+dico_phrasis_0000954__en-en__original,dico_phrasis_0000954,en,en,martial arts clubs,Martial Arts Schools,EQUIVALENCE,-2.3285469203638542,-4.315305761626426,-1.1524908561237643,-0.5562567407458785,N,E,F
+dico_phrasis_0000979__en-en__flipped,dico_phrasis_0000979,en,en,after pro-Morsi protest,to pro-Morsi protests,EQUIVALENCE,-5.705641962724194,-3.726494236572608,-4.95707018603203,-0.03504469653047144,N,B,E
+dico_phrasis_0000979__en-en__original,dico_phrasis_0000979,en,en,to pro-Morsi protests,after pro-Morsi protest,EQUIVALENCE,-5.419049687000539,-6.541174077130192,-6.3517608708175795,-0.007646987243645933,N,F,E
+dico_phrasis_0000980__en-en__flipped,dico_phrasis_0000980,en,en,Bangladesh building collapse,Bangladesh building disaster,EQUIVALENCE,-1.8064682820727715,-4.998318395001233,-1.8457525504400631,-0.39882053662291655,N,E,F
+dico_phrasis_0000980__en-en__original,dico_phrasis_0000980,en,en,Bangladesh building disaster,Bangladesh building collapse,EQUIVALENCE,-4.154023633664768,-2.355455398273187,-1.4721591696687748,-0.41548663884074477,N,E,B
+dico_phrasis_0000994__en-en__flipped,dico_phrasis_0000994,en,en,May Housing,Housing in May,EQUIVALENCE,-4.1532695558929,-1.40958066851971,-1.3652917540360379,-0.7241525538916198,N,B,E
+dico_phrasis_0000994__en-en__original,dico_phrasis_0000994,en,en,Housing in May,May Housing,EQUIVALENCE,-0.9436067898851948,-4.865338235093797,-2.486879027218525,-0.6541184307613213,N,F,E
+dico_phrasis_0001136__en-en__flipped,dico_phrasis_0001136,en,en,on the street,along a city path,EQUIVALENCE,-5.42588797687913,-3.7177464105124813,-2.2721231057531313,-0.14131344494144155,N,E,B
+dico_phrasis_0001136__en-en__original,dico_phrasis_0001136,en,en,along a city path,on the street,EQUIVALENCE,-3.071912286150534,-5.6521309537422475,-2.455927489490819,-0.14574984151141165,N,E,F
+dico_phrasis_0001174__en-en__flipped,dico_phrasis_0001174,en,en,of wooden debris,of used wooden building materials,EQUIVALENCE,-4.9189748629369365,-3.5926433438918206,-3.108133589604648,-0.08285606111830539,N,E,B
+dico_phrasis_0001174__en-en__original,dico_phrasis_0001174,en,en,of used wooden building materials,of wooden debris,EQUIVALENCE,-1.9905841605796613,-5.372711838208464,-2.192146143556104,-0.2916016648369202,N,E,F
+dico_phrasis_0001567__en-en__flipped,dico_phrasis_0001567,en,en,as Bangladesh building toll,after deadly Bangladesh building collapse,BACKWARD_ENTAILMENT,-5.020816962956083,-4.989319926424563,-3.9717584253187286,-0.03278118206106055,N,E,B
+dico_phrasis_0001567__en-en__original,dico_phrasis_0001567,en,en,after deadly Bangladesh building collapse,as Bangladesh building toll,FORWARD_ENTAILMENT,-3.2310738199464515,-5.61269270743516,-1.5038364498164503,-0.3084863767845015,N,E,F
+dico_phrasis_0001841__en-en__flipped,dico_phrasis_0001841,en,en,People,Several people,BACKWARD_ENTAILMENT,-0.8145344478746086,-1.7599289219002567,-3.307076307209418,-1.0541906008301416,F,F,B
+dico_phrasis_0001841__en-en__original,dico_phrasis_0001841,en,en,Several people,People,FORWARD_ENTAILMENT,-1.4917614296033817,-1.199105540588038,-3.0744518439064366,-0.8501629737091916,N,B,F
+dico_phrasis_0002900__en-en__original,dico_phrasis_0002900,en,en,Australian senator,Australian lawmaker,NEGATIVE_OTHER,-0.753660131734559,-4.662012159857955,-3.0446021812862005,-0.7501482556825753,N,N,F

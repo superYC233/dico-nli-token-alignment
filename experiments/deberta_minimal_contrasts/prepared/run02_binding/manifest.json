@@ -1,0 +1,188 @@
+{
+  "train_sha256": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211",
+  "dev_sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511",
+  "families": [
+    [
+      "dog",
+      "0000100__en-en__flipped",
+      "dog",
+      "white",
+      "cat",
+      "is white",
+      false
+    ],
+    [
+      "boy",
+      "0000142__en-en__flipped",
+      "boy",
+      "young",
+      "bird",
+      "is young",
+      true
+    ],
+    [
+      "camera",
+      "0000105__en-en__flipped",
+      "camera",
+      "large",
+      "table",
+      "is large",
+      false
+    ],
+    [
+      "baby",
+      "0000113__en-en__flipped",
+      "baby",
+      "small",
+      "camera",
+      "is small",
+      true
+    ],
+    [
+      "girl",
+      "0001512__en-en__original",
+      "girl",
+      "young",
+      "cat",
+      "is young",
+      true
+    ],
+    [
+      "frisbee",
+      "0001545__en-en__original",
+      "Frisbee",
+      "green",
+      "ball",
+      "is green",
+      false
+    ],
+    [
+      "woman",
+      "0000431__en-en__flipped",
+      "woman",
+      "young",
+      "man",
+      "is young",
+      true
+    ],
+    [
+      "bicycle",
+      "0000455__en-en__flipped",
+      "bicycle",
+      "pink",
+      "bus",
+      "is pink",
+      false
+    ],
+    [
+      "bus",
+      "0000456__en-en__flipped",
+      "bus",
+      "green",
+      "car",
+      "is green",
+      false
+    ],
+    [
+      "cat",
+      "0001809__en-en__original",
+      "cat",
+      "gray",
+      "dog",
+      "is gray",
+      false
+    ],
+    [
+      "train",
+      "0000472__en-en__flipped",
+      "train",
+      "blue",
+      "car",
+      "is blue",
+      false
+    ],
+    [
+      "car",
+      "0000482__en-en__flipped",
+      "car",
+      "silver",
+      "train",
+      "is silver",
+      false
+    ],
+    [
+      "bird",
+      "0000512__en-en__flipped",
+      "bird",
+      "yellow",
+      "fish",
+      "is yellow",
+      false
+    ],
+    [
+      "man",
+      "0001462__en-en__original",
+      "man",
+      "shirtless",
+      "woman",
+      "is shirtless",
+      true
+    ],
+    [
+      "table",
+      "0000558__en-en__flipped",
+      "table",
+      "wooden",
+      "chair",
+      "is wooden",
+      false
+    ],
+    [
+      "motorcycle",
+      "0000564__en-en__flipped",
+      "motorcycle",
+      "BMW",
+      "car",
+      "is made by BMW",
+      false
+    ],
+    [
+      "stick",
+      "0000592__en-en__flipped",
+      "stick",
+      "wooden",
+      "table",
+      "is wooden",
+      false
+    ],
+    [
+      "helmet",
+      "0001812__en-en__original",
+      "helmet",
+      "bike",
+      "glove",
+      "is designed for cycling",
+      false
+    ],
+    [
+      "house",
+      "0001936__en-en__original",
+      "house",
+      "gray",
+      "boat",
+      "is gray",
+      false
+    ],
+    [
+      "sheep",
+      "0001810__en-en__original",
+      "sheep",
+      "white",
+      "dog",
+      "is white",
+      false
+    ]
+  ],
+  "format_version": 2,
+  "purpose": "Train-derived diagnostic candidates, not training augmentation"
+}

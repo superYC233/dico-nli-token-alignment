@@ -1,0 +1,121 @@
+﻿instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
+aug_manual_b_f01__0,aug_manual_b_f01,en,en,frying dumplings,cooking dumplings,FORWARD_ENTAILMENT
+aug_manual_b_f01__1,aug_manual_b_f01,en,en,cooking dumplings,frying dumplings,BACKWARD_ENTAILMENT
+aug_manual_b_f02__0,aug_manual_b_f02,en,en,cooking chestnuts,roasting chestnuts,BACKWARD_ENTAILMENT
+aug_manual_b_f02__1,aug_manual_b_f02,en,en,roasting chestnuts,cooking chestnuts,FORWARD_ENTAILMENT
+aug_manual_b_f03__0,aug_manual_b_f03,en,en,grilling lamb,cooking lamb,FORWARD_ENTAILMENT
+aug_manual_b_f03__1,aug_manual_b_f03,en,en,cooking lamb,grilling lamb,BACKWARD_ENTAILMENT
+aug_manual_b_f04__0,aug_manual_b_f04,en,en,cooking lamb,braising lamb,BACKWARD_ENTAILMENT
+aug_manual_b_f04__1,aug_manual_b_f04,en,en,braising lamb,cooking lamb,FORWARD_ENTAILMENT
+aug_manual_b_f05__0,aug_manual_b_f05,en,en,darning socks,repairing socks,FORWARD_ENTAILMENT
+aug_manual_b_f05__1,aug_manual_b_f05,en,en,repairing socks,darning socks,BACKWARD_ENTAILMENT
+aug_manual_b_f06__0,aug_manual_b_f06,en,en,decorating quilts,embroidering quilts,BACKWARD_ENTAILMENT
+aug_manual_b_f06__1,aug_manual_b_f06,en,en,embroidering quilts,decorating quilts,FORWARD_ENTAILMENT
+aug_manual_b_f07__0,aug_manual_b_f07,en,en,interrogating witnesses,questioning witnesses,FORWARD_ENTAILMENT
+aug_manual_b_f07__1,aug_manual_b_f07,en,en,questioning witnesses,interrogating witnesses,BACKWARD_ENTAILMENT
+aug_manual_b_f08__0,aug_manual_b_f08,en,en,teaching apprentices,tutoring apprentices,BACKWARD_ENTAILMENT
+aug_manual_b_f08__1,aug_manual_b_f08,en,en,tutoring apprentices,teaching apprentices,FORWARD_ENTAILMENT
+aug_manual_b_f09__0,aug_manual_b_f09,en,en,surgeons,medical professionals,FORWARD_ENTAILMENT
+aug_manual_b_f09__1,aug_manual_b_f09,en,en,medical professionals,surgeons,BACKWARD_ENTAILMENT
+aug_manual_b_f10__0,aug_manual_b_f10,en,en,medical professionals,pediatricians,BACKWARD_ENTAILMENT
+aug_manual_b_f10__1,aug_manual_b_f10,en,en,pediatricians,medical professionals,FORWARD_ENTAILMENT
+aug_manual_b_f11__0,aug_manual_b_f11,en,en,geologists,scientists,FORWARD_ENTAILMENT
+aug_manual_b_f11__1,aug_manual_b_f11,en,en,scientists,geologists,BACKWARD_ENTAILMENT
+aug_manual_b_f12__0,aug_manual_b_f12,en,en,biologists,entomologists,BACKWARD_ENTAILMENT
+aug_manual_b_f12__1,aug_manual_b_f12,en,en,entomologists,biologists,FORWARD_ENTAILMENT
+aug_manual_b_f13__0,aug_manual_b_f13,en,en,violinists,musicians,FORWARD_ENTAILMENT
+aug_manual_b_f13__1,aug_manual_b_f13,en,en,musicians,violinists,BACKWARD_ENTAILMENT
+aug_manual_b_f14__0,aug_manual_b_f14,en,en,musicians,cellists,BACKWARD_ENTAILMENT
+aug_manual_b_f14__1,aug_manual_b_f14,en,en,cellists,musicians,FORWARD_ENTAILMENT
+aug_manual_b_f15__0,aug_manual_b_f15,en,en,pentagons,polygons,FORWARD_ENTAILMENT
+aug_manual_b_f15__1,aug_manual_b_f15,en,en,polygons,pentagons,BACKWARD_ENTAILMENT
+aug_manual_b_f16__0,aug_manual_b_f16,en,en,quadrilaterals,rectangles,BACKWARD_ENTAILMENT
+aug_manual_b_f16__1,aug_manual_b_f16,en,en,rectangles,quadrilaterals,FORWARD_ENTAILMENT
+aug_manual_b_f17__0,aug_manual_b_f17,en,en,professional violinists,violinists,FORWARD_ENTAILMENT
+aug_manual_b_f17__1,aug_manual_b_f17,en,en,violinists,professional violinists,BACKWARD_ENTAILMENT
+aug_manual_b_f18__0,aug_manual_b_f18,en,en,biologists,experienced biologists,BACKWARD_ENTAILMENT
+aug_manual_b_f18__1,aug_manual_b_f18,en,en,experienced biologists,biologists,FORWARD_ENTAILMENT
+aug_manual_b_f19__0,aug_manual_b_f19,en,en,beneath copper bridges,beneath bridges,FORWARD_ENTAILMENT
+aug_manual_b_f19__1,aug_manual_b_f19,en,en,beneath bridges,beneath copper bridges,BACKWARD_ENTAILMENT
+aug_manual_b_f20__0,aug_manual_b_f20,en,en,biologists or musicians,biologists,BACKWARD_ENTAILMENT
+aug_manual_b_f20__1,aug_manual_b_f20,en,en,biologists,biologists or musicians,FORWARD_ENTAILMENT
+aug_manual_b_f21__0,aug_manual_b_f21,en,en,quilts,quilts or socks,FORWARD_ENTAILMENT
+aug_manual_b_f21__1,aug_manual_b_f21,en,en,quilts or socks,quilts,BACKWARD_ENTAILMENT
+aug_manual_b_f22__0,aug_manual_b_f22,en,en,biologists or musicians or entomologists,biologists or entomologists,BACKWARD_ENTAILMENT
+aug_manual_b_f22__1,aug_manual_b_f22,en,en,biologists or entomologists,biologists or musicians or entomologists,FORWARD_ENTAILMENT
+aug_manual_b_f23__0,aug_manual_b_f23,en,en,slowest ferries,ferries,FORWARD_ENTAILMENT
+aug_manual_b_f23__1,aug_manual_b_f23,en,en,ferries,slowest ferries,BACKWARD_ENTAILMENT
+aug_manual_b_f24__0,aug_manual_b_f24,en,en,corridors,widest corridors,BACKWARD_ENTAILMENT
+aug_manual_b_f24__1,aug_manual_b_f24,en,en,widest corridors,corridors,FORWARD_ENTAILMENT
+aug_manual_b_e01__0,aug_manual_b_e01,en,en,biologists,biological scientists,EQUIVALENCE
+aug_manual_b_e01__1,aug_manual_b_e01,en,en,biological scientists,biologists,EQUIVALENCE
+aug_manual_b_e02__0,aug_manual_b_e02,en,en,geologists,geological scientists,EQUIVALENCE
+aug_manual_b_e02__1,aug_manual_b_e02,en,en,geological scientists,geologists,EQUIVALENCE
+aug_manual_b_e03__0,aug_manual_b_e03,en,en,botanists,botanical scientists,EQUIVALENCE
+aug_manual_b_e03__1,aug_manual_b_e03,en,en,botanical scientists,botanists,EQUIVALENCE
+aug_manual_b_e04__0,aug_manual_b_e04,en,en,entomologists,insect scientists,EQUIVALENCE
+aug_manual_b_e04__1,aug_manual_b_e04,en,en,insect scientists,entomologists,EQUIVALENCE
+aug_manual_b_e05__0,aug_manual_b_e05,en,en,experienced biologists,experienced biological scientists,EQUIVALENCE
+aug_manual_b_e05__1,aug_manual_b_e05,en,en,experienced biological scientists,experienced biologists,EQUIVALENCE
+aug_manual_b_e06__0,aug_manual_b_e06,en,en,pentagons,pentagonal polygons,EQUIVALENCE
+aug_manual_b_e06__1,aug_manual_b_e06,en,en,pentagonal polygons,pentagons,EQUIVALENCE
+aug_manual_b_e07__0,aug_manual_b_e07,en,en,rectangles,rectangular quadrilaterals,EQUIVALENCE
+aug_manual_b_e07__1,aug_manual_b_e07,en,en,rectangular quadrilaterals,rectangles,EQUIVALENCE
+aug_manual_b_e08__0,aug_manual_b_e08,en,en,triangular polygons,triangles,EQUIVALENCE
+aug_manual_b_e08__1,aug_manual_b_e08,en,en,triangles,triangular polygons,EQUIVALENCE
+aug_manual_b_e09__0,aug_manual_b_e09,en,en,purchasing groceries,buying groceries,EQUIVALENCE
+aug_manual_b_e09__1,aug_manual_b_e09,en,en,buying groceries,purchasing groceries,EQUIVALENCE
+aug_manual_b_e10__0,aug_manual_b_e10,en,en,selecting nominees,choosing nominees,EQUIVALENCE
+aug_manual_b_e10__1,aug_manual_b_e10,en,en,choosing nominees,selecting nominees,EQUIVALENCE
+aug_manual_b_e11__0,aug_manual_b_e11,en,en,repairing quilts,mending quilts,EQUIVALENCE
+aug_manual_b_e11__1,aug_manual_b_e11,en,en,mending quilts,repairing quilts,EQUIVALENCE
+aug_manual_b_e12__0,aug_manual_b_e12,en,en,fixing damaged laptops,repairing damaged laptops,EQUIVALENCE
+aug_manual_b_e12__1,aug_manual_b_e12,en,en,repairing damaged laptops,fixing damaged laptops,EQUIVALENCE
+aug_manual_b_e13__0,aug_manual_b_e13,en,en,beneath copper bridges,under copper bridges,EQUIVALENCE
+aug_manual_b_e13__1,aug_manual_b_e13,en,en,under copper bridges,beneath copper bridges,EQUIVALENCE
+aug_manual_b_e14__0,aug_manual_b_e14,en,en,anticlockwise rotations,counterclockwise rotations,EQUIVALENCE
+aug_manual_b_e14__1,aug_manual_b_e14,en,en,counterclockwise rotations,anticlockwise rotations,EQUIVALENCE
+aug_manual_b_e15__0,aug_manual_b_e15,en,en,twelve flasks,1 dozen flasks,EQUIVALENCE
+aug_manual_b_e15__1,aug_manual_b_e15,en,en,1 dozen flasks,twelve flasks,EQUIVALENCE
+aug_manual_b_e16__0,aug_manual_b_e16,en,en,annual inspections,yearly inspections,EQUIVALENCE
+aug_manual_b_e16__1,aug_manual_b_e16,en,en,yearly inspections,annual inspections,EQUIVALENCE
+aug_manual_b_e17__0,aug_manual_b_e17,en,en,biologists,biologists or entomologists,EQUIVALENCE
+aug_manual_b_e17__1,aug_manual_b_e17,en,en,biologists or entomologists,biologists,EQUIVALENCE
+aug_manual_b_e18__0,aug_manual_b_e18,en,en,cooking dumplings,frying dumplings or cooking dumplings,EQUIVALENCE
+aug_manual_b_e18__1,aug_manual_b_e18,en,en,frying dumplings or cooking dumplings,cooking dumplings,EQUIVALENCE
+aug_manual_b_e19__0,aug_manual_b_e19,en,en,patiently tutoring apprentices,tutoring apprentices patiently,EQUIVALENCE
+aug_manual_b_e19__1,aug_manual_b_e19,en,en,tutoring apprentices patiently,patiently tutoring apprentices,EQUIVALENCE
+aug_manual_b_e20__0,aug_manual_b_e20,en,en,ex-prisoners,former prisoners,EQUIVALENCE
+aug_manual_b_e20__1,aug_manual_b_e20,en,en,former prisoners,ex-prisoners,EQUIVALENCE
+aug_manual_b_e21__0,aug_manual_b_e21,en,en,motorbikes,motorcycles,EQUIVALENCE
+aug_manual_b_e21__1,aug_manual_b_e21,en,en,motorcycles,motorbikes,EQUIVALENCE
+aug_manual_b_e22__0,aug_manual_b_e22,en,en,railway locomotives,railroad locomotives,EQUIVALENCE
+aug_manual_b_e22__1,aug_manual_b_e22,en,en,railroad locomotives,railway locomotives,EQUIVALENCE
+aug_manual_b_e23__0,aug_manual_b_e23,en,en,lexicographers,dictionary compilers,EQUIVALENCE
+aug_manual_b_e23__1,aug_manual_b_e23,en,en,dictionary compilers,lexicographers,EQUIVALENCE
+aug_manual_b_e24__0,aug_manual_b_e24,en,en,cartographers,map makers,EQUIVALENCE
+aug_manual_b_e24__1,aug_manual_b_e24,en,en,map makers,cartographers,EQUIVALENCE
+aug_manual_b_n01__0,aug_manual_b_n01,en,en,completed repairs,scheduled repairs,NEGATIVE_OTHER
+aug_manual_b_n02__0,aug_manual_b_n02,en,en,submitted manuscripts,published manuscripts,NEGATIVE_OTHER
+aug_manual_b_n03__0,aug_manual_b_n03,en,en,authorized repairs,completed repairs,NEGATIVE_OTHER
+aug_manual_b_n04__0,aug_manual_b_n04,en,en,rehearsing concerts,broadcasting concerts,NEGATIVE_OTHER
+aug_manual_b_n05__0,aug_manual_b_n05,en,en,inspecting warehouses,repairing warehouses,NEGATIVE_OTHER
+aug_manual_b_n06__0,aug_manual_b_n06,en,en,selecting nominees,interviewing nominees,NEGATIVE_OTHER
+aug_manual_b_n07__0,aug_manual_b_n07,en,en,experienced musicians,certified musicians,NEGATIVE_OTHER
+aug_manual_b_n08__0,aug_manual_b_n08,en,en,professional violinists,experienced violinists,NEGATIVE_OTHER
+aug_manual_b_n09__0,aug_manual_b_n09,en,en,blue coats,heavy coats,NEGATIVE_OTHER
+aug_manual_b_n10__0,aug_manual_b_n10,en,en,blue shirts,blue coats,NEGATIVE_OTHER
+aug_manual_b_n11__0,aug_manual_b_n11,en,en,1 dozen flasks,twelve goblets,NEGATIVE_OTHER
+aug_manual_b_n12__0,aug_manual_b_n12,en,en,certified musicians,highest-rated musicians,NEGATIVE_OTHER
+aug_manual_b_n13__0,aug_manual_b_n13,en,en,optional inspections,mandatory inspections,NEGATIVE_OTHER
+aug_manual_b_n14__0,aug_manual_b_n14,en,en,clockwise rotations,counterclockwise rotations,NEGATIVE_OTHER
+aug_manual_b_n15__0,aug_manual_b_n15,en,en,doctors interviewing actors,actors interviewing doctors,NEGATIVE_OTHER
+aug_manual_b_n16__0,aug_manual_b_n16,en,en,teachers instructing apprentices,apprentices instructing teachers,NEGATIVE_OTHER
+aug_manual_b_n17__0,aug_manual_b_n17,en,en,musicians tutoring novices,novices tutoring musicians,NEGATIVE_OTHER
+aug_manual_b_n18__0,aug_manual_b_n18,en,en,dental surgeons,dental clinics,NEGATIVE_OTHER
+aug_manual_b_n19__0,aug_manual_b_n19,en,en,medical researchers,medical institutions,NEGATIVE_OTHER
+aug_manual_b_n20__0,aug_manual_b_n20,en,en,violinists,violins,NEGATIVE_OTHER
+aug_manual_b_n21__0,aug_manual_b_n21,en,en,teaching apprentices,interviewing apprentices,NEGATIVE_OTHER
+aug_manual_b_n22__0,aug_manual_b_n22,en,en,beneath shelves,above shelves,NEGATIVE_OTHER
+aug_manual_b_n23__0,aug_manual_b_n23,en,en,certified musicians,experienced violinists,NEGATIVE_OTHER
+aug_manual_b_n24__0,aug_manual_b_n24,en,en,biologists or musicians,biologists or painters,NEGATIVE_OTHER

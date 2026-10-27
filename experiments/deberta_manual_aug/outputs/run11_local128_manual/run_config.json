@@ -1,0 +1,106 @@
+{
+  "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "seed": 42,
+  "epochs": 10,
+  "max_length": 128,
+  "dtype": "float32",
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "row_batch_size": 16,
+  "pair_batch_size": 16,
+  "dev_batch_size": 16,
+  "row_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.5
+  ],
+  "pair_weights": [
+    1.0,
+    1.0,
+    1.25
+  ],
+  "pair_weight": 0.5,
+  "pair_label_smoothing": 0.05,
+  "freeze_embeddings": false,
+  "freeze_first_n_layers": 0,
+  "use_lexical_features": false,
+  "run_name": "run11_local128_manual",
+  "augment_mode": "manual",
+  "training_mode": "staged",
+  "data_audit": {
+    "baseline_rows": 3290,
+    "extra_train_rows": 128,
+    "train_rows": 3418,
+    "diagnostic_rows": 64,
+    "train_families": 16,
+    "diagnostic_families": 8,
+    "class_counts_new_train": {
+      "FORWARD_ENTAILMENT": 32,
+      "BACKWARD_ENTAILMENT": 32,
+      "EQUIVALENCE": 32,
+      "NEGATIVE_OTHER": 32
+    },
+    "class_counts_diagnostic": {
+      "FORWARD_ENTAILMENT": 16,
+      "BACKWARD_ENTAILMENT": 16,
+      "EQUIVALENCE": 16,
+      "NEGATIVE_OTHER": 16
+    },
+    "new_train_group_counts": {
+      "FB": 16,
+      "BF": 16,
+      "EE": 16,
+      "N_singleton": 32
+    },
+    "extra_train_vs_dev": {
+      "word_intersection": [],
+      "word_intersection_count": 0,
+      "porter_stem_intersection": [],
+      "porter_stem_intersection_count": 0,
+      "whole_phrase_intersection": [],
+      "whole_phrase_intersection_count": 0,
+      "unordered_pair_intersection": [],
+      "unordered_pair_intersection_count": 0
+    },
+    "diagnostic_vs_dev": {
+      "word_intersection": [],
+      "word_intersection_count": 0,
+      "porter_stem_intersection": [],
+      "porter_stem_intersection_count": 0,
+      "whole_phrase_intersection": [],
+      "whole_phrase_intersection_count": 0,
+      "unordered_pair_intersection": [],
+      "unordered_pair_intersection_count": 0
+    },
+    "train_diagnostic_content_stem_overlap": [],
+    "baseline_new_whole_phrase_overlap": [],
+    "baseline_new_unordered_pair_overlap": [],
+    "annotation": "Assistant-designed examples with explicit readings; not independently human-adjudicated.",
+    "provenance": "Four patterns selected from Train-only OOF review; templates and labels are newly constructed. No source context copied.",
+    "dev_use": "Dev text only as a rejection blacklist. No Dev label loaded for construction.",
+    "diagnostic_scope": "Held-out content families within the new batch; shared templates/operators are allowed. Not a new official test set.",
+    "baseline_scope": "Old3290 retains existing vocabulary, one known label-conflicting input and earlier Dev-guided development history.",
+    "diagnostic_in_training": false,
+    "diagnostic_used_for_checkpoint_selection": false,
+    "training_performed_by_prepare": false,
+    "baseline_csv_sha256": "b6a1ace5674efd71a21ef7142b656e36680c3d93defb0beaed26c70bacc247d3",
+    "prepare_source_sha256": "69c8f885ac2887f80924c48303f7c6c47692b7ad0aaf13eb0fbd2ff4cfced147"
+  },
+  "selection": "best Dev pair-aware weighted F1; independent recorded at the same epoch",
+  "diagnostic_in_training": false,
+  "diagnostic_used_for_selection": false,
+  "initialization": "same pretrained NLI checkpoint; not continuation of the Dev-selected 0.938 weights",
+  "source_sha256": {
+    "experiments\\deberta_manual_aug\\train_local_contrasts.py": "4f8bb3c423cbf4de6b9c4f1188d9ddaeb22077f45e5bb3326e37316b796cb8b1",
+    "experiments\\deberta_manual_aug\\prepare_local_contrasts.py": "69c8f885ac2887f80924c48303f7c6c47692b7ad0aaf13eb0fbd2ff4cfced147",
+    "experiments\\deberta_manual_aug\\train_relation_manual.py": "d073d53d7211215debdcc7029cedf136455f123b658e4f64ea8a4687e93889db",
+    "experiments\\deberta_manual_aug\\train_boundary_manual.py": "15540ae021c9fdfa068c271b024552b34634bf63c9a2f71eb1f69e6d7e1f2103",
+    "experiments\\deberta_lexical\\model.py": "5804d48bddd74d9f83aba5d6c0625bddf978a7793d23d3be2e7424fb29b7e36a"
+  },
+  "train_rows": 3418,
+  "real_pairs": 1428,
+  "row_steps_per_epoch": 214,
+  "pair_steps_per_epoch": 90,
+  "trainable_parameters": 184001800
+}

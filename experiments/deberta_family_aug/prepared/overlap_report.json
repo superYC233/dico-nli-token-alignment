@@ -1,0 +1,138 @@
+{
+  "baseline_rows": 3290,
+  "original_rows": 3042,
+  "baseline_scope_rows": 200,
+  "baseline_relation_rows": 48,
+  "candidate_families": 60,
+  "rejected_families": 0,
+  "train_families": 48,
+  "diagnostic_families": 12,
+  "new_train_rows": 768,
+  "diagnostic_rows": 192,
+  "combined_train_rows": 4058,
+  "class_counts_new_train": {
+    "FORWARD_ENTAILMENT": 192,
+    "BACKWARD_ENTAILMENT": 192,
+    "EQUIVALENCE": 192,
+    "NEGATIVE_OTHER": 192
+  },
+  "combined_class_counts": {
+    "FORWARD_ENTAILMENT": 1125,
+    "BACKWARD_ENTAILMENT": 1125,
+    "EQUIVALENCE": 1086,
+    "NEGATIVE_OTHER": 722
+  },
+  "new_train_groups_by_order": {
+    "('FORWARD_ENTAILMENT', 'BACKWARD_ENTAILMENT')": 96,
+    "('BACKWARD_ENTAILMENT', 'FORWARD_ENTAILMENT')": 96,
+    "('EQUIVALENCE', 'EQUIVALENCE')": 96,
+    "('NEGATIVE_OTHER',)": 192
+  },
+  "copy_matches_class_and_ordered_group_counts": true,
+  "copy_pool_excluded_existing_conflicting_groups": 2,
+  "train_diagnostic_pair_intersection": 0,
+  "train_diagnostic_phrase_intersection": 0,
+  "heldout_head_stem_intersection_with_new_train": [],
+  "existing_conflicting_rows": 2,
+  "new_conflicting_rows": 0,
+  "new_train_unordered_pair_intersection_with_baseline_or_previous": 0,
+  "diagnostic_whole_phrase_intersection_with_old_training_or_previous": 0,
+  "new_train_vs_dev": {
+    "word_intersection": [],
+    "word_intersection_count": 0,
+    "porter_stem_intersection": [],
+    "porter_stem_intersection_count": 0,
+    "whole_phrase_intersection": [],
+    "whole_phrase_intersection_count": 0,
+    "unordered_pair_intersection": [],
+    "unordered_pair_intersection_count": 0
+  },
+  "diagnostic_vs_dev": {
+    "word_intersection": [],
+    "word_intersection_count": 0,
+    "porter_stem_intersection": [],
+    "porter_stem_intersection_count": 0,
+    "whole_phrase_intersection": [],
+    "whole_phrase_intersection_count": 0,
+    "unordered_pair_intersection": [],
+    "unordered_pair_intersection_count": 0
+  },
+  "word_source_counts": [
+    {
+      "split": "diagnostic",
+      "source_type": "manually_selected_common_english",
+      "words": 49
+    },
+    {
+      "split": "diagnostic",
+      "source_type": "official_train_exact_token",
+      "words": 19
+    },
+    {
+      "split": "diagnostic",
+      "source_type": "official_train_stem_only",
+      "words": 1
+    },
+    {
+      "split": "train",
+      "source_type": "manually_selected_common_english",
+      "words": 103
+    },
+    {
+      "split": "train",
+      "source_type": "official_train_exact_token",
+      "words": 67
+    },
+    {
+      "split": "train",
+      "source_type": "official_train_stem_only",
+      "words": 23
+    }
+  ],
+  "source_design": "Manually selected common words and relation patterns; templates expand explicit contrast families. Not official or independently adjudicated labels.",
+  "development": "Relation families motivated by previous development analysis. Preparation reads only Dev text1/text2 as a rejection blacklist, not Dev labels.",
+  "test_status": "hidden/not provided; no assertion of zero test overlap",
+  "heldout_scope": "Held out from this augmentation and its selection; specified head stems absent from new training. Baseline may already contain individual words. Shared relation templates are intentional.",
+  "quantity_scope": "exactly n is not treated as at-least n; no rule asserting exactly n modified objects implies exactly n objects in total.",
+  "previous_material_files": [
+    "experiments\\deberta_manual_aug\\manual_examples.csv",
+    "experiments\\deberta_manual_aug\\boundary_examples.csv",
+    "experiments\\deberta_manual_aug\\event_examples.csv",
+    "experiments\\deberta_manual_aug\\semantic_contrast_examples.csv",
+    "experiments\\deberta_manual_aug\\outputs\\local_contrasts_prepared\\extra_train_rows.csv",
+    "experiments\\deberta_manual_aug\\outputs\\local_contrasts_prepared\\diagnostic_rows.csv",
+    "experiments\\deberta_minimal_contrasts\\prepared\\run01\\examples.csv",
+    "experiments\\deberta_minimal_contrasts\\prepared\\run02_binding\\examples.csv"
+  ],
+  "files": {
+    "experiments\\deberta_family_aug\\prepare_family_data.py": "3a7dad666fa48d8e920d6c5b22cf8c267399a06fcb9161bc28d692a00331d0ea",
+    "experiments\\deberta_family_aug\\family_examples.py": "d345fbc0de4f41ac2fc4da9796cf06f2681afd5e10e9c7bed02ad871b26d1ebf",
+    "experiments\\deberta_manual_aug\\outputs\\run06_relation48_staged\\training_data.csv": "b6a1ace5674efd71a21ef7142b656e36680c3d93defb0beaed26c70bacc247d3",
+    "data\\train\\dico_nli_train_track1_participant_labeled.csv": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211",
+    "data\\dev\\dico_nli_dev_track1_participant_labeled.csv": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511",
+    "experiments\\deberta_manual_aug\\manual_examples.csv": "768775fc6b2c76b089c5194a5855450a54bddb3b2963652314dfa7291d58bb98",
+    "experiments\\deberta_manual_aug\\boundary_examples.csv": "80ee4d50b0a3fad9792b307dc34c1f5a53ea6e7b69ea651a754d61d28fc5b539",
+    "experiments\\deberta_manual_aug\\event_examples.csv": "504a43f89a5f35115640cdf1752934d3b8df0c9bfd063be45d55e8aa81d64eea",
+    "experiments\\deberta_manual_aug\\semantic_contrast_examples.csv": "e10053f018d914bbeaa34bc9b023d63347a0322159825e85cd594197117d6b5c",
+    "experiments\\deberta_manual_aug\\outputs\\local_contrasts_prepared\\extra_train_rows.csv": "4285261d67123ff17bb1ed3bf8807707f7b73b9f9d703c3c49476b91293a7a2d",
+    "experiments\\deberta_manual_aug\\outputs\\local_contrasts_prepared\\diagnostic_rows.csv": "0b3268c34e6cc2468cee61ebbfc8ef4f0ee9717636dde5116ba87cad8f919970",
+    "experiments\\deberta_minimal_contrasts\\prepared\\run01\\examples.csv": "6f359083cd57c58ee1648fe7c4eb8f85651f2093337af78e675eda705fe488ac",
+    "experiments\\deberta_minimal_contrasts\\prepared\\run02_binding\\examples.csv": "dfccad1c9c5381662282d6d49ca46a0fa5979320ec39f10c6a7b52d801cb37c1",
+    "experiments\\deberta_family_aug\\prepared\\examples_candidates.csv": "179708f5e420601ca48766e091cc4be8fc3758125af3a4fc7144b527dadea81c",
+    "experiments\\deberta_family_aug\\prepared\\examples_source.csv": "179708f5e420601ca48766e091cc4be8fc3758125af3a4fc7144b527dadea81c",
+    "experiments\\deberta_family_aug\\prepared\\rejected_families.csv": "6f2c5b70f8a223ea6724a3a8ed19b681b2e5c5e2551e194f07a9c4c3a218c1fc",
+    "experiments\\deberta_family_aug\\prepared\\family_manifest.csv": "b41ce5a9939757a62a90e6b53479844a3cf5f735e0f7eba39bd58fa384e2a567",
+    "experiments\\deberta_family_aug\\prepared\\extra_train_rows.csv": "4294c60c57c805515007897e06aa559f032196d0f298e70de3d27c3f1ffbd24a",
+    "experiments\\deberta_family_aug\\prepared\\diagnostic_rows.csv": "7b5f8978bcab9026e4b9f0f0eef35f53a3a511511432dcccba97e05669c71615",
+    "experiments\\deberta_family_aug\\prepared\\manual_label_notes.csv": "11dc9368c875f874e99a385e7ccbd243143725c81753afc529ea98900b442930",
+    "experiments\\deberta_family_aug\\prepared\\diagnostic_label_notes.csv": "5cd1b971ce91392bdd99e7bbfcd56ec2b122e73d39b280a6f7ce040d889fd552",
+    "experiments\\deberta_family_aug\\prepared\\training_data_manual.csv": "c905efefef5740d4eb05555c04957947e9823fdaee130640b886ea8853d2fa60",
+    "experiments\\deberta_family_aug\\prepared\\training_data_copy.csv": "853be417d69109225c1785f090607be71b3b0a29285f24f18b10b971e5d57d0a",
+    "experiments\\deberta_family_aug\\prepared\\copy_control_rows.csv": "b7b52254846e976d7d71a399317e5441d1d961ab4edcdad7d9b4f216caadc163",
+    "experiments\\deberta_family_aug\\prepared\\copy_control_sources.csv": "f6cd17cce7756012d6280f579bb16aa2f0fb4617aa174d491c69bf84f2e2d3bc",
+    "experiments\\deberta_family_aug\\prepared\\word_provenance.csv": "b7ae3eca646899c2d9e2359846f6397b5b2243683161acdbeff592f8358ec64a",
+    "experiments\\deberta_family_aug\\prepared\\type_label_counts.csv": "b683018b2a3ded32d09f50d9afb6fed55fffbbd69022a8a61e170f025bced227",
+    "experiments\\deberta_family_aug\\prepared\\existing_train_label_conflicts.csv": "688455cf6d23e92fda2429b6434926c0346f3d10bd50bb1993239a4a5062b5c1",
+    "experiments\\deberta_family_aug\\prepared\\diagnostic_reference.csv": "c6790a406aefdfe97fecb3777d960a97dd632083779873873ec385b7d45e2802"
+  }
+}

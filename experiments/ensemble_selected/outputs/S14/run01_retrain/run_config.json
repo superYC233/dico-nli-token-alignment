@@ -1,0 +1,270 @@
+{
+  "scheme": "S14",
+  "run_name": "run01_retrain",
+  "fusion": "hierarchical",
+  "members": [
+    {
+      "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+      "seed": 42,
+      "epochs": 10,
+      "max_length": 128,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "row_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.5
+      ],
+      "pair_weights": [
+        1.0,
+        1.0,
+        1.25
+      ],
+      "pair_weight": 0.5,
+      "pair_label_smoothing": 0.05,
+      "row_batch_size": 16,
+      "pair_batch_size": 16,
+      "dev_batch_size": 16,
+      "lexical_learning_rate": 0.001,
+      "lexical_hidden_size": 32,
+      "use_lexical_features": true,
+      "dynamic_padding": false,
+      "gradient_checkpointing": false,
+      "anchor_strength": 1000.0,
+      "id": "M032",
+      "name": "词汇版，Pair阶段参数锚定",
+      "recipe": "anchor",
+      "train_path": "data/train/dico_nli_train_track1_participant_labeled.csv",
+      "expected_train_rows": 3042,
+      "select_by": "pair_aware",
+      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M032"
+    },
+    {
+      "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "seed": 42,
+      "epochs": 10,
+      "max_length": 128,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "row_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.5
+      ],
+      "pair_weights": [
+        1.0,
+        1.0,
+        1.25
+      ],
+      "pair_weight": 0.5,
+      "pair_label_smoothing": 0.05,
+      "dev_batch_size": 16,
+      "group_batch_size": 8,
+      "lexical_learning_rate": 0.001,
+      "lexical_hidden_size": 32,
+      "use_lexical_features": true,
+      "rdrop_weight": 1.0,
+      "id": "M044",
+      "name": "词汇混合训练＋R-Drop",
+      "recipe": "rdrop",
+      "train_path": "data/train/dico_nli_train_track1_participant_labeled.csv",
+      "expected_train_rows": 3042,
+      "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+      "select_by": "independent",
+      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M044"
+    },
+    {
+      "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+      "seed": 42,
+      "epochs": 10,
+      "max_length": 128,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "row_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.5
+      ],
+      "pair_weights": [
+        1.0,
+        1.0,
+        1.25
+      ],
+      "pair_weight": 0.5,
+      "pair_label_smoothing": 0.05,
+      "dev_batch_size": 16,
+      "group_batch_size": 8,
+      "lexical_learning_rate": 0.001,
+      "lexical_hidden_size": 32,
+      "use_lexical_features": true,
+      "evidence_weight": 0.1,
+      "evidence_learning_rate": 0.001,
+      "id": "M047",
+      "name": "词汇版＋首批100组证据监督",
+      "recipe": "evidence",
+      "train_path": "data/train/dico_nli_train_track1_participant_labeled.csv",
+      "expected_train_rows": 3042,
+      "select_by": "independent",
+      "annotation_path": "experiments/deberta_lexical_mixed_pair/reason_annotations_pilot100.csv",
+      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M047"
+    },
+    {
+      "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "seed": 42,
+      "epochs": 10,
+      "max_length": 128,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "row_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.5
+      ],
+      "pair_weights": [
+        1.0,
+        1.0,
+        1.25
+      ],
+      "pair_weight": 0.5,
+      "pair_label_smoothing": 0.05,
+      "row_batch_size": 16,
+      "pair_batch_size": 16,
+      "dev_batch_size": 16,
+      "group_batch_size": 16,
+      "use_lexical_features": false,
+      "id": "M059",
+      "name": "原0.938版：scope200＋关系48",
+      "recipe": "staged",
+      "train_path": "experiments/deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv",
+      "expected_train_rows": 3290,
+      "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+      "select_by": "pair_aware",
+      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M059"
+    },
+    {
+      "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+      "seed": 42,
+      "epochs": 20,
+      "max_length": 128,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.01,
+      "row_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.5
+      ],
+      "pair_weights": [
+        1.0,
+        1.0,
+        1.25
+      ],
+      "pair_weight": 0.5,
+      "pair_label_smoothing": 0.05,
+      "dev_batch_size": 16,
+      "group_batch_size": 8,
+      "use_lexical_features": false,
+      "lora": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.1,
+        "target_modules": [
+          "query_proj",
+          "value_proj"
+        ],
+        "bias": "none",
+        "init_lora_weights": true,
+        "use_rslora": false
+      },
+      "target_independent": 0.87,
+      "target_pair": 0.94,
+      "id": "M071",
+      "name": "DeBERTa LoRA r16/dropout0.1，seed42",
+      "recipe": "lora",
+      "train_path": "experiments/deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv",
+      "expected_train_rows": 3290,
+      "select_by": "joint",
+      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M071"
+    },
+    {
+      "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "seed": 42,
+      "epochs": 10,
+      "max_length": 128,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "row_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.5
+      ],
+      "pair_weights": [
+        1.0,
+        1.0,
+        1.25
+      ],
+      "pair_weight": 0.5,
+      "pair_label_smoothing": 0.05,
+      "row_batch_size": 16,
+      "pair_batch_size": 16,
+      "dev_batch_size": 16,
+      "use_lexical_features": false,
+      "id": "M084",
+      "name": "原0.9355版：仅加scope200",
+      "recipe": "staged",
+      "train_path": "experiments/deberta_original_aug/outputs/run01_original_scope/training_data.csv",
+      "expected_train_rows": 3242,
+      "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+      "select_by": "pair_aware",
+      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M084"
+    }
+  ],
+  "direction_members": [
+    "M032",
+    "M044",
+    "M047",
+    "M071",
+    "M084"
+  ],
+  "n_gate": "M059",
+  "member_model_paths": {
+    "M032": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M032",
+    "M044": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M044",
+    "M047": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M047",
+    "M059": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M059",
+    "M071": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M071",
+    "M084": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M084"
+  },
+  "prediction_source": "fresh forward from saved model weights, reused or newly trained",
+  "historical_prediction_csv_used": false,
+  "evaluate_only": false,
+  "forced_singleton_N": false,
+  "same_checkpoint_metrics": [
+    {
+      "method": "independent",
+      "weighted_f1": 0.5458614722838998,
+      "accuracy": 0.5272727272727272,
+      "soft_cons": 0.30685920577617326,
+      "hard_cons": 0.2996389891696751,
+      "N_correct": 101,
+      "FBE_correct": 247
+    },
+    {
+      "method": "pair_aware",
+      "weighted_f1": 0.9623808537672834,
+      "accuracy": 0.9621212121212122,
+      "soft_cons": 1.0,
+      "hard_cons": 0.9638989169675091,
+      "N_correct": 101,
+      "FBE_correct": 534
+    }
+  ]
+}

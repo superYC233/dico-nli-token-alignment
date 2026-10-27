@@ -1,0 +1,100 @@
+﻿example_id,word,train_instance_id,train_column,original_train_phrase
+r_f01,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+r_f01,metal,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+r_f01,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+r_f02,aircraft,dico_phrasis_0000656__en-en__flipped,text1,originating from the missing aircraft
+r_f02,cargo,dico_phrasis_0001728__en-en__flipped,text2,North Korean cargo
+r_f02,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+r_f03,empty,dico_phrasis_0001925__en-en__flipped,text2,"between two large , half-empty Coke bottles"
+r_f03,factory,dico_phrasis_0001734__en-en__flipped,text1,in Bangladesh factory
+r_f03,outside,dico_phrasis_0000437__en-en__flipped,text1,outside a bookstore
+r_f04,among,dico_phrasis_0000006__en-en__flipped,text1,among all dead
+r_f04,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+r_f04,empty,dico_phrasis_0001925__en-en__flipped,text2,"between two large , half-empty Coke bottles"
+r_f05,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+r_f05,heavy,dico_phrasis_0001331__en-en__flipped,text2,heavy rain
+r_f05,rain,dico_phrasis_0001331__en-en__flipped,text1,rain
+r_f06,eruption,dico_phrasis_0000690__en-en__flipped,text1,Volcanic eruption
+r_f06,following,dico_phrasis_0002713__en-en__original,text2,following skiing accident
+r_f06,volcanic,dico_phrasis_0000690__en-en__flipped,text1,Volcanic eruption
+r_f07,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+r_f07,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+r_f07,firefighters,dico_phrasis_0000413__en-en__flipped,text1,Two New York firefighters
+r_f08,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+r_f08,kittens,dico_phrasis_0000500__en-en__flipped,text1,Two baby kittens
+r_f08,sleeping,dico_phrasis_0000211__en-en__flipped,text2,is sleeping
+r_f08,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+r_f09,consuming,dico_phrasis_0001135__en-en__flipped,text1,consuming food
+r_f09,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+r_f09,food,dico_phrasis_0000430__en-en__flipped,text1,with food and beer
+r_f09,november,dico_phrasis_0000668__en-en__flipped,text1,in November
+r_f10,construction,dico_phrasis_0001289__en-en__flipped,text2,at a construction site
+r_f10,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+r_f10,factory,dico_phrasis_0001734__en-en__flipped,text1,in Bangladesh factory
+r_f10,november,dico_phrasis_0000668__en-en__flipped,text1,in November
+r_f11,april,dico_phrasis_0002440__en-en__original,text2,April 4
+r_f11,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+r_f11,flooding,dico_phrasis_0002904__en-en__original,text1,of Christmas Day flooding
+r_f12,aircraft,dico_phrasis_0000656__en-en__flipped,text1,originating from the missing aircraft
+r_f12,commercial,dico_phrasis_0003095__en-en__original,text2,White and green commercial airliner
+r_f12,jet,dico_phrasis_0000369__en-en__flipped,text2,as Boeing 777 jet crash
+r_e01,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+r_e01,metal,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+r_e01,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+r_e01,underneath,dico_phrasis_0001760__en-en__flipped,text2,underneath a chair
+r_e02,among,dico_phrasis_0000006__en-en__flipped,text1,among all dead
+r_e02,amongst,dico_phrasis_0001762__en-en__flipped,text2,amongst the bare branches of a tree
+r_e02,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+r_e02,cargo,dico_phrasis_0001728__en-en__flipped,text2,North Korean cargo
+r_e03,kittens,dico_phrasis_0000500__en-en__flipped,text1,Two baby kittens
+r_e03,sleeping,dico_phrasis_0000211__en-en__flipped,text2,is sleeping
+r_e04,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+r_e04,consuming,dico_phrasis_0001135__en-en__flipped,text1,consuming food
+r_e04,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+r_e04,firefighters,dico_phrasis_0000413__en-en__flipped,text1,Two New York firefighters
+r_e05,construction,dico_phrasis_0001289__en-en__flipped,text2,at a construction site
+r_e05,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+r_e05,november,dico_phrasis_0000668__en-en__flipped,text1,in November
+r_e06,april,dico_phrasis_0002440__en-en__original,text2,April 4
+r_e06,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+r_e06,flooding,dico_phrasis_0002904__en-en__original,text1,of Christmas Day flooding
+r_n01,above,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+r_n01,bridge,dico_phrasis_0000160__en-en__flipped,text2,under the bridge
+r_n01,metal,dico_phrasis_0000210__en-en__flipped,text1,with a metal colander
+r_n01,under,dico_phrasis_0000160__en-en__flipped,text1,under an expressway ledge
+r_n02,above,dico_phrasis_0000858__en-en__flipped,text2,above a barrier
+r_n02,among,dico_phrasis_0000006__en-en__flipped,text1,among all dead
+r_n02,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+r_n02,cargo,dico_phrasis_0001728__en-en__flipped,text2,North Korean cargo
+r_n03,construction,dico_phrasis_0001289__en-en__flipped,text2,at a construction site
+r_n03,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+r_n03,following,dico_phrasis_0002713__en-en__original,text2,following skiing accident
+r_n04,april,dico_phrasis_0002440__en-en__original,text2,April 4
+r_n04,construction,dico_phrasis_0001289__en-en__flipped,text2,at a construction site
+r_n04,during,dico_phrasis_0000668__en-en__flipped,text2,during November
+r_n04,november,dico_phrasis_0000668__en-en__flipped,text1,in November
+r_n05,construction,dico_phrasis_0001289__en-en__flipped,text2,at a construction site
+r_n05,factory,dico_phrasis_0001734__en-en__flipped,text1,in Bangladesh factory
+r_n05,flooding,dico_phrasis_0002904__en-en__original,text1,of Christmas Day flooding
+r_n06,flooding,dico_phrasis_0002904__en-en__original,text1,of Christmas Day flooding
+r_n06,heavy,dico_phrasis_0001331__en-en__flipped,text2,heavy rain
+r_n06,rain,dico_phrasis_0001331__en-en__flipped,text1,rain
+r_n07,beer,dico_phrasis_0000430__en-en__flipped,text1,with food and beer
+r_n07,coffee,dico_phrasis_0003154__en-en__original,text1,at a coffee house
+r_n07,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+r_n07,firefighters,dico_phrasis_0000413__en-en__flipped,text1,Two New York firefighters
+r_n08,consuming,dico_phrasis_0001135__en-en__flipped,text1,consuming food
+r_n08,cooking,dico_phrasis_0001140__en-en__flipped,text1,inside a cooking area
+r_n08,food,dico_phrasis_0000430__en-en__flipped,text1,with food and beer
+r_n09,drinking,dico_phrasis_0001134__en-en__flipped,text1,are drinking
+r_n09,kittens,dico_phrasis_0000500__en-en__flipped,text1,Two baby kittens
+r_n09,sleeping,dico_phrasis_0000211__en-en__flipped,text2,is sleeping
+r_n10,factory,dico_phrasis_0001734__en-en__flipped,text1,in Bangladesh factory
+r_n10,firefighters,dico_phrasis_0000413__en-en__flipped,text1,Two New York firefighters
+r_n10,workers,dico_phrasis_0000673__en-en__flipped,text2,Red Cross workers
+r_n11,boxes,dico_phrasis_0000755__en-en__flipped,text1,colored boxes
+r_n11,cargo,dico_phrasis_0001728__en-en__flipped,text2,North Korean cargo
+r_n11,empty,dico_phrasis_0001925__en-en__flipped,text2,"between two large , half-empty Coke bottles"
+r_n12,blue,dico_phrasis_0000427__en-en__flipped,text1,on the blue sea
+r_n12,grey,dico_phrasis_0000212__en-en__flipped,text1,Two grey dogs
+r_n12,shirt,dico_phrasis_0000464__en-en__flipped,text1,in a blue shirt and tan pants

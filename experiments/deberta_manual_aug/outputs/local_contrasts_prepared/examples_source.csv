@@ -1,0 +1,121 @@
+﻿example_id,family_id,split,family_type,contrast_type,text1,text2,label,label_reason,content_words
+name01_restriction1,name01,train,name_boundary,restriction1,Kelvori-branded portable radios,portable radios,F,带指定品牌的物品属于该类物品；一般物品不保证品牌。,Kelvori Kelvorin portable radios
+name01_restriction2,name01,train,name_boundary,restriction2,Kelvorin-branded portable radios,radios,F,属性和品牌是正向限制，不能从一般物品推出。,Kelvori Kelvorin portable radios
+name01_rephrase,name01,train,name_boundary,rephrase,Kelvori-branded portable radios,portable radios branded Kelvori,E,两侧均为带同一品牌的同类物品，前后置改写不增加条件。,Kelvori Kelvorin portable radios
+name01_independent1,name01,train,name_boundary,independent1,Kelvori-branded radios,Kelvorin-branded radios,N,两个不同拼写的虚构品牌没有已知同一或包含关系；共享名称子串不建立蕴含。,Kelvori Kelvorin portable radios
+name01_independent2,name01,train,name_boundary,independent2,Kelvori-branded portable radios,Kelvorin-branded radios,N,增加属性仍不能推出另一品牌；另一品牌也不保证原品牌和属性。,Kelvori Kelvorin portable radios
+name02_restriction1,name02,train,name_boundary,restriction1,Meruva-branded insulated kettles,insulated kettles,F,带指定品牌的物品属于该类物品；一般物品不保证品牌。,Meruva Meruvan insulated kettles
+name02_restriction2,name02,train,name_boundary,restriction2,Meruvan-branded insulated kettles,kettles,F,属性和品牌是正向限制，不能从一般物品推出。,Meruva Meruvan insulated kettles
+name02_rephrase,name02,train,name_boundary,rephrase,Meruva-branded insulated kettles,insulated kettles branded Meruva,E,两侧均为带同一品牌的同类物品，前后置改写不增加条件。,Meruva Meruvan insulated kettles
+name02_independent1,name02,train,name_boundary,independent1,Meruva-branded kettles,Meruvan-branded kettles,N,两个不同拼写的虚构品牌没有已知同一或包含关系；共享名称子串不建立蕴含。,Meruva Meruvan insulated kettles
+name02_independent2,name02,train,name_boundary,independent2,Meruva-branded insulated kettles,Meruvan-branded kettles,N,增加属性仍不能推出另一品牌；另一品牌也不保证原品牌和属性。,Meruva Meruvan insulated kettles
+name03_restriction1,name03,train,name_boundary,restriction1,Solvani-branded ceramic ovens,ceramic ovens,F,带指定品牌的物品属于该类物品；一般物品不保证品牌。,Solvani Solvanir ceramic ovens
+name03_restriction2,name03,train,name_boundary,restriction2,Solvanir-branded ceramic ovens,ovens,F,属性和品牌是正向限制，不能从一般物品推出。,Solvani Solvanir ceramic ovens
+name03_rephrase,name03,train,name_boundary,rephrase,Solvani-branded ceramic ovens,ceramic ovens branded Solvani,E,两侧均为带同一品牌的同类物品，前后置改写不增加条件。,Solvani Solvanir ceramic ovens
+name03_independent1,name03,train,name_boundary,independent1,Solvani-branded ovens,Solvanir-branded ovens,N,两个不同拼写的虚构品牌没有已知同一或包含关系；共享名称子串不建立蕴含。,Solvani Solvanir ceramic ovens
+name03_independent2,name03,train,name_boundary,independent2,Solvani-branded ceramic ovens,Solvanir-branded ovens,N,增加属性仍不能推出另一品牌；另一品牌也不保证原品牌和属性。,Solvani Solvanir ceramic ovens
+name04_restriction1,name04,train,name_boundary,restriction1,Tiravon-branded digital thermometers,digital thermometers,F,带指定品牌的物品属于该类物品；一般物品不保证品牌。,Tiravon Tiravona digital thermometers
+name04_restriction2,name04,train,name_boundary,restriction2,Tiravona-branded digital thermometers,thermometers,F,属性和品牌是正向限制，不能从一般物品推出。,Tiravon Tiravona digital thermometers
+name04_rephrase,name04,train,name_boundary,rephrase,Tiravon-branded digital thermometers,digital thermometers branded Tiravon,E,两侧均为带同一品牌的同类物品，前后置改写不增加条件。,Tiravon Tiravona digital thermometers
+name04_independent1,name04,train,name_boundary,independent1,Tiravon-branded thermometers,Tiravona-branded thermometers,N,两个不同拼写的虚构品牌没有已知同一或包含关系；共享名称子串不建立蕴含。,Tiravon Tiravona digital thermometers
+name04_independent2,name04,train,name_boundary,independent2,Tiravon-branded digital thermometers,Tiravona-branded thermometers,N,增加属性仍不能推出另一品牌；另一品牌也不保证原品牌和属性。,Tiravon Tiravona digital thermometers
+name05_restriction1,name05,diagnostic,name_boundary,restriction1,Delvori-branded cordless scanners,cordless scanners,F,带指定品牌的物品属于该类物品；一般物品不保证品牌。,Delvori Delvorin cordless scanners
+name05_restriction2,name05,diagnostic,name_boundary,restriction2,Delvorin-branded cordless scanners,scanners,F,属性和品牌是正向限制，不能从一般物品推出。,Delvori Delvorin cordless scanners
+name05_rephrase,name05,diagnostic,name_boundary,rephrase,Delvori-branded cordless scanners,cordless scanners branded Delvori,E,两侧均为带同一品牌的同类物品，前后置改写不增加条件。,Delvori Delvorin cordless scanners
+name05_independent1,name05,diagnostic,name_boundary,independent1,Delvori-branded scanners,Delvorin-branded scanners,N,两个不同拼写的虚构品牌没有已知同一或包含关系；共享名称子串不建立蕴含。,Delvori Delvorin cordless scanners
+name05_independent2,name05,diagnostic,name_boundary,independent2,Delvori-branded cordless scanners,Delvorin-branded scanners,N,增加属性仍不能推出另一品牌；另一品牌也不保证原品牌和属性。,Delvori Delvorin cordless scanners
+name06_restriction1,name06,diagnostic,name_boundary,restriction1,Neruvia-branded bronze compasses,bronze compasses,F,带指定品牌的物品属于该类物品；一般物品不保证品牌。,Neruvia Neruvian bronze compasses
+name06_restriction2,name06,diagnostic,name_boundary,restriction2,Neruvian-branded bronze compasses,compasses,F,属性和品牌是正向限制，不能从一般物品推出。,Neruvia Neruvian bronze compasses
+name06_rephrase,name06,diagnostic,name_boundary,rephrase,Neruvia-branded bronze compasses,bronze compasses branded Neruvia,E,两侧均为带同一品牌的同类物品，前后置改写不增加条件。,Neruvia Neruvian bronze compasses
+name06_independent1,name06,diagnostic,name_boundary,independent1,Neruvia-branded compasses,Neruvian-branded compasses,N,两个不同拼写的虚构品牌没有已知同一或包含关系；共享名称子串不建立蕴含。,Neruvia Neruvian bronze compasses
+name06_independent2,name06,diagnostic,name_boundary,independent2,Neruvia-branded bronze compasses,Neruvian-branded compasses,N,增加属性仍不能推出另一品牌；另一品牌也不保证原品牌和属性。,Neruvia Neruvian bronze compasses
+purpose01_restriction1,purpose01,train,purpose_place,restriction1,assembling rehearsal equipment,assembling equipment,F,用途限定的物品属于一般物品；一般动作不保证该用途。,assembling rehearsal equipment awnings April
+purpose01_restriction2,purpose01,train,purpose_place,restriction2,assembling equipment beneath awnings,assembling equipment,F,增加地点条件可推出同一动作，但动作不保证该地点。,assembling rehearsal equipment awnings April
+purpose01_rephrase,purpose01,train,purpose_place,rephrase,assembling rehearsal equipment beneath awnings,"beneath awnings, assembling rehearsal equipment",E,同一动作的位置状语前置，施事和作用范围保持相同。,assembling rehearsal equipment awnings April
+purpose01_independent1,purpose01,train,purpose_place,independent1,assembling rehearsal equipment,assembling equipment beneath awnings,N,用途限定和实际地点是独立条件，两侧互不保证。,assembling rehearsal equipment awnings April
+purpose01_independent2,purpose01,train,purpose_place,independent2,assembling rehearsal equipment beneath awnings,assembling equipment during April,N,用途和地点不保证具体月份；具体月份也不保证用途和地点。两侧没有蕴含保证。,assembling rehearsal equipment awnings April
+purpose02_restriction1,purpose02,train,purpose_place,restriction1,storing medical supplies,storing supplies,F,用途限定的物品属于一般物品；一般动作不保证该用途。,storing medical supplies sheds November
+purpose02_restriction2,purpose02,train,purpose_place,restriction2,storing supplies outside sheds,storing supplies,F,增加地点条件可推出同一动作，但动作不保证该地点。,storing medical supplies sheds November
+purpose02_rephrase,purpose02,train,purpose_place,rephrase,storing medical supplies outside sheds,"outside sheds, storing medical supplies",E,同一动作的位置状语前置，施事和作用范围保持相同。,storing medical supplies sheds November
+purpose02_independent1,purpose02,train,purpose_place,independent1,storing medical supplies,storing supplies outside sheds,N,用途限定和实际地点是独立条件，两侧互不保证。,storing medical supplies sheds November
+purpose02_independent2,purpose02,train,purpose_place,independent2,storing medical supplies outside sheds,storing supplies during November,N,用途和地点不保证具体月份；具体月份也不保证用途和地点。两侧没有蕴含保证。,storing medical supplies sheds November
+purpose03_restriction1,purpose03,train,purpose_place,restriction1,repairing farming tools,repairing tools,F,用途限定的物品属于一般物品；一般动作不保证该用途。,repairing farming tools tents January
+purpose03_restriction2,purpose03,train,purpose_place,restriction2,repairing tools among tents,repairing tools,F,增加地点条件可推出同一动作，但动作不保证该地点。,repairing farming tools tents January
+purpose03_rephrase,purpose03,train,purpose_place,rephrase,repairing farming tools among tents,"among tents, repairing farming tools",E,同一动作的位置状语前置，施事和作用范围保持相同。,repairing farming tools tents January
+purpose03_independent1,purpose03,train,purpose_place,independent1,repairing farming tools,repairing tools among tents,N,用途限定和实际地点是独立条件，两侧互不保证。,repairing farming tools tents January
+purpose03_independent2,purpose03,train,purpose_place,independent2,repairing farming tools among tents,repairing tools during January,N,用途和地点不保证具体月份；具体月份也不保证用途和地点。两侧没有蕴含保证。,repairing farming tools tents January
+purpose04_restriction1,purpose04,train,purpose_place,restriction1,cleaning brewing vats,cleaning vats,F,用途限定的物品属于一般物品；一般动作不保证该用途。,cleaning brewing vats huts February
+purpose04_restriction2,purpose04,train,purpose_place,restriction2,cleaning vats beyond huts,cleaning vats,F,增加地点条件可推出同一动作，但动作不保证该地点。,cleaning brewing vats huts February
+purpose04_rephrase,purpose04,train,purpose_place,rephrase,cleaning brewing vats beyond huts,"beyond huts, cleaning brewing vats",E,同一动作的位置状语前置，施事和作用范围保持相同。,cleaning brewing vats huts February
+purpose04_independent1,purpose04,train,purpose_place,independent1,cleaning brewing vats,cleaning vats beyond huts,N,用途限定和实际地点是独立条件，两侧互不保证。,cleaning brewing vats huts February
+purpose04_independent2,purpose04,train,purpose_place,independent2,cleaning brewing vats beyond huts,cleaning vats during February,N,用途和地点不保证具体月份；具体月份也不保证用途和地点。两侧没有蕴含保证。,cleaning brewing vats huts February
+purpose05_restriction1,purpose05,diagnostic,purpose_place,restriction1,arranging festival lanterns,arranging lanterns,F,用途限定的物品属于一般物品；一般动作不保证该用途。,arranging festival lanterns canopies June
+purpose05_restriction2,purpose05,diagnostic,purpose_place,restriction2,arranging lanterns beneath canopies,arranging lanterns,F,增加地点条件可推出同一动作，但动作不保证该地点。,arranging festival lanterns canopies June
+purpose05_rephrase,purpose05,diagnostic,purpose_place,rephrase,arranging festival lanterns beneath canopies,"beneath canopies, arranging festival lanterns",E,同一动作的位置状语前置，施事和作用范围保持相同。,arranging festival lanterns canopies June
+purpose05_independent1,purpose05,diagnostic,purpose_place,independent1,arranging festival lanterns,arranging lanterns beneath canopies,N,用途限定和实际地点是独立条件，两侧互不保证。,arranging festival lanterns canopies June
+purpose05_independent2,purpose05,diagnostic,purpose_place,independent2,arranging festival lanterns beneath canopies,arranging lanterns during June,N,用途和地点不保证具体月份；具体月份也不保证用途和地点。两侧没有蕴含保证。,arranging festival lanterns canopies June
+purpose06_restriction1,purpose06,diagnostic,purpose_place,restriction1,packing audition props,packing props,F,用途限定的物品属于一般物品；一般动作不保证该用途。,packing audition props pavilions July
+purpose06_restriction2,purpose06,diagnostic,purpose_place,restriction2,packing props outside pavilions,packing props,F,增加地点条件可推出同一动作，但动作不保证该地点。,packing audition props pavilions July
+purpose06_rephrase,purpose06,diagnostic,purpose_place,rephrase,packing audition props outside pavilions,"outside pavilions, packing audition props",E,同一动作的位置状语前置，施事和作用范围保持相同。,packing audition props pavilions July
+purpose06_independent1,purpose06,diagnostic,purpose_place,independent1,packing audition props,packing props outside pavilions,N,用途限定和实际地点是独立条件，两侧互不保证。,packing audition props pavilions July
+purpose06_independent2,purpose06,diagnostic,purpose_place,independent2,packing audition props outside pavilions,packing props during July,N,用途和地点不保证具体月份；具体月份也不保证用途和地点。两侧没有蕴含保证。,packing audition props pavilions July
+path01_restriction1,path01,train,path_actor,restriction1,working among barking hounds,working among hounds,F,描述环境对象正在做某事，是对环境的限定，不改变主体动作。,working barking hounds April
+path01_restriction2,path01,train,path_actor,restriction2,working among barking hounds during April,working among barking hounds,F,增加活动时间，只能推出一般活动，反向不保证月份。,working barking hounds April
+path01_rephrase,path01,train,path_actor,rephrase,working among barking hounds,"among barking hounds, working",E,环境状语前置，环境中的动作仍修饰原名词，不改成主体动作。,working barking hounds April
+path01_independent1,path01,train,path_actor,independent1,working among barking hounds,barking among hounds,N,身处某种活动环境不代表主体执行该活动；执行该活动也不保证原主体动作。,working barking hounds April
+path01_independent2,path01,train,path_actor,independent2,working among barking hounds during April,barking among hounds during April,N,固定同一月份后，环境动作与主体动作的区别仍然存在。,working barking hounds April
+path02_restriction1,path02,train,path_actor,restriction1,crawling beneath dripping pipes,crawling beneath pipes,F,描述环境对象正在做某事，是对环境的限定，不改变主体动作。,crawling dripping pipes November
+path02_restriction2,path02,train,path_actor,restriction2,crawling beneath dripping pipes during November,crawling beneath dripping pipes,F,增加活动时间，只能推出一般活动，反向不保证月份。,crawling dripping pipes November
+path02_rephrase,path02,train,path_actor,rephrase,crawling beneath dripping pipes,"beneath dripping pipes, crawling",E,环境状语前置，环境中的动作仍修饰原名词，不改成主体动作。,crawling dripping pipes November
+path02_independent1,path02,train,path_actor,independent1,crawling beneath dripping pipes,dripping beneath pipes,N,身处某种活动环境不代表主体执行该活动；执行该活动也不保证原主体动作。,crawling dripping pipes November
+path02_independent2,path02,train,path_actor,independent2,crawling beneath dripping pipes during November,dripping beneath pipes during November,N,固定同一月份后，环境动作与主体动作的区别仍然存在。,crawling dripping pipes November
+path03_restriction1,path03,train,path_actor,restriction1,strolling among chirping finches,strolling among finches,F,描述环境对象正在做某事，是对环境的限定，不改变主体动作。,strolling chirping finches January
+path03_restriction2,path03,train,path_actor,restriction2,strolling among chirping finches during January,strolling among chirping finches,F,增加活动时间，只能推出一般活动，反向不保证月份。,strolling chirping finches January
+path03_rephrase,path03,train,path_actor,rephrase,strolling among chirping finches,"among chirping finches, strolling",E,环境状语前置，环境中的动作仍修饰原名词，不改成主体动作。,strolling chirping finches January
+path03_independent1,path03,train,path_actor,independent1,strolling among chirping finches,chirping among finches,N,身处某种活动环境不代表主体执行该活动；执行该活动也不保证原主体动作。,strolling chirping finches January
+path03_independent2,path03,train,path_actor,independent2,strolling among chirping finches during January,chirping among finches during January,N,固定同一月份后，环境动作与主体动作的区别仍然存在。,strolling chirping finches January
+path04_restriction1,path04,train,path_actor,restriction1,walking beyond clattering shutters,walking beyond shutters,F,描述环境对象正在做某事，是对环境的限定，不改变主体动作。,walking clattering shutters February
+path04_restriction2,path04,train,path_actor,restriction2,walking beyond clattering shutters during February,walking beyond clattering shutters,F,增加活动时间，只能推出一般活动，反向不保证月份。,walking clattering shutters February
+path04_rephrase,path04,train,path_actor,rephrase,walking beyond clattering shutters,"beyond clattering shutters, walking",E,环境状语前置，环境中的动作仍修饰原名词，不改成主体动作。,walking clattering shutters February
+path04_independent1,path04,train,path_actor,independent1,walking beyond clattering shutters,clattering beyond shutters,N,身处某种活动环境不代表主体执行该活动；执行该活动也不保证原主体动作。,walking clattering shutters February
+path04_independent2,path04,train,path_actor,independent2,walking beyond clattering shutters during February,clattering beyond shutters during February,N,固定同一月份后，环境动作与主体动作的区别仍然存在。,walking clattering shutters February
+path05_restriction1,path05,diagnostic,path_actor,restriction1,waiting beneath chiming bells,waiting beneath bells,F,描述环境对象正在做某事，是对环境的限定，不改变主体动作。,waiting chiming bells June
+path05_restriction2,path05,diagnostic,path_actor,restriction2,waiting beneath chiming bells during June,waiting beneath chiming bells,F,增加活动时间，只能推出一般活动，反向不保证月份。,waiting chiming bells June
+path05_rephrase,path05,diagnostic,path_actor,rephrase,waiting beneath chiming bells,"beneath chiming bells, waiting",E,环境状语前置，环境中的动作仍修饰原名词，不改成主体动作。,waiting chiming bells June
+path05_independent1,path05,diagnostic,path_actor,independent1,waiting beneath chiming bells,chiming beneath bells,N,身处某种活动环境不代表主体执行该活动；执行该活动也不保证原主体动作。,waiting chiming bells June
+path05_independent2,path05,diagnostic,path_actor,independent2,waiting beneath chiming bells during June,chiming beneath bells during June,N,固定同一月份后，环境动作与主体动作的区别仍然存在。,waiting chiming bells June
+path06_restriction1,path06,diagnostic,path_actor,restriction1,wandering among rustling reeds,wandering among reeds,F,描述环境对象正在做某事，是对环境的限定，不改变主体动作。,wandering rustling reeds July
+path06_restriction2,path06,diagnostic,path_actor,restriction2,wandering among rustling reeds during July,wandering among rustling reeds,F,增加活动时间，只能推出一般活动，反向不保证月份。,wandering rustling reeds July
+path06_rephrase,path06,diagnostic,path_actor,rephrase,wandering among rustling reeds,"among rustling reeds, wandering",E,环境状语前置，环境中的动作仍修饰原名词，不改成主体动作。,wandering rustling reeds July
+path06_independent1,path06,diagnostic,path_actor,independent1,wandering among rustling reeds,rustling among reeds,N,身处某种活动环境不代表主体执行该活动；执行该活动也不保证原主体动作。,wandering rustling reeds July
+path06_independent2,path06,diagnostic,path_actor,independent2,wandering among rustling reeds during July,rustling among reeds during July,N,固定同一月份后，环境动作与主体动作的区别仍然存在。,wandering rustling reeds July
+role01_restriction1,role01,train,role_restriction,restriction1,senior archivists,archivists,F,在给定职业义下，带职级的职业成员属于该职业，反向不保证职级。,archivists cataloguing manuscripts manuscript restoring
+role01_restriction2,role01,train,role_restriction,restriction2,senior archivists cataloguing manuscripts,archivists cataloguing manuscripts,F,保持动作和对象，仅增加职业职级限制。,archivists cataloguing manuscripts manuscript restoring
+role01_rephrase,role01,train,role_restriction,rephrase,archivists cataloguing manuscripts,manuscript-cataloguing archivists,E,动作后置修饰改为复合修饰语，仍是执行同一动作的同类人员。,archivists cataloguing manuscripts manuscript restoring
+role01_independent1,role01,train,role_restriction,independent1,archivists cataloguing manuscripts,archivists restoring manuscripts,N,两种具体职业活动不能互推，不能只按职业相同判E。,archivists cataloguing manuscripts manuscript restoring
+role01_independent2,role01,train,role_restriction,independent2,senior archivists,archivists cataloguing manuscripts,N,职级不保证正在执行某项具体活动，执行活动也不保证职级。,archivists cataloguing manuscripts manuscript restoring
+role02_restriction1,role02,train,role_restriction,restriction1,junior treasurers,treasurers,F,在给定职业义下，带职级的职业成员属于该职业，反向不保证职级。,treasurers examining ledgers ledger shredding
+role02_restriction2,role02,train,role_restriction,restriction2,junior treasurers examining ledgers,treasurers examining ledgers,F,保持动作和对象，仅增加职业职级限制。,treasurers examining ledgers ledger shredding
+role02_rephrase,role02,train,role_restriction,rephrase,treasurers examining ledgers,ledger-examining treasurers,E,动作后置修饰改为复合修饰语，仍是执行同一动作的同类人员。,treasurers examining ledgers ledger shredding
+role02_independent1,role02,train,role_restriction,independent1,treasurers examining ledgers,treasurers shredding ledgers,N,两种具体职业活动不能互推，不能只按职业相同判E。,treasurers examining ledgers ledger shredding
+role02_independent2,role02,train,role_restriction,independent2,junior treasurers,treasurers examining ledgers,N,职级不保证正在执行某项具体活动，执行活动也不保证职级。,treasurers examining ledgers ledger shredding
+role03_restriction1,role03,train,role_restriction,restriction1,senior botanists,botanists,F,在给定职业义下，带职级的职业成员属于该职业，反向不保证职级。,botanists pressing orchids orchid pruning
+role03_restriction2,role03,train,role_restriction,restriction2,senior botanists pressing orchids,botanists pressing orchids,F,保持动作和对象，仅增加职业职级限制。,botanists pressing orchids orchid pruning
+role03_rephrase,role03,train,role_restriction,rephrase,botanists pressing orchids,orchid-pressing botanists,E,动作后置修饰改为复合修饰语，仍是执行同一动作的同类人员。,botanists pressing orchids orchid pruning
+role03_independent1,role03,train,role_restriction,independent1,botanists pressing orchids,botanists pruning orchids,N,两种具体职业活动不能互推，不能只按职业相同判E。,botanists pressing orchids orchid pruning
+role03_independent2,role03,train,role_restriction,independent2,senior botanists,botanists pressing orchids,N,职级不保证正在执行某项具体活动，执行活动也不保证职级。,botanists pressing orchids orchid pruning
+role04_restriction1,role04,train,role_restriction,restriction1,principal conservators,conservators,F,在给定职业义下，带职级的职业成员属于该职业，反向不保证职级。,conservators polishing mosaics mosaic repairing
+role04_restriction2,role04,train,role_restriction,restriction2,principal conservators polishing mosaics,conservators polishing mosaics,F,保持动作和对象，仅增加职业职级限制。,conservators polishing mosaics mosaic repairing
+role04_rephrase,role04,train,role_restriction,rephrase,conservators polishing mosaics,mosaic-polishing conservators,E,动作后置修饰改为复合修饰语，仍是执行同一动作的同类人员。,conservators polishing mosaics mosaic repairing
+role04_independent1,role04,train,role_restriction,independent1,conservators polishing mosaics,conservators repairing mosaics,N,两种具体职业活动不能互推，不能只按职业相同判E。,conservators polishing mosaics mosaic repairing
+role04_independent2,role04,train,role_restriction,independent2,principal conservators,conservators polishing mosaics,N,职级不保证正在执行某项具体活动，执行活动也不保证职级。,conservators polishing mosaics mosaic repairing
+role05_restriction1,role05,diagnostic,role_restriction,restriction1,senior librarians,librarians,F,在给定职业义下，带职级的职业成员属于该职业，反向不保证职级。,librarians indexing volumes volume binding
+role05_restriction2,role05,diagnostic,role_restriction,restriction2,senior librarians indexing volumes,librarians indexing volumes,F,保持动作和对象，仅增加职业职级限制。,librarians indexing volumes volume binding
+role05_rephrase,role05,diagnostic,role_restriction,rephrase,librarians indexing volumes,volume-indexing librarians,E,动作后置修饰改为复合修饰语，仍是执行同一动作的同类人员。,librarians indexing volumes volume binding
+role05_independent1,role05,diagnostic,role_restriction,independent1,librarians indexing volumes,librarians binding volumes,N,两种具体职业活动不能互推，不能只按职业相同判E。,librarians indexing volumes volume binding
+role05_independent2,role05,diagnostic,role_restriction,independent2,senior librarians,librarians indexing volumes,N,职级不保证正在执行某项具体活动，执行活动也不保证职级。,librarians indexing volumes volume binding
+role06_restriction1,role06,diagnostic,role_restriction,restriction1,junior curators,curators,F,在给定职业义下，带职级的职业成员属于该职业，反向不保证职级。,curators sorting relics relic displaying
+role06_restriction2,role06,diagnostic,role_restriction,restriction2,junior curators sorting relics,curators sorting relics,F,保持动作和对象，仅增加职业职级限制。,curators sorting relics relic displaying
+role06_rephrase,role06,diagnostic,role_restriction,rephrase,curators sorting relics,relic-sorting curators,E,动作后置修饰改为复合修饰语，仍是执行同一动作的同类人员。,curators sorting relics relic displaying
+role06_independent1,role06,diagnostic,role_restriction,independent1,curators sorting relics,curators displaying relics,N,两种具体职业活动不能互推，不能只按职业相同判E。,curators sorting relics relic displaying
+role06_independent2,role06,diagnostic,role_restriction,independent2,junior curators,curators sorting relics,N,职级不保证正在执行某项具体活动，执行活动也不保证职级。,curators sorting relics relic displaying
