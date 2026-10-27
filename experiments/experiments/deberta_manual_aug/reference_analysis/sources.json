@@ -1,5 +1,0 @@
-{
-  "reference_predictions": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\epoch_3\\predictions_with_scores.csv",
-  "reference_sha256": "8b702650eb011b91c6faceb6e31bf1f6a7a563fce6d769788f1604da0bae1084",
-  "analysis_script_sha256": "e683fe04ce68bc10b014d014b33d9247202340299f4cd9a303ad1b06f9dfb47f"
-}
