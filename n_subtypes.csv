@@ -1,0 +1,5 @@
+﻿n_relation,total,correct,errors
+OPPO,3,3,0
+REL,22,19,3
+SIMI,80,75,5
+需核验:EQUI/SIMI,1,1,0

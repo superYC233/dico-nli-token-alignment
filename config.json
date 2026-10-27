@@ -1,0 +1,42 @@
+{
+  "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "method": [
+    "Token Alignment",
+    "Real Pair CE",
+    "Pair-aware inference"
+  ],
+  "seed": 42,
+  "trained_epochs": 10,
+  "selected_epoch": 7,
+  "train_rows": 3042,
+  "dev_rows": 660,
+  "augmentation": false,
+  "row_batch_size": 16,
+  "pair_batch_size": 16,
+  "dev_batch_size": 16,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "row_class_weights_F_B_E_N": [
+    1,
+    1,
+    1,
+    1.5
+  ],
+  "pair_class_weights_FB_BF_EE": [
+    1,
+    1,
+    1.25
+  ],
+  "pair_loss_weight": 0.5,
+  "pair_label_smoothing": 0.05,
+  "alignment_dim": 128,
+  "alignment_temperature": 0.1,
+  "compare_activation": "ReLU",
+  "weighted_f1": 0.9247935854136166,
+  "soft_cons": 1.0,
+  "hard_cons": 0.924187725631769,
+  "checkpoint": "model/deberta_nli_base_token_alignment_official_full_control_seed_42/epoch_7.pth",
+  "training_script": "experiments/deberta_original/train.py",
+  "note": "训练算法沿用原成功复现脚本；整理后新训练输出到 reproduction 目录，已提交的权重位置不变。"
+}
