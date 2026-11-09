@@ -1,9 +1,11 @@
 # Pair阶段补齐N/非N监督
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接右键运行`train_relation_pair_gate.py`。本次代码放在原`deberta_manual_aug`目录，旧训练代码和模型不变。
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe experiments\deberta_manual_aug\train_relation_pair_gate.py
+python experiments\deberta_manual_aug\train_relation_pair_gate.py
 ```
 
 默认：
@@ -116,7 +118,7 @@ loss = 0.5 * pair_loss + 1.0 * gate_loss
 预测仍对原四类logits取argmax；pair-aware仍在真实两行组里计算FB/BF/EE。
 **二分类仅为训练损失。预测不增加N阈值，不把单例统一判N。**
 
-模型目录：`D:/model/SEAMEVAL/deberta_manual_aug/run24_pair_gate_seed42/`。
+模型目录：`model/deberta_manual_aug/run24_pair_gate_seed42/`。
 结果目录：本目录`outputs/run24_pair_gate_seed42/`。
 只在Pair后Dev pair-aware F1刷新最高值时覆盖`best_model.pth`，不保存十份完整模型。
 训练结束自动重载最佳模型，核对Dev预测，再评估Train。
@@ -146,17 +148,17 @@ loss = 0.5 * pair_loss + 1.0 * gate_loss
 只核对数据和编码，不加载模型权重或训练：
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe experiments\deberta_manual_aug\train_relation_pair_gate.py --prepare-only
+python experiments\deberta_manual_aug\train_relation_pair_gate.py --prepare-only
 ```
 
 机制检查，不执行优化器更新：
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe experiments\deberta_manual_aug\check_pair_gate.py --real
+python experiments\deberta_manual_aug\check_pair_gate.py --real
 ```
 
 已通过：交叉熵拆分、二分类概率、梯度符号、Gate系数零时退化为原Pair目标、3290行无重复遗漏、真实模型38行单批反向与参数不更新。
-真实GPU检查峰值约2.04GiB，不含Adam状态，不能当作完整训练峰值承诺。
+真实GPU
 
 若以后需要同代码损失对照，换RUN_NAME并设`GATE_WEIGHT=0.0`；默认不自动跑多组。
 该对照仍保留相同第二阶段batch和N输入，因此不是历史原版的逐位复现。

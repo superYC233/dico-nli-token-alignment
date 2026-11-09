@@ -1,6 +1,8 @@
 # 原0.938 + 局部语义关系监督
 
-直接右键运行 `train_deberta_local_semantics.py`。所有正式训练由你启动；旧模型、旧代码、原数据均不修改。
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
+直接右键运行 `train_deberta_local_semantics.py`。正式训练由你运行；旧模型、旧代码、原数据均不修改。
 
 **当前设置**
 
@@ -52,24 +54,24 @@
 只准备数据：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_local_semantics/prepare_data.py'
+python 'experiments/deberta_local_semantics/prepare_data.py'
 ```
 
 完整训练：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_local_semantics/train_deberta_local_semantics.py'
+python 'experiments/deberta_local_semantics/train_deberta_local_semantics.py'
 ```
 
 零辅助损失对照可用同一文件，不需要新文件夹：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_local_semantics/train_deberta_local_semantics.py' --run-name run02_local_weight0 --local-weight 0
+python 'experiments/deberta_local_semantics/train_deberta_local_semantics.py' --run-name run02_local_weight0 --local-weight 0
 ```
 
 零权重时局部头不执行，原计算路径和随机数状态保持一致。新初始化层的参数不消耗原训练随机数。
 
-默认模型目录：`D:/model/SEAMEVAL/deberta_local_semantics/run01_local_semantics/`。
+默认模型目录：`model/deberta_local_semantics/run01_local_semantics/`。
 
 默认结果目录：`experiments/deberta_local_semantics/outputs/run01_local_semantics/`。
 
@@ -77,4 +79,4 @@
 
 **已完成检查**
 
-数据/token映射、零权重的原参数/预测/Row梯度与随机数状态、一次前向复用、局部梯度到主干、Pair阶段不使用局部头、保存重载和历史660行官方评分复现均通过。真实DeBERTa的Row16行加局部损失、Pair16组前后向也通过，未执行optimizer.step。检查峰值约7.347GiB，不含正式训练才会创建的Adam状态；完整结果在 `outputs/_checks/gpu_check.json`。
+数据/token映射、零权重的原参数/预测/Row梯度与随机数状态、一次前向复用、局部梯度到主干、Pair阶段不使用局部头、保存重载和历史660行官方评分复现均通过。真实DeBERTa的Row16行加局部损失、Pair16组前后向也通过，未执行optimizer.step。

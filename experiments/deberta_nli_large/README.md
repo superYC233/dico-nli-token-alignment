@@ -1,22 +1,23 @@
 # DeBERTa NLI large 对照
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 模型：`MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli`。
 
 模型卡：https://huggingface.co/MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli
 
 ## 按顺序运行
 
-本机已经有完整的预训练模型缓存，`config.py` 已指向该缓存，可以直接右键运行
-`train_deberta_large.py`。换机器需要下载时，先运行 `download_model.py`。
+先运行 `download_model.py` 准备预训练模型，再运行 `train_deberta_large.py`。已有缓存时可复用，路径通过 `config.py` 配置。
 训练结束已经有每轮分数；需要重新加载最佳权重核对时，
 再右键运行 `evaluate_best.py`。
 
 也可以在 PowerShell 中逐行运行：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_nli_large/download_model.py'
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_nli_large/train_deberta_large.py'
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_nli_large/evaluate_best.py'
+python 'experiments/deberta_nli_large/download_model.py'
+python 'experiments/deberta_nli_large/train_deberta_large.py'
+python 'experiments/deberta_nli_large/evaluate_best.py'
 ```
 
 下载脚本使用 Hugging Face，固定同一个 revision，复用已有缓存，保留 safetensors
@@ -60,10 +61,10 @@
 
 ## 保存在哪里
 
-- 预训练缓存根目录：`D:/BaiduNetdiskDownload/PretrainedModel/models`
+- 预训练缓存根目录：`model_cache/`
 - 实际加载目录：该缓存下
   `models--MoritzLaurer--DeBERTa-v3-large-mnli-fever-anli-ling-wanli/snapshots/b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7`
-- 训练权重：`D:/model/SEAMEVAL/deberta_nli_large/run01_large_mixed_pair/best_model.pth`
+- 训练权重：`model/deberta_nli_large/run01_large_mixed_pair/best_model.pth`
 - 本轮模型信息：同目录的 `best_metrics.json` 和 `run_config.json`
 - 每轮成绩：本实验目录下 `outputs/run01_large_mixed_pair/epoch_summary.csv`
 - 最佳权重两种成绩：同结果目录的 `best_summary.csv`
@@ -71,17 +72,17 @@
 下一次实验只改 `config.py` 的 `RUN_NAME`。已有同名输出目录时脚本会停止，避免覆盖
 旧实验；不需要再建立一份代码目录。评估时让 `RUN_NAME` 指向要评估的那次运行。
 
-针对 12GB 显存启用了节省显存的设置，但实际峰值需要在你启动训练后确认。
+启用了节省显存的设置，但实际峰值需要在启动训练后确认。
 若仍显存不足，先把 `GROUP_BATCH_SIZE` 改为 4；这会改变每批组成和每轮更新次数，
 应当作为另一次运行记录，而不是宣称与 batch 8 完全等价。
 
 ## 已检查与未检查
 
-已完成语法和 CPU 检查，没有替你下载大模型或启动训练。
+已完成语法和 CPU 检查，没有下载大模型或启动训练。
 CPU 检查覆盖：3042 行每轮各一次、1282 对的索引/方向、N 单例监督、联合损失、
 Dev 预测不消耗训练随机数、模型适配 1024 维隐藏状态、保存加载后的输出一致。
 
-另外用随机初始化的极小 DeBERTa 在本机 GPU 上验证了 bf16 前向推理和梯度检查点
+另外用随机初始化的极小 DeBERTa 在GPU上验证了 bf16 前向推理和梯度检查点
 接口兼容；没有执行反向传播或参数更新。这不等于验证过 large 的训练显存。
 
 实际 large 权重的加载、训练速度、显存峰值和最终成绩，需要下载并运行后确认。

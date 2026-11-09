@@ -1,5 +1,7 @@
 # 修订增强：保持0.935配方，只换120行对照
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 右键运行同目录 `train_boundary_manual.py`。默认 `RUN_NAME='run04_boundary_120'`、`AUGMENT_MODE='manual'`。
 
 本轮已经完成数据准备和CPU检查，没有加载预训练权重或启动训练；训练由你运行。
@@ -72,7 +74,7 @@ Row权重[1,1,1,1.5]，Pair权重[1,1,1.25]与label smoothing 0.05不变。
 - `prepared_boundary/overlap_report.json`：隔离结果、来源、哈希与限制说明。
 - `check_boundary_data.py`：CPU检查；不加载模型，不训练。
 
-模型：`D:/model/SEAMEVAL/deberta_manual_aug/run04_boundary_120/best_model.pth`。
+模型：`model/deberta_manual_aug/run04_boundary_120/best_model.pth`。
 结果：本目录 `outputs/run04_boundary_120/`。
 
 后续等预算复制对照不需要新目录结构或改模型代码；仍用本入口，换一个RUN_NAME并设 `AUGMENT_MODE='copy'`。

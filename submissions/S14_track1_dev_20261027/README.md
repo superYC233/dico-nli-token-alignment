@@ -1,6 +1,6 @@
 # S14 英文开发阶段提交包
 
-准备日期：2026-10-27。本目录没有执行线上提交，最后由你上传。
+准备日期：2026-10-27。本目录没有执行线上提交，提交包需手动上传。
 
 ## 上传哪个文件
 
@@ -24,7 +24,7 @@
 
 ## 怎么提交
 
-1. 打开[官方CodaBench开发阶段](https://www.codabench.org/competitions/18038/)，登录你的账号。
+1. 打开[官方CodaBench开发阶段](https://www.codabench.org/competitions/18038/)，登录账号。
 2. 如果尚未参加，先报名并阅读、接受页面上的规则。
 3. 进入开发阶段的提交入口，提交英文Track 1预测，选择本目录的 `submission_S14_track1_dev.zip`。
 4. 如果页面要求填写名称，可填 `S14 hierarchical ensemble - Track 1 Dev`。

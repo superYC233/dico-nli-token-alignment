@@ -1,9 +1,11 @@
 # DeBERTa 最小对照诊断
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 当前入口：`run_all.py`。右键运行即可，**不训练、不修改原模型或 Train/Dev**。
 
 ```powershell
-& G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_minimal_contrasts/run_all.py
+python experiments/deberta_minimal_contrasts/run_all.py
 ```
 
 当前 `config.py` 的 RUN_NAME 是 `run02_binding`。`run01` 是第一轮探索记录，不需要另外操作。

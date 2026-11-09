@@ -1,4 +1,6 @@
 原0.938模型 + Row阶段PAWS
+
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
 =======================
 
 运行`train_original_staged_paws.py`。
@@ -51,7 +53,7 @@ PAWS前向会消费额外dropout随机数，因此PAWS_WEIGHT>0的后续轨迹�
 
 默认RUN_NAME：`run04_original_staged_paws_seed42`。
 
-- 模型：`D:/model/SEAMEVAL/deberta_bidirectional/<RUN_NAME>/best_model.pth`
+- 模型：`model/deberta_bidirectional/<RUN_NAME>/best_model.pth`
 - 结果：当前目录`outputs/<RUN_NAME>/`
 - `epoch_N/after_row/`、`epoch_N/after_pair/`：两阶段的Dev预测、官方分数和混淆矩阵。
 - `stage_summary.csv`：每轮两个阶段、两种解码，共4行。

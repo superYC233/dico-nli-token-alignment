@@ -1,9 +1,11 @@
 # 原Lexical混合版 + Child-Tuning-D
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接右键运行`train_deberta_child_tuning.py`。训练交给用户执行。
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_child_tuning/train_deberta_child_tuning.py
+python experiments/deberta_lexical_child_tuning/train_deberta_child_tuning.py
 ```
 
 ## 每次运行做什么
@@ -51,7 +53,7 @@ embedding、encoder共享相对位置embedding、CLS分类头、Alignment和Lexi
 
 ## 保存和查看
 
-- 权重：`D:/model/SEAMEVAL/deberta_lexical_child_tuning/run01_child_d_seed42/best_model.pth`。
+- 权重：`model/deberta_lexical_child_tuning/run01_child_d_seed42/best_model.pth`。
 - 结果：本目录`outputs/run01_child_d_seed42/`。
 - 只在independent刷新最佳时覆盖一份完整模型，掩码只保存一次。
 - `epoch_summary.csv`、`best_summary.csv`、`best_metrics.json`记录同一轮两种成绩。

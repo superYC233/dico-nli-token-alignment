@@ -1,5 +1,7 @@
 # 词汇特征版 + 范围增强
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 右键运行本目录 `train_deberta_lexical_aug.py`。训练由用户启动。
 
 当前配置在训练文件顶部：
@@ -24,7 +26,7 @@ AUGMENT_MODE = 'scope'
 
 ## 保存位置
 
-- 模型：`D:/model/SEAMEVAL/deberta_lexical_aug/run01_lexical_scope/best_model.pth`。
+- 模型：`model/deberta_lexical_aug/run01_lexical_scope/best_model.pth`。
 - 结果：本目录`outputs/run01_lexical_scope/`。
 - 数据快照：`training_data.csv`、`extra_train_rows.csv`、`augmentation_audit.csv`。
 - 最佳分数：`best_summary.csv`；逐轮分数：`epoch_summary.csv`。

@@ -1,5 +1,7 @@
 # 官方3042 + Lexical + Row参数锚定
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行新增的 `train_deberta_lexical_anchor.py`。原 `train_deberta_lexical.py` 和 `config.py` 不修改。
 
 ```python
@@ -58,7 +60,7 @@ theta = theta_Row + (u - theta_Row) / (1 + lr * mu)
 
 ## 输出与检查
 
-模型：`D:/model/SEAMEVAL/deberta_lexical/run06_row_parameter_anchor/best_model.pth`。
+模型：`model/deberta_lexical/run06_row_parameter_anchor/best_model.pth`。
 
 结果：本目录 `outputs/run06_row_parameter_anchor/`。仍按Pair后Dev pair-aware W-F1保存当前最佳，覆盖更新一份完整权重；同时记录同一模型的independent，不拼接不同轮指标。保存时临时文件原子替换；训练结束重载并核对最佳Dev逐条预测，再评估Train。
 
@@ -73,4 +75,4 @@ theta = theta_Row + (u - theta_Row) / (1 + lr * mu)
 
 `check_lexical_anchor.py`检查公式、参数组、数据/特征匹配、原Row复用、强度0与原Pair梯度一致和参数回拉时序；`--gpu`检查真实模型前后向，不运行训练优化器更新。正式训练由你运行。
 
-本次语法、prepare-only、CPU公式/梯度检查和真实GPU检查均已通过。GPU使用184002604参数模型，Row及两个Pair方向各16×128，包含完整参数锚点及两份等量Adam矩缓冲，峰值allocated约9.44GiB。缓冲用于模拟显存占用，没有执行AdamW更新，不能将其视为完整训练全程峰值测量。CPU中的非零预设位移已验证回拉公式；GPU无更新检查前后模型参数完全一致。
+本次语法、prepare-only、CPU公式/梯度检查和真实GPU检查均已通过。GPU使用184002604参数模型，Row及两个Pair方向各16×128，包含完整参数锚点及两份等量Adam矩缓冲。缓冲用于模拟显存占用，没有执行AdamW更新，不能将其视为完整训练全程峰值测量。CPU中的非零预设位移已验证回拉公式；GPU无更新检查前后模型参数完全一致。

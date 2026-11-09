@@ -1,5 +1,7 @@
 # DeBERTa + Lexical + KIM + 上下文门控
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 在 `deberta_kim` 版本上只增加门控，新目录独立运行，旧代码和权重不改动。
 从同一 NLI 预训练主干重新训练，不加载 KIM 的最佳 checkpoint 继续训练。
 
@@ -7,7 +9,7 @@
 
 右键运行 **train_deberta_kim_gate.py**。默认不需要传参数。
 
-使用现有 nlpbase 环境、缓存模型和项目 `.nltk_data` 中的 WordNet。
+使用安装项目依赖的Python环境、缓存模型和项目 `.nltk_data` 中的 WordNet。
 如果提示没有 WordNet，先运行 `prepare_wordnet.py`。
 训练后重新预测最佳模型，运行 `evaluate_best.py`。
 
@@ -61,10 +63,10 @@ Row batch16、Pair batch16组、Dev batch16。
 
 ```powershell
 # 固定 0.5：检查收益是否只是整体减弱知识强度。
-G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_kim_gate/train_deberta_kim_gate.py --gate-mode fixed
+python experiments/deberta_kim_gate/train_deberta_kim_gate.py --gate-mode fixed
 
 # 恒为 1：原无门控 KIM 的同代码对照。
-G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_kim_gate/train_deberta_kim_gate.py --gate-mode open
+python experiments/deberta_kim_gate/train_deberta_kim_gate.py --gate-mode open
 ```
 
 三种模式保存到不同目录。重新评估时带相同 `--gate-mode`。

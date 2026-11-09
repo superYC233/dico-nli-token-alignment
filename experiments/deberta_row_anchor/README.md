@@ -1,5 +1,7 @@
 # Row阶段四类输出保持
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 运行 `train_deberta_row_anchor.py`。CPU检查脚本为 `check_setup.py`，不训练DeBERTa。
 
 ## 每轮流程
@@ -47,7 +49,7 @@
 
 ## 模型和结果
 
-模型目录：`D:/model/SEAMEVAL/deberta_row_anchor/run01_keep1_t2/`。
+模型目录：`model/deberta_row_anchor/run01_keep1_t2/`。
 
 - `best_row_model.pth`：Row后Dev **independent W-F1**最高的模型。
 - `best_pair_model.pth`：Pair后Dev **pair-aware W-F1**最高的模型。

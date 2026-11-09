@@ -1,5 +1,7 @@
 # 原始DeBERTa-v3-base + 无增强Lexical
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 本目录对应无增强的 **0.930569 Lexical版**，不是含scope等增强的0.938版。仅把初始化从 `MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli` 换成 `microsoft/deberta-v3-base`。
 
 训练入口：右键运行 `train_deberta_base_lexical.py`。
@@ -20,17 +22,17 @@
 
 ## 本地加载
 
-模型已经在 `D:/BaiduNetdiskDownload/PretrainedModel/models/models--microsoft--deberta-v3-base/`。
+先准备 `microsoft/deberta-v3-base` 的完整模型缓存，并在配置中指定缓存位置。
 
 代码读取缓存refs/main，定位本地snapshot后加载，避免模型ID触发远程adapter_config查询。主snapshot权重为pytorch_model.bin，所以设置 `use_safetensors=False`；不需要重新下载。
 
-本机原始分词器出现了Mistral regex提示，检查脚本已实际确认全部3042行Train和660行Dev的分词编码与旧NLI版完全相同，因此本实验没有额外修改分词规则。加载报告中的lm_predictions/mask_predictions为原预训练任务头，新的四分类和Lexical头由本项目创建。
+分词检查覆盖全部3042行Train和660行Dev，编码与旧NLI版一致，因此本实验没有额外修改分词规则。加载报告中的lm_predictions/mask_predictions为原预训练任务头，新的四分类和Lexical头由本项目创建。
 
 ## 输出
 
 `config.py` 默认 `RUN_NAME='run01_raw_base'`，复验改RUN_NAME即可。
 
-模型：`D:/model/SEAMEVAL/deberta_base_lexical/run01_raw_base/lexical_seed_42/best_model.pth`。
+模型：`model/deberta_base_lexical/run01_raw_base/lexical_seed_42/best_model.pth`。
 
 结果：本目录 `outputs/run01_raw_base/lexical_seed_42/`。
 
@@ -43,7 +45,7 @@
 只检查官方数据、分组和特征，不训练：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_base_lexical/train_deberta_base_lexical.py' --prepare-only
+python 'experiments/deberta_base_lexical/train_deberta_base_lexical.py' --prepare-only
 ```
 
 运行 `check_raw_base.py`：检查参数/特征/数据与0.930569运行配置一致、两个分词器在全部Train/Dev上的编码一致、Row/Pair循环梯度和随机状态与旧代码一致。加 `--gpu` 会加载原始base并检查真实Row16行和Pair16组前后向，不执行优化器更新，不训练。

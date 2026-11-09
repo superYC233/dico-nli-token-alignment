@@ -1,5 +1,7 @@
 # 原3290行：混合CE3与16组合hinge
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 默认右键运行本目录 `train_deberta_pair_hinge.py`，先试hinge16。训练由你手动启动。
 
 ## 本次保持什么
@@ -35,13 +37,13 @@ loss_per_pair = max(0, 1.0 + highest_negative_score - gold_score)
 默认实验：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_pair_hinge/train_deberta_pair_hinge.py'
+python 'experiments/deberta_pair_hinge/train_deberta_pair_hinge.py'
 ```
 
 相同流程的CE3对照：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_pair_hinge/train_deberta_pair_hinge.py' --pair-loss ce3
+python 'experiments/deberta_pair_hinge/train_deberta_pair_hinge.py' --pair-loss ce3
 ```
 
 两个实验分别写入 `run01_mixed_hinge16` 和 `run01_mixed_ce3`，不会自动连续训练。再次实验改 `config.py` 的 `RUN_NAME`，或加 `--run-name run02`。右键想跑CE3，也可以把 `PAIR_LOSS` 改为 `ce3`。
@@ -51,14 +53,14 @@ loss_per_pair = max(0, 1.0 + highest_negative_score - gold_score)
 公式、数据与旧CE梯度检查：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_pair_hinge/check_pair_hinge.py'
+python 'experiments/deberta_pair_hinge/check_pair_hinge.py'
 ```
 
 在检查命令后加 `--gpu` 可做真实模型单批前后向；不执行optimizer.step，不保存模型。
 
 ## 保存与查看
 
-模型：`D:/model/SEAMEVAL/deberta_pair_hinge/run01_mixed_hinge16/best_model.pth`。
+模型：`model/deberta_pair_hinge/run01_mixed_hinge16/best_model.pth`。
 
 结果：本目录 `outputs/run01_mixed_hinge16/`。CE3对应目录结尾为 `ce3`。
 

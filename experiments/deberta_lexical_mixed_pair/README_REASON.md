@@ -1,5 +1,7 @@
 # Train理由与依据词辅助监督
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 右键运行本目录 `train_deberta_reason.py` 即可训练。配置集中在 `config_reason.py`；以后改 `RUN_NAME` 复用同一套代码。
 
 ## 本次具体做什么
@@ -60,15 +62,15 @@ CSV中`evidence_spans1/2`的字符位置通过fast tokenizer映射到token；特
 默认训练：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_mixed_pair/train_deberta_reason.py
+python experiments/deberta_lexical_mixed_pair/train_deberta_reason.py
 ```
 
-全量版本默认RUN_NAME为`run09_reason_all_seed42`。模型保存在`D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run09_reason_all_seed42/`，指标和逐条预测在本目录`outputs/run09_reason_all_seed42/`。旧run08对应最初100组，不覆盖其结果。
+全量版本默认RUN_NAME为`run09_reason_all_seed42`。模型保存在`model/deberta_lexical_mixed_pair/run09_reason_all_seed42/`，指标和逐条预测在本目录`outputs/run09_reason_all_seed42/`。旧run08对应最初100组，不覆盖其结果。
 
 同代码零依据权重对照，其他设置、样本和批次保持一致：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_mixed_pair/train_deberta_reason.py --baseline
+python experiments/deberta_lexical_mixed_pair/train_deberta_reason.py --baseline
 ```
 
 它使用`run09_reason_all_seed42_baseline`，不会覆盖理由版。比较两版的`best_summary.csv`，每张表两项指标均来自同一轮；不要拼接不同轮次的独立/结构最高分。
@@ -81,4 +83,4 @@ G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/expe
 
 已执行全量prepare-only和`check_reason_setup.py`，未训练。通过：原3042行及标签不变、全部理由非空、可用依据都存在且未被截断、待审核行辅助目标忽略、原始分词不变、特殊位置忽略、每轮行/Pair覆盖正确、辅助梯度到达编码器、零权重分类梯度与原模型一致、无标注时损失为0、同一次编码提供分类与依据输出、小模型保存读取一致。
 
-另外已加载本机真实NLI主干做CPU前向检查：分类输出`[2,4]`、依据输出`[2,32,2]`，关闭依据输出时分类logits完全相同。没有创建优化器或做参数更新；这不是准确率测试。
+另外已加载真实NLI主干做CPU前向检查：分类输出`[2,4]`、依据输出`[2,32,2]`，关闭依据输出时分类logits完全相同。没有创建优化器或做参数更新；这不是准确率测试。

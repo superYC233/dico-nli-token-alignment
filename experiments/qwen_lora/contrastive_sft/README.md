@@ -1,8 +1,10 @@
 # 原 C+r16 SFT + 文本对级监督对比学习
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 ## 运行
 
-1. 用原来的 nlpbase 环境，右键运行 **train_lora_contrastive.py**。
+1. 用安装项目依赖的Python环境，右键运行 **train_lora_contrastive.py**。
 2. 完成后右键运行 **evaluate_lora_contrastive.py**。
 
 训练入口沿用 train_lora_abc.py 的布局，主要参数都在该文件中。
@@ -22,7 +24,7 @@ projection_dim = 128
 模型目录：
 
 ```text
-D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_contrastive/run01/C/best_adapter
+model/qwen3_0p6b_contrastive/run01/C/best_adapter
 ```
 
 预测结果目录：qwen_lora/outputs/qwen3_0p6b_contrastive/run01/C/。
@@ -88,7 +90,7 @@ checkpoint 与 best_adapter 中保存标准 PEFT Adapter、tokenizer，另存：
 这是受 [PairSCL](https://github.com/THU-BPM/PairSCL) 启发的监督对比目标改编，
 不是原论文完整复现。原模型使用交叉注意力与分类 CE；本实验保留生成式 SFT，
 取答案前的有序文本对表示，使用标准 SupCon 的正例平均对数概率。
-原论文公式、模型、批次规模和我们的四类设置均不同，不能照搬论文提升幅度。
+原论文公式、模型、批次规模和本项目的四类设置均不同，不能照搬论文提升幅度。
 
 N 包含 SIMI/REL/OPPO，类内可能不均一；监督对比损失是否有益需要实测，
 不能仅凭损失下降认定边界改善。最终同时报告 W-F1、N 与 F/B/E 正确数。

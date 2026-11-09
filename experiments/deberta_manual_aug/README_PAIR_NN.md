@@ -1,5 +1,7 @@
 # 先Row CE，再四组合Pair CE
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行同目录的 `train_relation_pair_nn.py`。原训练文件、0.9381权重和run09代码不修改。本脚本不依赖run09的训练结果。
 
 训练数据直接读取 `outputs/run06_relation48_staged/training_data.csv`，仍从同一个NLI预训练模型初始化。
@@ -50,7 +52,7 @@ Dev仍只评分原始660行，Train仍只评分原始3290行。生成的反向�
 
 如果以后专门研究四组合选模，可另开RUN_NAME，设置 `SELECT_BY = 'pair_four'`；这是另一个选模协议。
 
-模型：`D:/model/SEAMEVAL/deberta_manual_aug/run10_pair_nn/best_model.pth`
+模型：`model/deberta_manual_aug/run10_pair_nn/best_model.pth`
 
 结果：本目录 `outputs/run10_pair_nn/`。
 

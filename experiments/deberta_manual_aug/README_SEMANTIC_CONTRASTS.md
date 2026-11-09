@@ -1,11 +1,13 @@
 # 原0.938错误分析与64行语义对照
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 ## 先运行哪个
 
-直接右键运行本目录的`train_semantic_contrasts.py`。训练由你执行。
+直接右键运行本目录的`train_semantic_contrasts.py`。训练由你运行。
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe experiments\deberta_manual_aug\train_semantic_contrasts.py
+python experiments\deberta_manual_aug\train_semantic_contrasts.py
 ```
 
 默认设置：
@@ -172,7 +174,7 @@ copy仅复制官方Train，新增行数、类别数量、两行组与N单例数�
 同代码无新数据控制则使用新RUN_NAME和`AUGMENT_MODE='baseline'`，训练3290行。
 不要重用已有RUN_NAME，不需要再建实验文件夹。
 
-最佳模型默认保存到`D:/model/SEAMEVAL/deberta_manual_aug/run20_semantic64_staged_seed42/best_model.pth`。
+最佳模型默认保存到`model/deberta_manual_aug/run20_semantic64_staged_seed42/best_model.pth`。
 只保存当前最佳完整模型；每轮保留的是CSV预测与指标，不是每轮完整权重。
 总训练结束后自动重载最佳权重，评估Dev和Train，并检查重载预测与最佳轮一致。
 
@@ -189,4 +191,4 @@ copy仅复制官方Train，新增行数、类别数量、两行组与N单例数�
 - 数据生成、源表/旧48显式关系链、新64重复与隔离、copy类别/分组预算检查通过。
 - `--prepare-only`已通过：3354/660行，1404个真实Pair，210+88次更新，最长有效token为26/21。
 - 真实NLI模型加载及16行Row、16组Pair前向/反向检查通过，梯度有限；可训练参数184001800。
-- 梯度检查未调用实际优化器更新，未保存训练权重，没有代你训练。F1结果等待你运行。
+- 梯度检查未调用实际优化器更新，未保存训练权重，没有执行正式训练。F1结果需正式训练后评估。

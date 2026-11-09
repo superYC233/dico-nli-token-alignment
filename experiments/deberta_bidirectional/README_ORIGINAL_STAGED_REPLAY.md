@@ -1,5 +1,7 @@
 原0.938模型：先Row，再同批四分类CE + Pair CE + N回放。
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 当前定位：这是已有Row CE + 0.5×Pair CE的调度/曝光变体，不是新的训练目标，暂不建议优先重跑。
 已有`deberta_joint_pair/train_deberta_joint_pair.py`和`deberta_manual_aug/train_relation_manual.py`的mixed模式，
 都已实现配对两行的四类CE、N行四类CE与Pair CE同一步更新。
@@ -50,7 +52,7 @@ Row、第二阶段、Dev/Train评估均使用该方式。另启用编码器梯�
 
 默认RUN_NAME：`run05_original_staged_replay_seed42_mem`，保留上一次启动/显存不足的记录。
 
-- 模型：`D:/model/SEAMEVAL/deberta_bidirectional/<RUN_NAME>/best_model.pth`
+- 模型：`model/deberta_bidirectional/<RUN_NAME>/best_model.pth`
 - 结果：本目录`outputs/<RUN_NAME>/`
 - `stage_summary.csv`：每轮两个阶段、两种读出的四行结果。
 - `epoch_summary.csv`：只列第二阶段结束后的两种读出。
@@ -80,7 +82,6 @@ CPU机制检查入口为`check_original_staged_replay.py`；加`--real`检查真
 
 - 真实Train/Dev最长有效长度分别26/21，原固定128的大部分位置为padding。
 - 动态padding及梯度检查点的CPU输出/梯度检查通过；曝光与更新次数仍为原设置。
-- RTX 5070 Ti Laptop GPU上检查39行×26 token的一批前向/反向，另外分配与AdamW两份动量等量的显存缓冲。
-- 该单批峰值allocated约2.794 GiB，reserved约3.223 GiB；未执行optimizer.step，也未启动正式训练。
+- 单批检查未执行optimizer.step，也未启动正式训练。
 - 同一批输入在eval模式下，padding到128与使用26长度的四类logits最大差为0。
 - 上述为单批检查，不包含真实优化器step的临时内存，不应当作完整训练峰值。

@@ -1,5 +1,7 @@
 # 原0.938 + Row/Pair两阶段SAM
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行同一个 `train_relation_sam.py`。默认配置：
 
 ```python
@@ -8,7 +10,7 @@ SAM_RHO = 0.05
 PAIR_SAM_RHO = 0.05
 ```
 
-本次相对run26只增加Pair阶段SAM，Row训练函数、模型、padding和损失设置保持一致。run26的结果/模型不覆盖；修改前训练源码已按run26保存的SHA256核对，并保存在 `outputs/run26_row_sam/train_relation_sam_source.txt`，只供查看，不作为运行入口。训练仍由你运行。
+本次相对run26只增加Pair阶段SAM，Row训练函数、模型、padding和损失设置保持一致。run26的结果/模型不覆盖；修改前训练源码已按run26保存的SHA256核对，并保存在 `outputs/run26_row_sam/train_relation_sam_source.txt`，只供查看，不作为运行入口。训练由你运行。
 
 ## 保留与改动
 
@@ -46,7 +48,7 @@ Pair的0.5在每遍反向中都只乘一次：第一遍用于确定扰动，第�
 
 Row和Pair各自都使用两遍梯度、一次优化器更新；Pair每遍包含两个方向的前向。每轮总更新仍293次。编码行数由run26的9340增加到12100，约增加29.6%；相对原0.938的6050行约翻倍，实际耗时依机器而定。
 
-- 模型：`D:/model/SEAMEVAL/deberta_manual_aug/run27_row_pair_sam/best_model.pth`
+- 模型：`model/deberta_manual_aug/run27_row_pair_sam/best_model.pth`
 - 结果：本目录 `outputs/run27_row_pair_sam/`
 - 只按**Pair阶段结束后的Dev pair-aware W-F1**保留一份最佳完整权重；同时报告同一轮independent。
 - `stage_summary.csv`、`stage_changes.csv`比较两个阶段。
@@ -58,7 +60,7 @@ Row和Pair各自都使用两遍梯度、一次优化器更新；Pair每遍包含
 
 `check_relation_sam.py`检查公式、数据覆盖、Row及Pair各自rho0/原版梯度一致性、Pair完整双向RNG重放、0.5权重、SAM恢复和检查点兼容性；加 `--gpu` 可检查真实DeBERTa的两个SAM阶段，检查中的step不执行真实更新。
 
-本次已通过语法、prepare-only、CPU梯度和真实GPU前后向检查；也已按源码语法树核对Row训练函数、模型构造和数据padding函数与run26保持一致。GPU使用184001800参数模型，Row为16×26、Pair两个方向各16×26；两个阶段交给模拟优化器前，全部参数都与原始备份精确一致，梯度有限。峰值allocated约2.45GiB，不含Adam状态，不能当作完整训练峰值。正式训练没有启动，也没有保存新模型权重。
+本次已通过语法、prepare-only、CPU梯度和真实GPU前后向检查；也已按源码语法树核对Row训练函数、模型构造和数据padding函数与run26保持一致。GPU使用184001800参数模型，Row为16×26、Pair两个方向各16×26；两个阶段交给模拟优化器前，全部参数都与原始备份精确一致，梯度有限。正式训练没有启动，也没有保存新模型权重。
 
 ## 来源
 

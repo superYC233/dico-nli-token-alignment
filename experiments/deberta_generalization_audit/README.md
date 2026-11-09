@@ -1,5 +1,7 @@
 # 泛化与数据审计
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 先阅读 `REPORT.md`。本次已经运行完，不需要重新训练。
 
 目标固定为 `deberta_row_ce_frozen/run01_freeze6` 的 epoch 8 最佳模型。
@@ -8,12 +10,12 @@
 复现顺序：
 
 ```powershell
-& G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_generalization_audit/export_predictions.py
-& G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_generalization_audit/prepare_sources.py
-& G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_generalization_audit/analyze.py
-& G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_generalization_audit/review_errors.py
-& G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_generalization_audit/probe_surface.py
-& G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_generalization_audit/validate_audit.py
+python experiments/deberta_generalization_audit/export_predictions.py
+python experiments/deberta_generalization_audit/prepare_sources.py
+python experiments/deberta_generalization_audit/analyze.py
+python experiments/deberta_generalization_audit/review_errors.py
+python experiments/deberta_generalization_audit/probe_surface.py
+python experiments/deberta_generalization_audit/validate_audit.py
 ```
 
 `export_predictions.py` 会验证权重/数据哈希，未改变时复用导出结果。首次推理及探针需要加载原模型；下载脚本仅首次需要联网。

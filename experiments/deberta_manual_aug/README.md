@@ -1,6 +1,8 @@
 # 回到0.935配方，增加与Dev词汇隔离的手工设计样本
 
-默认运行 `train_original_manual.py`。数据准备和审计会自动完成，训练由你启动。
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
+默认运行 `train_original_manual.py`。数据准备和审计会自动完成，训练由你运行。
 也可以先运行 `prepare_manual_data.py`，它不加载模型、不训练。
 
 ## 保留哪些东西
@@ -59,7 +61,7 @@ RUN_NAME = 'run01_original_manual'
 AUGMENT_MODE = 'manual'
 ```
 
-默认仅运行这一次训练。模型目录：`D:/model/SEAMEVAL/deberta_manual_aug/<RUN_NAME>/`。
+默认仅运行这一次训练。模型目录：`model/deberta_manual_aug/<RUN_NAME>/`。
 结果目录：本目录 `outputs/<RUN_NAME>/`，包含每轮预测、独立/结构指标和训练数据快照。
 训练结束自动与0.935参考逐条比较，导出 `comparison_with_0p935/fixed.csv` 和 `broken.csv`。
 

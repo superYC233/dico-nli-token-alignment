@@ -1,6 +1,8 @@
 # 家族增强768行 + 保留诊断192行
 
-数据已在 `prepared/` 生成。训练仍由你启动，原Train、旧增强、旧模型和hinge目录均不改。
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
+数据已在 `prepared/` 生成。训练由你运行，原Train、旧增强、旧模型和hinge目录均不改。
 
 ## 新数据
 
@@ -56,7 +58,7 @@
 重新准备数据，不训练：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_family_aug/prepare_family_data.py'
+python 'experiments/deberta_family_aug/prepare_family_data.py'
 ```
 
 默认训练：右键 `train_deberta_family_aug.py`。
@@ -68,14 +70,14 @@
 也可用命令：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_family_aug/train_deberta_family_aug.py' --augment-mode copy
+python 'experiments/deberta_family_aug/train_deberta_family_aug.py' --augment-mode copy
 ```
 
 `baseline`模式只用原3290行。`--prepare-only`仅准备数据。新一轮实验改RUN_NAME，不修改已有运行。
 
 只保存按Dev pair-aware F1选出的唯一最佳权重，同时报告该轮independent成绩。每轮预测/混淆矩阵保存，但不保存每轮模型。训练结束才评估保留家族，保留家族不用于选轮次。
 
-模型目录：`D:/model/SEAMEVAL/deberta_family_aug/run01_family768_manual/`。
+模型目录：`model/deberta_family_aug/run01_family768_manual/`。
 
 结果目录：本目录 `outputs/run01_family768_manual/`。复制对照结尾是 `_copy`。
 
@@ -83,12 +85,12 @@
 
 右键 `evaluate_family_probes.py` 默认先评估原0.938权重：
 
-`D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged/best_model.pth`
+`model/deberta_manual_aug/run06_relation48_staged/best_model.pth`
 
 若旧权重已移动，用 `--model-dir` 指向保留旧权重的实际目录。新模型训练完成后自动跑同一批192条；也可以手动指定新模型目录：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_family_aug/evaluate_family_probes.py' --model-dir 'D:/model/SEAMEVAL/deberta_family_aug/run01_family768_manual'
+python 'experiments/deberta_family_aug/evaluate_family_probes.py' --model-dir 'model/deberta_family_aug/run01_family768_manual'
 ```
 
 主要比较同一批保留家族上的 **independent**，同时查看Dev。不要用pair-aware诊断成绩代替模型独立能力，也不要根据这192条反复调参后继续称其为未见测试。

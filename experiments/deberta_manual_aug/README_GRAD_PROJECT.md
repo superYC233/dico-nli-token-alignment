@@ -1,6 +1,8 @@
 **Row优先的梯度投影：先诊断，再比较两个训练臂**
 
-代码继续放在experiments/deberta_manual_aug，没有改动原训练代码、数据、权重。真实训练由你启动。
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
+代码继续放在experiments/deberta_manual_aug，没有改动原训练代码、数据、权重。正式训练由你运行。
 
 先右键运行train_relation_grad_project.py，默认：
 
@@ -34,8 +36,8 @@ MODE = 'project'
 保留相同RUN_NAME。输出和模型路径自动加模式后缀，彼此分开：
 
 - outputs/run13_gradient_mixed、outputs/run13_gradient_project。
-- D:/model/SEAMEVAL/deberta_manual_aug/run13_gradient_mixed/best_model.pth。
-- D:/model/SEAMEVAL/deberta_manual_aug/run13_gradient_project/best_model.pth。
+- model/deberta_manual_aug/run13_gradient_mixed/best_model.pth。
+- model/deberta_manual_aug/run13_gradient_project/best_model.pth。
 
 两臂都从同一个NLI预训练初始化重新训练，不从0.938续训。保持3290行、8组/批、239步/轮、10轮、float32、lr=2e-5、AdamW、原类别权重、Pair系数0.5和平滑0.05。不新增NN，不冻结，不加词汇分支，不加KL或SWA。
 
@@ -88,13 +90,13 @@ gradient_summary.csv汇总的是投影前的两个原始梯度。project模式�
 CPU自检不下载、不加载DeBERTa、不更新参数：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_manual_aug/check_grad_project.py'
+python -X utf8 'experiments/deberta_manual_aug/check_grad_project.py'
 ```
 
 只检查原数据与路径，不创建训练记录：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_manual_aug/train_relation_grad_project.py' --prepare-only
+python -X utf8 'experiments/deberta_manual_aug/train_relation_grad_project.py' --prepare-only
 ```
 
 MODE也可在命令行设置，不改文件：--mode diagnose、--mode mixed、--mode project。重跑同一模式时修改RUN_NAME。默认不自动串行运行两组训练。

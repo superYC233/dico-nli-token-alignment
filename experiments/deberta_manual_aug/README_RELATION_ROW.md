@@ -1,5 +1,7 @@
 **两个Row CE架构对照**
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 按顺序右键运行：
 
 1. train_relation_cls_row.py：run22_cls_row_seed7，DeBERTa+LoRA+CLS，只有四类Row CE。
@@ -23,7 +25,7 @@
 
 两组与run19采用相同规则：最大化同一轮min(independent/0.87, pair_aware/0.94)，相同取早轮。只刷新一份best_model.pth，保存LoRA+当前保留的任务头。训练结束自动恢复这份权重，分别评估Dev与Train，并核对重载后的预测与当轮一致。
 
-每组模型保存在D:/model/SEAMEVAL/deberta_manual_aug/<RUN_NAME>/，结果保存在当前目录outputs/<RUN_NAME>/。
+每组模型保存在model/deberta_manual_aug/<RUN_NAME>/，结果保存在当前目录outputs/<RUN_NAME>/。
 
 - epoch_summary.csv：完整曲线、四类正确数、非N→N和训练耗时。
 - batch_plan.csv：每批原Train行号，可比较两组数据顺序。
@@ -40,6 +42,6 @@
 - run22 vs run23：检查在同一Row CE目标下增加Alignment的作用。
 - run23 vs run19：检查同一架构加入Pair CE的作用；新代码一次反向与历史两次反向数学目标等价，但浮点累加顺序可能不同。
 - 两组不能直接代替0.938版本的全参数两阶段消融；适配方式、更新预算和选模规则不同。
-- 这两组是定位问题的消融，不承诺F1上涨。训练由你启动。
+- 这两组是定位问题的消融，不承诺F1上涨。训练由你运行。
 
 只检查数据，不训练：两个训练入口分别加--prepare-only。CPU结构与保存检查：运行check_relation_row.py。

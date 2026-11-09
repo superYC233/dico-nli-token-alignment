@@ -1,5 +1,7 @@
 原0.938配方 + SiFT式对抗微调。正式训练由用户运行。
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接右键运行`train_original_staged_sift.py`。
 训练结束自动重载最佳模型，评估Dev和Train。以后独立重载用`evaluate_original_staged_sift.py`。
 旧模型、原训练入口、PAWS和replay文件均未修改。
@@ -43,7 +45,7 @@ SIFT_WEIGHT=0时完全不注册该hook，恢复同代码的普通Row→Pair目�
 
 默认RUN_NAME：run06_original_staged_sift_seed42。
 
-- 模型：D:/model/SEAMEVAL/deberta_bidirectional/<RUN_NAME>/best_model.pth。
+- 模型：model/deberta_bidirectional/<RUN_NAME>/best_model.pth。
 - 结果：本目录outputs/<RUN_NAME>/。
 - sift_batches.csv：每个Row批次的CE、SiFT原值/加权值、搜索KL、delta最大值和delta梯度范数。
 - stage_summary.csv：每轮Row后和Pair后，两种读出的四行结果。
@@ -70,6 +72,5 @@ GPU单批检查另分配与AdamW两份动量等量的缓冲，不包含优化器
 - 归一化后零扰动且相同dropout时正则为0，非零扰动的搜索梯度有效。
 - delta搜索不污染模型grad，参数冻结状态恢复正确；非reentrant checkpoint下正式反向正常。
 - 中心化KL与官方stop-target双向交叉熵的梯度一致；小模型及真实模型完整保存/重载输出一致。
-- RTX 5070 Ti Laptop GPU单批16行×26 token，包含与AdamW两份动量等量的缓冲；峰值allocated约2.770 GiB、reserved约3.047 GiB。
 - 该批SiFT正则约1.3874e-5，非零且有限。这是机制检查值，不是正式训练结果或建议据此调整权重。
 - 四个Python文件语法检查通过。检查没有执行优化器参数更新，没有启动正式训练，临时权重已清理。

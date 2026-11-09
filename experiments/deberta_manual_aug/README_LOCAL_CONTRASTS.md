@@ -1,5 +1,7 @@
 # 局部对照：先诊断，再训练
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 代码继续放在deberta_manual_aug。没有修改旧训练脚本、旧数据或旧模型。
 
 ## 先运行哪一个
@@ -42,7 +44,7 @@ AUGMENT_MODE = 'manual'
 
 选模同样沿用Dev pair-aware F1，只保存一份最佳权重；同时逐轮记录同一模型、同一四类logits的independent与pair-aware。不会拿不同轮次拼成绩。64行留出诊断只在最终选模结束后运行一次，不参加训练或选模。
 
-模型保存到 `D:/model/SEAMEVAL/deberta_manual_aug/run11_local128_manual/best_model.pth`。结果保存到代码目录的 `outputs/run11_local128_manual`。
+模型保存到 `model/deberta_manual_aug/run11_local128_manual/best_model.pth`。结果保存到代码目录的 `outputs/run11_local128_manual`。
 
 ## 等量复制对照
 
@@ -60,9 +62,9 @@ copy随机复制16个FB组、16个BF组、16个EE组和32个N单例，也是新�
 ## 只检查，不训练
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_manual_aug/prepare_local_contrasts.py'
-& 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_manual_aug/evaluate_local_contrasts.py' --check-only
-& 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_manual_aug/train_local_contrasts.py' --prepare-only
+python -X utf8 'experiments/deberta_manual_aug/prepare_local_contrasts.py'
+python -X utf8 'experiments/deberta_manual_aug/evaluate_local_contrasts.py' --check-only
+python -X utf8 'experiments/deberta_manual_aug/train_local_contrasts.py' --prepare-only
 ```
 
-第二条只严格加载两个现有checkpoint并各做CPU两行前向。第三条只准备数据并核对旧超参数。正式训练仍由你运行。
+第二条只严格加载两个现有checkpoint并各做CPU两行前向。第三条只准备数据并核对旧超参数。正式训练由你运行。

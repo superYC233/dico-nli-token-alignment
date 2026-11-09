@@ -1,11 +1,13 @@
 # 已有模型的预测融合：不训练，先验证互补性
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 历史0.938/0.9355/0.9306/0.9248高分版本的融合改用`analyze_high_fusion.py`，见`README_HIGH_FUSION.md`。双模型等权概率平均已得到pair-aware 0.939879；以下保留首轮独立预测成员的实验记录。
 
 运行本目录`analyze_fusion.py`，读取已经保存的Dev四类分数，计算固定等权方案、分层方案以及分组bootstrap。
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_mixed_pair/analyze_fusion.py
+python experiments/deberta_lexical_mixed_pair/analyze_fusion.py
 ```
 
 全部路径及方案在`config_fusion.py`。输出在`outputs/fusion01_existing_predictions/`。不加载模型、不更新参数；这是Dev缓存预测上的离线融合，不是对新输入重新执行多模型推理。对应checkpoint的存在性已记录，内容尚未重新加载核验。

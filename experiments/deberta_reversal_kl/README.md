@@ -1,9 +1,11 @@
 # 借鉴版：原生四分类 + 真实反向KL
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行`train_deberta_reversal.py`，训练交给用户执行：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_reversal_kl/train_deberta_reversal.py
+python experiments/deberta_reversal_kl/train_deberta_reversal.py
 ```
 
 ## 本次完整流程
@@ -51,7 +53,7 @@ KL = (KL(p || q) + KL(q || p)) / 2
 | --- | --- |
 | independent | 原始四类argmax，主指标 |
 | twin | 真实两行组允许FB/BF/EE/NN竞争；保留N，因此SoftCons可能不到1 |
-| pair_aware | 沿用我们旧版FB/BF/EE三组合，仅用于对比旧结果 |
+| pair_aware | 沿用本项目旧版FB/BF/EE三组合，仅用于对比旧结果 |
 
 全部模式的单例都由原模型预测，不使用“单例直接判N”。更细评估会增加Dev选择次数；这是开发集选模结果，不是独立测试成绩。`twin`里NN仅是解码候选，不产生N配对训练标签。
 
@@ -72,7 +74,7 @@ KL = (KL(p || q) + KL(q || p)) / 2
 - `evaluate_best.py`：重载保存的最佳完整权重并核对逐条分数。
 - `check_setup.py`：CPU机制检查；没有optimizer.step。
 
-权重：`D:/model/SEAMEVAL/deberta_reversal_kl/run01_native_ce_kl_seed42/best_model.pth`。
+权重：`model/deberta_reversal_kl/run01_native_ce_kl_seed42/best_model.pth`。
 
 结果：`experiments/deberta_reversal_kl/outputs/run01_native_ce_kl_seed42/`。
 

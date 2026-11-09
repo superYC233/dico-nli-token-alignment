@@ -1,5 +1,7 @@
 # 冻结参数 Row CE 实验
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 本目录只保留冻结参数相关的训练和结果：冻结 embedding 与底部 6 层，使用纯 Row CE。
 原版全参数增强实验已移到 `experiments/deberta_original_aug`，请在那里运行 `train_original_aug.py`。
 
@@ -31,7 +33,7 @@ AUGMENT_MODE = 'copy'
 
 每轮仍只按独立 Dev F1 保存唯一最佳权重。训练结束恢复该最佳权重，自动评估保留的 200 条诊断题；它们不参与训练或选 epoch。未审核的建议标签匹配率与审核后成绩分开报告。
 
-模型保存到 `D:/model/SEAMEVAL/deberta_row_ce_frozen/<RUN_NAME>/best_model.pth`，结果保存在本目录 `outputs/<RUN_NAME>/`。同名模型/训练记录已存在时会停止，避免覆盖。
+模型保存到 `model/deberta_row_ce_frozen/<RUN_NAME>/best_model.pth`，结果保存在本目录 `outputs/<RUN_NAME>/`。同名模型/训练记录已存在时会停止，避免覆盖。
 
 此次仅运行了数据/分组预算检查：两臂 3242 行、1880 组、每轮 235 步，同 seed 每批标签和张量大小一致；没有构建或更新训练模型。旧审计脚本已固定指向 `run01_freeze6`，不会因新 RUN_NAME 改变而误加载。
 
@@ -66,7 +68,7 @@ Pair CE 在权重为零时完全跳过，不计算也不反向传播。
 仍按独立 Dev F1 保存唯一最佳模型，每轮同时报告 independent / pair-aware。
 预测阶段的 pair-aware 保留，用来比较同一个模型两种解码的表现；不参与训练。
 
-模型目录：`D:/model/SEAMEVAL/deberta_row_ce_frozen/run01_freeze6`。
+模型目录：`model/deberta_row_ce_frozen/run01_freeze6`。
 结果目录：本目录 `outputs/run01_freeze6`。
 训练完运行 `evaluate_best.py`，重新加载最佳权重。
 再次训练先改 RUN_NAME，防止覆盖旧结果。

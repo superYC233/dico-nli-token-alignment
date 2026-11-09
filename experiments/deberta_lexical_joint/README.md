@@ -1,14 +1,16 @@
 # 词汇分支：Pair 阶段加入少量四分类 CE
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 以 `experiments/deberta_lexical_stage_probe` 为基础，只改第二阶段的训练目标。
 原代码、权重和 0.930569 模型均保留。本目录不使用 WordNet。
 
 ## 运行
 
-在 PyCharm 中直接运行本目录的 `train_deberta_joint.py`，或从项目根目录运行：
+在 IDE 中直接运行本目录的 `train_deberta_joint.py`，或从项目根目录运行：
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe experiments/deberta_lexical_joint/train_deberta_joint.py
+python experiments/deberta_lexical_joint/train_deberta_joint.py
 ```
 
 仍从同一个 NLI 预训练主干重新初始化，不从已训练的最佳模型接着训练。

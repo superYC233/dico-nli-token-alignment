@@ -10,7 +10,7 @@
 
 先检查数据而不训练，可以运行 `check_setup.py`。只需查看代码即可运行，不需要把旧模型参数手工复制进来。
 
-本机英文 WordNet 已下载到项目根目录 `.nltk_data/corpora/wordnet.zip`，版本 3.0、大小 10,775,600 字节。NLTK 已安装。新机器若缺词典，训练前会尝试下载；也可以先运行 `prepare_wordnet.py`。缺 NLTK 时在所用解释器中安装 nltk。
+运行 `prepare_wordnet.py` 准备英文WordNet词典；资源保存在项目的 `.nltk_data/` 下。若缺少NLTK，请先在所用Python环境中安装 `nltk`。
 
 先结束其他 GPU 训练，再启动本入口。此目录的自动检查仅使用 CPU；没有替用户执行真实 GPU 训练。
 

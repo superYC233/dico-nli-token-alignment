@@ -1,5 +1,7 @@
 # 原版 + 增强：分阶段检查独立判断
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 右键运行本目录的 `train_stage_probe.py`。训练由用户执行。
 
 本版以当前 Dev 最高的 0.935493 配方为参照：原版 DeBERTa + Token Alignment、
@@ -21,7 +23,7 @@ Row 和 Pair 损失、类别权重、优化器及先 Row 后 Pair 的顺序均�
 ## 目录
 
 - 顶部只需换 `RUN_NAME`；默认 `run01_scope`。本次保持 `AUGMENT_MODE='scope'`。
-- 模型：`D:/model/SEAMEVAL/deberta_original_aug_stage_probe/run01_scope/best_model.pth`。
+- 模型：`model/deberta_original_aug_stage_probe/run01_scope/best_model.pth`。
 - 结果：本目录 `outputs/run01_scope`。
 - 其余训练配置复用 `experiments/deberta_original_aug/train_original_aug.py`；本次不要同时修改原版参数。
 
@@ -37,13 +39,13 @@ Row 和 Pair 损失、类别权重、优化器及先 Row 后 Pair 的顺序均�
 只准备数据、不训练：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_original_aug_stage_probe/train_stage_probe.py --prepare-only
+python experiments/deberta_original_aug_stage_probe/train_stage_probe.py --prepare-only
 ```
 
 重新分析已保存结果、不训练：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_original_aug_stage_probe/analyze_stages.py
+python experiments/deberta_original_aug_stage_probe/analyze_stages.py
 ```
 
 Dev 仍用于开发；新增模板标签尚未独立审核。此运行不是新增种子，也不构成独立测试。

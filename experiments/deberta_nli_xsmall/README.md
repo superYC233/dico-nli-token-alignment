@@ -1,7 +1,9 @@
 # DeBERTa NLI xsmall
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 先运行 `download_model.py`，下载完成后运行 `train_deberta_xsmall.py`。
-所有训练由你启动，脚本不会自动接着跑其他实验。
+所有训练由你运行，脚本不会自动接着跑其他实验。
 
 ## 本次改什么
 
@@ -19,7 +21,7 @@
 ## 文件
 
 - `config.py`：模型路径、RUN_NAME和训练参数。
-- `download_model.py`：下载到 `D:/LLM/model/nli-deberta-v3-xsmall`，仅下载一份safetensors。
+- `download_model.py`：下载到 `pretrained_models/nli-deberta-v3-xsmall`，仅下载一份safetensors。
 - `data.py`：原混合训练的数据分组逻辑。
 - `train_deberta_xsmall.py`：训练并保存最佳模型。
 - `evaluate_best.py`：训练后可单独重评最佳模型。
@@ -35,7 +37,7 @@
 2. 运行 `train_deberta_xsmall.py`。
 3. 训练后运行 `evaluate_train_dev.py`，同时检查Train/Dev的独立和结构成绩。
 
-默认模型目录：`D:/model/SEAMEVAL/deberta_nli_xsmall/run01_xsmall_mixed_pair/`。
+默认模型目录：`model/deberta_nli_xsmall/run01_xsmall_mixed_pair/`。
 默认结果目录：本目录下 `outputs/run01_xsmall_mixed_pair/`。
 
 训练只在最佳分数刷新时覆盖 `best_model.pth`，不会每轮保留模型权重。

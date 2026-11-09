@@ -1,4 +1,6 @@
 PAWS辅助等价训练
+
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
 ================
 
 运行顺序
@@ -81,7 +83,7 @@ Google Storage旧下载地址已返回AccessDenied，当前使用HF上的训练�
 
 默认RUN_NAME：`run03_paws_aux_seed42`。
 
-- 模型：`D:/model/SEAMEVAL/deberta_bidirectional/run03_paws_aux_seed42/best_model.pth`
+- 模型：`model/deberta_bidirectional/run03_paws_aux_seed42/best_model.pth`
 - 结果：当前目录`outputs/run03_paws_aux_seed42/`
 - 原3290行、PAWS2000行及来源审计均单独复制到该次运行目录。
 - `best/dev/`和`best/train/`分别是最佳模型的DiCo Dev、DiCo Train结果。

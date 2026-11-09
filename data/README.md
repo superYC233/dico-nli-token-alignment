@@ -17,6 +17,6 @@ data/dev/dico_nli_dev_track1_submission_template.csv
 
 原0.9248版预测保存在 `artifacts/final/`；本次S14预测保存在 `experiments/ensemble_selected/outputs/S14/run01_retrain/`。S14开发阶段上传包是 `submissions/S14_track1_dev_20261027/submission_S14_track1_dev.zip`。上传的是预测结果，不需要上传模型权重。
 
-运行[原版evaluate.py](../experiments/deberta_original/evaluate.py)不需要模型权重，但需要上述Dev reference文件。原0.9248版的训练与评估均在[独立目录](../experiments/deberta_original/README.md)中；新训练还需要下载各脚本配置的预训练模型，并按本机情况修改模型路径。
+运行[原版evaluate.py](../experiments/deberta_original/evaluate.py)不需要模型权重，但需要上述Dev reference文件。原0.9248版的训练与评估均在[独立目录](../experiments/deberta_original/README.md)中；新训练还需要下载各脚本配置的预训练模型，并按配置修改模型路径。
 
 历史数据处理工具在 `tools/data/`。新增样本与Dev的检查结果见 [文本重合核对报告](../docs/DATA_AUGMENTATION_DEV_OVERLAP_AUDIT.md)。

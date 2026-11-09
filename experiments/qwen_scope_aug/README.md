@@ -1,5 +1,7 @@
 # Qwen C+r16 + 范围增强
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 右键运行 `train_lora_aug.py`。训练由用户执行；原 qwen_lora 代码不修改。
 
 训练数据是原 Train 3042 + 当前 C 构造的475条反向N + 与DeBERTa完全相同的200条范围增强，
@@ -25,7 +27,7 @@ ADD_SCOPE_AUGMENTATION = True
 如要同代码复跑无增强C对照，换新RUN_NAME并将ADD_SCOPE_AUGMENTATION设为False。
 这只关闭新增200条范围增强，保留C的反向N。
 
-模型：`D:/model/SEAMEVAL/qwen_scope_aug/run02_c_scope/best_adapter`。
+模型：`model/qwen_scope_aug/run02_c_scope/best_adapter`。
 结果：本目录 `outputs/run02_c_scope`，每轮保存预测/四标签分数、混淆矩阵、两种解码成绩，
 汇总在 `epoch_summary.csv`；`decoding_changes.csv` 记录解码修好/破坏条数。
 
@@ -35,7 +37,7 @@ ADD_SCOPE_AUGMENTATION = True
 只准备数据、不训练：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe experiments/qwen_scope_aug/train_lora_aug.py --prepare-only
+python experiments/qwen_scope_aug/train_lora_aug.py --prepare-only
 ```
 
 增强标签尚未独立审核；Dev参与开发和选模，不能把最高Dev分数当作独立Test证据。

@@ -38,7 +38,7 @@
 
 ## 运行
 
-使用现有 nlpbase 环境即可（nltk、sentencepiece、transformers、torch 已在项目使用）。
+使用安装项目依赖的Python环境即可（nltk、sentencepiece、transformers、torch 已在项目使用）。
 WordNet 使用项目已有 `.nltk_data`，正常不需重新下载。
 
 1. 可选：右键运行 `check_setup.py`，只做 CPU 数据和词典检查。

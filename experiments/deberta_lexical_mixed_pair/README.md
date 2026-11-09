@@ -1,5 +1,7 @@
 # 词汇版 DeBERTa：整轮混合训练
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 前一版最后连续 81 步只训练 F/B/E 配对行，添加四分类 CE 后，N 正例在这一阶段
 缺席，10 轮都出现 N 正确数下降。本版取消这两个连续阶段。
 
@@ -31,17 +33,17 @@ N 在整轮中穿插，不保证每个批次都有 N；全 N 批次只计算四�
 
 ## 运行
 
-直接在 PyCharm 运行本目录的 `train_deberta_mixed_pair.py`。
+直接在 IDE 运行本目录的 `train_deberta_mixed_pair.py`。
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_mixed_pair/train_deberta_mixed_pair.py'
+python 'experiments/deberta_lexical_mixed_pair/train_deberta_mixed_pair.py'
 ```
 
 配置在 `config.py`：10 轮、seed=42、float32、主干学习率 2e-5、词汇分支 1e-3。
 模型默认保存在：
 
 ```text
-D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run01_mixed_pair/best_model.pth
+model/deberta_lexical_mixed_pair/run01_mixed_pair/best_model.pth
 ```
 
 每轮分别报告 independent / pair-aware。仍按 pair-aware W-F1 保存一个最佳模型，
@@ -82,7 +84,7 @@ seed 和 10 轮预算保持一致。这检验主干是否更新过快，不保�
 旧 run01 要按相同规则比较：独立基准为第2轮 0.850565，而不是其结构最佳轮的 0.846092。
 这项选模规则调整单独记录在 run_config.json 中，不能称为整个评估协议完全未变。
 
-权重：`D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run04_slow_backbone/best_model.pth`。
+权重：`model/deberta_lexical_mixed_pair/run04_slow_backbone/best_model.pth`。
 结果：`outputs/run04_slow_backbone/epoch_summary.csv`。
 训练后可运行 `evaluate_slow_backbone.py` 重新加载最佳权重复测。
 `test_slow_backbone.py` 只检查参数分组及配置，不训练。
@@ -112,7 +114,7 @@ loss = 两次Row CE的均值
 **按独立W-F1选模，只保留一个 `best_model.pth`**，每轮同时保存独立/结构预测和分数。
 Row CE、Pair CE、R-Drop KL分开记录。推理仍固定batch16、float32。
 
-- 权重：`D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run05_mixed_rdrop/best_model.pth`
+- 权重：`model/deberta_lexical_mixed_pair/run05_mixed_rdrop/best_model.pth`
 - 成绩：`outputs/run05_mixed_rdrop/epoch_summary.csv`
 - 最佳权重的两种成绩：同结果目录下 `best_summary.csv`
 - 训练后可用 `evaluate_rdrop.py` 单独加载最佳权重评估；不用运行旧的 `evaluate_best.py`。
@@ -160,7 +162,7 @@ Row CE、Pair CE、R-Drop KL分开记录。推理仍固定batch16、float32。
 - `hard_examples_for_review.csv`：候选难例、原金标、OOF预测、金标概率和建议权重。
 - `label_conflicts_for_review.csv`：已识别的标签冲突关联行。
 
-最终权重：`D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run06_oof_hard/best_model.pth`。
+最终权重：`model/deberta_lexical_mixed_pair/run06_oof_hard/best_model.pth`。
 最终成绩：`outputs/run06_oof_hard/epoch_summary.csv`。
 权重审计：同目录的 `train_sample_weights.csv`、`group_weights.csv`、`class_weight_totals.csv`。
 

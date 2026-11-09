@@ -1,5 +1,7 @@
 # 联合训练：冻结底部 6 层的对照
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行 `train_deberta_frozen.py`。从原 NLI 初始化重新训练，不读取旧 DiCo 最佳权重。
 
 与 `experiments/deberta_joint_pair/run01` 的配方相比，只改变可训练参数范围：
@@ -24,7 +26,7 @@ loss = row_loss + 0.5 * pair_loss
 
 模型仅保留一份最佳权重：
 
-`D:/model/SEAMEVAL/deberta_joint_pair_frozen/run01_freeze6/best_model.pth`
+`model/deberta_joint_pair_frozen/run01_freeze6/best_model.pth`
 
 小型预测和成绩在本目录 `outputs/run01_freeze6`。
 重新预测最佳模型运行 `evaluate_best.py`。

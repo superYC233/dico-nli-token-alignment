@@ -1,16 +1,18 @@
 # 词汇分支版：两个训练阶段的诊断
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 参考当前词汇分支最佳运行 `deberta_lexical/run02_branch_lr/lexical_seed_42`（Dev pair-aware W-F1 为 0.930569）。
 新目录独立保存代码、权重和结果，沿用原模型、20 维特征、数据、损失、两个参数组学习率和训练顺序。
 本实验用于观察训练过程，不承诺提高成绩。
 
 ## 运行
 
-在 PyCharm 中直接运行 `train_deberta_stage_probe.py`。
+在 IDE 中直接运行 `train_deberta_stage_probe.py`。
 从项目根目录也可以运行：
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe experiments/deberta_lexical_stage_probe/train_deberta_stage_probe.py
+python experiments/deberta_lexical_stage_probe/train_deberta_stage_probe.py
 ```
 
 每轮顺序：

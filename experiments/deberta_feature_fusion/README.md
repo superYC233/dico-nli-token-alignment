@@ -1,5 +1,7 @@
 # CLS + Alignment + Lexical特征融合
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接右键运行 **train_deberta_feature_fusion.py**。原实验不修改。
 
 这版从无增强0.930569 Lexical配方开始，只改融合架构，不叠加上一版CNN。
@@ -44,7 +46,7 @@ Token Alignment的128维投影、cosine/0.1、soft alignment、差分/乘积比�
 
 所有配置在config.py。默认RUN_NAME='run01_feature_fusion'，重复实验只需更换RUN_NAME。
 
-模型目录：D:/model/SEAMEVAL/deberta_feature_fusion/run01_feature_fusion/feature_fusion_seed_42/。
+模型目录：model/deberta_feature_fusion/run01_feature_fusion/feature_fusion_seed_42/。
 
 结果目录：本目录outputs/run01_feature_fusion/feature_fusion_seed_42/。
 
@@ -64,10 +66,10 @@ Token Alignment的128维投影、cosine/0.1、soft alignment、差分/乘积比�
 
 真实GPU检查：
 
-    & 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_feature_fusion/check_setup.py' --gpu
+    python -X utf8 'experiments/deberta_feature_fusion/check_setup.py' --gpu
 
 只做真实Row16行、Pair16组的前后向，不执行optimizer.step。显存峰值不含正式训练的Adam状态。
 
-2026-10-25本机检查已通过：数据/训练参数与旧版一致；原对齐公式不变；只有一个四分类头；三个特征分支首批Row/Pair梯度非零；训练循环梯度权重一致；完整state重载与历史评分复现正常。真实NLI模型GPU前后向通过，峰值约7.348 GiB（不含Adam状态）。没有训练或更新参数。
+2026-10-25实现检查已通过：数据/训练参数与旧版一致；原对齐公式不变；只有一个四分类头；三个特征分支首批Row/Pair梯度非零；训练循环梯度权重一致；完整state重载与历史评分复现正常。真实NLI模型GPU前后向通过。没有训练或更新参数。
 
 训练入口加--prepare-only则只读取、检查数据，不加载大模型。

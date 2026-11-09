@@ -1,23 +1,25 @@
 # Qwen3-1.7B：C + r16 + 词汇特征分支
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 参考 `experiments/qwen3_1p7b` 的代码，新建独立目录。原 Qwen、DeBERTa 的代码和模型均不修改。
 
 ## 怎么运行
 
-在 PyCharm 中直接运行 `train_lora_lexical.py`。
+在 IDE 中直接运行 `train_lora_lexical.py`。
 训练结束后直接运行本目录的 `evaluate_lora_pair.py`，它会同时加载最佳 LoRA 和词汇分支。
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe experiments/qwen3_1p7b_lexical/train_lora_lexical.py
-G:\anaconda3\envs\nlpbase\python.exe experiments/qwen3_1p7b_lexical/evaluate_lora_pair.py
+python experiments/qwen3_1p7b_lexical/train_lora_lexical.py
+python experiments/qwen3_1p7b_lexical/evaluate_lora_pair.py
 ```
 
-正式训练需要 CUDA；本目录沿用已经下载的 `D:/LLM/model/Qwen3-1.7B`，无需重新下载。
+正式训练需要CUDA；先准备Qwen3-1.7B权重，并在配置中指定模型位置。已有完整缓存时可直接复用。
 `check_setup.py` 可以先检查真实数据、tokenizer、监督位置、特征和模型文件；不会加载 1.7B 大权重。
 
 ## 保持什么
 
-- 同一个 Qwen3-1.7B，本机 tokenizer/chat template，关闭 thinking。
+- 同一个 Qwen3-1.7B，对应模型的tokenizer/chat template，关闭 thinking。
 - C 数据：原 Train 3042 + 筛选后的反向 N 475，共 3517；Dev 660。
 - LoRA：r=16、alpha=32、dropout=0.05、all-linear、bias=none。
 - LoRA 学习率 1e-4，5 轮，batch=16、累积=1，bf16、非重入梯度检查点。
@@ -69,7 +71,7 @@ LEXICAL_LEARNING_RATE = 1e-3
 LOSS_CHUNK_SIZE = 8
 ```
 
-- 最佳导出：`D:/LLM/train_model/DiCo-NLI/qwen3_1p7b_lexical/run01/C/best_adapter`。
+- 最佳导出：`model/qwen3_1p7b_lexical/run01/C/best_adapter`。
 - Dev 最终预测：`experiments/qwen3_1p7b_lexical/outputs/run01/C`。
 - 每轮 Dev 结果：模型输出目录下 `dev_scores/epoch_*`。
 - 只在 F1 刷新最佳时保存，`save_total_limit=1` 保留一个最佳 checkpoint。

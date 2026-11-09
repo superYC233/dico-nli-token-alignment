@@ -1,9 +1,11 @@
 # Lexical混合训练 + NLI pooler
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行：[train_deberta_pooler.py](train_deberta_pooler.py)。训练交给用户运行。
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_pooler/train_deberta_pooler.py
+python experiments/deberta_lexical_pooler/train_deberta_pooler.py
 ```
 
 ## 本次改什么
@@ -50,7 +52,7 @@ USE_NLI_POOLER = False
 
 只需修改本目录`config.py`中的RUN_NAME即可做下一次运行，旧实验目录不变。
 
-- 权重：`D:/model/SEAMEVAL/deberta_lexical_pooler/run01_nli_pooler_seed42/best_model.pth`
+- 权重：`model/deberta_lexical_pooler/run01_nli_pooler_seed42/best_model.pth`
 - 结果：`experiments/deberta_lexical_pooler/outputs/run01_nli_pooler_seed42/`
 - `epoch_summary.csv`：每轮同一checkpoint的独立/结构指标。
 - `best_metrics.json`、`best_summary.csv`：最佳独立模型对应的两种分数。

@@ -1,4 +1,6 @@
 双向联合四分类
+
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
 ================
 
 直接运行 `train_deberta_bidirectional.py`。无需重新下载模型，不加载旧实验权重续训。
@@ -56,16 +58,16 @@
 文件位置
 --------
 
-- 模型：`D:/model/SEAMEVAL/deberta_bidirectional/<RUN_NAME>/best_model.pth`
+- 模型：`model/deberta_bidirectional/<RUN_NAME>/best_model.pth`
 - 记录：当前目录的`outputs/<RUN_NAME>/`
 - `epoch_summary.csv`：每轮两种F1、分类正确数、非N→N和训练耗时。
 - `best_summary.csv`及`best_metrics.json`：同一最佳轮次的结果。
 - `best/dev/`、`best/train/`：最终最佳模型的逐行预测与混淆矩阵。
 - 单独重新评估：`evaluate_deberta_bidirectional.py`。
 - 只检查数据：训练入口添加`--prepare-only`。
-- CPU无更新检查：`check_bidirectional.py`；加`--real`检查本机真实NLI底座。
+- CPU无更新检查：`check_bidirectional.py`；加`--real`检查真实NLI底座。
 
-保存的是LoRA和联合头，恢复时需要本机缓存中相同revision的底座。
+保存的是LoRA和联合头，恢复时需要本地缓存中相同revision的底座。
 不能用以前普通DeBERTa或Qwen的加载函数读取这版模型。
 
 计算量
@@ -75,7 +77,7 @@
 的两行各重复编码两遍；实际视图数由运行时打印。所有N也做两向编码。
 动态裁剪PAD用于减少短语任务计算，但不保证不同硬件上的训练耗时。
 
-本机检查记录（2026-10-24）
+实现检查记录（2026-10-24）
 -------------------------
 
 已运行`check_bidirectional.py --real`和训练入口的`--prepare-only`，均通过。

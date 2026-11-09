@@ -1,9 +1,11 @@
 # 原Alignment + Lexical：只替换Pair CE为反向KL
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接右键运行本目录`train_deberta_reversal.py`：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_mixed_pair/train_deberta_reversal.py
+python experiments/deberta_lexical_mixed_pair/train_deberta_reversal.py
 ```
 
 本次使用`config_reversal.py`，不会改原`config.py`或其他训练入口。后续同一方案只改新配置的RUN_NAME。
@@ -52,7 +54,7 @@ KL不等于正确性：两边一起错答N也可能KL为0，完整Row CE会惩�
 
 只在独立F1提高时覆盖一份完整best_model.pth，逐轮预测和指标保留。旧pair-aware解码不变，配对行只选FB/BF/EE；单例仍由模型预测，没有单例强制N规则。
 
-- 权重：`D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run07_reversal_kl_seed42/best_model.pth`。
+- 权重：`model/deberta_lexical_mixed_pair/run07_reversal_kl_seed42/best_model.pth`。
 - 结果：本目录`outputs/run07_reversal_kl_seed42/`。
 - `best_summary.csv`、`best_metrics.json`：同一权重的独立与结构成绩。
 - `epoch_summary.csv`：逐轮F1、四类正确数、Row/KL损失及训练覆盖数。
@@ -60,4 +62,4 @@ KL不等于正确性：两边一起错答N也可能KL为0，完整Row CE会惩�
 
 `test_reversal.py`只进行CPU检查，不执行optimizer.step。训练由用户运行。
 
-借鉴来源：[MinLee0210/dico-nli-challenge的CE + reversal-KL说明](https://github.com/MinLee0210/dico-nli-challenge#configuration)。本次是保留我们架构的目标替换试验，不是作者多语言系统/结构先验集成的复现，也不预先承诺提升。
+借鉴来源：[MinLee0210/dico-nli-challenge的CE + reversal-KL说明](https://github.com/MinLee0210/dico-nli-challenge#configuration)。本次是保留本项目架构的目标替换试验，不是作者多语言系统/结构先验集成的复现，也不预先承诺提升。

@@ -1,5 +1,7 @@
 # Qwen 词级比较实验
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 当前采用的 C+r16+预测期 pair-aware 主线保留不动；本目录是独立的结构实验。
 
 ## 三个版本
@@ -50,9 +52,9 @@ Qwen 仍然是因果模型：第一段 token 不能在主干中看到第二段�
 默认模型目录：
 
 ```text
-D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_token_comparison/run01/alignment/best_model
-D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_token_comparison/run01/simple/best_model
-D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_token_comparison/run01/alignment_global/best_model
+model/qwen3_0p6b_token_comparison/run01/alignment/best_model
+model/qwen3_0p6b_token_comparison/run01/simple/best_model
+model/qwen3_0p6b_token_comparison/run01/alignment_global/best_model
 ```
 
 默认结果目录为 `qwen_lora/outputs/token_comparison/run01/{版本}/`。

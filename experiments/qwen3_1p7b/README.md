@@ -1,17 +1,19 @@
 # Qwen3-1.7B：原 C + r16 SFT + 预测期 pair-aware
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 本目录沿用 `experiments/qwen_lora` 主线的流程和文件命名：标准 SFT 训练、C 数据、每轮 F1 选模、最佳 Adapter 预测。原 0.6B 实验不修改。
 
 ## 运行顺序
 
-使用现有 nlpbase 解释器，按顺序右键运行：
+使用安装项目依赖的Python解释器，按顺序右键运行：
 
-1. `download_model.py`：ModelScope 下载 `Qwen/Qwen3-1.7B` 到 `D:/LLM/model/Qwen3-1.7B`。如果你已在下载同一个目录，等现有下载完成即可。
+1. `download_model.py`：ModelScope 下载 `Qwen/Qwen3-1.7B` 到 `pretrained_models/Qwen3-1.7B`。如果同一目录正在下载，等现有下载完成即可。
 2. `check_setup.py`：检查 tokenizer、全部输入、模型配置和权重分片；不加载真实模型权重。
 3. `train_lora_abc.py`：正式训练，自动保留 Dev pair-aware F1 最高的一轮。
 4. `evaluate_lora_pair.py`：加载 `best_adapter`，输出 independent 和 pair-aware 成绩。
 
-不需要调整 PyCharm 工作目录。
+不需要调整 IDE 工作目录。
 
 ## 与原 qwen_lora 主线的区别
 
@@ -35,7 +37,7 @@
 
 参数和路径在 `config.py`、`train_lora_abc.py`。
 
-- 最佳 Adapter：`D:/LLM/train_model/DiCo-NLI/qwen3_1p7b/run01/C/best_adapter`
+- 最佳 Adapter：`model/qwen3_1p7b/run01/C/best_adapter`
 - 每轮评分：同一训练目录下 `dev_scores/epoch_*/`
 - 最终评分：本目录 `outputs/run01/C/`
 - 数据缓存：项目根目录 `.hf_q17`，使用短路径避免 Windows 长路径错误。

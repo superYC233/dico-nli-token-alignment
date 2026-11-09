@@ -1,5 +1,7 @@
 # 阶段诊断 + 第6—10轮等权平均
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行 `train_deberta_stage_average.py`。检查程序是 `check_setup.py`，不会训练DeBERTa。
 
 ## 本次做什么
@@ -19,15 +21,15 @@
 ## 运行
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe G:\pycode\SemEval\Task-2-DiCo-NLI-main\experiments\deberta_stage_average\train_deberta_stage_average.py
+python experiments/deberta_stage_average/train_deberta_stage_average.py
 ```
 
 后续复验只改脚本顶部 `RUN_NAME`（换种子时再改 `SEED`）。
-`--prepare-only` 只复制和核对数据，不加载模型。正式运行需要本机已有的DeBERTa缓存，与之前同一路径。
+`--prepare-only` 只复制和核对数据，不加载模型。正式运行需要已缓存的DeBERTa缓存，与之前同一路径。
 
 ## 保存位置
 
-模型：`D:/model/SEAMEVAL/deberta_stage_average/run01_late_average/`
+模型：`model/deberta_stage_average/run01_late_average/`
 
 - `best_model.pth`：按Dev **Pair阶段结束后的**pair-aware F1选择的最佳单轮，只在刷新纪录时覆盖。
 - `averaged_model.pth`：固定第6—10轮平均的模型，最后保存一次。

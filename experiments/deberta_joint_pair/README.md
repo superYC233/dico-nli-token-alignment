@@ -1,5 +1,7 @@
 # 原版 DeBERTa：同一步 Row CE + Pair CE
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 运行 `train_deberta_joint_pair.py`。训练完成后，运行 `evaluate_best.py` 重新加载最佳权重。
 
 原版结构保持不变：NLI DeBERTa + CLS 分类头 + Token Alignment，没有词汇分支。
@@ -31,7 +33,7 @@ optimizer.step()
 ## 保存与评估
 
 - 默认按 **独立 Dev Weighted F1** 选最佳，每轮同时报告 independent 和 pair-aware。
-- 模型仅保留 `D:/model/SEAMEVAL/deberta_joint_pair/run01/best_model.pth`，最佳更新时替换。
+- 模型仅保留 `model/deberta_joint_pair/run01/best_model.pth`，最佳更新时替换。
 - 小型预测 CSV、官方分数和曲线保存在本目录 `outputs/run01`。
 - `best_summary.csv` 的两行来自同一个被选中的模型。
 - `epoch_summary.csv` 保留所有轮次的两个分数。不能把不同轮次的最好成绩拼成一个模型的表现。

@@ -1,5 +1,7 @@
 # 新48行：两种训练安排
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 沿用0.935493那版的模型、NLI初始化、完整参数训练、Token Alignment、损失权重和选模指标。
 数据是官方Train3042 + 原scope200 + 本次48 = 3290行，不叠加上一批120。
 
@@ -15,7 +17,7 @@
 两个入口共用 `train_relation_manual.py`。超参数在共用文件顶部；RUN_NAME和AUGMENT_MODE在各自入口顶部。
 默认 `AUGMENT_MODE='manual'`。可切为 `copy`（复制48行、类别/配对预算一致）或 `baseline`（只用旧3242），切换时换RUN_NAME。
 
-权重根目录：`D:/model/SEAMEVAL/deberta_manual_aug/<RUN_NAME>/best_model.pth`。
+权重根目录：`model/deberta_manual_aug/<RUN_NAME>/best_model.pth`。
 结果：当前目录的 `outputs/<RUN_NAME>/`。
 每轮保留预测和评分；只有Dev pair-aware Weighted F1刷新纪录时覆盖唯一最佳模型。训练结束后测原来的200条诊断题，不用诊断选模。
 

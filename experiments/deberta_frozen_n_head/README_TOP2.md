@@ -1,17 +1,19 @@
 # 顶部两层微调 + 四分类监督 + F/B/E条件保持
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 ## 运行
 
 直接右键运行`train_deberta_top2.py`。新的模型与结果均放在`run02_top2_keep`，不覆盖旧run01。
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_frozen_n_head/train_deberta_top2.py
+python experiments/deberta_frozen_n_head/train_deberta_top2.py
 ```
 
 只核对起点与缓存、不开启真实训练：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_frozen_n_head/train_deberta_top2.py --check-only
+python experiments/deberta_frozen_n_head/train_deberta_top2.py --check-only
 ```
 
 训练后运行`evaluate_deberta_top2.py`，从保存的一个完整checkpoint复核同轮独立和pair-aware指标。
@@ -78,7 +80,7 @@ joint_score = min(independent_F1 / 0.87, pair_aware_F1 / 0.94)
 
 起点为epoch0。如果所有微调轮次更差，最佳模型仍保留起点并明确打印“未超过起点”。只在joint_score刷新时覆盖一个完整best_model.pth，不按每轮保存多个模型。
 
-- 模型：`D:/model/SEAMEVAL/deberta_frozen_n_head/run02_top2_keep/`
+- 模型：`model/deberta_frozen_n_head/run02_top2_keep/`
 - 结果：当前目录`outputs/run02_top2_keep/`
 - `joint_selection.csv`：每个epoch同轮的两个F1、选模分数和训练损失。
 - `epoch_summary.csv`：每轮两种预测的完整指标。

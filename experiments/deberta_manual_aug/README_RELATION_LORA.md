@@ -1,6 +1,8 @@
 **DeBERTa LoRA：普通mixed训练的适配方式对照**
 
-右键运行train_relation_lora.py。当前默认RUN_NAME='run21_lora_r16_seed7_dropout01_linear_fast'、USE_LORA=True、SEED=7。代码继续放在原deberta_manual_aug目录，旧模型及结果保留。正式训练由你启动。
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
+右键运行train_relation_lora.py。当前默认RUN_NAME='run21_lora_r16_seed7_dropout01_linear_fast'、USE_LORA=True、SEED=7。代码继续放在原deberta_manual_aug目录，旧模型及结果保留。正式训练由你运行。
 
 本次主要对照run19_lora_r16_seed7_dropout01：沿用同一seed7、r=16、dropout=0.1及20轮，学习率从1e-4逐步降至1e-5。run19的固定1e-4所选同一轮Dev为independent 0.839668、pair-aware 0.898373。run20是固定1e-5，不能当作学习率衰减实验。run17是seed42的单次最佳0.858277/0.913362；0.938145仍是不同训练安排下的最高结构分参考。
 
@@ -31,7 +33,7 @@ PEFT官方注入说明：https://huggingface.co/docs/peft/developer_guides/low_l
 
 与run13相同，按同轮的min(independent/0.87, pair_aware/0.94)最大选择，相同取早轮，只刷新一份最佳权重。目标数字只用于选模，不参与训练损失。
 
-- 模型：D:/model/SEAMEVAL/deberta_manual_aug/run21_lora_r16_seed7_dropout01_linear_fast/best_model.pth。
+- 模型：model/deberta_manual_aug/run21_lora_r16_seed7_dropout01_linear_fast/best_model.pth。
 - 结果：outputs/run21_lora_r16_seed7_dropout01_linear_fast。
 - epoch_summary.csv及selection_history.csv：完整逐轮同一模型的两种成绩。
 - best_metrics.json及best_summary.csv：所选同一轮。
@@ -49,8 +51,8 @@ best_model.pth只保存可训练参数：LoRA A/B＋全部分类/对齐头，不
 **检查，不训练**
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_manual_aug/train_relation_lora.py' --prepare-only
-& 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_manual_aug/check_relation_lora.py'
+python -X utf8 'experiments/deberta_manual_aug/train_relation_lora.py' --prepare-only
+python -X utf8 'experiments/deberta_manual_aug/check_relation_lora.py'
 ```
 
 自检使用随机初始化的小DeBERTa，验证初始输出与RNG不变、冻结范围、LoRA梯度、保存非零adapter及所有任务头后精确恢复。不会训练或下载模型。

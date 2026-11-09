@@ -1,5 +1,7 @@
 # 原版 DeBERTa + 范围增强
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 本目录只放原版全参数 DeBERTa + Token Alignment 的增强和复制对照。
 冻结参数实验保留在 `experiments/deberta_row_ce_frozen`。
 
@@ -22,7 +24,7 @@ AUGMENT_MODE = 'copy'
 
 - `outputs/run01_original_scope`：范围增强已完成，第 3 轮 pair-aware W-F1=0.935493、独立 W-F1=0.480876。
 - `outputs/run02_original_copy`：当前复制对照的数据已准备，训练由用户运行。
-- 模型权重位置保持 `D:/model/SEAMEVAL/deberta_original_aug/<RUN_NAME>/best_model.pth`。
+- 模型权重位置保持 `model/deberta_original_aug/<RUN_NAME>/best_model.pth`。
 
 此前存放在冻结目录下的原版增强/复制结果已整体移入本目录，原始预测、分数和训练配置保留。
 
@@ -49,7 +51,7 @@ JSON 保存输入文件及脚本 SHA256。零精确重合不能证明没有语�
 Test 文本尚不可见时，报告明确标注未检查；之后可仅提供无标签文本再核验：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_original_aug/audit_augmentation.py --test-path "官方Test文本.csv" --output-dir "experiments/deberta_original_aug/outputs/run01_original_scope/overlap_audit_with_test"
+python experiments/deberta_original_aug/audit_augmentation.py --test-path "官方Test文本.csv" --output-dir "experiments/deberta_original_aug/outputs/run01_original_scope/overlap_audit_with_test"
 ```
 
 用 `--augmentation` 指定其他实验保存的 `extra_train_rows.csv`，可以核验其他增强版本。

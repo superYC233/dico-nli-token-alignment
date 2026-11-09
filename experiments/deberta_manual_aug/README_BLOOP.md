@@ -1,5 +1,7 @@
 # 原0.938配方 + BLOOP
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行同目录的 `train_relation_bloop.py`。正式训练由你运行；检查脚本不更新参数。
 
 ## 基于哪一版
@@ -31,7 +33,7 @@ g = gr + gp - c * m
 
 它从辅助Pair梯度中去掉沿主梯度EMA的分量。正、负内积都做投影；不同于旧PCGrad版只处理负内积，也不能把最后一项写成当前 `gr`。EMA平均的是**梯度**，不是SWA平均模型权重。初始化、`rescale=False`、`use_ratio_only=False` 对应作者基础设置；此处为独立PyTorch实现和本任务的两阶段适配。
 
-这是交给AdamW之前的梯度处理，不能保证实际有限步更新后Row损失必降，也不能保证Dev F1提升。多维护约0.74GB的float32 EMA，第二阶段有两次反向；开启非reentrant梯度检查点和动态padding以控制12GB显存。GPU检查报告不含Adam状态，不能作为完整训练峰值。
+这是交给AdamW之前的梯度处理，不能保证实际有限步更新后Row损失必降，也不能保证Dev F1提升。多维护约0.74GB的float32 EMA，第二阶段有两次反向；开启非reentrant梯度检查点和动态padding以降低显存占用。GPU检查报告不含Adam状态，不能作为完整训练峰值。
 
 ## 文件与输出
 
@@ -40,13 +42,13 @@ g = gr + gp - c * m
 - `evaluate_relation_bloop.py`：单独重载最佳模型预测。推理不需要EMA，仍是四类argmax + 原FB/BF/EE解码；单例由模型预测。
 - `check_relation_bloop.py`：公式、真实数据覆盖、无参数更新的前后向检查；可带 `--gpu`。
 
-默认模型：`D:/model/SEAMEVAL/deberta_manual_aug/run25_row_pair_ema_bloop/best_model.pth`。
+默认模型：`model/deberta_manual_aug/run25_row_pair_ema_bloop/best_model.pth`。
 
 默认结果：本目录 `outputs/run25_row_pair_ema_bloop/`。
 
 `stage_summary.csv`比较Row/第二阶段；`stage_changes.csv`记录修好/破坏和各类变化；`gradient_batches.csv`记录梯度内积、EMA夹角和投影系数。只覆盖保存当前最佳完整权重，不逐轮保存大模型。配置及最佳指标同目录保存；模型检查点不含优化器/EMA，不能用于精确恢复中断训练。
 
-本次已通过公式/覆盖/CPU梯度检查、`--prepare-only`启动检查，以及真实184001800参数DeBERTa的GPU双梯度反向检查。GPU检查选取固定批次方案里最长的一批（38行、26 tokens），峰值allocated约3.45GiB，未分配Adam状态；全程未执行真实优化器更新，也未启动正式训练。
+本次已通过公式/覆盖/CPU梯度检查、`--prepare-only`启动检查，以及真实184001800参数DeBERTa的GPU双梯度反向检查。GPU检查选取固定批次方案里最长的一批（38行、26 tokens）。全程未执行真实优化器更新，也未启动正式训练。
 
 ## 来源
 

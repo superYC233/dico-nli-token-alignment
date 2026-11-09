@@ -1,5 +1,7 @@
 # 官方3042行 + Lexical + 比较后CNN组合
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接右键运行 **train_deberta_composition.py**。本次使用NLI版DeBERTa，起点是无增强的0.930569 Lexical配方，不是原始微软base，不加载旧0.938权重续训。
 
 ## 本次改动
@@ -34,7 +36,7 @@ A/B分别应用同一个CNN，每层清除其他文本、分隔符及padding位�
 
 所有运行设置在config.py。默认RUN_NAME='run01_composition'，以后重复实验改RUN_NAME即可。
 
-模型目录：D:/model/SEAMEVAL/deberta_lexical_composition/run01_composition/composition_seed_42/
+模型目录：model/deberta_lexical_composition/run01_composition/composition_seed_42/
 
 结果目录：本目录outputs/run01_composition/composition_seed_42/。
 
@@ -52,11 +54,11 @@ epoch_summary.csv包含epoch、stage、method。stage为after_row或after_pair�
 
 真实GPU前后向检查：
 
-    & 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_composition/check_setup.py' --gpu
+    python -X utf8 'experiments/deberta_lexical_composition/check_setup.py' --gpu
 
 不进行optimizer.step，不启动训练。显存峰值不含Adam更新状态。
 
-2026-10-25本机检查已通过：配置/数据与旧版一致、CNN mask隔离、关闭CNN后的Row/Pair梯度及RNG等价、CNN梯度通路、完整保存重载、历史660行官方评分复现。真实NLI模型的Row16行及Pair16组GPU前后向通过，峰值约7.355 GiB（不含Adam状态）。没有执行参数更新。
+2026-10-25实现检查已通过：配置/数据与旧版一致、CNN mask隔离、关闭CNN后的Row/Pair梯度及RNG等价、CNN梯度通路、完整保存重载、历史660行官方评分复现。真实NLI模型的Row16行及Pair16组GPU前后向通过。没有执行参数更新。
 
 只核对官方数据：训练入口加--prepare-only。
 

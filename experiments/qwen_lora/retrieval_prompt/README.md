@@ -1,5 +1,7 @@
 # 原 C+r16 + 检索示例 Prompt
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 本实验不重新训练，三个组加载同一个原 C+r16 SFT Adapter。
 
 | 方法 | Prompt 中的示例 |
@@ -13,14 +15,14 @@
 
 ## 最简单的运行方法
 
-在 PyCharm 用原来的 nlpbase 环境右键运行 **run_all.py**。
+在 IDE 用安装项目依赖的Python环境右键运行 **run_all.py**。
 它依次完成：准备示例 → 加载 Qwen 一次 → 预测三组 → 官方评分 → 汇总。
-路径基于脚本位置，PyCharm 的工作目录不需要另外调整。
+路径基于脚本位置，IDE 的工作目录不需要另外调整。
 
 准备示例使用 CPU，正式 Qwen 预测需要 CUDA。不会自动训练，也不会修改 Adapter。
 使用现有 transformers、torch、peft、pandas、numpy、tqdm，不需要 sentence-transformers 或 FAISS。
 首次没有 BGE 缓存时，需要联网下载 BAAI/bge-small-en-v1.5。
-如果下载不方便，在 config.py 把 EMBEDDING_MODEL 改为你已经下载的本地 BGE 目录。
+如果下载不方便，在 config.py 把 EMBEDDING_MODEL 改为已下载的本地 BGE 目录。
 
 也可以分步运行：
 
@@ -33,9 +35,9 @@
 所有路径和参数都在 config.py。
 
 ```python
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
 ADAPTER_PATH = (
-    'D:/LLM/train_model/DiCo-NLI/'
+    'model/'
     'qwen3_0p6b_abc/run04_r16/C/best_adapter'
 )
 NUM_EXAMPLES = 2

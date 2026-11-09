@@ -1,19 +1,21 @@
 # 冻结0.9381，重新训练N判断头
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 本次目标：**同一个checkpoint、同一轮、同一套四类分数**，独立W-F1至少0.87、pair-aware W-F1至少0.94。这是实验目标，不是已达到的成绩。
 
 ## 怎么运行
 
-在PyCharm直接运行`train_deberta_n_head.py`。下一次实验只改`config.py`的RUN_NAME。这个脚本训练交给用户运行。
+在IDE直接运行`train_deberta_n_head.py`。下一次实验只改`config.py`的RUN_NAME。正式训练由你运行。
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_frozen_n_head/train_deberta_n_head.py
+python experiments/deberta_frozen_n_head/train_deberta_n_head.py
 ```
 
 只检查原0.9381是否加载正确，不训练：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_frozen_n_head/train_deberta_n_head.py --check-only
+python experiments/deberta_frozen_n_head/train_deberta_n_head.py --check-only
 ```
 
 训练完成后运行`evaluate_deberta_n_head.py`，从保存的完整模型重新前向，复核同轮两项成绩。
@@ -23,7 +25,7 @@ G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/expe
 ## 使用什么数据、训练什么
 
 - 精确复用0.9381那次的3290行：官方3042、旧scope200、新48。读取原训练快照并沿用哈希核对。
-- 加载`D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged/best_model.pth`。
+- 加载`model/deberta_manual_aug/run06_relation48_staged/best_model.pth`。
 - 冻结184001800个原参数，并让原模型始终保持eval模式，关闭dropout。
 - 新头输入是单行的CLS与原alignment池化特征。不输入pair_id、组大小、Dev标签或另一行的预测。
 - 新头为LayerNorm → Linear(1280,64) → ReLU → Linear(64,1)，共84609个参数。
@@ -60,7 +62,7 @@ joint_score = min(independent_F1/0.87, pair_aware_F1/0.94)
 
 ## 文件位置
 
-- 模型：`D:/model/SEAMEVAL/deberta_frozen_n_head/run01_n_head/`
+- 模型：`model/deberta_frozen_n_head/run01_n_head/`
 - 结果：当前目录`outputs/run01_n_head/`
 - `joint_selection.csv`：一行一个epoch，独立和结构两项并列。
 - `epoch_summary.csv`：逐轮两种方法的完整指标。

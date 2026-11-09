@@ -1,5 +1,7 @@
 # Qwen LoRA 文件分类
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 ## 当前采用的主线
 
 **Qwen3-0.6B-Base + C 训练集 + LoRA r=16 / alpha=32 + 旧短 Prompt + 预测时 pair-aware。**
@@ -16,14 +18,14 @@
 | 训练配置 | seed=42，lr=1e-4，5 epochs，batch=16，梯度累积=1 |
 | 选模 | 每轮 Dev pair-aware W-F1，保留最佳 Adapter |
 | 预测配置 | batch=16，先独立预测，再按 pair_id 在 FB/BF/EE 中联合选答案 |
-| 已有最佳 Adapter | `D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_abc/run04_r16/C/best_adapter` |
+| 已有最佳 Adapter | `model/qwen3_0p6b_abc/run04_r16/C/best_adapter` |
 | 已有结果 | `outputs/qwen3_0p6b_abc/run04_r16/C/` |
 | 独立预测 W-F1 | 0.814028059 |
 | pair-aware W-F1 | **0.899136759** |
 | N 正确数 / 成对行正确数 | 80/106；514/554 |
 
 这里的 pair-aware 是**预测后的答案调整**，不表示训练时使用了 Pair 损失。
-主线 C 由你当前的简洁构造函数生成，3042 条原始数据加 475 条反向 N，共 3517 条。
+主线 C 由现有数据构造函数生成，3042 条原始数据加 475 条反向 N，共 3517 条。
 旧消融脚本中的 C 曾使用 472 条来源，两者不能视为完全相同的数据版本。
 
 ### 平时只需要看这些根目录文件
@@ -42,7 +44,7 @@
 
 `evaluate_lora_pair.py` 仍默认加载上面的 run04 主线模型。
 今后重新训练时，`train_lora_abc.py` 保存到新的
-`D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_main/run01/C/`，避免覆盖已有主线和 run06 长 Prompt 记录。
+`model/qwen3_0p6b_main/run01/C/`，避免覆盖已有主线和 run06 长 Prompt 记录。
 如果要评估新训练的模型，再修改预测入口的 `adapter_path` 和结果目录。
 
 ## 历史实验与工具
@@ -87,14 +89,14 @@
 
 ## 如何运行
 
-主线仍可以直接在 PyCharm 右键运行根目录的训练或预测入口。
+主线仍可以直接在 IDE 右键运行根目录的训练或预测入口。
 分类后的历史脚本也可直接右键运行；路径工具会让它们继续读取原来的公共代码和 outputs。
 
 从项目根目录运行的例子：
 
 ```powershell
-G:\anaconda3\envs\nlpbase\python.exe experiments\qwen_lora\evaluate_lora_pair.py
-G:\anaconda3\envs\nlpbase\python.exe experiments\qwen_lora\analysis\check_data.py
+python experiments\qwen_lora\evaluate_lora_pair.py
+python experiments\qwen_lora\analysis\check_data.py
 ```
 
 历史脚本保留着当时的默认模型路径和配置，运行前仍需核对；本次归类没有把它们重新训练。

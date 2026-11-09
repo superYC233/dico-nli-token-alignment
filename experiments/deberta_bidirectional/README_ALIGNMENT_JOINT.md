@@ -1,4 +1,6 @@
 原0.938配方 + 双向联合分类头
+
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
 ==========================
 
 运行入口：`train_deberta_alignment_joint.py`。
@@ -45,7 +47,7 @@ F/B随交换互换，E/N分数不变；这保证交换一致，不保证金标�
 
 默认RUN_NAME：`run02_original_alignment_joint_seed42`。
 
-- 完整权重：`D:/model/SEAMEVAL/deberta_bidirectional/<RUN_NAME>/best_model.pth`
+- 完整权重：`model/deberta_bidirectional/<RUN_NAME>/best_model.pth`
 - 每轮CSV：当前目录`outputs/<RUN_NAME>/epoch_summary.csv`
 - 最佳同轮结果：`best_summary.csv`、`best_metrics.json`
 - 最佳模型Dev/Train预测：`best/dev/`、`best/train/`
@@ -60,11 +62,11 @@ F/B随交换互换，E/N分数不变；这保证交换一致，不保证金标�
 
 - `train_deberta_alignment_joint.py --prepare-only`：检查源码、数据及分词，不训练。
 - `check_alignment_joint.py`：小模型CPU检查，不执行优化器更新。
-- `check_alignment_joint.py --real`：加查本机真实NLI模型前向、反向与完整权重重载。
+- `check_alignment_joint.py --real`：加查真实NLI模型前向、反向与完整权重重载。
 
 所有需要改的训练参数都在新训练入口顶部；后续同代码实验改RUN_NAME即可。
 
-本机检查记录（2026-10-24）
+实现检查记录（2026-10-24）
 -------------------------
 
 已通过`--prepare-only`及`check_alignment_joint.py --real`，没有执行优化器参数更新。

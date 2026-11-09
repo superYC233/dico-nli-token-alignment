@@ -1,5 +1,7 @@
 # 官方3042 + Lexical + Train逐样本margin保护
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 直接运行`train_deberta_lexical_margin.py`。默认先做1轮机制验证：
 
 ```python
@@ -7,7 +9,7 @@ RUN_NAME = 'run07_row_margin_probe'
 EPOCHS = 1
 ```
 
-模型保存：`D:/model/SEAMEVAL/deberta_lexical/run07_row_margin_probe/best_model.pth`。
+模型保存：`model/deberta_lexical/run07_row_margin_probe/best_model.pth`。
 结果保存：本目录`outputs/run07_row_margin_probe/`。
 
 不从0.9306或0.908权重续训。从相同NLI初始化开始，官方Train3042行、Dev660行、1282组真实Pair；原DeBERTa、Token Alignment、20维Lexical、两个学习率、Row/Pair权重、Pair平滑、FP32、固定padding128与原Lexical一致。旧脚本不修改。
@@ -56,12 +58,12 @@ damage_i = max(0, floor_i - 当前margin_i)
 ## 检查及后续运行
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' -X utf8 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical/check_lexical_margin.py'
+python -X utf8 'experiments/deberta_lexical/check_lexical_margin.py'
 ```
 
 `--gpu`仅增加真实模型前后向与显存检查，不更新真实模型参数。先前后向检查使用构造的参考以覆盖非零保护梯度，不伪称是已训练Row模型。
 
-本次已通过：CPU公式与梯度、microbatch等价、原版关闭保护路径及随机序列、Train覆盖和原词汇特征对照。真实GPU检查覆盖32条Pair输入、38条保护输入（16条分块）与等量Adam矩缓冲，峰值allocated约8.728GiB；没有执行真实模型优化器更新。实际AdamW临时分配及其他程序占用不包含在此数字中。
+本次已通过：CPU公式与梯度、microbatch等价、原版关闭保护路径及随机序列、Train覆盖和原词汇特征对照。真实GPU检查覆盖32条Pair输入、38条保护输入（16条分块）与等量Adam矩缓冲。没有执行真实模型优化器更新。实际AdamW临时分配及其他程序占用不包含在此数字中。
 
 训练脚本复用`train_deberta_lexical_anchor.py`中已验证的数据校验、模型构造和加载函数；没有调用它的参数锚定训练、没有参数回拉。
 

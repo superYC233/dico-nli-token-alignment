@@ -1,5 +1,7 @@
 # Qwen3-0.6B：原C+r16 + 文字理由辅助SFT
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 右键运行本目录的 `train_lora_reason.py`。以后只改 `config.py` 中的 `RUN_NAME` 和参数，不需要再建实验代码目录。
 
 ## 数据和任务
@@ -29,7 +31,7 @@ label_loss在本批所有标签任务的监督token上取平均，reason_loss在
 
 每步仍取16条原C标签样本，再给其中有可用理由的样本单独做解释前向；合并两个损失后只更新一次。每轮220个优化步、5轮1100步，标签行每轮一次、可用理由每轮一次。梯度累积固定为1。本版本没有Pair CE或依据词分类头。
 
-额外解释前向会增加计算和激活显存。沿用本机TRL的chunked_nll，只对监督位置计算分块词表CE，减少完整词表logits的峰值内存；这不改变CE的数学定义。
+额外解释前向会增加计算和激活显存。使用TRL的chunked_nll，只对监督位置计算分块词表CE，减少完整词表logits的峰值内存；这不改变CE的数学定义。
 
 固定设置：
 
@@ -45,12 +47,12 @@ label_loss在本批所有标签任务的监督token上取平均，reason_loss在
 训练：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/qwen_lora/reason_sft/train_lora_reason.py
+python experiments/qwen_lora/reason_sft/train_lora_reason.py
 ```
 
 默认RUN_NAME为 `run01_reason02`。
 
-- Adapter：`D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_reason/run01_reason02/C/best_adapter`
+- Adapter：`model/qwen3_0p6b_reason/run01_reason02/C/best_adapter`
 - 结果：`experiments/qwen_lora/outputs/qwen3_0p6b_reason/run01_reason02/C/`
 - `best_summary.csv`：所选同一checkpoint的两种读出。
 - `epoch_summary.csv`：每轮两项分数、N与F/B/E正确数、非法原始生成数。
@@ -61,7 +63,7 @@ G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/expe
 原标签SFT的同代码零权重对照：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/qwen_lora/reason_sft/train_lora_reason.py --baseline
+python experiments/qwen_lora/reason_sft/train_lora_reason.py --baseline
 ```
 
 该对照保存为 `run01_reason02_baseline`，reason权重为0且不做解释前向，保持同样标签数据、Prompt、batch和优化步数。比较它与理由版，才能更清楚地判断新增理由任务的贡献。历史0.899137仅作为既有单种子参考。
@@ -81,7 +83,7 @@ G:/anaconda3/envs/nlpbase/python.exe G:/pycode/SemEval/Task-2-DiCo-NLI-main/expe
 - `token_audit.csv`：每行两项任务的输入长度与监督token数。
 - `data_manifest.json`：来源和Prompt快照。
 - `setup_checks.json`：检查结果。
-- `real_forward_checks.json`：本机真实0.6B模型的CPU前向检查。
+- `real_forward_checks.json`：真实0.6B模型的CPU前向检查。
 
 仅更新准备文件可运行 `train_lora_reason.py --prepare-only`。检查可运行 `check_setup.py`。
 

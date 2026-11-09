@@ -1,9 +1,11 @@
 # 确认 0.9306 的可信范围：原版 / Lexical 配对复验
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 ## 新模型目录
 
 ```text
-D:\model\SEAMEVAL\deberta_lexical_reliability\run01\
+model/deberta_lexical_reliability/run01/
     baseline_seed_7\best_model.pth
     lexical_seed_7\best_model.pth
     baseline_seed_21\best_model.pth
@@ -20,15 +22,15 @@ D:\model\SEAMEVAL\deberta_lexical_reliability\run01\
 
 **正式配对复验：右键运行 `run_all.py`。**
 依次运行 baseline7、lexical7、baseline21、lexical21，最后自动分析。
-使用当前 nlpbase Python，单进程串行训练，预计约为原训练耗时的四倍。
+使用安装项目依赖的Python解释器，单进程串行训练，预计约为原训练耗时的四倍。
 每次都是从相同 NLI 预训练主干开始；不是加载之前最佳权重继续训练。
 已完成且协议一致的组会跳过；未完成目录不覆盖、不自动删除。
 
 也可只运行一组：
 
 ```powershell
-G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_lexical_reliability/run_one.py --seed 7 --arm baseline
-G:/anaconda3/envs/nlpbase/python.exe experiments/deberta_lexical_reliability/run_one.py --seed 7 --arm lexical
+python experiments/deberta_lexical_reliability/run_one.py --seed 7 --arm baseline
+python experiments/deberta_lexical_reliability/run_one.py --seed 7 --arm lexical
 ```
 
 运行开始后不要改配方/源码。若有意改变实验，使用新 RUN_NAME 建立新协议。

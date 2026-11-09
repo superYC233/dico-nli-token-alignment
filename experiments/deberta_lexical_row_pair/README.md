@@ -1,5 +1,7 @@
 # DeBERTa 词汇版：第二阶段同时监督单行与配对
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 以 `deberta_lexical_stage_probe/run01_rr/lexical_seed_42` 为对照，保留模型、
 20 维词汇特征、数据、学习率、随机种子、批次和两阶段顺序。
 不加载之前的最佳模型继续训练，而是从同一个 NLI 初始化重新开始。
@@ -28,11 +30,11 @@ loss = row_loss + 0.5 * pair_loss
 
 ## 运行
 
-在 PyCharm 直接运行本目录的 `train_deberta_row_pair.py`。
+在 IDE 直接运行本目录的 `train_deberta_row_pair.py`。
 也可以从项目根目录运行：
 
 ```powershell
-& 'G:/anaconda3/envs/nlpbase/python.exe' 'G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_lexical_row_pair/train_deberta_row_pair.py'
+python 'experiments/deberta_lexical_row_pair/train_deberta_row_pair.py'
 ```
 
 配置在 `config.py`：seed=42、10 轮、batch=16、float32、原模型学习率 2e-5、
@@ -42,7 +44,7 @@ Pair label smoothing=0.05，均沿用对照。再次运行改 `RUN_NAME` 即可�
 权重目录默认：
 
 ```text
-D:/model/SEAMEVAL/deberta_lexical_row_pair/run01/lexical_seed_42/best_model.pth
+model/deberta_lexical_row_pair/run01/lexical_seed_42/best_model.pth
 ```
 
 结果目录默认：

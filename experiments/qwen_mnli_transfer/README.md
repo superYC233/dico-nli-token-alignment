@@ -1,5 +1,7 @@
 # Qwen：MNLI 中间任务微调 → DiCo C+r16
 
+说明：`python`指已安装项目依赖的解释器。示例中的`model/`、`pretrained_models/`和`model_cache/`为通用目录，实际保存与缓存位置以配置项为准。
+
 默认模型是原来的 `Qwen3-0.6B-Base`。所有新增内容放在本目录，不修改原 Qwen / DeBERTa 实验。
 
 ## 运行顺序
@@ -14,7 +16,7 @@
 模型输出默认位于：
 
 ```text
-D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_mnli/run02_fast/
+model/qwen3_0p6b_mnli/run02_fast/
   mnli/final_adapter/           第一阶段 Adapter
   dico_from_mnli/C/
     checkpoint-.../            最佳 checkpoint，最多保留一个
