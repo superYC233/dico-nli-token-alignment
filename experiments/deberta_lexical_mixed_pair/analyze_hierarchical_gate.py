@@ -23,7 +23,7 @@ MEMBERS = {name: high.MEMBERS[name] for name in DIRECTIONS}
 MEMBERS.update({name: clean.MEMBERS[name] for name in ['lexical_kl', 'native_kl']})
 MEMBERS['reason_all'] = {
     'prediction': high.PROJECT_ROOT / 'experiments/deberta_lexical_mixed_pair/outputs/run09_reason_all_seed42/epoch_7/predictions_with_scores.csv',
-    'checkpoint': Path('D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run09_reason_all_seed42/best_model.pth'),
+    'checkpoint': Path('model/deberta_lexical_mixed_pair/run09_reason_all_seed42/best_model.pth'),
     'training_data': 'official Train 3042; supported reason-evidence auxiliary; best independent epoch 7',
 }
 

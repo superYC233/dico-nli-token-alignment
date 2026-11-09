@@ -1682,71 +1682,71 @@
   ],
   "files": {
     "manual_source": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\event_examples.csv",
+      "path": "experiments/deberta_manual_aug/event_examples.csv",
       "sha256": "504a43f89a5f35115640cdf1752934d3b8df0c9bfd063be45d55e8aa81d64eea"
     },
     "official_train": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\data\\train\\dico_nli_train_track1_participant_labeled.csv",
+      "path": "data/train/dico_nli_train_track1_participant_labeled.csv",
       "sha256": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211"
     },
     "dev_text_source": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\data\\dev\\dico_nli_dev_track1_participant_labeled.csv",
+      "path": "data/dev/dico_nli_dev_track1_participant_labeled.csv",
       "sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511"
     },
     "baseline_training_snapshot": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\training_data.csv",
+      "path": "experiments/deberta_original_aug/outputs/run01_original_scope/training_data.csv",
       "sha256": "7845cacebdd517664809c2acd15af394a200ed970b07f4cb55a9343274bf90a2"
     },
     "baseline_run_config": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\run_config.json",
+      "path": "experiments/deberta_original_aug/outputs/run01_original_scope/run_config.json",
       "sha256": "200ef3d0dee4825f396f4ae1e38218e15d06992674bd1c1d50dbd93955f7bc34"
     },
     "prepare_script": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepare_manual_data.py",
+      "path": "experiments/deberta_manual_aug/prepare_manual_data.py",
       "sha256": "54206b6cb7aa43f5c85abdf8a789bf4f95a169dad1b39bb5a4791b017db83716"
     },
     "accepted_examples.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\accepted_examples.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/accepted_examples.csv",
       "sha256": "504a43f89a5f35115640cdf1752934d3b8df0c9bfd063be45d55e8aa81d64eea"
     },
     "rejected_examples.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\rejected_examples.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/rejected_examples.csv",
       "sha256": "0d81b250c6c83ce5094fa9aea4287ef87627573f1f5e477bdcd7d42e56931a26"
     },
     "manual_rows.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\manual_rows.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/manual_rows.csv",
       "sha256": "58075501555038d849427399211b3531d772f181441db20f030508114e991204"
     },
     "manual_label_notes.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\manual_label_notes.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/manual_label_notes.csv",
       "sha256": "514a5d08fcd299f7b88a37950f3850393754c0fa8579002716c290009f73168e"
     },
     "training_data_manual.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\training_data_manual.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/training_data_manual.csv",
       "sha256": "3bab25014d1156af0ab6aed38b2566416848c7181d176e627ad7d3aa91a649ab"
     },
     "copy_control_rows.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\copy_control_rows.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/copy_control_rows.csv",
       "sha256": "30a6cb9f4f6acd019ea1a9b7747b55243107f194b7583c8fdeb68deff4295bbd"
     },
     "copy_control_sources.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\copy_control_sources.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/copy_control_sources.csv",
       "sha256": "f29ba3da1f350473619585e6bc8eb4592e434d858b2bb44137bfc598cb4de695"
     },
     "training_data_copy.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\training_data_copy.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/training_data_copy.csv",
       "sha256": "4cc884342188fe0da0b1cbdf9f3794045e1e225e31608207f27ed47b9dc87414"
     },
     "event_family_source": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\event_families.csv",
+      "path": "experiments/deberta_manual_aug/event_families.csv",
       "sha256": "daeac664fab32c4158d59c6d00754c5eda81b64961dd93ca7d097f0e43712d6b"
     },
     "event_generator": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepare_event_data.py",
+      "path": "experiments/deberta_manual_aug/prepare_event_data.py",
       "sha256": "5210e08696c63d8171670d2a563d23c8b2be8b54b4b1761e2794bcea1901605c"
     },
     "family_counts": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\family_counts.csv",
+      "path": "experiments/deberta_manual_aug/prepared_events/family_counts.csv",
       "sha256": "8ffbc45a9b96b104f1f0c834166469999cfd1539e740f6c878a85fdf0aef68a4"
     }
   },

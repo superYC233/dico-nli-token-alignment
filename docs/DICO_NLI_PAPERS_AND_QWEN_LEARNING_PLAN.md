@@ -129,18 +129,12 @@ LoRA 冻结原模型权重，在选定线性层上训练小矩阵。可以理解
 
 历史聊天中原 Qwen + Real Pair CE 有过 0.913483，未超过 DeBERTa；那是历史运行，不是这次重新核验的结果。现在的价值是自己掌握流程，并通过明确消融判断后续变化。
 
-## 四、已经核对的本机条件
+## 四、运行前检查
 
-2026-10-17 的只读检查结果：
-
-- GPU：RTX 5070 Ti Laptop GPU，总显存约 12GB。
-- 模型目录：`D:\BaiduNetdiskDownload\PretrainedModel\models\Qwen2.5-3B-Instruct`，模型分片和分词器文件均存在；本次只实际加载了分词器，没有校验权重能否完整加载。
-- Python：使用 `G:\anaconda3\envs\nlpbase\python.exe`。
-- 已安装 torch 2.11.0+cu128、transformers 5.17.0、peft 0.21.2、trl 1.13.0、datasets 4.8.5、accelerate 1.15.0。本次没有升级或安装包。
-- F/B/E/N 在本地分词器中均是单 token，分别是 37/33/36/45；编写程序时仍动态获取，不硬编码这些编号。
-- 已确认示例的训练对话与推理 prompt 前缀完全相同。
-
-先尝试普通 BF16 LoRA、短输入、梯度检查点、小 batch。实际能否装下仍要用一个训练 batch 核对。若显存不足，再考虑 QLoRA；量化主要减少资源需求，不能保证准确率更高。
+- 安装与训练脚本兼容的PyTorch、Transformers、PEFT、TRL和Datasets。
+- 按模型配置准备权重与分词器，不在文档中固定个人电脑的存放位置。
+- 动态获取F/B/E/N的token编号，核对训练与推理的prompt前缀。
+- 先用一个训练batch检查BF16、梯度检查点和显存需求，再开始正式训练。
 
 ## 五、分七步自己写
 
@@ -311,7 +305,7 @@ from pathlib import Path
 import json
 import pandas as pd
 
-PROJECT_DIR = Path(r"G:\pycode\SemEval\Task-2-DiCo-NLI-main")
+PROJECT_DIR = Path(r".")
 
 LABEL_TO_ANSWER = {
     "FORWARD_ENTAILMENT": "F",

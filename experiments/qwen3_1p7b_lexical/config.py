@@ -6,7 +6,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_CACHE_DIR = PROJECT_ROOT / '.hf_q17lex'
 
 MODEL_ID = 'Qwen/Qwen3-1.7B'
-MODEL_PATH = Path('D:/LLM/model/Qwen3-1.7B')
+MODEL_PATH = Path('pretrained_models/Qwen3-1.7B')
 
 RUN_NAME = 'run01'
 MODE = 'C'
@@ -19,7 +19,7 @@ SEED = 42
 MAX_LENGTH = 512
 PREDICT_BATCH_SIZE = 16
 
-OUTPUT_DIR = Path(f'D:/LLM/train_model/DiCo-NLI/qwen3_1p7b_lexical/{RUN_NAME}/{MODE}')
+OUTPUT_DIR = Path(f'model/qwen3_1p7b_lexical/{RUN_NAME}/{MODE}')
 BEST_DIR = OUTPUT_DIR / 'best_adapter'
 RESULTS_DIR = Path(__file__).resolve().parent / f'outputs/{RUN_NAME}/{MODE}'
 GOLD_PATH = PROJECT_ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'

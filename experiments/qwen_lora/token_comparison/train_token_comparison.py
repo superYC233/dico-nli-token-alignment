@@ -19,9 +19,9 @@ from comparison_trainer import ComparisonTrainer
 HEAD_TYPE = 'alignment'
 SEED = 42
 RUN_NAME = 'run01'
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
 OUTPUT_DIR = Path(
-    f'D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_token_comparison/{RUN_NAME}/{HEAD_TYPE}'
+    f'model/qwen3_0p6b_token_comparison/{RUN_NAME}/{HEAD_TYPE}'
 )
 RESULTS_DIR = QWEN_DIR / f'outputs/token_comparison/{RUN_NAME}/{HEAD_TYPE}'
 

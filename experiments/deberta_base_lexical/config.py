@@ -31,7 +31,7 @@ TRAIN_PATH = PROJECT_ROOT / 'data/train/dico_nli_train_track1_participant_labele
 DEV_PATH = PROJECT_ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = PROJECT_ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
 REFERENCE_DIR = PROJECT_ROOT / 'experiments/deberta_lexical/outputs/run02_branch_lr/lexical_seed_42'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_base_lexical')
+MODEL_ROOT = Path('model/deberta_base_lexical')
 
 
 def get_pretrained_path():

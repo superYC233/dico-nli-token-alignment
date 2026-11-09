@@ -3,7 +3,7 @@ from modelscope.hub.snapshot_download import snapshot_download
 
 model_dir = snapshot_download(
     model_id='Qwen/Qwen3-1.7B',
-    local_dir='D:/LLM/model/Qwen3-1.7B'
+    local_dir='pretrained_models/Qwen3-1.7B'
 )
 
 print('模型下载完成：')

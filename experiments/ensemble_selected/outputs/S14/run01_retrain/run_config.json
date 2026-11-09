@@ -39,7 +39,7 @@
       "train_path": "data/train/dico_nli_train_track1_participant_labeled.csv",
       "expected_train_rows": 3042,
       "select_by": "pair_aware",
-      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M032"
+      "_existing_model_dir": "model/ensemble_selected/run01_retrain/M032"
     },
     {
       "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
@@ -74,7 +74,7 @@
       "expected_train_rows": 3042,
       "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
       "select_by": "independent",
-      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M044"
+      "_existing_model_dir": "model/ensemble_selected/run01_retrain/M044"
     },
     {
       "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
@@ -111,7 +111,7 @@
       "expected_train_rows": 3042,
       "select_by": "independent",
       "annotation_path": "experiments/deberta_lexical_mixed_pair/reason_annotations_pilot100.csv",
-      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M047"
+      "_existing_model_dir": "model/ensemble_selected/run01_retrain/M047"
     },
     {
       "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
@@ -145,7 +145,7 @@
       "expected_train_rows": 3290,
       "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
       "select_by": "pair_aware",
-      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M059"
+      "_existing_model_dir": "model/ensemble_selected/run01_retrain/M059"
     },
     {
       "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
@@ -191,7 +191,7 @@
       "train_path": "experiments/deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv",
       "expected_train_rows": 3290,
       "select_by": "joint",
-      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M071"
+      "_existing_model_dir": "model/ensemble_selected/run01_retrain/M071"
     },
     {
       "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
@@ -224,7 +224,7 @@
       "expected_train_rows": 3242,
       "base_revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
       "select_by": "pair_aware",
-      "_existing_model_dir": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M084"
+      "_existing_model_dir": "model/ensemble_selected/run01_retrain/M084"
     }
   ],
   "direction_members": [
@@ -236,12 +236,12 @@
   ],
   "n_gate": "M059",
   "member_model_paths": {
-    "M032": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M032",
-    "M044": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M044",
-    "M047": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M047",
-    "M059": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M059",
-    "M071": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M071",
-    "M084": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M084"
+    "M032": "model/ensemble_selected/run01_retrain/M032",
+    "M044": "model/ensemble_selected/run01_retrain/M044",
+    "M047": "model/ensemble_selected/run01_retrain/M047",
+    "M059": "model/ensemble_selected/run01_retrain/M059",
+    "M071": "model/ensemble_selected/run01_retrain/M071",
+    "M084": "model/ensemble_selected/run01_retrain/M084"
   },
   "prediction_source": "fresh forward from saved model weights, reused or newly trained",
   "historical_prediction_csv_used": false,

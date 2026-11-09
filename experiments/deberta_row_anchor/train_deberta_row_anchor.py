@@ -49,7 +49,7 @@ TEMPERATURE = 2.0
 TRAIN_AUDIT_EPOCH = 2
 
 HERE = Path(__file__).resolve().parent
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_row_anchor') / RUN_NAME
+MODEL_DIR = Path('model/deberta_row_anchor') / RUN_NAME
 RESULTS_DIR = HERE / 'outputs' / RUN_NAME
 
 

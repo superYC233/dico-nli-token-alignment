@@ -38,7 +38,7 @@
   "steps_per_epoch": 236,
   "train_sha256": "7b53191544c9f0e4f82ad32ec4e414c50b6791df4f41d9a8a69e17abc96c6fd6",
   "dev_sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511",
-  "train_source": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run06_relation48_staged\\training_data.csv",
+  "train_source": "experiments/deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv",
   "training_mode": "joint four-class CE on every original row; no Pair CE; no synthetic N target duplication",
   "architecture": "shared encoder for both input orders; symmetric E/N and antisymmetric F/B joint head",
   "batching": "reuse exact unordered text pairs, ignoring pair_id and labels for grouping",

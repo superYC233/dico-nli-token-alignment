@@ -11,14 +11,14 @@ mode = 'C'
 seed = 42
 
 output_dir = (
-    f'D:/LLM/train_model/DiCo-NLI/'
+    f'model/'
     f'qwen3_0p6b_main/run01/{mode}'
 )
 
 # 放在模型加载和 LoRA 初始化之前
 set_seed(seed)
 
-model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+model_path = 'pretrained_models/Qwen3-0.6B-Base'
 
 model = AutoModelForCausalLM.from_pretrained(model_path, dtype='auto')
 

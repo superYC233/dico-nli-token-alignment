@@ -24,7 +24,7 @@ from experiments.deberta_lexical_stage_probe.evaluation import predict_logits, p
 
 # 默认检查混合训练基准，不随 config.py 当前选择的 run03 改变。
 RUN_NAME = 'run01_mixed_pair'
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_lexical_mixed_pair') / RUN_NAME
+MODEL_DIR = Path('model/deberta_lexical_mixed_pair') / RUN_NAME
 OUTPUT_DIR = Path(__file__).resolve().parent / 'outputs' / RUN_NAME / 'train_dev_evaluation'
 
 

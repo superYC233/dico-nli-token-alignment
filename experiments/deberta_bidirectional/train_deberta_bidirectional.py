@@ -50,7 +50,7 @@ HERE = Path(__file__).resolve().parent
 REFERENCE_DIR = ROOT / 'experiments/deberta_manual_aug/outputs/run06_relation48_staged'
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_bidirectional')
+MODEL_ROOT = Path('model/deberta_bidirectional')
 
 
 def file_hash(path):

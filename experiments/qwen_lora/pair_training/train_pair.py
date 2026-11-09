@@ -35,10 +35,10 @@ SCRIPT_DIR = QWEN_DIR
 # 项目目录
 PROJECT_DIR = SCRIPT_DIR.parent.parent
 
-MODEL_PATH      = 'D:/LLM/model/Qwen3-0.6B-Base'
+MODEL_PATH      = 'pretrained_models/Qwen3-0.6B-Base'
 RUN_NAME        = 'run01'
 
-RUN_DIR    = Path('D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_validpair') / RUN_NAME
+RUN_DIR    = Path('model/qwen3_0p6b_validpair') / RUN_NAME
 RESULT_DIR = SCRIPT_DIR / 'outputs/qwen3_0p6b_validpair' / RUN_NAME
 
 SEED            = 42

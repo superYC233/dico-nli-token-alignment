@@ -49,5 +49,5 @@ FULL_LABELS = [
 LABEL_TO_ID = {label: index for index, label in enumerate(FULL_LABELS)}
 
 OOF_DIR = EXPERIMENT_DIR / 'outputs' / OOF_RUN_NAME
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_lexical_mixed_pair') / RUN_NAME
+MODEL_DIR = Path('model/deberta_lexical_mixed_pair') / RUN_NAME
 RESULTS_DIR = EXPERIMENT_DIR / 'outputs' / RUN_NAME

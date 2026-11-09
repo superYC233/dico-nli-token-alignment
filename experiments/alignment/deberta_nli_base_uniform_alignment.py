@@ -33,7 +33,7 @@ torch.cuda.manual_seed_all(SEED)
 # 保留比较分支、参数数量和训练配置
 # 对照模型：词级对齐版，最佳 F1=0.924559
 # RUN_DIR = Path(
-#     r"G:\pycode\SemEval\Task-2-DiCo-NLI-main\model"
+#     r"model"
 # ) / f"deberta_nli_base_uniform_alignment_seed_{SEED}"
 
 # 配对复现实验：均匀平均版，seed=7
@@ -53,8 +53,8 @@ dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 # 准备经过 NLI 数据训练的 DeBERTa-v3-base
 model_name = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 
-# 模型下载、缓存到 D 盘
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+# 模型下载到配置的缓存目录
+cache_path = r"model_cache"
 
 my_tokenizer = AutoTokenizer.from_pretrained(
     model_name,

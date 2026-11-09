@@ -31,7 +31,7 @@ RUN_NAME = 'run01_scope'
 AUGMENT_MODE = 'scope'  # 当前复查 0.935493 的原版 + 200 条增强。
 SEED = 42
 
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_original_aug_stage_probe') / RUN_NAME
+MODEL_DIR = Path('model/deberta_original_aug_stage_probe') / RUN_NAME
 RESULTS_DIR = Path(__file__).resolve().parent / 'outputs' / RUN_NAME
 REFERENCE_DIR = ROOT / 'experiments/deberta_original_aug/outputs/run01_original_scope'
 

@@ -49,7 +49,7 @@ PAIR_LABEL_SMOOTHING = 0.05
 DIAGNOSTIC_BATCHES = 24
 DIAGNOSTIC_DROPOUT = True
 DIAGNOSTIC_WEIGHT = Path(
-    'D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged/best_model.pth'
+    'model/deberta_manual_aug/run06_relation48_staged/best_model.pth'
 )
 
 # 两组都按同一规则选一个checkpoint；目标只用于选模，不参与训练损失。
@@ -60,7 +60,7 @@ HERE = Path(__file__).resolve().parent
 REFERENCE_DIR = HERE / 'outputs/run06_relation48_staged'
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_manual_aug')
+MODEL_ROOT = Path('model/deberta_manual_aug')
 
 
 def file_hash(path):

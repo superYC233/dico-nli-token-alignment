@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM
 from trl import SFTConfig, SFTTrainer
 from data_utils import load_data, get_datasets, tokenizer
 
-model_path = 'D:/LLM/model/Qwen2.5-3B-Instruct'
+model_path = 'pretrained_models/Qwen2.5-3B-Instruct'
 
 model = AutoModelForCausalLM.from_pretrained(model_path, dtype='auto')
 
@@ -28,7 +28,7 @@ train_args = SFTConfig(
     completion_only_loss=True,
     packing=False,
 
-    output_dir='D:/LLM/train_model/DiCo-NLI/qwen2p5_3b_lora/run01',
+    output_dir='model/qwen2p5_3b_lora/run01',
     eval_strategy='epoch',
     save_strategy='epoch',
     load_best_model_at_end=True,

@@ -13,9 +13,9 @@ from compare_decoding import evaluate_with_scores
 from evaluate_lora_pair import load_lora_model, pair_aware_decode, score_methods
 
 
-model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+model_path = 'pretrained_models/Qwen3-0.6B-Base'
 adapter_path = (
-    'D:/LLM/train_model/DiCo-NLI/'
+    'model/'
     'qwen3_0p6b_contrastive/run01/C/best_adapter'
 )
 output_dir = QWEN_DIR / 'outputs/qwen3_0p6b_contrastive/run01/C'

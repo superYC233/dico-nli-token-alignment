@@ -12,9 +12,9 @@ sys.path.insert(0, str(project_root))
 from compare_decoding import evaluate_with_scores
 from baseline import score_predictions
 
-model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+model_path = 'pretrained_models/Qwen3-0.6B-Base'
 adapter_path = (
-    'D:/LLM/train_model/DiCo-NLI/'
+    'model/'
     'qwen3_0p6b_abc/run04_r16/C/best_adapter'
 )
 def load_lora_model(model_path, adapter_path):

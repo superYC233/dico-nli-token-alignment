@@ -6,7 +6,7 @@ EXPERIMENT_DIR = Path(__file__).resolve().parent
 
 RUN_NAME = 'run02'
 SEED = 42
-MODEL_NAME = 'D:/BaiduNetdiskDownload/PretrainedModel/models/deberta-v3-base-zeroshot-v2.0'
+MODEL_NAME = 'model_cache/deberta-v3-base-zeroshot-v2.0'
 
 # 第一版只增加词汇特征，不同时叠加 A–E 数据增强。
 USE_LEXICAL_FEATURES = True

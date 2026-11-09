@@ -91,8 +91,8 @@ def evaluate_with_scores(model, batch_size=16, split='dev'):
     return records
 
 if __name__ == '__main__':
-    model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
-    adapter_path = 'D:/LLM/train_model/DiCo-NLI/n_ablation/run_B/final'
+    model_path = 'pretrained_models/Qwen3-0.6B-Base'
+    adapter_path = 'model/n_ablation/run_B/final'
 
     # 加载基础模型，再挂载 B 实验训练好的 Adapter
     model = AutoModelForCausalLM.from_pretrained(

@@ -8,7 +8,7 @@ SEEDS = [7, 21]
 SEED = 42  # run_one.py 启动后设为该次指定的种子。
 
 # 新模型统一保存到用户指定的 D 盘，代码和小型预测结果仍在项目目录。
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_lexical_reliability')
+MODEL_ROOT = Path('model/deberta_lexical_reliability')
 RESULTS_ROOT = EXPERIMENT_DIR / 'outputs'
 
 # 冻结 0.930569 的训练配方，不随其他实验的 config 改动。

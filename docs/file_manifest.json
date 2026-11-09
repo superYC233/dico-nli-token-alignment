@@ -73,27 +73,27 @@
   },
   "external_csv_copies": [
     {
-      "source": "D:\\SemEval_experiments\\boundary_pair_candidates.csv",
+      "source": "legacy_results/boundary_pair_candidates.csv",
       "copy": "data/legacy_augmentation/boundary_pair_candidates.csv"
     },
     {
-      "source": "D:\\SemEval_experiments\\boundary_pair_candidates_full.csv",
+      "source": "legacy_results/boundary_pair_candidates_full.csv",
       "copy": "data/legacy_augmentation/boundary_pair_candidates_full.csv"
     },
     {
-      "source": "D:\\SemEval_experiments\\boundary_pair_candidates_full_raw.csv",
+      "source": "legacy_results/boundary_pair_candidates_full_raw.csv",
       "copy": "data/legacy_augmentation/boundary_pair_candidates_full_raw.csv"
     },
     {
-      "source": "D:\\SemEval_experiments\\boundary_pair_candidates_unreviewed.csv",
+      "source": "legacy_results/boundary_pair_candidates_unreviewed.csv",
       "copy": "data/legacy_augmentation/boundary_pair_candidates_unreviewed.csv"
     },
     {
-      "source": "D:\\SemEval_experiments\\manual_boundary_triplets.csv",
+      "source": "legacy_results/manual_boundary_triplets.csv",
       "copy": "data/legacy_augmentation/manual_boundary_triplets.csv"
     },
     {
-      "source": "D:\\SemEval_experiments\\manual_boundary_triplets_internal_clean.csv",
+      "source": "legacy_results/manual_boundary_triplets_internal_clean.csv",
       "copy": "data/legacy_augmentation/manual_boundary_triplets_internal_clean.csv"
     }
   ],

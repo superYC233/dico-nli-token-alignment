@@ -49,7 +49,7 @@
   "target_independent": 0.87,
   "target_pair": 0.94,
   "checkpoint_format": "trainable_parameters_only_v1; LoRA A/B plus all task-head parameters",
-  "reference_results": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run13_gradient_mixed",
+  "reference_results": "experiments/deberta_manual_aug/outputs/run13_gradient_mixed",
   "source_sha256": {
     "experiments\\deberta_manual_aug\\train_relation_lora.py": "4970bd2359559d3a9fbba85a432b8009cf3eb09eed5f665b404386422619c73e",
     "experiments\\deberta_manual_aug\\relation_lora_model.py": "b88ae3c9d7f709fb79d616e75bf24691c8b4ec679c708ef5ea67e35c516194fb",

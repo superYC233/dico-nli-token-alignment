@@ -1,6 +1,6 @@
 {
   "model_name": "microsoft/deberta-v3-base",
-  "pretrained_path": "D:\\BaiduNetdiskDownload\\PretrainedModel\\models\\models--microsoft--deberta-v3-base\\snapshots\\8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+  "pretrained_path": "model_cache/models--microsoft--deberta-v3-base/snapshots/8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
   "initialization": "original Microsoft pretrained checkpoint, not NLI-finetuned",
   "pretrained_format": "pytorch_model.bin",
   "use_safetensors": false,
@@ -63,7 +63,7 @@
   "freeze_first_n_layers": 0,
   "training_order": "all Row CE batches, then all Real Pair CE batches",
   "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
-  "comparison_reference": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical\\outputs\\run02_branch_lr\\lexical_seed_42",
+  "comparison_reference": "experiments/deberta_lexical/outputs/run02_branch_lr/lexical_seed_42",
   "source_sha256": {
     "experiments\\deberta_base_lexical\\train_deberta_base_lexical.py": "ffb9dc7148157fe1e21adeb7eff37f83a330a81e4925ae55149cc96af41a50be",
     "experiments\\deberta_base_lexical\\config.py": "e6dc76724622a19d59af302f5dcc5b9d684c7fdc2b803e6be4491a287c1a92d6",

@@ -49,7 +49,7 @@ COMBINATIONS = [(0, 1), (1, 0), (2, 2), (3, 3)]
 METHODS = [('independent', 'prediction'), ('pair_aware', 'pair_prediction'),
            ('pair_four', 'four_prediction')]
 HERE = Path(__file__).resolve().parent
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_manual_aug') / RUN_NAME
+MODEL_DIR = Path('model/deberta_manual_aug') / RUN_NAME
 RESULTS_DIR = HERE / 'outputs' / RUN_NAME
 
 

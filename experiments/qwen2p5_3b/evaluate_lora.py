@@ -2,12 +2,12 @@ from peft import PeftModel
 from transformers import AutoModelForCausalLM
 from baseline import evaluate, save_predictions, score_predictions
 
-model_path = 'D:/LLM/model/Qwen2.5-3B-Instruct'
+model_path = 'pretrained_models/Qwen2.5-3B-Instruct'
 
 model = AutoModelForCausalLM.from_pretrained(model_path, dtype='auto')
 model = PeftModel.from_pretrained(
     model = model,
-    model_id='D:/LLM/train_model/DiCo-NLI/qwen2p5_3b_lora/run01'
+    model_id='model/qwen2p5_3b_lora/run01'
 ).to('cuda')
 
 model.eval()

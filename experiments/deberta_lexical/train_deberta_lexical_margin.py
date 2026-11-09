@@ -41,7 +41,7 @@ INITIAL_DUAL = 0.25          # 四个约束各从0.25开始，不是固定的mar
 DUAL_LEARNING_RATE = 0.1
 PROTECTION_MICROBATCH = 16   # 保护批次分块反向，不与Pair保留大图叠加。
 HERE = Path(__file__).resolve().parent
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_lexical')
+MODEL_ROOT = Path('model/deberta_lexical')
 
 
 class IndexedRows(torch.utils.data.Dataset):

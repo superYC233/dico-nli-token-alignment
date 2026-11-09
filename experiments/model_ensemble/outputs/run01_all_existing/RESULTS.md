@@ -3,7 +3,7 @@
 整理日期：2026-10-26。这里把历史目录简称展开为实际模型、训练数据、训练方式和当前选模规则。成绩是保留的历史逐轮预测CSV的离线复算，不是本次重新训练后的成绩。
 
 **当前规则：** S03、S07、S08、S13、S14统一pair-aware选模后结构分下降，保留原选模；其余11组所有成员统一按Dev pair-aware F1选最佳，同分取最早轮。成员名单、数据和融合公式不变。该规则按这份Dev比较结果确定，属于开发集选择。
-**训练入口：** 目前仅S01、S11、S12、S14、S16有独立PY入口。S01、S11、S12、S16使用 `run02_pair_select`；S14保留原 `run01_retrain` 及混合选模。运行前检查outputs中的运行记录和实际模型保存目录：已有权重且数据、配方和最佳轮次匹配，就直接复用，支持跨RUN_NAME，不因改名而重复训练；只有CSV或配置而没有实际权重的成员才需训练。原选模指标不同、但保存轮次也恰好是当前指标最佳轮次时，可以直接复用。已缓存完整N头模型时也跳过它的前置底座训练。修改对下次启动生效，不改变已经运行中的进程。缺失模型的新权重保存到 `D:/model/SEAMEVAL/ensemble_selected/<RUN_NAME>/<成员编号>/`；实际使用的模型路径会写入本次结果清单。
+**训练入口：** 目前仅S01、S11、S12、S14、S16有独立PY入口。S01、S11、S12、S16使用 `run02_pair_select`；S14保留原 `run01_retrain` 及混合选模。运行前检查outputs中的运行记录和实际模型保存目录：已有权重且数据、配方和最佳轮次匹配，就直接复用，支持跨RUN_NAME，不因改名而重复训练；只有CSV或配置而没有实际权重的成员才需训练。原选模指标不同、但保存轮次也恰好是当前指标最佳轮次时，可以直接复用。已缓存完整N头模型时也跳过它的前置底座训练。修改对下次启动生效，不改变已经运行中的进程。缺失模型的新权重保存到 `model/ensemble_selected/<RUN_NAME>/<成员编号>/`；实际使用的模型路径会写入本次结果清单。
 **权重与分数区别：** 下文历史权重路径不保证当前仍存在，也不能仅凭路径证明它对应当前轮次；尤其S12的M018改用第22轮预测，对应权重未确认保留，需要重新训练。
 完整对照：[16组原选模与全pair-aware选模比较](selection_comparison/RESULTS.md)。当前推荐表和逐组明细已更新；原始97模型搜索表、旧成员快照及选模比较保留历史口径。
 
@@ -163,7 +163,7 @@
 - **训练数据文件：** [closure88_train.csv](../../../deberta_closure/closure88_train.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_closure/outputs/run01_closure88/lexical_seed_42/epoch_3/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M014/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M014/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增88行全为E；旧data_augmentation=false不能据此解释为无增强。新88行与Dev归一化无序整对精确交集为0；这不证明来源独立或与Dev词汇完全隔离。
 
 #### M065：0.938数据＋复制Train128
@@ -180,7 +180,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run12_local128_copy/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_manual_aug/outputs/run12_local128_copy/epoch_3/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M065/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M065/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 这是复制对照，不是人工128版。副本来自Train，不能把人工样本的Dev词汇隔离结论套到这些副本上。
 
 #### M071：DeBERTa LoRA r16/dropout0.1，seed42
@@ -197,7 +197,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M071/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M071/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 #### M075：0.938数据＋语义对照64，两阶段
@@ -214,7 +214,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run20_semantic64_staged_seed42/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_manual_aug/outputs/run20_semantic64_staged_seed42/best/dev/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M075/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M075/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 #### M080：0.938数据＋仅Row阶段SAM
@@ -231,7 +231,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_manual_aug/outputs/run26_row_sam/best/dev/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M080/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M080/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 #### M082：DeBERTa-large＋对齐＋词汇混合训练
@@ -248,7 +248,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M082/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M082/best_model.pth`；不是声称该文件已经训练生成。
 
 本组结构预测相对原0.938：修好18行、破坏4行。
 本组融合分数和逐行预测：[S01_predictions.csv](S01_predictions.csv)。
@@ -903,7 +903,7 @@
 
 #### M094：Qwen2.5-3B-Instruct，C＋reason
 
-- **基础模型：** `D:/LLM/model/Qwen2.5-3B-Instruct`。
+- **基础模型：** `pretrained_models/Qwen2.5-3B-Instruct`。
 - **结构：** 生成式Qwen，LoRA r16/alpha32/dropout0.05、all-linear；没有DeBERTa Token Alignment和Lexical。
 - **训练文本：** 3042＋筛选后的反向N475＝3517。3517行都训练标签；其中2040行训练解释，包括1756行官方来源和284行反向N来源。解释是额外目标，不是再追加2040行标签文本，也没有把Dev理由输入模型。
 - **训练方式：** 标签SFT＋0.2解释SFT，两个独立聊天Prompt、分别按监督token归一化；不使用Pair CE，预测只问标签，不提供Dev解释。
@@ -1053,7 +1053,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_feature_fusion/outputs/run01_feature_fusion/feature_fusion_seed_42/epoch_10/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M017/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M017/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M036：词汇版＋scope200＋关系48
 
@@ -1069,7 +1069,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_lexical_aug/outputs/run02_lexical_relation_staged/epoch_7/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M036/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M036/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 #### M050：无Lexical的原结构对照，seed7
@@ -1086,7 +1086,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_lexical_reliability/outputs/run01/baseline_seed_7/epoch_6/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M050/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M050/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M082：DeBERTa-large＋对齐＋词汇混合训练
 
@@ -1102,7 +1102,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M082/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M082/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M084：原0.9355版：仅加scope200
 
@@ -1118,7 +1118,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_original_aug/outputs/run01_original_scope/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M084/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M084/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 本组结构预测相对原0.938：修好20行、破坏5行。
@@ -1160,7 +1160,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_base_lexical/outputs/run01_raw_base/lexical_seed_42/epoch_3/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M007/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M007/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M009：DeBERTa-base双向对齐联合头
 
@@ -1176,7 +1176,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_bidirectional/outputs/run02_original_alignment_joint_seed42/best/dev/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M009/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M009/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 #### M018：冻结0.938底座，只训练N门
@@ -1193,7 +1193,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_frozen_n_head/outputs/run01_n_head/epoch_22/predictions_with_scores.csv)。
 - **旧选模权重路径（不代表当前第22轮）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M018/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M018/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 - **需保留的说明：** 当前采用第22轮的历史预测CSV；未确认保留对应轮次的模型权重。原best_model.pth对应旧选模，不能当成第22轮权重；实际运行需要重新训练并按pair-aware选最佳。
 
@@ -1211,7 +1211,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run11_local128_manual/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_manual_aug/outputs/run11_local128_manual/epoch_6/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M064/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M064/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 #### M082：DeBERTa-large＋对齐＋词汇混合训练
@@ -1228,11 +1228,11 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M082/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M082/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M094：Qwen2.5-3B-Instruct，C＋reason
 
-- **基础模型：** `D:/LLM/model/Qwen2.5-3B-Instruct`。
+- **基础模型：** `pretrained_models/Qwen2.5-3B-Instruct`。
 - **结构：** 生成式Qwen，LoRA r16/alpha32/dropout0.05、all-linear；没有DeBERTa Token Alignment和Lexical。
 - **训练文本：** 3042＋筛选后的反向N475＝3517。3517行都训练标签；其中2040行训练解释，包括1756行官方来源和284行反向N来源。解释是额外目标，不是再追加2040行标签文本，也没有把Dev理由输入模型。
 - **训练方式：** 标签SFT＋0.2解释SFT，两个独立聊天Prompt、分别按监督token归一化；不使用Pair CE，预测只问标签，不提供Dev解释。
@@ -1245,7 +1245,7 @@
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../qwen25_3b_reason/outputs/run01_c_reason02/C/best/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** adapter_model.safetensors（本机文件，不随仓库提供）。
 - **历史权重路径（未确认当前仍存在）：** adapter_model.safetensors（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M094/best_adapter/adapter_model.safetensors`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M094/best_adapter/adapter_model.safetensors`；不是声称该文件已经训练生成。
 - **需保留的说明：** 融合选用训练结束回载best_adapter后的缓存：独立0.838121、结构0.902142；没有使用训练期epoch4较高的0.843581/0.905397。此前回调batch16与结束重评batch8不同，代码后来已统一。
 
 本组结构预测相对原0.938：修好18行、破坏13行。
@@ -1367,7 +1367,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_lexical/outputs/run06_row_parameter_anchor/best/dev/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run01_retrain/M032/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run01_retrain/M032/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M044：词汇混合训练＋R-Drop
 
@@ -1383,7 +1383,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_lexical_mixed_pair/outputs/run05_mixed_rdrop/epoch_2/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run01_retrain/M044/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run01_retrain/M044/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M047：词汇版＋首批100组证据监督
 
@@ -1399,7 +1399,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_lexical_mixed_pair/outputs/run08_reason_evidence_seed42/epoch_2/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run01_retrain/M047/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run01_retrain/M047/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** reason在这里指Train理由标注转换成token证据监督；与Qwen生成完整解释的SFT不同。标注由助手制作，未独立人工复核。
 
 #### M059：原0.938版：scope200＋关系48
@@ -1416,7 +1416,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_manual_aug/outputs/run06_relation48_staged/epoch_2/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run01_retrain/M059/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run01_retrain/M059/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 #### M071：DeBERTa LoRA r16/dropout0.1，seed42
@@ -1433,7 +1433,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run01_retrain/M071/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run01_retrain/M071/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 #### M084：原0.9355版：仅加scope200
@@ -1450,7 +1450,7 @@
 - **训练数据文件：** [training_data.csv](../../../deberta_original_aug/outputs/run01_original_scope/training_data.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run01_retrain/M084/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run01_retrain/M084/best_model.pth`；不是声称该文件已经训练生成。
 - **需保留的说明：** 新增标签来自历史助手设计的增强草案，不是官方新增金标；部分设计受Dev错误类别启发，不能宣称开发过程完全独立于Dev。
 
 本组结构预测相对原0.938：修好18行、破坏0行。
@@ -1609,7 +1609,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_feature_fusion/outputs/run01_feature_fusion/feature_fusion_seed_42/epoch_10/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M017/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M017/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M027：原0.9306词汇版，seed42
 
@@ -1625,7 +1625,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_lexical/outputs/run02_branch_lr/lexical_seed_42/epoch_3/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** [best_model.pth](../../../../model/deberta_lexical/run02_branch_lr/lexical_seed_42/best_model.pth)。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M027/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M027/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M030：词汇版，N行权重1.8
 
@@ -1641,7 +1641,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_lexical/outputs/run04_weight/lexical_seed_42/epoch_9/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** [best_model.pth](../../../../model/deberta_lexical/run04_weight/lexical_seed_42/best_model.pth)。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M030/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M030/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M046：词汇版，Row CE＋反向KL
 
@@ -1657,7 +1657,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_lexical_mixed_pair/outputs/run07_reversal_kl_seed42/epoch_2/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M046/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M046/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M082：DeBERTa-large＋对齐＋词汇混合训练
 
@@ -1673,7 +1673,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M082/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M082/best_model.pth`；不是声称该文件已经训练生成。
 
 #### M087：冻结底6层，只训练Row CE
 
@@ -1689,7 +1689,7 @@
 - **训练数据文件：** [dico_nli_train_track1_participant_labeled.csv](../../../../data/train/dico_nli_train_track1_participant_labeled.csv)。
 - **本次参与融合的预测：** [predictions_with_scores.csv](../../../deberta_row_ce_frozen/outputs/run01_freeze6/epoch_8/predictions_with_scores.csv)。
 - **历史权重路径（未确认当前仍存在）：** best_model.pth（本机文件，不随仓库提供）。
-- **本方案重训后保存位置：** `D:/model/SEAMEVAL/ensemble_selected/run02_pair_select/M087/best_model.pth`；不是声称该文件已经训练生成。
+- **本方案重训后保存位置：** `model/ensemble_selected/run02_pair_select/M087/best_model.pth`；不是声称该文件已经训练生成。
 
 本组结构预测相对原0.938：修好19行、破坏8行。
 本组融合分数和逐行预测：[S16_predictions.csv](S16_predictions.csv)。

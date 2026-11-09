@@ -24,14 +24,14 @@
   "run_name": "run01_c_reason02",
   "mode": "C",
   "seed": 42,
-  "model_path": "D:/LLM/model/Qwen2.5-3B-Instruct",
+  "model_path": "pretrained_models/Qwen2.5-3B-Instruct",
   "reason_weight": 0.2,
   "lora": {
     "task_type": "CAUSAL_LM",
     "peft_type": "LORA",
     "auto_mapping": null,
     "peft_version": "0.21.2",
-    "base_model_name_or_path": "D:/LLM/model/Qwen2.5-3B-Instruct",
+    "base_model_name_or_path": "pretrained_models/Qwen2.5-3B-Instruct",
     "revision": null,
     "inference_mode": false,
     "r": 16,
@@ -70,7 +70,7 @@
     "ensure_weight_tying": false
   },
   "training": {
-    "output_dir": "D:\\LLM\\train_model\\DiCo-NLI\\qwen2p5_3b_reason\\run01_c_reason02\\C",
+    "output_dir": "model/qwen2p5_3b_reason/run01_c_reason02/C",
     "per_device_train_batch_size": 4,
     "num_train_epochs": 5,
     "max_steps": -1,

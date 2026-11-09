@@ -40,7 +40,7 @@ dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 
 # 使用经过大量 NLI / reasoning 数据训练的 ModernBERT-large
 model_path = (
-    r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+    r"model_cache"
     r"\tasksource--ModernBERT-large-nli"
 )
 

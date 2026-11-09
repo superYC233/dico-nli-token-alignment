@@ -28,8 +28,8 @@ RUN_NAME = 'run01_local_diagnostic'
 BATCH_SIZE = 16
 LABELS = ['F', 'B', 'E', 'N']
 MODEL_PATHS = [
-    ('original_0p938', 'original', Path('D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged')),
-    ('top2_row_best', 'top2', Path('D:/model/SEAMEVAL/deberta_frozen_n_head/run03_top2_row_only')),
+    ('original_0p938', 'original', Path('model/deberta_manual_aug/run06_relation48_staged')),
+    ('top2_row_best', 'top2', Path('model/deberta_frozen_n_head/run03_top2_row_only')),
 ]
 
 

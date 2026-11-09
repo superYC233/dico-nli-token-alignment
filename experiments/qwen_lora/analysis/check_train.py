@@ -15,8 +15,8 @@ from baseline import evaluate, save_predictions
 from analyze_errors import analyze_errors
 
 if __name__ == '__main__':
-    model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
-    adapter_path = 'D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_lora/run01'
+    model_path = 'pretrained_models/Qwen3-0.6B-Base'
+    adapter_path = 'model/qwen3_0p6b_lora/run01'
 
     # 加载原始 Base，再加载已经训练好的 run01 Adapter
     model = AutoModelForCausalLM.from_pretrained(

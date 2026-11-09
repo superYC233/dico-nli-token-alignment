@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
     # 4. 从 Base 新建 LoRA，不加载旧 Adapter
     model = AutoModelForCausalLM.from_pretrained(
-        'D:/LLM/model/Qwen3-0.6B-Base',
+        'pretrained_models/Qwen3-0.6B-Base',
         dtype='auto'
     )
 
@@ -89,7 +89,7 @@ if __name__ == '__main__':
         completion_only_loss=True,
         packing=False,
 
-        output_dir='D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_lora/run03_hard',
+        output_dir='model/qwen3_0p6b_lora/run03_hard',
         eval_strategy='epoch',
         save_strategy='epoch',
         load_best_model_at_end=True,

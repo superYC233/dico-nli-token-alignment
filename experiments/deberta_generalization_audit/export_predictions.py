@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 OUT = Path(__file__).resolve().parent / 'outputs/row_ce_frozen_epoch8'
 # 审计固定旧基线，不随当前训练 config.py 的 RUN_NAME 改变。
-BASELINE_MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_row_ce_frozen/run01_freeze6')
+BASELINE_MODEL_DIR = Path('model/deberta_row_ce_frozen/run01_freeze6')
 BASELINE_RESULTS_DIR = ROOT / 'experiments/deberta_row_ce_frozen/outputs/run01_freeze6'
 
 import numpy as np

@@ -38,7 +38,7 @@ DEV_BATCH_SIZE = 16
 SELECT_BY = 'independent'
 
 # 模型放 D 盘；每轮只保存小型预测 CSV，模型仅保留一份最佳权重。
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_row_ce_frozen') / RUN_NAME
+MODEL_DIR = Path('model/deberta_row_ce_frozen') / RUN_NAME
 RESULTS_DIR = EXPERIMENT_DIR / 'outputs' / RUN_NAME
 
 LABELS = ['F', 'B', 'E', 'N']

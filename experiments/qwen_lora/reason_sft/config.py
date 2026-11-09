@@ -7,8 +7,8 @@ PROJECT_ROOT = QWEN_DIR.parent.parent
 RUN_NAME = 'run01_reason02'
 MODE = 'C'
 SEED = 42
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
-MODEL_ROOT = Path('D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_reason')
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
+MODEL_ROOT = Path('model/qwen3_0p6b_reason')
 RESULTS_ROOT = QWEN_DIR / 'outputs/qwen3_0p6b_reason'
 PREPARED_DIR = RESULTS_ROOT / 'prepared_C'
 

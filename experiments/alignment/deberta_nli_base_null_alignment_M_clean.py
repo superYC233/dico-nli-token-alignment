@@ -39,8 +39,8 @@ dev_data = pd.read_csv("./data/internal_split_clean/valid.csv")
 # 准备经过 NLI 数据训练的 DeBERTa-v3-base
 model_name = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 
-# 模型下载、缓存到 D 盘
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+# 模型下载到配置的缓存目录
+cache_path = r"model_cache"
 
 my_tokenizer = AutoTokenizer.from_pretrained(
     model_name,

@@ -28,7 +28,7 @@ from experiments.deberta_lexical.evaluation import get_pair_logits
 # todo 0. RUN_NAME区分本次结果；先复用配方匹配的已有模型，缺失的成员才训练。
 SCHEME = 'S14'
 RUN_NAME = 'run01_retrain'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/ensemble_selected')
+MODEL_ROOT = Path('model/ensemble_selected')
 FUSION = 'hierarchical'
 DIRECTION_MEMBERS = ['M032', 'M044', 'M047', 'M071', 'M084']
 N_GATE = 'M059'

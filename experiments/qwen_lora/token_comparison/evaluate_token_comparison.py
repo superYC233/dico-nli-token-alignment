@@ -18,7 +18,7 @@ from pair_metrics import make_prediction_frame, score_prediction_frame
 
 HEAD_TYPE = 'alignment_global'
 MODEL_DIR = Path(
-    f'D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_token_comparison/run01/{HEAD_TYPE}/best_model'
+    f'model/qwen3_0p6b_token_comparison/run01/{HEAD_TYPE}/best_model'
 )
 OUTPUT_DIR = QWEN_DIR / f'outputs/token_comparison/run01/{HEAD_TYPE}/best_evaluation'
 

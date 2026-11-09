@@ -18,7 +18,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 PROJECT = (PROJECT_ROOT)
 MODEL_DIR = Path(
-    r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+    r"model_cache"
     r"\models--MoritzLaurer--DeBERTa-v3-base-mnli-fever-anli"
     r"\snapshots\6f5cf0a2b59cabb106aca4c287eed12e357e90eb"
 )

@@ -14,7 +14,7 @@ from experiments.deberta_stage_average.train_deberta_stage_average import evalua
 from experiments.deberta_manual_aug.relation_lora_model import load_saved_model
 
 
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_manual_aug/run21_lora_r16_seed7_dropout01_linear_fast')
+MODEL_DIR = Path('model/deberta_manual_aug/run21_lora_r16_seed7_dropout01_linear_fast')
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
 

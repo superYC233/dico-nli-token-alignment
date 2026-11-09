@@ -7,7 +7,7 @@ HERE = Path(__file__).resolve().parent
 RUN_NAME = 'run01_local_semantics'
 SEED = 42
 MODEL_NAME = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_local_semantics')
+MODEL_ROOT = Path('model/deberta_local_semantics')
 
 # 精确复用0.938145当次的3290行，不重新生成旧增强。
 REFERENCE_DIR = ROOT / 'experiments/deberta_manual_aug/outputs/run06_relation48_staged'

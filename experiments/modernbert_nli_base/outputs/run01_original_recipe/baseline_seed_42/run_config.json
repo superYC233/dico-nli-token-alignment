@@ -1,6 +1,6 @@
 {
   "model_name": "tasksource/ModernBERT-base-nli",
-  "model_path": "D:\\LLM\\model\\ModernBERT-base-nli",
+  "model_path": "pretrained_models/ModernBERT-base-nli",
   "seed": 42,
   "architecture": "ModernBERT + original CLS and Token Alignment",
   "attention_backend": "sdpa",
@@ -8,7 +8,7 @@
   "download_info": {
     "repo_id": "tasksource/ModernBERT-base-nli",
     "revision": "de4ab7e77845098b7fab7f6ab9d370ddff27b19c",
-    "local_dir": "D:\\LLM\\model\\ModernBERT-base-nli"
+    "local_dir": "pretrained_models/ModernBERT-base-nli"
   },
   "use_lexical_features": false,
   "feature_names": [

@@ -71,6 +71,6 @@ def main(model_dir):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--model-dir', type=Path,
-                        default=Path('D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged'))
+                        default=Path('model/deberta_manual_aug/run06_relation48_staged'))
     args = parser.parse_args()
     main(args.model_dir)

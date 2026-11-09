@@ -98,7 +98,7 @@ def score_predictions(records, output_dir):
     return report
 
 if __name__ == '__main__':
-    model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+    model_path = 'pretrained_models/Qwen3-0.6B-Base'
     model = AutoModelForCausalLM.from_pretrained(model_path, dtype='auto').to('cuda')
     model.eval()
 

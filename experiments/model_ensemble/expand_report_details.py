@@ -245,7 +245,7 @@ def expand_report():
     lines = [f'# 现有模型多模型预测比较：{len(recipes)}组方案的完整说明', '',
              '整理日期：2026-10-26。这里把历史目录简称展开为实际模型、训练数据、训练方式和当前选模规则。成绩是保留的历史逐轮预测CSV的离线复算，不是本次重新训练后的成绩。', '',
              '**当前规则：** S03、S07、S08、S13、S14统一pair-aware选模后结构分下降，保留原选模；其余11组所有成员统一按Dev pair-aware F1选最佳，同分取最早轮。成员名单、数据和融合公式不变。该规则按这份Dev比较结果确定，属于开发集选择。',
-             '**训练入口：** 目前仅S01、S11、S12、S14、S16有独立PY入口。S01、S11、S12、S16使用 `run02_pair_select`；S14保留原 `run01_retrain` 及混合选模。运行前检查outputs中的运行记录和实际模型保存目录：已有权重且数据、配方和最佳轮次匹配，就直接复用，支持跨RUN_NAME，不因改名而重复训练；只有CSV或配置而没有实际权重的成员才需训练。原选模指标不同、但保存轮次也恰好是当前指标最佳轮次时，可以直接复用。已缓存完整N头模型时也跳过它的前置底座训练。修改对下次启动生效，不改变已经运行中的进程。缺失模型的新权重保存到 `D:/model/SEAMEVAL/ensemble_selected/<RUN_NAME>/<成员编号>/`；实际使用的模型路径会写入本次结果清单。',
+             '**训练入口：** 目前仅S01、S11、S12、S14、S16有独立PY入口。S01、S11、S12、S16使用 `run02_pair_select`；S14保留原 `run01_retrain` 及混合选模。运行前检查outputs中的运行记录和实际模型保存目录：已有权重且数据、配方和最佳轮次匹配，就直接复用，支持跨RUN_NAME，不因改名而重复训练；只有CSV或配置而没有实际权重的成员才需训练。原选模指标不同、但保存轮次也恰好是当前指标最佳轮次时，可以直接复用。已缓存完整N头模型时也跳过它的前置底座训练。修改对下次启动生效，不改变已经运行中的进程。缺失模型的新权重保存到 `model/ensemble_selected/<RUN_NAME>/<成员编号>/`；实际使用的模型路径会写入本次结果清单。',
              '**权重与分数区别：** 下文历史权重路径不保证当前仍存在，也不能仅凭路径证明它对应当前轮次；尤其S12的M018改用第22轮预测，对应权重未确认保留，需要重新训练。',
              f"完整对照：{file_link('16组原选模与全pair-aware选模比较', OUTPUT / 'selection_comparison/RESULTS.md')}。当前推荐表和逐组明细已更新；原始97模型搜索表、旧成员快照及选模比较保留历史口径。", '',
              '## 先说明“一个模型”和“一组方案”', '',
@@ -332,7 +332,7 @@ def expand_report():
             if code in ['S01', 'S11', 'S12', 'S14', 'S16']:
                 run_name = 'run01_retrain' if code == 'S14' else 'run02_pair_select'
                 filename = 'best_adapter/adapter_model.safetensors' if d['id'] == 'M094' else 'best_model.pth'
-                planned = f"D:/model/SEAMEVAL/ensemble_selected/{run_name}/{d['id']}/{filename}"
+                planned = f"model/ensemble_selected/{run_name}/{d['id']}/{filename}"
                 lines.append(f"- **本方案重训后保存位置：** `{planned}`；不是声称该文件已经训练生成。")
             for note in d['notes']:
                 lines.append(f'- **需保留的说明：** {note}')

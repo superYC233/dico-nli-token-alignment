@@ -7,7 +7,7 @@ RUN_NAME = 'run02_fast'
 SEED = 42
 
 # 先和原 C+r16 对照，因此默认使用原来的 0.6B Base，不引入新模型变量。
-MODEL_PATH = Path('D:/LLM/model/Qwen3-0.6B-Base')
+MODEL_PATH = Path('pretrained_models/Qwen3-0.6B-Base')
 LORA_R = 16
 LORA_ALPHA = 32
 LORA_DROPOUT = 0.05
@@ -39,7 +39,7 @@ USE_MNLI_ADAPTER = True
 # 数据缓存放短路径，避免 Windows 缓存文件名过长。
 CACHE_DIR = PROJECT_ROOT / '.hf_qmnli'
 PREPARED_DIR = EXPERIMENT_DIR / 'outputs' / MNLI_DATA_RUN_NAME / 'prepared_mnli'
-OUTPUT_ROOT = Path('D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_mnli') / RUN_NAME
+OUTPUT_ROOT = Path('model/qwen3_0p6b_mnli') / RUN_NAME
 MNLI_OUTPUT_DIR = OUTPUT_ROOT / 'mnli'
 MNLI_ADAPTER_DIR = MNLI_OUTPUT_DIR / 'final_adapter'
 DICO_VARIANT = 'from_mnli' if USE_MNLI_ADAPTER else 'from_base'

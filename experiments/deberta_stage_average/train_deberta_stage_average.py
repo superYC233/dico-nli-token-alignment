@@ -49,7 +49,7 @@ REFERENCE_DIR = ROOT / 'experiments/deberta_manual_aug/outputs/run06_relation48_
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 TRAIN_PATH = ROOT / 'data/train/dico_nli_train_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_stage_average') / RUN_NAME
+MODEL_DIR = Path('model/deberta_stage_average') / RUN_NAME
 RESULTS_DIR = HERE / 'outputs' / RUN_NAME
 
 

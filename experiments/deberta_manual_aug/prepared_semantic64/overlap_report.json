@@ -1,5 +1,5 @@
 {
-  "reference_run": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run06_relation48_staged",
+  "reference_run": "experiments/deberta_manual_aug/outputs/run06_relation48_staged",
   "reference_pair_f1": 0.9381451572973859,
   "baseline_rows": 3290,
   "official_train_rows": 3042,
@@ -215,59 +215,59 @@
   },
   "files": {
     "source": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\semantic_contrast_examples.csv",
+      "path": "experiments/deberta_manual_aug/semantic_contrast_examples.csv",
       "sha256": "e10053f018d914bbeaa34bc9b023d63347a0322159825e85cd594197117d6b5c"
     },
     "prepare": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepare_semantic_contrasts.py",
+      "path": "experiments/deberta_manual_aug/prepare_semantic_contrasts.py",
       "sha256": "bfce4a6915b43e7daeb226277a37d4f2b6a20731983347b9a0f16b8e6319914b"
     },
     "baseline": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run06_relation48_staged\\training_data.csv",
+      "path": "experiments/deberta_manual_aug/outputs/run06_relation48_staged/training_data.csv",
       "sha256": "b6a1ace5674efd71a21ef7142b656e36680c3d93defb0beaed26c70bacc247d3"
     },
     "official_train": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\data\\train\\dico_nli_train_track1_participant_labeled.csv",
+      "path": "data/train/dico_nli_train_track1_participant_labeled.csv",
       "sha256": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211"
     },
     "dev_blacklist": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\data\\dev\\dico_nli_dev_track1_participant_labeled.csv",
+      "path": "data/dev/dico_nli_dev_track1_participant_labeled.csv",
       "sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511"
     },
     "accepted_examples.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\accepted_examples.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/accepted_examples.csv",
       "sha256": "67595d4f25d3d7c72bf5dafbd63b9e7e2dc135c44f077191dd083b802c064197"
     },
     "manual_rows.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\manual_rows.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/manual_rows.csv",
       "sha256": "0103c32b5679fe2ba1a6a7ce606cf4ab026ff5786fbe22164e115137b2978ec5"
     },
     "manual_label_notes.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\manual_label_notes.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/manual_label_notes.csv",
       "sha256": "f9c41119f3f97da389f8b2fc6fe4b9a89508cf42d819ae6645a2e4b76ba3caca"
     },
     "train_word_sources.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\train_word_sources.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/train_word_sources.csv",
       "sha256": "2967d635c7d5232b4e41606270a6359eecd92bc8663ccaf0659ed7805b3daf69"
     },
     "training_data_manual.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\training_data_manual.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/training_data_manual.csv",
       "sha256": "d7ce908b9069dc032b33a928111143df7cd105dd6c93d320274de9ea9908bbfa"
     },
     "copy_control_rows.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\copy_control_rows.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/copy_control_rows.csv",
       "sha256": "bd2f9cc1bd6bab289739d2d2519713d59ce1a2580a3e66acf8adbd8edb7173ce"
     },
     "copy_control_sources.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\copy_control_sources.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/copy_control_sources.csv",
       "sha256": "f5e78554bb23feaa6e8e72f1b100b7fbfb2aaa94edee17078496299442d12a1f"
     },
     "training_data_copy.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\training_data_copy.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/training_data_copy.csv",
       "sha256": "b0513a0d38e5d28ac828edd2215819f899932b4b245197a6ce12c79cd01cb150"
     },
     "coverage_counts.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_semantic64\\coverage_counts.csv",
+      "path": "experiments/deberta_manual_aug/prepared_semantic64/coverage_counts.csv",
       "sha256": "fbd16346301d343df329db533d9447e5260878382d632846a67bf4b6345e2192"
     }
   }

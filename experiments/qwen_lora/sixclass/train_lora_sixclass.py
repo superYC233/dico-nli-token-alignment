@@ -109,10 +109,10 @@ if __name__ == '__main__':
     mode = 'C'
     seed = 42
 
-    model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+    model_path = 'pretrained_models/Qwen3-0.6B-Base'
 
     output_dir = (
-        f'D:/LLM/train_model/DiCo-NLI/'
+        f'model/'
         f'qwen3_0p6b_sixclass/run01/{mode}'
     )
 

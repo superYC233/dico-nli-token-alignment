@@ -1,6 +1,6 @@
 # 01｜BERT Baseline：准备、代码流程与现存材料
 
-整理日期：2026-10-27。项目根目录：`G:/pycode/SemEval/Task-2-DiCo-NLI-main`。
+整理日期：2026-10-27。项目根目录：`.`。
 
 **本篇的 baseline 是最初的 BERT 四分类模型。** 后来的 DeBERTa 0.9248、Lexical、增强数据和模型融合是后续实验，不作为本篇的 baseline。
 
@@ -28,7 +28,7 @@
 | 官方训练集 | [Train CSV](../data/train/dico_nli_train_track1_participant_labeled.csv)，存在 |
 | 官方开发集 | [Dev CSV](../data/dev/dico_nli_dev_track1_participant_labeled.csv)，存在 |
 | 官方开发集 reference | [Dev reference](../data/dev/dico_nli_dev_track1_reference.csv)，存在 |
-| 本地预训练 BERT | `D:/BaiduNetdiskDownload/PretrainedModel/models/google-bert--bert-base-uncased/snapshots/master`，目录存在，含配置、词表和权重 |
+| 本地预训练 BERT | `model_cache/google-bert--bert-base-uncased/snapshots/master`，目录存在，含配置、词表和权重 |
 | BERT 任务微调权重 | 源码预期为项目 `model/bert_dico_epoch_*.pth`；本次在项目中没有找到 |
 | 历史实验文字记录 | [完整实验记录](history/DICO_NLI_FINAL_EXPERIMENT_RECORD.md)，其中 BERT 准确成绩标为缺失 |
 
@@ -190,9 +190,9 @@ pred = torch.argmax(bert_output, dim=1)
 源码的训练函数每轮保存：
 
 ```text
-G:/pycode/SemEval/Task-2-DiCo-NLI-main/model/bert_dico_epoch_1.pth
+model/bert_dico_epoch_1.pth
 ...
-G:/pycode/SemEval/Task-2-DiCo-NLI-main/model/bert_dico_epoch_10.pth
+model/bert_dico_epoch_10.pth
 ```
 
 它没有在训练中只保留最佳权重，也没有显式保存优化器状态、随机状态、训练配置或 tokenizer 副本。不能把后面新实验的“只保存最佳模型”行为套到这个脚本上。
@@ -210,7 +210,7 @@ G:/pycode/SemEval/Task-2-DiCo-NLI-main/model/bert_dico_epoch_10.pth
 
 ## 10. 当前环境与归档指纹
 
-当前 Python 环境为 `G:/anaconda3/envs/nlpbase/python.exe`。下表来自本次读取已安装包的元数据，不代表最初实验的环境，也不表示本次已完成兼容性运行验证。
+当前 Python 环境为 `python`。下表来自本次读取已安装包的元数据，不代表最初实验的环境，也不表示本次已完成兼容性运行验证。
 
 | 依赖 | 当前版本 |
 |---|---|

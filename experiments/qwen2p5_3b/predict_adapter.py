@@ -32,8 +32,8 @@ if str(QWEN_LORA_DIR) not in sys.path:
 from analyze_decoding import FULL_LABELS, pair_aware_decode
 
 
-BASE_MODEL = 'D:/LLM/model/Qwen2.5-3B-Instruct'
-ADAPTER = 'D:/LLM/train_model/DiCo-NLI/qwen2p5_3b_valid/run01/final'
+BASE_MODEL = 'pretrained_models/Qwen2.5-3B-Instruct'
+ADAPTER = 'model/qwen2p5_3b_valid/run01/final'
 
 LABELS = ['F', 'B', 'E', 'N']
 

@@ -1,6 +1,6 @@
 {
   "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
-  "model_path": "D:\\BaiduNetdiskDownload\\PretrainedModel\\models\\models--MoritzLaurer--DeBERTa-v3-large-mnli-fever-anli-ling-wanli\\snapshots\\b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "model_path": "model_cache/models--MoritzLaurer--DeBERTa-v3-large-mnli-fever-anli-ling-wanli/snapshots/b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
   "seed": 42,
   "dtype": "float32",
   "bf16": true,

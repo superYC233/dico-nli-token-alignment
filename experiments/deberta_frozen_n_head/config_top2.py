@@ -7,7 +7,7 @@ HERE = Path(__file__).resolve().parent
 
 RUN_NAME = 'run03_top2_row_only'
 SEED = 42
-SOURCE_MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_frozen_n_head/run01_n_head')
+SOURCE_MODEL_DIR = Path('model/deberta_frozen_n_head/run01_n_head')
 SOURCE_RESULTS_DIR = HERE / 'outputs/run01_n_head'
 TEACHER_CACHE = SOURCE_RESULTS_DIR / 'feature_cache/train.pt'
 
@@ -33,5 +33,5 @@ TARGET_PAIR = 0.94
 
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_frozen_n_head') / RUN_NAME
+MODEL_DIR = Path('model/deberta_frozen_n_head') / RUN_NAME
 RESULTS_DIR = HERE / 'outputs' / RUN_NAME

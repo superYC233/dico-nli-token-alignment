@@ -27,11 +27,11 @@ temperature = 0.1
 projection_dim = 128
 
 output_dir = (
-    f'D:/LLM/train_model/DiCo-NLI/'
+    f'model/'
     f'qwen3_0p6b_contrastive/run01/{mode}'
 )
 
-model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+model_path = 'pretrained_models/Qwen3-0.6B-Base'
 
 
 def main():

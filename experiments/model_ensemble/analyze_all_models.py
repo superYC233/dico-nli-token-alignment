@@ -73,12 +73,12 @@ def checkpoint_paths(folder, settings, metadata):
     parts = folder.relative_to(ROOT / 'experiments').parts
     experiment = parts[0]
     relative = Path(*parts[2:])
-    for prefix in [Path('D:/model/SEAMEVAL'), ROOT / 'model']:
+    for prefix in [Path('model'), ROOT / 'model']:
         candidates.append(prefix / experiment / relative)
     if experiment == 'qwen25_3b_reason':
-        candidates.append(Path('D:/LLM/train_model/DiCo-NLI/qwen2p5_3b_reason') / relative)
+        candidates.append(Path('model/qwen2p5_3b_reason') / relative)
     if experiment == 'qwen_lora' and relative.parts[0] == 'qwen3_0p6b_reason':
-        candidates.append(Path('D:/LLM/train_model/DiCo-NLI') / relative)
+        candidates.append(Path('model') / relative)
     found = []
     for path in candidates:
         if path.is_file() and path.suffix in ['.pth', '.pt', '.safetensors']:
@@ -151,11 +151,11 @@ def inventory(dev, gold, pairs):
     # 旧Qwen结果没有best_summary，以下为历史明确指定版本，不重新挑epoch。
     explicit = [
         ('qwen_C_r16', 'experiments/qwen_lora/outputs/qwen3_0p6b_abc/run04_r16/C/predictions_with_scores.csv',
-         'Qwen3-0.6B-Base', 3517, 'D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_abc/run04_r16/C/best_adapter/adapter_model.safetensors'),
+         'Qwen3-0.6B-Base', 3517, 'model/qwen3_0p6b_abc/run04_r16/C/best_adapter/adapter_model.safetensors'),
         ('qwen_sixclass', 'experiments/qwen_lora/outputs/qwen3_0p6b_sixclass/run01/C/predictions_with_scores.csv',
-         'Qwen3-0.6B-Base six-class readout', 3517, 'D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_sixclass/run01/C/best_adapter/adapter_model.safetensors'),
+         'Qwen3-0.6B-Base six-class readout', 3517, 'model/qwen3_0p6b_sixclass/run01/C/best_adapter/adapter_model.safetensors'),
         ('deberta_SWA_6_10', 'experiments/deberta_stage_average/outputs/run01_late_average/averaged_final/dev/predictions_with_scores.csv',
-         'DeBERTa NLI + Alignment; fixed CPU average epochs 6-10', 3290, 'D:/model/SEAMEVAL/deberta_stage_average/run01_late_average/averaged_model.pth'),
+         'DeBERTa NLI + Alignment; fixed CPU average epochs 6-10', 3290, 'model/deberta_stage_average/run01_late_average/averaged_model.pth'),
     ]
     for name, filename, model_name, count, checkpoint in explicit:
         path = ROOT / filename

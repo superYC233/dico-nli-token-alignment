@@ -30,8 +30,8 @@ from data_variants import build_train_dataset
 MODE = 'C'
 SEED = 42
 RDROP_WEIGHT = 1.0  # 本次探索固定为 1.0，不代表已经找到最优值。
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
-OUTPUT_DIR = f'D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_rdrop/run01/{MODE}'
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
+OUTPUT_DIR = f'model/qwen3_0p6b_rdrop/run01/{MODE}'
 
 
 def symmetric_kl(scores1, scores2):

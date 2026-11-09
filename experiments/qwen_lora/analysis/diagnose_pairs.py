@@ -302,9 +302,9 @@ def diagnose_n_reversal(model, batch_size=32, output_path=None):
     return df
 
 if __name__ == '__main__':
-    model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+    model_path = 'pretrained_models/Qwen3-0.6B-Base'
     adapter_path = (
-        'D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_lora/run01'
+        'model/qwen3_0p6b_lora/run01'
     )
 
     model = AutoModelForCausalLM.from_pretrained(

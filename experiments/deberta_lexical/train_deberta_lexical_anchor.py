@@ -53,7 +53,7 @@ REFERENCE_DIR = HERE / 'outputs/run02_branch_lr/lexical_seed_42'
 TRAIN_PATH = ROOT / 'data/train/dico_nli_train_track1_participant_labeled.csv'
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_lexical')
+MODEL_ROOT = Path('model/deberta_lexical')
 
 
 def file_hash(path):

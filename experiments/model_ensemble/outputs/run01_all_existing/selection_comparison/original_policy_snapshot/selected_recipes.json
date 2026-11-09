@@ -14,14 +14,14 @@
     "members": [
       {
         "name": "deberta_closure/run01_closure88/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_closure\\outputs\\run01_closure88\\lexical_seed_42\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_closure/outputs/run01_closure88/lexical_seed_42/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "937877f5f8bda470a498a87378526407a90b24c8294318025922d865cf0f34ea",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3130,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_closure\\run01_closure88\\lexical_seed_42\\best_model.pth"
+          "model/deberta_closure/run01_closure88/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -35,14 +35,14 @@
       },
       {
         "name": "deberta_manual_aug/run12_local128_copy",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run12_local128_copy\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run12_local128_copy/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "3cc2bc63b6363cb0201481dfbc05dbb5330e984be26c04a1015a721440c4a3ad",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3418,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run12_local128_copy\\best_model.pth"
+          "model/deberta_manual_aug/run12_local128_copy/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; independent recorded at the same epoch",
@@ -56,14 +56,14 @@
       },
       {
         "name": "deberta_manual_aug/run17_lora_r16_dropout01",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run17_lora_r16_dropout01\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "f033399325ff861d4fe430ea73ecf36c1ed9f7163f74ed0eb9642996bf4eae4b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run17_lora_r16_dropout01\\best_model.pth"
+          "model/deberta_manual_aug/run17_lora_r16_dropout01/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -77,14 +77,14 @@
       },
       {
         "name": "deberta_manual_aug/run20_semantic64_staged_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run20_semantic64_staged_seed42\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run20_semantic64_staged_seed42/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "9a3188285129490cb6afcff0bdf00a6da36d3c54a59869ff28095ec08eec551a",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3354,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run20_semantic64_staged_seed42\\best_model.pth"
+          "model/deberta_manual_aug/run20_semantic64_staged_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best AFTER-PAIR Dev pair-aware weighted F1; earliest on ties",
@@ -98,14 +98,14 @@
       },
       {
         "name": "deberta_manual_aug/run26_row_sam",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run26_row_sam\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run26_row_sam/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "e672cbdf4be166103b863f450cefca3c4dbe34e6714951d94bcbea1a22ca5824",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run26_row_sam\\best_model.pth"
+          "model/deberta_manual_aug/run26_row_sam/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best AFTER-PAIR Dev pair-aware F1; earliest on ties",
@@ -119,14 +119,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -190,14 +190,14 @@
     "members": [
       {
         "name": "deberta_bidirectional/run01_bidirectional_seed7",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_bidirectional\\outputs\\run01_bidirectional_seed7\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_bidirectional/outputs/run01_bidirectional_seed7/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "05fb2230e0c798a4831d0bba56fa1cbf37f95558765d936c1017f6c4b807b01b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_bidirectional\\run01_bidirectional_seed7\\best_model.pth"
+          "model/deberta_bidirectional/run01_bidirectional_seed7/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest on ties",
@@ -211,14 +211,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run07_reversal_kl_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run07_reversal_kl_seed42\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run07_reversal_kl_seed42/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "aa977407866e3d95a6e9d632b8d97623a05a1dc2501da9788f9579eb601e61de",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run07_reversal_kl_seed42\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run07_reversal_kl_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -232,14 +232,14 @@
       },
       {
         "name": "deberta_manual_aug/run17_lora_r16_dropout01",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run17_lora_r16_dropout01\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "f033399325ff861d4fe430ea73ecf36c1ed9f7163f74ed0eb9642996bf4eae4b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run17_lora_r16_dropout01\\best_model.pth"
+          "model/deberta_manual_aug/run17_lora_r16_dropout01/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -253,14 +253,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -325,14 +325,14 @@
     "members": [
       {
         "name": "deberta_manual_aug/run03_event_200",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run03_event_200\\epoch_4\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run03_event_200/epoch_4/predictions_with_scores.csv",
         "prediction_sha256": "e03c2afa996c0970809086ba2d7c9bd003246f1f24e7c26c7ca7ab1df9c91066",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3442,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run03_event_200\\best_model.pth"
+          "model/deberta_manual_aug/run03_event_200/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -346,14 +346,14 @@
       },
       {
         "name": "deberta_manual_aug/run11_local128_manual",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run11_local128_manual\\epoch_6\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run11_local128_manual/epoch_6/predictions_with_scores.csv",
         "prediction_sha256": "45d4174092d0201cd01c62376ecfabdbe9f17c8dd95ef27998103dfb3a5f76e0",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3418,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run11_local128_manual\\best_model.pth"
+          "model/deberta_manual_aug/run11_local128_manual/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; independent recorded at the same epoch",
@@ -367,14 +367,14 @@
       },
       {
         "name": "deberta_manual_aug/run17_lora_r16_dropout01",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run17_lora_r16_dropout01\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "f033399325ff861d4fe430ea73ecf36c1ed9f7163f74ed0eb9642996bf4eae4b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run17_lora_r16_dropout01\\best_model.pth"
+          "model/deberta_manual_aug/run17_lora_r16_dropout01/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -388,14 +388,14 @@
       },
       {
         "name": "deberta_manual_aug/run18_lora_r16_seed7_dropout0",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run18_lora_r16_seed7_dropout0\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run18_lora_r16_seed7_dropout0/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "631670d2176fd6b3f74ce9314eb94d4133fac693bbebb0892512e6eeaf712271",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run18_lora_r16_seed7_dropout0\\best_model.pth"
+          "model/deberta_manual_aug/run18_lora_r16_seed7_dropout0/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -409,14 +409,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -478,14 +478,14 @@
     "members": [
       {
         "name": "deberta_manual_aug/run27_row_pair_sam",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run27_row_pair_sam\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run27_row_pair_sam/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "4086b74bdadd7c792ef9b2a7863ef448d0ebdafac67e55ba6ab5147e72e38785",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run27_row_pair_sam\\best_model.pth"
+          "model/deberta_manual_aug/run27_row_pair_sam/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best AFTER-PAIR Dev pair-aware F1; earliest on ties",
@@ -499,14 +499,14 @@
       },
       {
         "name": "deberta_original_aug/run01_original_scope",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "8b702650eb011b91c6faceb6e31bf1f6a7a563fce6d769788f1604da0bae1084",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3242,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_original_aug\\run01_original_scope\\best_model.pth"
+          "model/deberta_original_aug/run01_original_scope/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -569,14 +569,14 @@
     "members": [
       {
         "name": "deberta_closure/run01_closure88/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_closure\\outputs\\run01_closure88\\lexical_seed_42\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_closure/outputs/run01_closure88/lexical_seed_42/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "937877f5f8bda470a498a87378526407a90b24c8294318025922d865cf0f34ea",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3130,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_closure\\run01_closure88\\lexical_seed_42\\best_model.pth"
+          "model/deberta_closure/run01_closure88/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -590,14 +590,14 @@
       },
       {
         "name": "deberta_manual_aug/run20_semantic64_staged_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run20_semantic64_staged_seed42\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run20_semantic64_staged_seed42/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "9a3188285129490cb6afcff0bdf00a6da36d3c54a59869ff28095ec08eec551a",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3354,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run20_semantic64_staged_seed42\\best_model.pth"
+          "model/deberta_manual_aug/run20_semantic64_staged_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best AFTER-PAIR Dev pair-aware weighted F1; earliest on ties",
@@ -611,14 +611,14 @@
       },
       {
         "name": "deberta_manual_aug/run26_row_sam",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run26_row_sam\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run26_row_sam/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "e672cbdf4be166103b863f450cefca3c4dbe34e6714951d94bcbea1a22ca5824",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run26_row_sam\\best_model.pth"
+          "model/deberta_manual_aug/run26_row_sam/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best AFTER-PAIR Dev pair-aware F1; earliest on ties",
@@ -682,14 +682,14 @@
     "members": [
       {
         "name": "deberta_base_lexical/run01_raw_base/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_base_lexical\\outputs\\run01_raw_base\\lexical_seed_42\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_base_lexical/outputs/run01_raw_base/lexical_seed_42/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "b0657ad8a6378389d8b9a79faaa55050c830f21d63595ffda1d00dc2b27782cf",
         "model_name": "microsoft/deberta-v3-base",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_base_lexical\\run01_raw_base\\lexical_seed_42\\best_model.pth"
+          "model/deberta_base_lexical/run01_raw_base/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -703,14 +703,14 @@
       },
       {
         "name": "deberta_lexical/run03/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical\\outputs\\run03\\lexical_seed_42\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical/outputs/run03/lexical_seed_42/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "3a54b58764f917ea8a8cafe70eba990d3074cd2f397ad7028bbbddf2aa706aa2",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model\\deberta_lexical\\run03\\lexical_seed_42\\best_model.pth"
+          "model/deberta_lexical/run03/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -724,14 +724,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run09_reason_all_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run09_reason_all_seed42\\epoch_7\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run09_reason_all_seed42/epoch_7/predictions_with_scores.csv",
         "prediction_sha256": "e497ccb6b37d78fb524f5d59a5f88a6e2e5d17762022eb6034ed071aeb18fa55",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run09_reason_all_seed42\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run09_reason_all_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -745,14 +745,14 @@
       },
       {
         "name": "deberta_lexical_reliability/run01/baseline_seed_7",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_reliability\\outputs\\run01\\baseline_seed_7\\epoch_6\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_reliability/outputs/run01/baseline_seed_7/epoch_6/predictions_with_scores.csv",
         "prediction_sha256": "bfe92e8312cfbf89db5094396d3e4716a9e8e39a0c368bf2b4bfba1c90220f04",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_reliability\\run01\\baseline_seed_7\\best_model.pth"
+          "model/deberta_lexical_reliability/run01/baseline_seed_7/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -817,14 +817,14 @@
     "members": [
       {
         "name": "deberta_lexical/run04_weight/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical\\outputs\\run04_weight\\lexical_seed_42\\epoch_9\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical/outputs/run04_weight/lexical_seed_42/epoch_9/predictions_with_scores.csv",
         "prediction_sha256": "7594d9d47d970b029de82792fd13cba99abc41ce70e4c8efd3c0e47d10aed667",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model\\deberta_lexical\\run04_weight\\lexical_seed_42\\best_model.pth"
+          "model/deberta_lexical/run04_weight/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -838,14 +838,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run06_oof_hard",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run06_oof_hard\\epoch_7\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run06_oof_hard/epoch_7/predictions_with_scores.csv",
         "prediction_sha256": "d5d731d952aed48f0827cb6803f8513ffbcb094045e056ee3bbd61c2b1e75fc0",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run06_oof_hard\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run06_oof_hard/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -859,14 +859,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run07_reversal_kl_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run07_reversal_kl_seed42\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run07_reversal_kl_seed42/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "aa977407866e3d95a6e9d632b8d97623a05a1dc2501da9788f9579eb601e61de",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run07_reversal_kl_seed42\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run07_reversal_kl_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -880,14 +880,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -901,14 +901,14 @@
       },
       {
         "name": "deberta_nli_xsmall/run01_xsmall_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_xsmall\\outputs\\run01_xsmall_mixed_pair\\epoch_7\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_xsmall/outputs/run01_xsmall_mixed_pair/epoch_7/predictions_with_scores.csv",
         "prediction_sha256": "c2b3d521abb6b842c23a35b2c19fec8862981d16f75706cf5a9a71e7248eedd9",
         "model_name": "cross-encoder/nli-deberta-v3-xsmall",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_xsmall\\run01_xsmall_mixed_pair\\best_model.pth"
+          "model/deberta_nli_xsmall/run01_xsmall_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -971,14 +971,14 @@
     "members": [
       {
         "name": "deberta_bidirectional/run01_bidirectional_seed7",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_bidirectional\\outputs\\run01_bidirectional_seed7\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_bidirectional/outputs/run01_bidirectional_seed7/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "05fb2230e0c798a4831d0bba56fa1cbf37f95558765d936c1017f6c4b807b01b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_bidirectional\\run01_bidirectional_seed7\\best_model.pth"
+          "model/deberta_bidirectional/run01_bidirectional_seed7/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest on ties",
@@ -992,14 +992,14 @@
       },
       {
         "name": "deberta_manual_aug/run17_lora_r16_dropout01",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run17_lora_r16_dropout01\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "f033399325ff861d4fe430ea73ecf36c1ed9f7163f74ed0eb9642996bf4eae4b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run17_lora_r16_dropout01\\best_model.pth"
+          "model/deberta_manual_aug/run17_lora_r16_dropout01/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -1013,14 +1013,14 @@
       },
       {
         "name": "deberta_nli_xsmall/run01_xsmall_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_xsmall\\outputs\\run01_xsmall_mixed_pair\\epoch_7\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_xsmall/outputs/run01_xsmall_mixed_pair/epoch_7/predictions_with_scores.csv",
         "prediction_sha256": "c2b3d521abb6b842c23a35b2c19fec8862981d16f75706cf5a9a71e7248eedd9",
         "model_name": "cross-encoder/nli-deberta-v3-xsmall",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_xsmall\\run01_xsmall_mixed_pair\\best_model.pth"
+          "model/deberta_nli_xsmall/run01_xsmall_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1086,14 +1086,14 @@
     "members": [
       {
         "name": "deberta_bidirectional/run01_bidirectional_seed7",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_bidirectional\\outputs\\run01_bidirectional_seed7\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_bidirectional/outputs/run01_bidirectional_seed7/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "05fb2230e0c798a4831d0bba56fa1cbf37f95558765d936c1017f6c4b807b01b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_bidirectional\\run01_bidirectional_seed7\\best_model.pth"
+          "model/deberta_bidirectional/run01_bidirectional_seed7/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest on ties",
@@ -1107,14 +1107,14 @@
       },
       {
         "name": "deberta_lexical_reliability/run01/lexical_seed_7",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_reliability\\outputs\\run01\\lexical_seed_7\\epoch_1\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_reliability/outputs/run01/lexical_seed_7/epoch_1/predictions_with_scores.csv",
         "prediction_sha256": "a69597e4edfff6ed96dc44c68330534bb571719d65e9cbc001d8c28ab391049f",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_reliability\\run01\\lexical_seed_7\\best_model.pth"
+          "model/deberta_lexical_reliability/run01/lexical_seed_7/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1128,14 +1128,14 @@
       },
       {
         "name": "deberta_manual_aug/run07_relation48_mixed",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run07_relation48_mixed\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run07_relation48_mixed/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "351f608f938b8e74b56504d2dc7a3d9a1453ba38435fc4a1658889164efc22df",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run07_relation48_mixed\\best_model.pth"
+          "model/deberta_manual_aug/run07_relation48_mixed/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1149,14 +1149,14 @@
       },
       {
         "name": "deberta_manual_aug/run17_lora_r16_dropout01",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run17_lora_r16_dropout01\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "f033399325ff861d4fe430ea73ecf36c1ed9f7163f74ed0eb9642996bf4eae4b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run17_lora_r16_dropout01\\best_model.pth"
+          "model/deberta_manual_aug/run17_lora_r16_dropout01/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -1170,14 +1170,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1191,15 +1191,15 @@
       },
       {
         "name": "qwen25_3b_reason/run01_c_reason02/C",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\qwen25_3b_reason\\outputs\\run01_c_reason02\\C\\best\\predictions_with_scores.csv",
+        "prediction_file": "experiments/qwen25_3b_reason/outputs/run01_c_reason02/C/best/predictions_with_scores.csv",
         "prediction_sha256": "dd42dd2ae4320fc003057b7b09aff2c3409ec95debda9f92b7b6ebd68e2d48e3",
-        "model_name": "D:/LLM/model/Qwen2.5-3B-Instruct",
+        "model_name": "pretrained_models/Qwen2.5-3B-Instruct",
         "train_rows": 3517,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\LLM\\train_model\\DiCo-NLI\\qwen2p5_3b_reason\\run01_c_reason02\\C\\best_adapter\\adapter_model.safetensors",
-          "D:\\LLM\\train_model\\DiCo-NLI\\qwen2p5_3b_reason\\run01_c_reason02\\C\\checkpoint-880\\adapter_model.safetensors"
+          "model/qwen2p5_3b_reason/run01_c_reason02/C/best_adapter/adapter_model.safetensors",
+          "model/qwen2p5_3b_reason/run01_c_reason02/C/checkpoint-880/adapter_model.safetensors"
         ],
         "checkpoint_found": true,
         "selection": "pair_aware",
@@ -1264,14 +1264,14 @@
     "members": [
       {
         "name": "deberta_bidirectional/run01_bidirectional_seed7",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_bidirectional\\outputs\\run01_bidirectional_seed7\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_bidirectional/outputs/run01_bidirectional_seed7/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "05fb2230e0c798a4831d0bba56fa1cbf37f95558765d936c1017f6c4b807b01b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_bidirectional\\run01_bidirectional_seed7\\best_model.pth"
+          "model/deberta_bidirectional/run01_bidirectional_seed7/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest on ties",
@@ -1285,14 +1285,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run07_reversal_kl_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run07_reversal_kl_seed42\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run07_reversal_kl_seed42/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "aa977407866e3d95a6e9d632b8d97623a05a1dc2501da9788f9579eb601e61de",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run07_reversal_kl_seed42\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run07_reversal_kl_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1306,14 +1306,14 @@
       },
       {
         "name": "deberta_manual_aug/run17_lora_r16_dropout01",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run17_lora_r16_dropout01\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "f033399325ff861d4fe430ea73ecf36c1ed9f7163f74ed0eb9642996bf4eae4b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run17_lora_r16_dropout01\\best_model.pth"
+          "model/deberta_manual_aug/run17_lora_r16_dropout01/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -1327,14 +1327,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1348,14 +1348,14 @@
       },
       {
         "name": "modernbert_nli_base/run01_original_recipe/baseline_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\modernbert_nli_base\\outputs\\run01_original_recipe\\baseline_seed_42\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/modernbert_nli_base/outputs/run01_original_recipe/baseline_seed_42/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "4b7be19929e5a69256b347d715baa6917274cb948dbcd8b8a4d6cd114b6110ec",
         "model_name": "tasksource/ModernBERT-base-nli",
         "train_rows": 3042,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\modernbert_nli_base\\run01_original_recipe\\baseline_seed_42\\best_model.pth"
+          "model/modernbert_nli_base/run01_original_recipe/baseline_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1420,14 +1420,14 @@
     "members": [
       {
         "name": "deberta_feature_fusion/run01_feature_fusion/feature_fusion_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_feature_fusion\\outputs\\run01_feature_fusion\\feature_fusion_seed_42\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_feature_fusion/outputs/run01_feature_fusion/feature_fusion_seed_42/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "169350d87abfa9068349618a3e8d4ed460b4997335fdc8b7e4a70be47336c5eb",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_feature_fusion\\run01_feature_fusion\\feature_fusion_seed_42\\best_model.pth"
+          "model/deberta_feature_fusion/run01_feature_fusion/feature_fusion_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "after Pair CE: best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1441,14 +1441,14 @@
       },
       {
         "name": "deberta_lexical_aug/run02_lexical_relation_staged",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_aug\\outputs\\run02_lexical_relation_staged\\epoch_7\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_aug/outputs/run02_lexical_relation_staged/epoch_7/predictions_with_scores.csv",
         "prediction_sha256": "a59c870d6dc43827041d728974d4b43b8b40fb542da25cb4d0b2a7d19107cc28",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_aug\\run02_lexical_relation_staged\\best_model.pth"
+          "model/deberta_lexical_aug/run02_lexical_relation_staged/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair_aware at after_pair; earliest on ties",
@@ -1462,14 +1462,14 @@
       },
       {
         "name": "deberta_lexical_reliability/run01/baseline_seed_7",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_reliability\\outputs\\run01\\baseline_seed_7\\epoch_6\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_reliability/outputs/run01/baseline_seed_7/epoch_6/predictions_with_scores.csv",
         "prediction_sha256": "bfe92e8312cfbf89db5094396d3e4716a9e8e39a0c368bf2b4bfba1c90220f04",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_reliability\\run01\\baseline_seed_7\\best_model.pth"
+          "model/deberta_lexical_reliability/run01/baseline_seed_7/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1483,14 +1483,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1504,14 +1504,14 @@
       },
       {
         "name": "deberta_original_aug/run01_original_scope",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "8b702650eb011b91c6faceb6e31bf1f6a7a563fce6d769788f1604da0bae1084",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3242,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_original_aug\\run01_original_scope\\best_model.pth"
+          "model/deberta_original_aug/run01_original_scope/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1577,14 +1577,14 @@
     "members": [
       {
         "name": "deberta_base_lexical/run01_raw_base/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_base_lexical\\outputs\\run01_raw_base\\lexical_seed_42\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_base_lexical/outputs/run01_raw_base/lexical_seed_42/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "b0657ad8a6378389d8b9a79faaa55050c830f21d63595ffda1d00dc2b27782cf",
         "model_name": "microsoft/deberta-v3-base",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_base_lexical\\run01_raw_base\\lexical_seed_42\\best_model.pth"
+          "model/deberta_base_lexical/run01_raw_base/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1598,14 +1598,14 @@
       },
       {
         "name": "deberta_bidirectional/run02_original_alignment_joint_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_bidirectional\\outputs\\run02_original_alignment_joint_seed42\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_bidirectional/outputs/run02_original_alignment_joint_seed42/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "8db0acc6918c62f35c29e3c41b3dbe3fb96592637c5e6d725020124d7bf20683",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_bidirectional\\run02_original_alignment_joint_seed42\\best_model.pth"
+          "model/deberta_bidirectional/run02_original_alignment_joint_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties, as original 0.938",
@@ -1619,14 +1619,14 @@
       },
       {
         "name": "deberta_frozen_n_head/run01_n_head",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_frozen_n_head\\outputs\\run01_n_head\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_frozen_n_head/outputs/run01_n_head/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "d31534dc740046eae13cf6bcbdf3c221ee9da463cc3e8e2682b0466c7abf15d1",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_frozen_n_head\\run01_n_head\\best_model.pth"
+          "model/deberta_frozen_n_head/run01_n_head/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent/target_independent, pair_aware/target_pair); earliest tie",
@@ -1640,14 +1640,14 @@
       },
       {
         "name": "deberta_manual_aug/run11_local128_manual",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run11_local128_manual\\epoch_6\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run11_local128_manual/epoch_6/predictions_with_scores.csv",
         "prediction_sha256": "45d4174092d0201cd01c62376ecfabdbe9f17c8dd95ef27998103dfb3a5f76e0",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3418,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run11_local128_manual\\best_model.pth"
+          "model/deberta_manual_aug/run11_local128_manual/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; independent recorded at the same epoch",
@@ -1661,14 +1661,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1682,15 +1682,15 @@
       },
       {
         "name": "qwen25_3b_reason/run01_c_reason02/C",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\qwen25_3b_reason\\outputs\\run01_c_reason02\\C\\best\\predictions_with_scores.csv",
+        "prediction_file": "experiments/qwen25_3b_reason/outputs/run01_c_reason02/C/best/predictions_with_scores.csv",
         "prediction_sha256": "dd42dd2ae4320fc003057b7b09aff2c3409ec95debda9f92b7b6ebd68e2d48e3",
-        "model_name": "D:/LLM/model/Qwen2.5-3B-Instruct",
+        "model_name": "pretrained_models/Qwen2.5-3B-Instruct",
         "train_rows": 3517,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\LLM\\train_model\\DiCo-NLI\\qwen2p5_3b_reason\\run01_c_reason02\\C\\best_adapter\\adapter_model.safetensors",
-          "D:\\LLM\\train_model\\DiCo-NLI\\qwen2p5_3b_reason\\run01_c_reason02\\C\\checkpoint-880\\adapter_model.safetensors"
+          "model/qwen2p5_3b_reason/run01_c_reason02/C/best_adapter/adapter_model.safetensors",
+          "model/qwen2p5_3b_reason/run01_c_reason02/C/checkpoint-880/adapter_model.safetensors"
         ],
         "checkpoint_found": true,
         "selection": "pair_aware",
@@ -1754,14 +1754,14 @@
     "members": [
       {
         "name": "deberta_feature_fusion/run01_feature_fusion/feature_fusion_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_feature_fusion\\outputs\\run01_feature_fusion\\feature_fusion_seed_42\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_feature_fusion/outputs/run01_feature_fusion/feature_fusion_seed_42/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "169350d87abfa9068349618a3e8d4ed460b4997335fdc8b7e4a70be47336c5eb",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_feature_fusion\\run01_feature_fusion\\feature_fusion_seed_42\\best_model.pth"
+          "model/deberta_feature_fusion/run01_feature_fusion/feature_fusion_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "after Pair CE: best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1775,14 +1775,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run08_reason_evidence_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run08_reason_evidence_seed42\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run08_reason_evidence_seed42/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "728945cbbaf88694e15283b4d2b155d63d94f0d891c166c9f91e3bc94c4643bd",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run08_reason_evidence_seed42\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run08_reason_evidence_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1796,14 +1796,14 @@
       },
       {
         "name": "deberta_lexical_reliability/run01/baseline_seed_7",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_reliability\\outputs\\run01\\baseline_seed_7\\epoch_6\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_reliability/outputs/run01/baseline_seed_7/epoch_6/predictions_with_scores.csv",
         "prediction_sha256": "bfe92e8312cfbf89db5094396d3e4716a9e8e39a0c368bf2b4bfba1c90220f04",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_reliability\\run01\\baseline_seed_7\\best_model.pth"
+          "model/deberta_lexical_reliability/run01/baseline_seed_7/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1817,14 +1817,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1889,14 +1889,14 @@
     "members": [
       {
         "name": "deberta_lexical/run06_row_parameter_anchor",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical\\outputs\\run06_row_parameter_anchor\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical/outputs/run06_row_parameter_anchor/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "2ba33c8f15fb9e8f66c6a967474236631016b69538991616492d1cf1060caf25",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical\\run06_row_parameter_anchor\\best_model.pth"
+          "model/deberta_lexical/run06_row_parameter_anchor/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best AFTER-PAIR Dev pair-aware F1; earliest on ties",
@@ -1910,14 +1910,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run05_mixed_rdrop",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run05_mixed_rdrop\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run05_mixed_rdrop/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "b26a9ffade9926dc94d3e34fbda3e65e4d84fb2dbc17cdcebd8fbe0ff9ad37af",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run05_mixed_rdrop\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run05_mixed_rdrop/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1931,14 +1931,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run08_reason_evidence_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run08_reason_evidence_seed42\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run08_reason_evidence_seed42/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "728945cbbaf88694e15283b4d2b155d63d94f0d891c166c9f91e3bc94c4643bd",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run08_reason_evidence_seed42\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run08_reason_evidence_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -1952,14 +1952,14 @@
       },
       {
         "name": "deberta_manual_aug/run06_relation48_staged",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run06_relation48_staged\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run06_relation48_staged/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "8d883df53a11473a6b892b3457c4b0157e90fe007b340373d1862c9bd3cb0f47",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run06_relation48_staged\\best_model.pth"
+          "model/deberta_manual_aug/run06_relation48_staged/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -1975,14 +1975,14 @@
       },
       {
         "name": "deberta_manual_aug/run17_lora_r16_dropout01",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run17_lora_r16_dropout01\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "f033399325ff861d4fe430ea73ecf36c1ed9f7163f74ed0eb9642996bf4eae4b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run17_lora_r16_dropout01\\best_model.pth"
+          "model/deberta_manual_aug/run17_lora_r16_dropout01/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -1996,14 +1996,14 @@
       },
       {
         "name": "deberta_original_aug/run01_original_scope",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "8b702650eb011b91c6faceb6e31bf1f6a7a563fce6d769788f1604da0bae1084",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3242,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_original_aug\\run01_original_scope\\best_model.pth"
+          "model/deberta_original_aug/run01_original_scope/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -2068,14 +2068,14 @@
     "members": [
       {
         "name": "deberta_lexical/run02_branch_lr/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical\\outputs\\run02_branch_lr\\lexical_seed_42\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical/outputs/run02_branch_lr/lexical_seed_42/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "08d4a3cea8dd2a66c2cb2d195422ce9e362f6a18a15a0a691e2a764fde43b089",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model\\deberta_lexical\\run02_branch_lr\\lexical_seed_42\\best_model.pth"
+          "model/deberta_lexical/run02_branch_lr/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -2092,14 +2092,14 @@
       },
       {
         "name": "deberta_manual_aug/run01_original_manual",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run01_original_manual\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run01_original_manual/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "b86ec81307b0670435e52f0388af3266e4f528d3137fec1fac1d7da73edfce0e",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3322,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run01_original_manual\\best_model.pth"
+          "model/deberta_manual_aug/run01_original_manual/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -2113,14 +2113,14 @@
       },
       {
         "name": "deberta_manual_aug/run03_event_200",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run03_event_200\\epoch_4\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run03_event_200/epoch_4/predictions_with_scores.csv",
         "prediction_sha256": "e03c2afa996c0970809086ba2d7c9bd003246f1f24e7c26c7ca7ab1df9c91066",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3442,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run03_event_200\\best_model.pth"
+          "model/deberta_manual_aug/run03_event_200/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -2134,14 +2134,14 @@
       },
       {
         "name": "deberta_manual_aug/run17_lora_r16_dropout01",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run17_lora_r16_dropout01\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run17_lora_r16_dropout01/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "f033399325ff861d4fe430ea73ecf36c1ed9f7163f74ed0eb9642996bf4eae4b",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3290,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run17_lora_r16_dropout01\\best_model.pth"
+          "model/deberta_manual_aug/run17_lora_r16_dropout01/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "max min(independent_f1/target_independent, pair_aware_f1/target_pair); earliest epoch on ties",
@@ -2155,14 +2155,14 @@
       },
       {
         "name": "deberta_manual_aug/run20_semantic64_staged_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run20_semantic64_staged_seed42\\best\\dev\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_manual_aug/outputs/run20_semantic64_staged_seed42/best/dev/predictions_with_scores.csv",
         "prediction_sha256": "9a3188285129490cb6afcff0bdf00a6da36d3c54a59869ff28095ec08eec551a",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3354,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_manual_aug\\run20_semantic64_staged_seed42\\best_model.pth"
+          "model/deberta_manual_aug/run20_semantic64_staged_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best AFTER-PAIR Dev pair-aware weighted F1; earliest on ties",
@@ -2176,14 +2176,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -2248,14 +2248,14 @@
     "members": [
       {
         "name": "deberta_feature_fusion/run01_feature_fusion/feature_fusion_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_feature_fusion\\outputs\\run01_feature_fusion\\feature_fusion_seed_42\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_feature_fusion/outputs/run01_feature_fusion/feature_fusion_seed_42/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "169350d87abfa9068349618a3e8d4ed460b4997335fdc8b7e4a70be47336c5eb",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": null,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_feature_fusion\\run01_feature_fusion\\feature_fusion_seed_42\\best_model.pth"
+          "model/deberta_feature_fusion/run01_feature_fusion/feature_fusion_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "after Pair CE: best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -2269,14 +2269,14 @@
       },
       {
         "name": "deberta_lexical/run02_branch_lr/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical\\outputs\\run02_branch_lr\\lexical_seed_42\\epoch_3\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical/outputs/run02_branch_lr/lexical_seed_42/epoch_3/predictions_with_scores.csv",
         "prediction_sha256": "08d4a3cea8dd2a66c2cb2d195422ce9e362f6a18a15a0a691e2a764fde43b089",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model\\deberta_lexical\\run02_branch_lr\\lexical_seed_42\\best_model.pth"
+          "model/deberta_lexical/run02_branch_lr/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -2293,14 +2293,14 @@
       },
       {
         "name": "deberta_lexical/run04_weight/lexical_seed_42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical\\outputs\\run04_weight\\lexical_seed_42\\epoch_9\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical/outputs/run04_weight/lexical_seed_42/epoch_9/predictions_with_scores.csv",
         "prediction_sha256": "7594d9d47d970b029de82792fd13cba99abc41ce70e4c8efd3c0e47d10aed667",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model\\deberta_lexical\\run04_weight\\lexical_seed_42\\best_model.pth"
+          "model/deberta_lexical/run04_weight/lexical_seed_42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "best Dev pair-aware weighted F1; earliest epoch on ties",
@@ -2314,14 +2314,14 @@
       },
       {
         "name": "deberta_lexical_mixed_pair/run07_reversal_kl_seed42",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical_mixed_pair\\outputs\\run07_reversal_kl_seed42\\epoch_2\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_lexical_mixed_pair/outputs/run07_reversal_kl_seed42/epoch_2/predictions_with_scores.csv",
         "prediction_sha256": "aa977407866e3d95a6e9d632b8d97623a05a1dc2501da9788f9579eb601e61de",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_lexical_mixed_pair\\run07_reversal_kl_seed42\\best_model.pth"
+          "model/deberta_lexical_mixed_pair/run07_reversal_kl_seed42/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -2335,14 +2335,14 @@
       },
       {
         "name": "deberta_nli_large/run01_large_mixed_pair",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_nli_large\\outputs\\run01_large_mixed_pair\\epoch_10\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_nli_large/outputs/run01_large_mixed_pair/epoch_10/predictions_with_scores.csv",
         "prediction_sha256": "ae230a5945a6a9ea9bf82ab6c6b2a777e59b9a778587faa29f4349302097580d",
         "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
         "train_rows": 3042,
         "use_lexical_features": true,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_nli_large\\run01_large_mixed_pair\\best_model.pth"
+          "model/deberta_nli_large/run01_large_mixed_pair/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": "independent",
@@ -2356,14 +2356,14 @@
       },
       {
         "name": "deberta_row_ce_frozen/run01_freeze6",
-        "prediction_file": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_row_ce_frozen\\outputs\\run01_freeze6\\epoch_8\\predictions_with_scores.csv",
+        "prediction_file": "experiments/deberta_row_ce_frozen/outputs/run01_freeze6/epoch_8/predictions_with_scores.csv",
         "prediction_sha256": "3eb83dbb3bbdd45cbf58821d2442347146355fde9a9ca215c8a6cf9212db5d58",
         "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
         "train_rows": 3042,
         "use_lexical_features": false,
         "external_auxiliary": false,
         "checkpoint_candidates_existing": [
-          "D:\\model\\SEAMEVAL\\deberta_row_ce_frozen\\run01_freeze6\\best_model.pth"
+          "model/deberta_row_ce_frozen/run01_freeze6/best_model.pth"
         ],
         "checkpoint_found": true,
         "selection": null,
@@ -2413,7 +2413,7 @@
     "forced_singleton_N": false,
     "gold_used_for_selection": true,
     "gold_used_for_per_row_prediction_routing": false,
-    "search_source": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\model_ensemble\\outputs\\run02_official_or_copy\\recipes.json",
+    "search_source": "experiments/model_ensemble/outputs/run02_official_or_copy/recipes.json",
     "source_recipe": "C08",
     "training_data_policy": "All six members use only official3042 and original labels; no added texts or evidence annotations."
   }

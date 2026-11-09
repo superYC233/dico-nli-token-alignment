@@ -51,7 +51,7 @@ HERE = Path(__file__).resolve().parent
 REFERENCE_DIR = HERE / 'outputs/run06_relation48_staged'
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_manual_aug')
+MODEL_ROOT = Path('model/deberta_manual_aug')
 
 
 def build_model(tokenizer, model_name=MODEL_NAME, revision=BASE_REVISION):

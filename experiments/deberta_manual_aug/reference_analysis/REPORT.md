@@ -1,6 +1,6 @@
 # 0.935493版本错误复查
 
-参考：G:/pycode/SemEval/Task-2-DiCo-NLI-main/experiments/deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv
+参考：experiments/deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv
 
 同一checkpoint：独立W-F1=0.480876，pair-aware W-F1=0.935493。
 结构后错误43行，涉及25组。

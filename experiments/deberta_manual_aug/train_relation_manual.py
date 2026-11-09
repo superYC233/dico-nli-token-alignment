@@ -44,7 +44,7 @@ PAIR_LABEL_SMOOTHING = 0.05
 LABELS = ['F', 'B', 'E', 'N']
 
 HERE = Path(__file__).resolve().parent
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_manual_aug')
+MODEL_ROOT = Path('model/deberta_manual_aug')
 TRAIN_PATH = ROOT / 'data/train/dico_nli_train_track1_participant_labeled.csv'
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 

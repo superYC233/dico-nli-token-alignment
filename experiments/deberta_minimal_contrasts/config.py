@@ -7,7 +7,7 @@ DATA_DIR = HERE / 'prepared' / RUN_NAME
 OUTPUT_DIR = HERE / 'outputs' / RUN_NAME
 
 # 本次只诊断已训练好的纯 Row CE 最佳模型，不启动训练。
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_row_ce_frozen/run01_freeze6')
+MODEL_DIR = Path('model/deberta_row_ce_frozen/run01_freeze6')
 AUDIT_DIR = ROOT / 'experiments/deberta_generalization_audit/outputs/row_ce_frozen_epoch8'
 TRAIN_PATH = ROOT / 'data/train/dico_nli_train_track1_participant_labeled.csv'
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'

@@ -62,8 +62,8 @@ from diagnose_pairs import diagnose_n_reversal
 
 # --------------------------------------------------------------- 路径与常量
 
-BASE_MODEL = 'D:/LLM/model/Qwen3-0.6B-Base'
-ADAPTER_ROOT = Path('D:/LLM/train_model/DiCo-NLI/n_ablation')
+BASE_MODEL = 'pretrained_models/Qwen3-0.6B-Base'
+ADAPTER_ROOT = Path('model/n_ablation')
 OUTPUT_ROOT = SCRIPT_DIR / 'outputs' / 'n_ablation'
 
 TRAIN_CSV = (

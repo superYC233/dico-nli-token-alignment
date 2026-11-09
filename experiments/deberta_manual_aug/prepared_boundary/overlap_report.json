@@ -1612,71 +1612,71 @@
   ],
   "files": {
     "manual_source": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\boundary_examples.csv",
+      "path": "experiments/deberta_manual_aug/boundary_examples.csv",
       "sha256": "80ee4d50b0a3fad9792b307dc34c1f5a53ea6e7b69ea651a754d61d28fc5b539"
     },
     "official_train": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\data\\train\\dico_nli_train_track1_participant_labeled.csv",
+      "path": "data/train/dico_nli_train_track1_participant_labeled.csv",
       "sha256": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211"
     },
     "dev_text_source": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\data\\dev\\dico_nli_dev_track1_participant_labeled.csv",
+      "path": "data/dev/dico_nli_dev_track1_participant_labeled.csv",
       "sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511"
     },
     "baseline_training_snapshot": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\training_data.csv",
+      "path": "experiments/deberta_original_aug/outputs/run01_original_scope/training_data.csv",
       "sha256": "7845cacebdd517664809c2acd15af394a200ed970b07f4cb55a9343274bf90a2"
     },
     "baseline_run_config": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\run_config.json",
+      "path": "experiments/deberta_original_aug/outputs/run01_original_scope/run_config.json",
       "sha256": "200ef3d0dee4825f396f4ae1e38218e15d06992674bd1c1d50dbd93955f7bc34"
     },
     "prepare_script": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepare_manual_data.py",
+      "path": "experiments/deberta_manual_aug/prepare_manual_data.py",
       "sha256": "54206b6cb7aa43f5c85abdf8a789bf4f95a169dad1b39bb5a4791b017db83716"
     },
     "accepted_examples.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\accepted_examples.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/accepted_examples.csv",
       "sha256": "7e175f28011fe18abab052f440f26d9ac4cd6ee4bf47cf69319d0c520abd15d5"
     },
     "rejected_examples.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\rejected_examples.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/rejected_examples.csv",
       "sha256": "0d81b250c6c83ce5094fa9aea4287ef87627573f1f5e477bdcd7d42e56931a26"
     },
     "manual_rows.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\manual_rows.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/manual_rows.csv",
       "sha256": "6fcd361c75190b9ac4f52007f5401311115a59a389b1e9448681ef6bfe066e57"
     },
     "manual_label_notes.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\manual_label_notes.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/manual_label_notes.csv",
       "sha256": "63091ea6d8930839a25c7ec6aaeae46da9c7987018f7af8aad7bbe91b6e0b2f3"
     },
     "training_data_manual.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\training_data_manual.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/training_data_manual.csv",
       "sha256": "a615e4f03bc7eded5d540a6ef87b2980fcf1b816a05cbf85a583c0b7731c4741"
     },
     "copy_control_rows.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\copy_control_rows.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/copy_control_rows.csv",
       "sha256": "75fc685302b45c4e11965442e25ca0620bb254d8443301002adff6fb272ebdd1"
     },
     "copy_control_sources.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\copy_control_sources.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/copy_control_sources.csv",
       "sha256": "f40d4a16bf610153fc817bcb09bf6c762d0f07f3643b77d2903861444fb5c43b"
     },
     "training_data_copy.csv": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\training_data_copy.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/training_data_copy.csv",
       "sha256": "2c6d647ea1a2cce96ff0e914cc1df54f24e1dfce6ff1be23e309f2366e1b4237"
     },
     "boundary_prepare_script": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepare_boundary_data.py",
+      "path": "experiments/deberta_manual_aug/prepare_boundary_data.py",
       "sha256": "787c7abcb573b1c6c6540914f256fbc12f5c097e4c79a522112dbd34af59c22a"
     },
     "design_audit": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\design_audit.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/design_audit.csv",
       "sha256": "cd741af9c52a275e7ce09983272eb08a42b78c911465a64fa34ea70804db57f8"
     },
     "contrast_counts": {
-      "path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_boundary\\contrast_counts.csv",
+      "path": "experiments/deberta_manual_aug/prepared_boundary/contrast_counts.csv",
       "sha256": "e02db622bd6b5c25aecff3c76a4e24a6eb4a5073e237b4125db65d4296c7555a"
     }
   },

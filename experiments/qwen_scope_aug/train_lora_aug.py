@@ -26,8 +26,8 @@ from experiments.qwen_scope_aug.evaluate_lora_aug import evaluate_model
 RUN_NAME = 'run02_c_scope'  # 修复并列最高分校验后重新运行；保留run01结果。
 ADD_SCOPE_AUGMENTATION = True
 SEED = 42
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
-OUTPUT_DIR = Path('D:/model/SEAMEVAL/qwen_scope_aug') / RUN_NAME
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
+OUTPUT_DIR = Path('model/qwen_scope_aug') / RUN_NAME
 RESULTS_DIR = Path(__file__).resolve().parent / 'outputs' / RUN_NAME
 
 

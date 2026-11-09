@@ -34,12 +34,12 @@ SCRIPT_DIR = QWEN_DIR
 # 项目目录
 PROJECT_DIR = SCRIPT_DIR.parent.parent
 
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
 RUN_NAME = 'run01'
 
 # 【修改 2】新目录，保留旧实验
 RUN_DIR = Path(
-    'D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_row4ce_pairce'
+    'model/qwen3_0p6b_row4ce_pairce'
 ) / RUN_NAME
 
 RESULT_DIR = (

@@ -75,7 +75,7 @@ train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 
 model_name = "microsoft/deberta-v3-base"
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+cache_path = r"model_cache"
 
 my_tokenizer = AutoTokenizer.from_pretrained(
     model_name,

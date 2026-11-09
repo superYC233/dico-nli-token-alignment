@@ -1,7 +1,7 @@
 from datasets import load_dataset
 from transformers import AutoTokenizer
 
-model_path = 'D:/LLM/model/Qwen2.5-3B-Instruct'
+model_path = 'pretrained_models/Qwen2.5-3B-Instruct'
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 label_map = {

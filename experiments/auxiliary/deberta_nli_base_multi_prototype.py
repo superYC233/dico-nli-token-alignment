@@ -37,7 +37,7 @@ PROTOTYPE_TEMPERATURE = 0.1
 PROTOTYPE_LOGIT_SCALE = 20.0
 
 # RUN_DIR = (
-#     Path(r"G:\pycode\SemEval\Task-2-DiCo-NLI-main")
+#     Path(r".")
 #     / "model"
 #     / f"deberta_nli_base_prototype_k{NUM_PROTOTYPES}_seed_{SEED}"
 # )
@@ -64,8 +64,8 @@ dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 # 准备经过 NLI 数据训练的 DeBERTa-v3-base
 model_name = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 
-# 模型下载、缓存到 D 盘
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+# 模型下载到配置的缓存目录
+cache_path = r"model_cache"
 
 my_tokenizer = AutoTokenizer.from_pretrained(
     model_name,

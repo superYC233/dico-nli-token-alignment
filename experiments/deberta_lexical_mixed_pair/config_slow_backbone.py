@@ -30,5 +30,5 @@ PAIR_WEIGHT = 0.5
 # 本次目标是模型直接回答更准，同时记录该权重的结构分数。
 SELECT_BY = 'independent'
 
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_lexical_mixed_pair') / RUN_NAME
+MODEL_DIR = Path('model/deberta_lexical_mixed_pair') / RUN_NAME
 RESULTS_DIR = EXPERIMENT_DIR / 'outputs' / RUN_NAME

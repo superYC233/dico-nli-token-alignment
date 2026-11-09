@@ -38,7 +38,7 @@ classifier.weight   [3,768]
 classifier.bias     [3]
 ```
 
-checkpoint：`D:/BaiduNetdiskDownload/PretrainedModel/models/models--MoritzLaurer--DeBERTa-v3-base-mnli-fever-anli/snapshots/6f5cf0a2b59cabb106aca4c287eed12e357e90eb/model.safetensors`。
+checkpoint：`model_cache/models--MoritzLaurer--DeBERTa-v3-base-mnli-fever-anli/snapshots/6f5cf0a2b59cabb106aca4c287eed12e357e90eb/model.safetensors`。
 
 对应[模型config](https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli/blob/main/config.json)声明DebertaV2ForSequenceClassification、pooler_hidden_act=gelu。原生分类器使用ContextPooler变换CLS，再接分类层。
 

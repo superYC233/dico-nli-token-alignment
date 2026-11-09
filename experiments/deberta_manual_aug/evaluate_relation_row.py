@@ -15,7 +15,7 @@ from experiments.deberta_stage_average.train_deberta_stage_average import evalua
 from experiments.deberta_manual_aug.relation_row_model import load_saved_model
 
 
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_manual_aug/run23_alignment_row_seed7')
+MODEL_DIR = Path('model/deberta_manual_aug/run23_alignment_row_seed7')
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
 

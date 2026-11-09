@@ -20,7 +20,7 @@ from transformers import BertTokenizer, BertModel
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 # 准备bert模型
-model_path = 'D:/BaiduNetdiskDownload/PretrainedModel/models/google-bert--bert-base-uncased/snapshots/master'
+model_path = 'model_cache/google-bert--bert-base-uncased/snapshots/master'
 my_tokenizer = BertTokenizer.from_pretrained(model_path)
 my_model = BertModel.from_pretrained(model_path)
 

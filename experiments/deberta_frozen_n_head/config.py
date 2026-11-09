@@ -9,7 +9,7 @@ RUN_NAME = 'run01_n_head'
 SEED = 42
 MODEL_NAME = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
 REFERENCE_MODEL = Path(
-    'D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged/best_model.pth'
+    'model/deberta_manual_aug/run06_relation48_staged/best_model.pth'
 )
 REFERENCE_DIR = ROOT / 'experiments/deberta_manual_aug/outputs/run06_relation48_staged'
 
@@ -29,5 +29,5 @@ DEVICE = 'cuda'
 
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_frozen_n_head') / RUN_NAME
+MODEL_DIR = Path('model/deberta_frozen_n_head') / RUN_NAME
 RESULTS_DIR = HERE / 'outputs' / RUN_NAME

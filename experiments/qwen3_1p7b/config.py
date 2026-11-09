@@ -7,14 +7,14 @@ QWEN_DIR = PROJECT_ROOT / 'experiments/qwen_lora'
 DATA_CACHE_DIR = PROJECT_ROOT / '.hf_q17'
 
 MODEL_ID = 'Qwen/Qwen3-1.7B'
-MODEL_PATH = Path('D:/LLM/model/Qwen3-1.7B')
+MODEL_PATH = Path('pretrained_models/Qwen3-1.7B')
 
 MODE = 'C'
 SEED = 42
 MAX_LENGTH = 512
 PREDICT_BATCH_SIZE = 16
 
-OUTPUT_DIR = Path(f'D:/LLM/train_model/DiCo-NLI/qwen3_1p7b/run01/{MODE}')
+OUTPUT_DIR = Path(f'model/qwen3_1p7b/run01/{MODE}')
 BEST_DIR = OUTPUT_DIR / 'best_adapter'
 RESULTS_DIR = Path(__file__).resolve().parent / f'outputs/run01/{MODE}'
 GOLD_PATH = PROJECT_ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'

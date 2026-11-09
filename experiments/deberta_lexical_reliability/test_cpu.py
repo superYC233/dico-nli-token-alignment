@@ -87,7 +87,7 @@ def main():
     baseline_dir, _ = cfg.get_output_dirs(False)
     lexical_dir, _ = cfg.get_output_dirs(True)
     assert baseline_dir != lexical_dir
-    assert str(baseline_dir).replace('\\', '/').startswith('D:/model/SEAMEVAL/deberta_lexical_reliability/')
+    assert str(baseline_dir).replace('\\', '/').startswith('model/deberta_lexical_reliability/')
     cfg.SEED = saved_seed
     training = bind_original_code()
     assert training.cfg is cfg

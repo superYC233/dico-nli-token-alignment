@@ -2,7 +2,7 @@
 
 整理日期：2026-10-26。这里把历史目录简称展开为实际模型、训练数据和训练方式。成绩沿用已核验的冻结预测，不重新训练或重新挑选模型。
 
-**本表是历史预测CSV的离线融合成绩，不是重新训练后的成绩，也不能据此确认旧权重仍在。** S01、S11、S12、S14、S16的新入口已改为“重训各成员→各存最佳权重→加载新权重预测→融合”，代码位于项目的 `experiments/ensemble_selected/`。新权重保存到 `D:/model/SEAMEVAL/ensemble_selected/run01_retrain/`；不同方案共用的成员在同一RUN_NAME内只训练一次。新的成绩以这些入口实际运行后的结果为准。
+**本表是历史预测CSV的离线融合成绩，不是重新训练后的成绩，也不能据此确认旧权重仍在。** S01、S11、S12、S14、S16的新入口已改为“重训各成员→各存最佳权重→加载新权重预测→融合”，代码位于项目的 `experiments/ensemble_selected/`。新权重保存到 `model/ensemble_selected/run01_retrain/`；不同方案共用的成员在同一RUN_NAME内只训练一次。新的成绩以这些入口实际运行后的结果为准。
 
 已对本报告全部16组固定组合完成“原选模规则 vs 全部按pair-aware选模”的历史逐轮CSV复算：10组不变、1组提高、5组下降。[完整选模比较](../RESULTS.md)。S16历史成绩保持0.954759，其训练入口已按用户要求统一为pair-aware选模，并改用新的 `run02_pair_select`，避免与原混合选模的重训记录混用；其他入口保留原选模规则。
 
@@ -841,7 +841,7 @@
 
 #### M094：Qwen2.5-3B-Instruct，C＋reason
 
-- **基础模型：** `D:/LLM/model/Qwen2.5-3B-Instruct`。
+- **基础模型：** `pretrained_models/Qwen2.5-3B-Instruct`。
 - **结构：** 生成式Qwen，LoRA r16/alpha32/dropout0.05、all-linear；没有DeBERTa Token Alignment和Lexical。
 - **训练文本：** 3042＋筛选后的反向N475＝3517。3517行都训练标签；其中2040行训练解释，包括1756行官方来源和284行反向N来源。解释是额外目标，不是再追加2040行标签文本，也没有把Dev理由输入模型。
 - **训练方式：** 标签SFT＋0.2解释SFT，两个独立聊天Prompt、分别按监督token归一化；不使用Pair CE，预测只问标签，不提供Dev解释。
@@ -1135,7 +1135,7 @@
 
 #### M094：Qwen2.5-3B-Instruct，C＋reason
 
-- **基础模型：** `D:/LLM/model/Qwen2.5-3B-Instruct`。
+- **基础模型：** `pretrained_models/Qwen2.5-3B-Instruct`。
 - **结构：** 生成式Qwen，LoRA r16/alpha32/dropout0.05、all-linear；没有DeBERTa Token Alignment和Lexical。
 - **训练文本：** 3042＋筛选后的反向N475＝3517。3517行都训练标签；其中2040行训练解释，包括1756行官方来源和284行反向N来源。解释是额外目标，不是再追加2040行标签文本，也没有把Dev理由输入模型。
 - **训练方式：** 标签SFT＋0.2解释SFT，两个独立聊天Prompt、分别按监督token归一化；不使用Pair CE，预测只问标签，不提供Dev解释。

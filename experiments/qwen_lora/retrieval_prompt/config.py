@@ -10,9 +10,9 @@ OUTPUT_DIR = QWEN_DIR / 'outputs/retrieval_prompt' / RUN_NAME
 PREPARED_DIR = OUTPUT_DIR / 'prepared'
 RESULTS_DIR = OUTPUT_DIR / 'evaluation'
 
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
 ADAPTER_PATH = (
-    'D:/LLM/train_model/DiCo-NLI/'
+    'model/'
     'qwen3_0p6b_abc/run04_r16/C/best_adapter'
 )
 

@@ -18,7 +18,7 @@ from experiments.deberta_generalization_audit.export_predictions import predict,
 
 
 RUN_DIR = Path(__file__).resolve().parent / 'outputs/run06_relation48_staged'
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged')
+MODEL_DIR = Path('model/deberta_manual_aug/run06_relation48_staged')
 OUTPUT_DIR = RUN_DIR / 'error_analysis'
 LABELS = ['F', 'B', 'E', 'N']
 

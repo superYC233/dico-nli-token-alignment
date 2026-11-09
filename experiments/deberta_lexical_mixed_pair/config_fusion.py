@@ -14,22 +14,22 @@ FULL_LABELS = ['FORWARD_ENTAILMENT', 'BACKWARD_ENTAILMENT', 'EQUIVALENCE', 'NEGA
 MEMBERS = {
     'lexical_kl': {
         'prediction': PROJECT_ROOT / 'experiments/deberta_lexical_mixed_pair/outputs/run07_reversal_kl_seed42/epoch_2/predictions_with_scores.csv',
-        'checkpoint': Path('D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run07_reversal_kl_seed42/best_model.pth'),
+        'checkpoint': Path('model/deberta_lexical_mixed_pair/run07_reversal_kl_seed42/best_model.pth'),
         'training_data': 'official Train 3042',
     },
     'native_kl': {
         'prediction': PROJECT_ROOT / 'experiments/deberta_reversal_kl/outputs/run01_native_ce_kl_seed42/step_935/predictions_with_scores.csv',
-        'checkpoint': Path('D:/model/SEAMEVAL/deberta_reversal_kl/run01_native_ce_kl_seed42/best_model.pth'),
+        'checkpoint': Path('model/deberta_reversal_kl/run01_native_ce_kl_seed42/best_model.pth'),
         'training_data': 'official Train 3042',
     },
     'pooler': {
         'prediction': PROJECT_ROOT / 'experiments/deberta_lexical_pooler/outputs/run01_nli_pooler_seed42/epoch_10/predictions_with_scores.csv',
-        'checkpoint': Path('D:/model/SEAMEVAL/deberta_lexical_pooler/run01_nli_pooler_seed42/best_model.pth'),
+        'checkpoint': Path('model/deberta_lexical_pooler/run01_nli_pooler_seed42/best_model.pth'),
         'training_data': 'official Train 3042',
     },
     'oof': {
         'prediction': PROJECT_ROOT / 'experiments/deberta_lexical_mixed_pair/outputs/run06_oof_hard/epoch_7/predictions_with_scores.csv',
-        'checkpoint': Path('D:/model/SEAMEVAL/deberta_lexical_mixed_pair/run06_oof_hard/best_model.pth'),
+        'checkpoint': Path('model/deberta_lexical_mixed_pair/run06_oof_hard/best_model.pth'),
         'training_data': 'official Train 3042; OOF hard-example weighting',
     },
     'staged_lexical': {
@@ -39,7 +39,7 @@ MEMBERS = {
     },
     'qwen_r16': {
         'prediction': PROJECT_ROOT / 'experiments/qwen_lora/outputs/qwen3_0p6b_abc/run04_r16/C/predictions_with_scores.csv',
-        'checkpoint': Path('D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_abc/run04_r16/C/best_adapter'),
+        'checkpoint': Path('model/qwen3_0p6b_abc/run04_r16/C/best_adapter'),
         'training_data': 'Train C 3517 = official 3042 + historical reversed-N augmentation 475',
     },
 }

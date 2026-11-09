@@ -40,7 +40,7 @@ FULL_LABELS = [
 ]
 LABEL_TO_ID = {label: index for index, label in enumerate(FULL_LABELS)}
 
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_feature_fusion')
+MODEL_ROOT = Path('model/deberta_feature_fusion')
 REFERENCE_DIR = (
     PROJECT_ROOT / 'experiments/deberta_lexical/outputs/'
     'run02_branch_lr/lexical_seed_42'

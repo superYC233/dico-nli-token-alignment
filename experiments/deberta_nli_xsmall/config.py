@@ -9,7 +9,7 @@ SEED = 42
 
 # 先运行 download_model.py；训练只读取这份本地模型。
 MODEL_NAME = 'cross-encoder/nli-deberta-v3-xsmall'
-MODEL_PATH = Path('D:/LLM/model/nli-deberta-v3-xsmall')
+MODEL_PATH = Path('pretrained_models/nli-deberta-v3-xsmall')
 
 # 对照未加OOF的 run01_mixed_pair，仅替换预训练主干和对应Tokenizer。
 USE_LEXICAL_FEATURES = True
@@ -43,5 +43,5 @@ FULL_LABELS = [
 ]
 LABEL_TO_ID = {label: index for index, label in enumerate(FULL_LABELS)}
 
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_nli_xsmall') / RUN_NAME
+MODEL_DIR = Path('model/deberta_nli_xsmall') / RUN_NAME
 RESULTS_DIR = EXPERIMENT_DIR / 'outputs' / RUN_NAME

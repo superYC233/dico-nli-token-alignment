@@ -57,7 +57,7 @@ REFERENCE_DIR = HERE / 'outputs/run06_relation48_staged'
 COMPARISON_DIR = HERE / 'outputs/run13_gradient_mixed'
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_manual_aug')
+MODEL_ROOT = Path('model/deberta_manual_aug')
 LABELS = ['F', 'B', 'E', 'N']
 
 

@@ -46,7 +46,7 @@ PAIR_WEIGHT = 0.5
 PAIR_LABEL_SMOOTHING = 0.0
 
 HERE = Path(__file__).resolve().parent
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_manual_aug') / RUN_NAME
+MODEL_DIR = Path('model/deberta_manual_aug') / RUN_NAME
 RESULTS_DIR = HERE / 'outputs' / RUN_NAME
 
 

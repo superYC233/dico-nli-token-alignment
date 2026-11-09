@@ -36,7 +36,7 @@ from compare_decoding import evaluate_with_scores
 from analyze_decoding import pair_aware_decode, score_one_method
 
 
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
 
 MODES = ['B', 'C', 'D', 'E']
 RUN_NAME = 'run01'
@@ -48,7 +48,7 @@ LABELS = ['F', 'B', 'E', 'N']
 
 # 与旧模型分开保存
 RUN_ROOT = (
-    Path('D:/LLM/train_model/DiCo-NLI/qwen3_0p6b_ablation_pairce')
+    Path('model/qwen3_0p6b_ablation_pairce')
     / RUN_NAME
 )
 

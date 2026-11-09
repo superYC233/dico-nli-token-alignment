@@ -42,7 +42,7 @@ LABEL_TO_ID = {label: index for index, label in enumerate(FULL_LABELS)}
 def get_output_dirs(use_lexical_features):
     version = 'lexical' if use_lexical_features else 'baseline'
     name = f'{version}_seed_{SEED}'
-    model_dir = Path('D:/model/SEAMEVAL/deberta_lexical_row_pair') / RUN_NAME / name
+    model_dir = Path('model/deberta_lexical_row_pair') / RUN_NAME / name
     results_dir = EXPERIMENT_DIR / 'outputs' / RUN_NAME / name
     return model_dir, results_dir
 

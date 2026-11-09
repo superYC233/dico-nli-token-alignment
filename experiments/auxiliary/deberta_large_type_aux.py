@@ -54,7 +54,7 @@ model_name = (
     "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli"
 )
 
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+cache_path = r"model_cache"
 
 my_tokenizer = AutoTokenizer.from_pretrained(
     model_name,

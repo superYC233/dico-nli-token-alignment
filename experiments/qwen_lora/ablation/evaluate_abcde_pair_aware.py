@@ -27,10 +27,10 @@ from compare_decoding import evaluate_with_scores
 from analyze_decoding import pair_aware_decode, score_one_method
 
 
-MODEL_PATH = 'D:/LLM/model/Qwen3-0.6B-Base'
+MODEL_PATH = 'pretrained_models/Qwen3-0.6B-Base'
 
 ADAPTER_ROOT = Path(
-    'D:/LLM/train_model/DiCo-NLI/n_ablation'
+    'model/n_ablation'
 )
 
 RUN_NAME = 'run01'

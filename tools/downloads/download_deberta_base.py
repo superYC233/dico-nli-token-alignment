@@ -14,7 +14,7 @@ from transformers import AutoTokenizer, AutoModel
 model_name = "microsoft/deberta-v3-base"
 
 # 指定模型下载缓存位置
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+cache_path = r"model_cache"
 
 # 加载分词器
 my_tokenizer = AutoTokenizer.from_pretrained(

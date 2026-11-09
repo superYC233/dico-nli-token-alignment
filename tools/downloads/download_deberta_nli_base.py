@@ -12,7 +12,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 model_name = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+cache_path = r"model_cache"
 
 # 下载 / 加载 tokenizer
 tokenizer = AutoTokenizer.from_pretrained(

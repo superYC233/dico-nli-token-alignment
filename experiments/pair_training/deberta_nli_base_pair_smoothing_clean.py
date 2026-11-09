@@ -40,7 +40,7 @@ torch.cuda.manual_seed_all(SEED)
 # best epoch = 8
 # Pair-aware Weighted F1 = 0.9160
 # RUN_DIR = Path(
-#     r"G:\pycode\SemEval\Task-2-DiCo-NLI-main\model"
+#     r"model"
 # ) / f"deberta_nli_base_pair_smoothing_0p05_seed_{SEED}"
 
 # Pair CE 标签平滑 0.05 + EE 权重由 1.25 降至 1.0
@@ -57,8 +57,8 @@ dev_data = pd.read_csv("./data/internal_split_clean/valid.csv")
 # 准备经过 NLI 数据训练的 DeBERTa-v3-base
 model_name = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 
-# 模型下载、缓存到 D 盘
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+# 模型下载到配置的缓存目录
+cache_path = r"model_cache"
 
 my_tokenizer = AutoTokenizer.from_pretrained(
     model_name,

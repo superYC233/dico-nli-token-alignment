@@ -25,7 +25,7 @@ from experiments.deberta_manual_aug.evaluate_local_contrasts import predict, sum
 RUN_NAME = 'run12_local128_copy'
 AUGMENT_MODE = 'copy'
 # AUGMENT_MODE = 'manual'  # manual=3290+新128；copy=3290+复制128；baseline=旧3290。
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_manual_aug') / RUN_NAME
+MODEL_DIR = Path('model/deberta_manual_aug') / RUN_NAME
 RESULTS_DIR = HERE / 'outputs' / RUN_NAME
 
 

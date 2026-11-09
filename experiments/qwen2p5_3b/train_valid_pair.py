@@ -38,10 +38,10 @@ if str(QWEN_LORA_DIR) not in sys.path:
 from analyze_decoding import pair_aware_decode, score_one_method
 
 
-MODEL_PATH = 'D:/LLM/model/Qwen2.5-3B-Instruct'
+MODEL_PATH = 'pretrained_models/Qwen2.5-3B-Instruct'
 
 RUN_NAME = 'run01'
-RUN_DIR = Path('D:/LLM/train_model/DiCo-NLI/qwen2p5_3b_valid') / RUN_NAME
+RUN_DIR = Path('model/qwen2p5_3b_valid') / RUN_NAME
 RESULT_DIR = SCRIPT_DIR / 'outputs/qwen2p5_3b_valid' / RUN_NAME
 
 SOURCE_CSV = (

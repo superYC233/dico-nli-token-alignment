@@ -25,7 +25,7 @@ def main():
     assert len(train) == 3042 and len(dev) == 660
     assert train.groupby('pair_id').size().eq(2).sum() == 1282
     # 本机已有large版tokenizer时，可先核对ModernBERT分隔格式，不加载large主干。
-    tokenizer_path = cfg.MODEL_PATH if cfg.MODEL_PATH.exists() else Path('D:/BaiduNetdiskDownload/PretrainedModel/models/tasksource--ModernBERT-large-nli')
+    tokenizer_path = cfg.MODEL_PATH if cfg.MODEL_PATH.exists() else Path('model_cache/tasksource--ModernBERT-large-nli')
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_path, local_files_only=True)
     features = build_feature_tensor(train)
     rows = DiCoDataset(train, tokenizer, features, cfg.MAX_LENGTH)

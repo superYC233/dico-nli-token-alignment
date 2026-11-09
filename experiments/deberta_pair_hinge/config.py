@@ -36,7 +36,7 @@ REFERENCE_DIR = ROOT / 'experiments/deberta_manual_aug/outputs/run06_relation48_
 TRAIN_PATH = REFERENCE_DIR / 'training_data.csv'
 DEV_PATH = ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/deberta_pair_hinge')
+MODEL_ROOT = Path('model/deberta_pair_hinge')
 
 
 def get_run_name(run_name=RUN_NAME, pair_loss=PAIR_LOSS):

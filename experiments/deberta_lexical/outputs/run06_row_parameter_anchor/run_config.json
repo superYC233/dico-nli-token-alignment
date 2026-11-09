@@ -80,7 +80,7 @@
   "training_order": "full Row CE; snapshot Row parameters; evaluate; Pair CE with proximal parameter anchoring; evaluate",
   "selection": "best AFTER-PAIR Dev pair-aware F1; earliest on ties",
   "inference": "unchanged four-class argmax and FB/BF/EE; singleton predicted by model",
-  "reference_run": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_lexical\\outputs\\run02_branch_lr\\lexical_seed_42",
+  "reference_run": "experiments/deberta_lexical/outputs/run02_branch_lr/lexical_seed_42",
   "comparison_note": "Original Lexical data/features/lrs/losses/fixed padding retained. Anchor0 disables pull. Model weights are freshly initialized from the same NLI checkpoint, not the Dev-selected0.9306 model.",
   "source_sha256": {
     "experiments\\deberta_lexical\\train_deberta_lexical_anchor.py": "fc4c49f2f96e947c79b866ff5e4b74970848fcc11b385eb09a85f025b3f2ff00",

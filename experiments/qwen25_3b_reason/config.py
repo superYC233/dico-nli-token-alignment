@@ -11,8 +11,8 @@ PROJECT_ROOT = EXPERIMENT_DIR.parents[1]
 RUN_NAME = 'run01_c_reason02'
 MODE = 'C'
 SEED = 42
-MODEL_PATH = 'D:/LLM/model/Qwen2.5-3B-Instruct'
-MODEL_ROOT = Path('D:/LLM/train_model/DiCo-NLI/qwen2p5_3b_reason')
+MODEL_PATH = 'pretrained_models/Qwen2.5-3B-Instruct'
+MODEL_ROOT = Path('model/qwen2p5_3b_reason')
 RESULTS_ROOT = EXPERIMENT_DIR / 'outputs'
 PREPARED_DIR = RESULTS_ROOT / 'prepared_C'
 

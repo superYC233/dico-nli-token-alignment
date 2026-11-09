@@ -14,12 +14,12 @@ FULL_LABELS = ['FORWARD_ENTAILMENT', 'BACKWARD_ENTAILMENT', 'EQUIVALENCE', 'NEGA
 MEMBERS = {
     'relation_0938': {
         'prediction': PROJECT_ROOT / 'experiments/deberta_manual_aug/outputs/run06_relation48_staged/epoch_2/predictions_with_scores.csv',
-        'checkpoint': Path('D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged/best_model.pth'),
+        'checkpoint': Path('model/deberta_manual_aug/run06_relation48_staged/best_model.pth'),
         'training_data': 'official 3042 + scope 200 + relation 48 = 3290; historical manual augmentation; no Lexical',
     },
     'scope_0935': {
         'prediction': PROJECT_ROOT / 'experiments/deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv',
-        'checkpoint': Path('D:/model/SEAMEVAL/deberta_original_aug/run01_original_scope/best_model.pth'),
+        'checkpoint': Path('model/deberta_original_aug/run01_original_scope/best_model.pth'),
         'training_data': 'official 3042 + scope 200 = 3242; historical manual augmentation; no Lexical',
     },
     'lexical_0930': {

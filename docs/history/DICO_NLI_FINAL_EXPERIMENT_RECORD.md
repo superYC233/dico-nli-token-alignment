@@ -51,7 +51,7 @@
 
 ### 1.2 本次读取范围与可信度
 
-扫描了项目根目录 49 个 Python 脚本、数据和模型目录、18 个 `scores.json`、已有诊断 CSV、评估器及两个 README；进一步沿脚本中的绝对 `RUN_DIR` 查到 `D:/SemEval_experiments`。共核对 64 个实验目录，识别 67 个具有正确提交列且能匹配已知验证集 ID 的预测 CSV。其中 53 个官方 DEV 预测用项目评估器重新计算，结果与独立按 ID 计算一致；其余 14 个对应内部验证集。
+扫描了项目根目录 49 个 Python 脚本、数据和模型目录、18 个 `scores.json`、已有诊断 CSV、评估器及两个 README；进一步沿脚本中的绝对 `RUN_DIR` 查到 `legacy_results`。共核对 64 个实验目录，识别 67 个具有正确提交列且能匹配已知验证集 ID 的预测 CSV。其中 53 个官方 DEV 预测用项目评估器重新计算，结果与独立按 ID 计算一致；其余 14 个对应内部验证集。
 
 项目内未找到完整逐 epoch `.log` 日志。部分训练曲线来自本对话粘贴的控制台输出；层级模型和阶段探针有单独 CSV。未用文件修改时间编造精确实验日期，以下采用**方法演化顺序**，并非逐日实验日志。
 
@@ -83,7 +83,7 @@
 
 ### 2.2 数据路径和统计
 
-路径以下均相对项目根目录 `G:/pycode/SemEval/Task-2-DiCo-NLI-main`。
+路径以下均相对项目根目录 `.`。
 
 | 数据 | 路径 | 行数 | F | B | E | N | 两行组 / 单行组 |
 |---|---|---:|---:|---:|---:|---:|---:|
@@ -569,7 +569,7 @@ loss = 0.5 * pair_loss + 0.1 * boundary_loss
 (1,0)→F；(0,1)→B；(1,1)→E；(0,0)→N
 ```
 
-`D:/SemEval_experiments/deberta_nli_base_token_alignment_bientail_seed_42/dev_predictions_bientail.csv`可核实：Weighted F1=**.851986**，SoftCons=.920578，HardCons=.873646；目录保留epoch3。原纯双二元训练实现未在当前根目录找到，`deberta_nli_base_entailment_classifier.py`现在已经是下一节辅助方案，不能用它反推纯二元运行的具体loss与权重。
+`legacy_results/deberta_nli_base_token_alignment_bientail_seed_42/dev_predictions_bientail.csv`可核实：Weighted F1=**.851986**，SoftCons=.920578，HardCons=.873646；目录保留epoch3。原纯双二元训练实现未在当前根目录找到，`deberta_nli_base_entailment_classifier.py`现在已经是下一节辅助方案，不能用它反推纯二元运行的具体loss与权重。
 
 | gold \ pred | F | B | E | N |
 |---|---:|---:|---:|---:|
@@ -718,7 +718,7 @@ NULL-M seed42=.928987、seed7=.910091，两次平均约.919539，略高于上述
 
 下面由本次扫描到的预测文件自动生成。每行路径定位一份实际产物；并非每份CSV都对应独立训练，某些是同一次训练的不同后处理或重复归档。
 
-表中“留存epoch”只表示当前目录有这些文件，不单独担保它们是完整搜索后的最优；明确最优轮次的主实验已在正文用日志佐证。路径 `G:model/...` 对应项目内 `model/...`；`D:...` 对应 `D:/SemEval_experiments/...`。同目录若无特殊说明，预测名为 `dev_predictions_pair_aware.csv`。
+表中“留存epoch”只表示当前目录有这些文件，不单独担保它们是完整搜索后的最优；明确最优轮次的主实验已在正文用日志佐证。路径 `model/...` 对应项目内 `model/...`；`legacy_results/...` 对应 `legacy_results/...`。同目录若无特殊说明，预测名为 `dev_predictions_pair_aware.csv`。
 
 ### 14.1 官方 DEV（660行）
 
@@ -831,7 +831,7 @@ NULL-M seed42=.928987、seed7=.910091，两次平均约.919539，略高于上述
 
 这些目录不自动代表已完成有效实验；可能是只创建了目录、产物已移走，或仅有诊断文件。
 
-- `D:/SemEval_experiments/deberta_nli_large_token_alignment_null_seed_42`：空目录。
+- `legacy_results/deberta_nli_large_token_alignment_null_seed_42`：空目录。
 - `model/deberta_diagnostic_seed_42`：空目录。
 - `model/deberta_nli_base_stage_probe_seed_42`：epoch_1.pth, epoch_2.pth, epoch_3.pth, stage_probe.csv。
 - `model/deberta_nli_base_token_alignment_official_dev_aug24_seed_42`：epoch_1.pth, epoch_2.pth, epoch_3.pth。
@@ -851,7 +851,7 @@ NULL-M seed42=.928987、seed7=.910091，两次平均约.919539，略高于上述
 ```python
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
-model_path = 'D:/BaiduNetdiskDownload/PretrainedModel/models/google-bert--bert-base-uncased/snapshots/master'
+model_path = 'model_cache/google-bert--bert-base-uncased/snapshots/master'
 if __name__ == '__main__':
     checkAndprocess_data()
     for penalty in [0.0, 0.5, 1, 1.5]:
@@ -1073,7 +1073,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_direction_aux_w0p2_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_direction_aux_w0p2_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1111,7 +1111,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('D:\\SemEval_experiments') / f'deberta_nli_base_token_alignment_entailaux0p2_seed_{SEED}'
+RUN_DIR = Path('legacy_results') / f'deberta_nli_base_token_alignment_entailaux0p2_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1140,7 +1140,7 @@ epochs = 10
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_hierarchical_manual_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_hierarchical_manual_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1177,7 +1177,7 @@ NUM_PROTOTYPES = 1
 PROTOTYPE_DIM = 128
 PROTOTYPE_TEMPERATURE = 0.1
 PROTOTYPE_LOGIT_SCALE = 20.0
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main') / 'model' / f'deberta_nli_base_prototype_k{NUM_PROTOTYPES}_seed_{SEED}'
+RUN_DIR = Path('.') / 'model' / f'deberta_nli_base_prototype_k{NUM_PROTOTYPES}_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1216,7 +1216,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main') / 'model' / f'deberta_nli_base_null_alignment_branchlr2e4_seed_{SEED}'
+RUN_DIR = Path('.') / 'model' / f'deberta_nli_base_null_alignment_branchlr2e4_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1253,7 +1253,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 7
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_null_alignment_M_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_null_alignment_M_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1285,7 +1285,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_null_alignment_M_clean_run2_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_null_alignment_M_clean_run2_seed_{SEED}'
 train_data = pd.read_csv('./data/internal_split_clean/train.csv')
 dev_data = pd.read_csv('./data/internal_split_clean/valid.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1317,7 +1317,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_null_alignment_M_internal_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_null_alignment_M_internal_seed_{SEED}'
 train_data = pd.read_csv('./data/internal_split/train.csv')
 dev_data = pd.read_csv('./data/internal_split/valid.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1349,7 +1349,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_pair_smoothing_0p05_ee1p0_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_pair_smoothing_0p05_ee1p0_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1381,7 +1381,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_pair_smoothing_clean_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_pair_smoothing_clean_seed_{SEED}'
 train_data = pd.read_csv('./data/internal_split_clean/train.csv')
 dev_data = pd.read_csv('./data/internal_split_clean/valid.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1445,7 +1445,7 @@ dev_dataloader = create_dev_dataloader(batch_size=16)
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_token_alignment_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_token_alignment_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1476,7 +1476,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('D:\\SemEval_experiments') / f'deberta_nli_base_token_alignment_boundary0p3_seed_{SEED}'
+RUN_DIR = Path('legacy_results') / f'deberta_nli_base_token_alignment_boundary0p3_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1509,7 +1509,7 @@ boundary_weight = 0.1
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_token_alignment_clean_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_token_alignment_clean_seed_{SEED}'
 train_data = pd.read_csv('./data/internal_split_clean/train.csv')
 dev_data = pd.read_csv('./data/internal_split_clean/valid.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1541,7 +1541,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_token_alignment_hard_e_clean_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_token_alignment_hard_e_clean_seed_{SEED}'
 train_data = pd.read_csv('./data/internal_split_clean/train.csv')
 dev_data = pd.read_csv('./data/internal_split_clean/valid.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1574,7 +1574,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_token_alignment_internal_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_token_alignment_internal_seed_{SEED}'
 train_data = pd.read_csv('./data/internal_split/train.csv')
 dev_data = pd.read_csv('./data/internal_split/valid.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1606,10 +1606,10 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_token_alignment_manual_boundary_18_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_token_alignment_manual_boundary_18_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
-manual_file = Path('D:\\SemEval_experiments\\manual_boundary_triplets.csv')
+manual_file = Path('legacy_results/manual_boundary_triplets.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
 if __name__ == '__main__':
     train_data = add_manual_boundary_data(train_data, dev_data, manual_file)
@@ -1640,10 +1640,10 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_token_alignment_manual_boundary_clean_18_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_token_alignment_manual_boundary_clean_18_seed_{SEED}'
 train_data = pd.read_csv('./data/internal_split_clean/train.csv')
 dev_data = pd.read_csv('./data/internal_split_clean/valid.csv')
-manual_file = Path('D:\\SemEval_experiments\\manual_boundary_triplets_internal_clean.csv')
+manual_file = Path('legacy_results/manual_boundary_triplets_internal_clean.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
 if __name__ == '__main__':
     train_data = add_manual_boundary_data(train_data, dev_data, manual_file)
@@ -1674,7 +1674,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path(f'D:\\SemEval_experiments\\deberta_nli_base_null_lengthnorm_seed_{SEED}')
+RUN_DIR = Path(f'legacy_results/deberta_nli_base_null_lengthnorm_seed_{SEED}')
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1707,7 +1707,7 @@ pair_weight = 0.5
 SEED = 42
 USE_AUGMENTATION = True
 run_name = 'aug24' if USE_AUGMENTATION else 'control'
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_token_alignment_strictclean_{run_name}_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_token_alignment_strictclean_{run_name}_seed_{SEED}'
 train_data = pd.read_csv('./data/internal_split_clean/train.csv')
 dev_data = pd.read_csv('./data/internal_split_clean/valid.csv')
 train_data = train_data.loc[~train_data['pair_id'].isin(overlap_pair_ids)].copy()
@@ -1742,7 +1742,7 @@ pair_weight = 0.5
 SEED = 42
 USE_AUGMENTATION = False
 run_name = 'aug24' if USE_AUGMENTATION else 'control'
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_token_alignment_official_full_{run_name}_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_token_alignment_official_full_{run_name}_seed_{SEED}'
 (train_data, dev_data) = load_official_data(USE_AUGMENTATION)
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
 if __name__ == '__main__':
@@ -1773,7 +1773,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 7
-RUN_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\model') / f'deberta_nli_base_uniform_alignment_seed_{SEED}'
+RUN_DIR = Path('model') / f'deberta_nli_base_uniform_alignment_seed_{SEED}'
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli'
@@ -1806,7 +1806,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path(f'D:\\SemEval_experiments\\deberta_nli_large_token_alignment_seed_{SEED}')
+RUN_DIR = Path(f'legacy_results/deberta_nli_large_token_alignment_seed_{SEED}')
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli'
@@ -1837,7 +1837,7 @@ pair_weight = 0.5
 
 ```python
 SEED = 42
-RUN_DIR = Path(f'D:\\SemEval_experiments\\deberta_nli_large_token_alignment_null_v2_seed_{SEED}')
+RUN_DIR = Path(f'legacy_results/deberta_nli_large_token_alignment_null_v2_seed_{SEED}')
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 model_name = 'MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli'
@@ -2124,7 +2124,7 @@ model_name = 'tasksource/ModernBERT-large-nli'
 [查看脚本](<make_pair_split.py>)。以下为当前有效代码摘录。
 
 ```python
-PROJECT_DIR = Path('G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main')
+PROJECT_DIR = Path('.')
 if __name__ == '__main__':
     create_clean_pair_split()
 ```
@@ -2158,7 +2158,7 @@ SEED = 42
 RUN_DIR = Path(f'./model/modernbert_large_nli_pair_ce_w0p5_seed_{SEED}')
 train_data = pd.read_csv('./data/train/dico_nli_train_track1_participant_labeled.csv')
 dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
-model_path = 'D:\\BaiduNetdiskDownload\\PretrainedModel\\models\\tasksource--ModernBERT-large-nli'
+model_path = 'model_cache/tasksource--ModernBERT-large-nli'
 if __name__ == '__main__':
     checkAndprocess_data()
     (best_epoch, best_score, best_preds) = evaluate_pair_aware_model()

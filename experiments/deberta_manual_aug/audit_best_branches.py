@@ -18,7 +18,7 @@ from experiments.deberta_lexical.model import DebertaDiCoModel
 from experiments.deberta_lexical.evaluation import pair_aware
 
 RUN_DIR = Path(__file__).resolve().parent / 'outputs/run06_relation48_staged'
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_manual_aug/run06_relation48_staged')
+MODEL_DIR = Path('model/deberta_manual_aug/run06_relation48_staged')
 OUTPUT_DIR = RUN_DIR / 'branch_audit'
 LABELS = ['F', 'B', 'E', 'N']
 

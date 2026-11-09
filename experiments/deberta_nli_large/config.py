@@ -9,7 +9,7 @@ SEED = 42
 
 MODEL_NAME = 'MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli'
 # 直接使用之前下载好的 Hugging Face 缓存，不重新复制一份权重。
-MODEL_CACHE_DIR = Path('D:/BaiduNetdiskDownload/PretrainedModel/models')
+MODEL_CACHE_DIR = Path('model_cache')
 MODEL_REVISION = 'b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7'
 MODEL_PATH = (
     MODEL_CACHE_DIR
@@ -54,5 +54,5 @@ FULL_LABELS = [
 ]
 LABEL_TO_ID = {label: index for index, label in enumerate(FULL_LABELS)}
 
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_nli_large') / RUN_NAME
+MODEL_DIR = Path('model/deberta_nli_large') / RUN_NAME
 RESULTS_DIR = EXPERIMENT_DIR / 'outputs' / RUN_NAME

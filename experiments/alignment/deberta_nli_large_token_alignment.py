@@ -30,7 +30,7 @@ torch.manual_seed(SEED)
 torch.cuda.manual_seed_all(SEED)
 
 RUN_DIR = Path(
-    rf"D:\SemEval_experiments\deberta_nli_large_token_alignment_seed_{SEED}"
+    rf"legacy_results/deberta_nli_large_token_alignment_seed_{SEED}"
 )
 RUN_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -45,8 +45,8 @@ dev_data = pd.read_csv('./data/dev/dico_nli_dev_track1_participant_labeled.csv')
 # 准备经过 NLI 数据训练的 DeBERTa-v3-large
 model_name = "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli"
 
-# 模型下载、缓存到 D 盘
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+# 模型下载到配置的缓存目录
+cache_path = r"model_cache"
 
 my_tokenizer = AutoTokenizer.from_pretrained(
     model_name,

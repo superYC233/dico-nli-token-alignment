@@ -12,10 +12,10 @@ sys.path.insert(0, str(project_root))
 from compare_decoding import evaluate_with_scores
 from baseline import score_predictions
 
-model_path = 'D:/LLM/model/Qwen2.5-3B-Instruct'
+model_path = 'pretrained_models/Qwen2.5-3B-Instruct'
 
 adapter_path = (
-    'D:/LLM/train_model/DiCo-NLI/'
+    'model/'
     'qwen2p5_3b_abc/run01_best/C/best_adapter'
 )
 

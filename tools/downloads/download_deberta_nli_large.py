@@ -11,7 +11,7 @@ configure_legacy_workdir()
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 model_name = "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli"
-cache_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models"
+cache_path = r"model_cache"
 
 tokenizer = AutoTokenizer.from_pretrained(
     model_name,

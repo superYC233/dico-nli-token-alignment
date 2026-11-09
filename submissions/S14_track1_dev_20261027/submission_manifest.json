@@ -45,12 +45,12 @@
   "n_gate": "M059",
   "forced_singleton_N": false,
   "member_model_paths": {
-    "M032": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M032",
-    "M044": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M044",
-    "M047": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M047",
-    "M059": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M059",
-    "M071": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M071",
-    "M084": "D:\\model\\SEAMEVAL\\ensemble_selected\\run01_retrain\\M084"
+    "M032": "model/ensemble_selected/run01_retrain/M032",
+    "M044": "model/ensemble_selected/run01_retrain/M044",
+    "M047": "model/ensemble_selected/run01_retrain/M047",
+    "M059": "model/ensemble_selected/run01_retrain/M059",
+    "M071": "model/ensemble_selected/run01_retrain/M071",
+    "M084": "model/ensemble_selected/run01_retrain/M084"
   },
   "upload_performed": false,
   "archive_naming_basis": "Existing project Track 1 submission archive; live platform-specific instructions could not be retrieved."

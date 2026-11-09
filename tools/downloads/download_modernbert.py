@@ -12,7 +12,7 @@ from huggingface_hub import snapshot_download
 
 model_name = "tasksource/ModernBERT-large-nli"
 
-local_path = r"D:\BaiduNetdiskDownload\PretrainedModel\models\tasksource--ModernBERT-large-nli"
+local_path = r"model_cache/tasksource--ModernBERT-large-nli"
 
 snapshot_download(
     repo_id=model_name,

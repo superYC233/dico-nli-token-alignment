@@ -1,7 +1,7 @@
 {
-  "scores_path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\qwen_lora\\outputs\\teacher_scores\\run01\\dev_teacher_scores.csv",
+  "scores_path": "experiments/qwen_lora/outputs/teacher_scores/run01/dev_teacher_scores.csv",
   "scores_sha256": "7726697ce8c565f1c670d825f72193f9762db968195ce9c160f1b5cfdee3b9a5",
-  "reference_path": "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\artifacts\\final\\dev_predictions_pair_aware.csv",
+  "reference_path": "artifacts/final/dev_predictions_pair_aware.csv",
   "checkpoint": "model/deberta_nli_base_token_alignment_official_full_control_seed_42/epoch_7.pth",
   "historical_prediction_differences": 0,
   "original_export_batch_size": 16,

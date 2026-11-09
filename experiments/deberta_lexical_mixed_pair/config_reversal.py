@@ -34,5 +34,5 @@ TRAIN_PATH = PROJECT_ROOT / 'data/train/dico_nli_train_track1_participant_labele
 DEV_PATH = PROJECT_ROOT / 'data/dev/dico_nli_dev_track1_participant_labeled.csv'
 GOLD_PATH = PROJECT_ROOT / 'data/dev/dico_nli_dev_track1_reference.csv'
 
-MODEL_DIR = Path('D:/model/SEAMEVAL/deberta_lexical_mixed_pair') / RUN_NAME
+MODEL_DIR = Path('model/deberta_lexical_mixed_pair') / RUN_NAME
 RESULTS_DIR = EXPERIMENT_DIR / 'outputs' / RUN_NAME

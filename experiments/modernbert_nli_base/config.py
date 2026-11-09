@@ -7,8 +7,8 @@ RUN_NAME = 'run01_original_recipe'
 SEED = 42
 MODEL_NAME = 'tasksource/ModernBERT-base-nli'
 MODEL_REVISION = 'main'
-MODEL_PATH = Path('D:/LLM/model/ModernBERT-base-nli')
-MODEL_ROOT = Path('D:/model/SEAMEVAL/modernbert_nli_base')
+MODEL_PATH = Path('pretrained_models/ModernBERT-base-nli')
+MODEL_ROOT = Path('model/modernbert_nli_base')
 
 # 先复用0.9248配方，只换主干；之后可在同一目录开启Lexical。
 USE_LEXICAL_FEATURES = False

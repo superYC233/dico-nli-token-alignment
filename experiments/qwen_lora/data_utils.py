@@ -3,7 +3,7 @@ from pathlib import Path
 from datasets import load_dataset
 from transformers import AutoTokenizer
 
-model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+model_path = 'pretrained_models/Qwen3-0.6B-Base'
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 project_root = Path(__file__).resolve().parents[2]
 

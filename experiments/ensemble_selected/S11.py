@@ -28,7 +28,7 @@ from experiments.deberta_lexical.evaluation import get_pair_logits
 # todo 0. RUN_NAME区分本次结果；先复用配方匹配的已有模型，缺失的成员才训练。
 SCHEME = 'S11'
 RUN_NAME = 'run02_pair_select'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/ensemble_selected')
+MODEL_ROOT = Path('model/ensemble_selected')
 FUSION = 'log_probability'
 DIRECTION_MEMBERS = ['M017', 'M036', 'M050', 'M082', 'M084']
 N_GATE = None
@@ -131,7 +131,7 @@ MEMBERS = [{'model_name': 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli',
   'train_path': 'data/train/dico_nli_train_track1_participant_labeled.csv',
   'expected_train_rows': 3042,
   'select_by': 'pair_aware',
-  'pretrained_path': 'D:\\BaiduNetdiskDownload\\PretrainedModel\\models\\models--MoritzLaurer--DeBERTa-v3-large-mnli-fever-anli-ling-wanli\\snapshots\\b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7'},
+  'pretrained_path': 'model_cache/models--MoritzLaurer--DeBERTa-v3-large-mnli-fever-anli-ling-wanli/snapshots/b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7'},
  {'model_name': 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli',
   'seed': 42,
   'epochs': 10,

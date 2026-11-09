@@ -100,10 +100,10 @@
   "analysis_only": "No model loaded; no training; no training data/config modified.",
   "assessment_limit": "Coverage/fluency judgements are assistant hypotheses; shortcut existence does not prove model use.",
   "files": {
-    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\event_examples.csv": "504a43f89a5f35115640cdf1752934d3b8df0c9bfd063be45d55e8aa81d64eea",
-    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\prepared_events\\manual_label_notes.csv": "514a5d08fcd299f7b88a37950f3850393754c0fa8579002716c290009f73168e",
-    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_original_aug\\outputs\\run01_original_scope\\epoch_3\\predictions_with_scores.csv": "8b702650eb011b91c6faceb6e31bf1f6a7a563fce6d769788f1604da0bae1084",
-    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\outputs\\run03_event_200\\epoch_4\\predictions_with_scores.csv": "e03c2afa996c0970809086ba2d7c9bd003246f1f24e7c26c7ca7ab1df9c91066",
-    "G:\\pycode\\SemEval\\Task-2-DiCo-NLI-main\\experiments\\deberta_manual_aug\\review_events.py": "cd92c9edfcbda29180ff249ce4d05e8c7bedfd69490c9d05cd28616d2f220eb5"
+    "experiments/deberta_manual_aug/event_examples.csv": "504a43f89a5f35115640cdf1752934d3b8df0c9bfd063be45d55e8aa81d64eea",
+    "experiments/deberta_manual_aug/prepared_events/manual_label_notes.csv": "514a5d08fcd299f7b88a37950f3850393754c0fa8579002716c290009f73168e",
+    "experiments/deberta_original_aug/outputs/run01_original_scope/epoch_3/predictions_with_scores.csv": "8b702650eb011b91c6faceb6e31bf1f6a7a563fce6d769788f1604da0bae1084",
+    "experiments/deberta_manual_aug/outputs/run03_event_200/epoch_4/predictions_with_scores.csv": "e03c2afa996c0970809086ba2d7c9bd003246f1f24e7c26c7ca7ab1df9c91066",
+    "experiments/deberta_manual_aug/review_events.py": "cd92c9edfcbda29180ff249ce4d05e8c7bedfd69490c9d05cd28616d2f220eb5"
   }
 }

@@ -46,5 +46,5 @@
   "comparison_note": "same frozen recipe as deberta_joint_pair_frozen/run01_freeze6; only Pair CE is disabled",
   "train_sha256": "5e8dd9f3a7e000933fec3c9e64d064f9a25586f141f58d6e6afb47c4fc797211",
   "dev_sha256": "80b7152f7ccf0d349d42ad2f098988106689b918b36337e5756b121d17513511",
-  "model_dir": "D:\\model\\SEAMEVAL\\deberta_row_ce_frozen\\run01_freeze6"
+  "model_dir": "model/deberta_row_ce_frozen/run01_freeze6"
 }

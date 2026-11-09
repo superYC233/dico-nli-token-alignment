@@ -26,10 +26,10 @@ from evaluate_lora_pair import (
 if __name__ == '__main__':
     os.chdir(script_dir)
 
-    model_path = 'D:/LLM/model/Qwen3-0.6B-Base'
+    model_path = 'pretrained_models/Qwen3-0.6B-Base'
 
     adapter_path = (
-        'D:/LLM/train_model/DiCo-NLI/'
+        'model/'
         'qwen3_0p6b_sixclass/run01/C/best_adapter'
     )
 

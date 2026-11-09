@@ -32,12 +32,12 @@ SEED = 42
 MODE = "train"
 
 # 你可以保持这个名字，运行时自动下载；也可以改成自己下载好的模型目录：
-# MODEL_NAME = r"D:\PretrainedModel\Qwen2.5-3B-Instruct"
+# MODEL_NAME = r"pretrained_models/Qwen2.5-3B-Instruct"
 # 本地目录需要有 config.json、tokenizer 文件和全部 safetensors 权重分片。
-MODEL_NAME = r"D:\BaiduNetdiskDownload\PretrainedModel\models\Qwen2.5-3B-Instruct"
+MODEL_NAME = r"model_cache/Qwen2.5-3B-Instruct"
 
 # Hugging Face 下载的模型缓存放 D 盘。
-MODEL_CACHE = Path(r"D:\BaiduNetdiskDownload\PretrainedModel\models")
+MODEL_CACHE = Path(r"model_cache")
 
 # 新实验独立保存，不覆盖你原来的 DeBERTa 模型。
 RUN_DIR = PROJECT_DIR / "model" / f"qwen2p5_3b_lora_real_pair_ce_seed_{SEED}"

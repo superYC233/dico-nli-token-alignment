@@ -28,7 +28,7 @@ from experiments.deberta_lexical.evaluation import get_pair_logits
 # todo 0. RUN_NAME区分本次结果；先复用配方匹配的已有模型，缺失的成员才训练。
 SCHEME = 'S12'
 RUN_NAME = 'run02_pair_select'
-MODEL_ROOT = Path('D:/model/SEAMEVAL/ensemble_selected')
+MODEL_ROOT = Path('model/ensemble_selected')
 FUSION = 'log_probability'
 DIRECTION_MEMBERS = ['M007', 'M009', 'M018', 'M064', 'M082', 'M094']
 N_GATE = None
@@ -60,7 +60,7 @@ MEMBERS = [{'model_name': 'microsoft/deberta-v3-base',
   'train_path': 'data/train/dico_nli_train_track1_participant_labeled.csv',
   'expected_train_rows': 3042,
   'select_by': 'pair_aware',
-  'pretrained_path': 'D:\\BaiduNetdiskDownload\\PretrainedModel\\models\\models--microsoft--deberta-v3-base\\snapshots\\8ccc9b6f36199bec6961081d44eb72fb3f7353f3',
+  'pretrained_path': 'model_cache/models--microsoft--deberta-v3-base/snapshots/8ccc9b6f36199bec6961081d44eb72fb3f7353f3',
   'use_safetensors': False},
  {'model_name': 'MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli',
   'base_revision': '6f5cf0a2b59cabb106aca4c287eed12e357e90eb',
@@ -154,7 +154,7 @@ MEMBERS = [{'model_name': 'microsoft/deberta-v3-base',
   'train_path': 'data/train/dico_nli_train_track1_participant_labeled.csv',
   'expected_train_rows': 3042,
   'select_by': 'pair_aware',
-  'pretrained_path': 'D:\\BaiduNetdiskDownload\\PretrainedModel\\models\\models--MoritzLaurer--DeBERTa-v3-large-mnli-fever-anli-ling-wanli\\snapshots\\b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7'},
+  'pretrained_path': 'model_cache/models--MoritzLaurer--DeBERTa-v3-large-mnli-fever-anli-ling-wanli/snapshots/b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7'},
  {'seed': 42,
   'lora': {'r': 16, 'lora_alpha': 32, 'lora_dropout': 0.05},
   'id': 'M094',
@@ -173,7 +173,7 @@ MEMBERS = [{'model_name': 'microsoft/deberta-v3-base',
   'pair_label_smoothing': 0.05,
   'use_lexical_features': False,
   'select_by': 'pair_aware',
-  'pretrained_path': 'D:/LLM/model/Qwen2.5-3B-Instruct',
+  'pretrained_path': 'pretrained_models/Qwen2.5-3B-Instruct',
   'bf16': True,
   'train_batch_size': 4,
   'gradient_accumulation_steps': 4,
